@@ -6,6 +6,8 @@ Template Parts are managed from one place in your WordPress admin — and the in
 
 To get started, go to **Kalium → Template Parts** in your dashboard.
 
+<figure><img src="../.gitbook/assets/tparts.jpg" alt=""><figcaption></figcaption></figure>
+
 ***
 
 ### Types of Template Parts
@@ -24,6 +26,8 @@ Each type has a specific purpose, and you can create as many as you need dependi
 ### Tabs Overview
 
 At the top of the Template Parts screen, you’ll see a set of tabs that help you filter, organize and view different types of Template Parts.
+
+<figure><img src="../.gitbook/assets/tabs.jpg" alt=""><figcaption></figcaption></figure>
 
 These tabs make it easier to find what you’re working on, especially if you have a lot of Template Parts.
 

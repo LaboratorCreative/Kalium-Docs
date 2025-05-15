@@ -27,3 +27,5 @@ Template Parts are enabled by default when you install Kalium. If you ever need 
 3. Use the toggle switch to enable or disable the feature.
 
 This gives you the flexibility to turn the feature off if you're not using it, and re-enable it later when needed.
+
+<figure><img src="../../.gitbook/assets/template-parts1.jpg" alt=""><figcaption></figcaption></figure>
