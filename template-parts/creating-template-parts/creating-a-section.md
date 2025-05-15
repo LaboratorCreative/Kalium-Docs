@@ -101,17 +101,3 @@ Under **Container Settings**, you can fine-tune how your section is wrapped and 
 Once everything is configured, click **Publish**.
 
 Your section will now appear after the header on every page of your site, based on the conditions and placement you selected.
-
-***
-
-### 9. Optional: Insert Manually with Gutenberg
-
-In addition to automatic placement, Kalium also provides a **Template Part Block** for Gutenberg. You can use this block to manually insert any section into a specific page or post — regardless of the display conditions.
-
-To do this:
-
-* Edit the page or post in Gutenberg
-* Add the **Template Part** block
-* Select the section you created from the dropdown
-
-This is useful when you want full manual control over placement within individual pages.

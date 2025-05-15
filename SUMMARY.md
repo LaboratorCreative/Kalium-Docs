@@ -84,6 +84,7 @@
   * [Creating a Section](template-parts/creating-template-parts/creating-a-section.md)
     * [Creating a Section with Elementor](template-parts/creating-template-parts/creating-a-section/creating-a-section-with-elementor.md)
     * [Creating a Section with WPBakery](template-parts/creating-template-parts/creating-a-section/creating-a-section-with-wpbakery.md)
+    * [Insert a Content Section Manually](template-parts/creating-template-parts/creating-a-section/insert-a-content-section-manually.md)
   * [Creating a Header](template-parts/creating-template-parts/creating-a-header.md)
   * [Creating a Header](template-parts/creating-template-parts/creating-a-header-1.md)
   * [Replace a Page](template-parts/creating-template-parts/replace-a-page.md)
