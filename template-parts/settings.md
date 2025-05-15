@@ -23,10 +23,8 @@ At the top of the panel, you’ll see the **Type** dropdown. This defines the ki
 * **Footer** – Replaces the default footer.
 * **Page** – Replaces entire pages like 404, search results, or archives.
 
-> 💡 You can switch between types at any time — just make sure your settings (like placement) match the selected type.
-
 ***
 
 The rest of the settings — including Display Conditions, Placement, and Container Settings — are explained in separate articles.
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Display Conditions</td><td><a href="display-conditions.md">display-conditions.md</a></td></tr><tr><td>Placement</td><td><a href="placement.md">placement.md</a></td></tr><tr><td>Container Settings</td><td><a href="container-settings.md">container-settings.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Display Conditions</td><td><a href="settings/display-conditions.md">display-conditions.md</a></td></tr><tr><td>Placement</td><td><a href="settings/placement.md">placement.md</a></td></tr><tr><td>Container Settings</td><td><a href="settings/container-settings.md">container-settings.md</a></td></tr></tbody></table>
