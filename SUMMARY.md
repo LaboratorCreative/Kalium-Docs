@@ -85,7 +85,10 @@
   * [Creating a Header](template-parts/creating-template-parts/creating-a-header.md)
   * [Creating a Header](template-parts/creating-template-parts/creating-a-header-1.md)
   * [Replace a Page](template-parts/creating-template-parts/replace-a-page.md)
-* [Settings](template-parts/settings.md)
+* [Settings](template-parts/settings/README.md)
+  * [Display Conditions](template-parts/settings/display-conditions.md)
+  * [Placement](template-parts/settings/placement.md)
+  * [Container Settings](template-parts/settings/container-settings.md)
 
 ## Typography
 
