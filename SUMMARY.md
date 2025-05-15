@@ -77,6 +77,12 @@
   * [Store Notice](post-types/woocommerce/store-notice.md)
 * [Search Results](post-types/search-results.md)
 
+## Template Parts
+
+* [Introduction](template-parts/introduction.md)
+* [Types](template-parts/types.md)
+* [Settings](template-parts/settings.md)
+
 ## Typography
 
 * [Fonts](typography/fonts/README.md)
