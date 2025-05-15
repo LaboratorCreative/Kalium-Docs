@@ -1,4 +1,4 @@
-# Introduction
+# What are Template Parts?
 
 Ever wanted to show a special section only on product pages? Or maybe use a different footer during a sale? Even replace the default 404 page with something more helpful or on-brand? That’s what Template Parts are for.
 
@@ -14,18 +14,7 @@ Here are some examples of Template Parts and how they can help:
 * Replace the default 404 page with something more useful
 * ...and many other possibilities
 
-Template Parts are flexible, reusable, and give you a powerful way to personalize your site — all while keeping things easy to manage.
-
-***
-
-### Types of Template Parts
-
-There are four types of Template Parts you can create:
-
-* **Sections** – Insert content into specific areas of your site using WordPress and plugin hook locations, like before the header, after the content, or between elements on WooCommerce pages.
-* **Headers** – Use a custom header instead of the default one.
-* **Footers** – Swap out the footer based on the page, user, or even date.
-* **Pages** – Replace the layout of pages like 404, search results, category archives, and more.
+Template Parts are flexible, reusable, and give you a powerful way to personalize your site.
 
 ***
 
