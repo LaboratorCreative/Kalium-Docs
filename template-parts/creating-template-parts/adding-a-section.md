@@ -6,7 +6,7 @@ In this example, we’ll create a banner that displays after the header across t
 
 ***
 
-### Step 1: Go to Template Parts
+### 1: Go to Template Parts
 
 In your WordPress dashboard, go to **Kalium → Template Parts**.
 
@@ -14,7 +14,7 @@ Switch to the **Sections** tab at the top, then click **Add New** in the top-lef
 
 ***
 
-### Step 2: Create the Section
+### 2: Create the Section
 
 Enter a name for your section. For example:\
 `30% Off Summer Sale Banner`
@@ -23,20 +23,20 @@ Add your content in the editor — this can be anything from a notice to a promo
 
 ***
 
-### Step 3: Open Template Part Settings
+### 3: Open Template Part Settings
 
 Click the **Kalium icon** in the top-right corner to open the **Template Part Settings** panel.
 
 ***
 
-### Step 4: Set the Type
+### 4: Set the Type
 
 Make sure the **Type** is set to **Section**.\
 If it's not, switch it manually — otherwise the section may not behave as expected.
 
 ***
 
-### Step 5: Set Display Conditions
+### 5: Set Display Conditions
 
 Click **Add Condition** to choose where this section should appear.
 
@@ -53,7 +53,7 @@ You can add more conditions using **AND** or **OR** logic. This allows you to cr
 
 ***
 
-### Step 6: Choose Placement
+### 6: Choose Placement
 
 This setting is available only for **Sections**.
 
@@ -73,7 +73,7 @@ Leave the **Priority** set to `10`. Lower numbers are placed earlier if multiple
 
 ***
 
-### Step 7: Container and Visibility Options
+### 7: Container and Visibility Options
 
 Under **Container Settings**, you can fine-tune how your section is wrapped and displayed:
 
@@ -84,7 +84,7 @@ Under **Container Settings**, you can fine-tune how your section is wrapped and 
 
 ***
 
-### Step 8: Publish
+### 8: Publish
 
 Once everything is configured, click **Publish**.
 

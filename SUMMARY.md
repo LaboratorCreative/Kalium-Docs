@@ -79,8 +79,8 @@
 
 ## Template Parts
 
-* [What are Template Parts?](template-parts/what-are-template-parts.md)
-* [Creating Template Parts](template-parts/creating-template-parts/README.md)
+* [What are Template Parts?](template-parts/introduction/README.md)
+* [Creating Template Parts](template-parts/creating-template-parts.md)
   * [Adding a Section](template-parts/creating-template-parts/adding-a-section.md)
   * [Replace the Header](template-parts/creating-template-parts/replace-the-header.md)
   * [Replace the Footer](template-parts/creating-template-parts/replace-the-footer.md)
