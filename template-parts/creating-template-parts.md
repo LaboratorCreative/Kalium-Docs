@@ -31,12 +31,4 @@ These tabs make it easier to find what you’re working on, especially if you ha
 
 ***
 
-### Create a Template Part
-
-To add a new Template Part:
-
-1. Go to the right tab based on what you’re creating.
-2. Click the **Add New** button in the top-left.
-3. You’ll be taken to the editor, where you can start designing your Template Part and set it up using the provided settings.
-
-In the next articles, we’ll cover how to create Template Parts and walk you through each type and settings provided in them.
+Now that you’ve seen how Template Parts are organized and where to find them, let’s go ahead and create our first one.

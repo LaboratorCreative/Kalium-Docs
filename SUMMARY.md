@@ -81,9 +81,9 @@
 
 * [What are Template Parts?](template-parts/introduction/README.md)
 * [Creating Template Parts](template-parts/creating-template-parts.md)
-  * [Adding a Section](template-parts/creating-template-parts/adding-a-section.md)
-  * [Replace the Header](template-parts/creating-template-parts/replace-the-header.md)
-  * [Replace the Footer](template-parts/creating-template-parts/replace-the-footer.md)
+  * [Creating a Section](template-parts/creating-template-parts/creating-a-section.md)
+  * [Creating a Header](template-parts/creating-template-parts/creating-a-header.md)
+  * [Creating a Header](template-parts/creating-template-parts/creating-a-header-1.md)
   * [Replace a Page](template-parts/creating-template-parts/replace-a-page.md)
 * [Settings](template-parts/settings.md)
 

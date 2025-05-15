@@ -1,4 +1,4 @@
-# Adding a Section
+# Creating a Section
 
 Sections let you insert custom content into specific parts of your site — like above the header, below the content, or inside WooCommerce product pages. These are placed using WordPress and plugin hook locations, and you can decide exactly when and where they appear using display conditions.
 
@@ -6,7 +6,7 @@ In this example, we’ll create a banner that displays after the header across t
 
 ***
 
-### 1: Go to Template Parts
+### 1. Go to Template Parts
 
 In your WordPress dashboard, go to **Kalium → Template Parts**.
 
@@ -14,46 +14,51 @@ Switch to the **Sections** tab at the top, then click **Add New** in the top-lef
 
 ***
 
-### 2: Create the Section
+### 2. Create the Section
 
-Enter a name for your section. For example:\
-`30% Off Summer Sale Banner`
+Enter a name for your section. For example: **30% Off Summer Sale Banner**
 
-Add your content in the editor — this can be anything from a notice to a promotional banner.
+Now add your content in the editor. This can be anything — a short message, a call-to-action, a promotional banner, or even a more complex layout with images and buttons.
+
+In this example, we’ll use the default WordPress editor (Gutenberg) to build the section. If you prefer using **Elementor** or **WPBakery**, please check the respective articles:
+
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
+
+* Create a Section with Elementor
+* Create a Section with WPBakery
 
 ***
 
-### 3: Open Template Part Settings
+### 3. Open Template Part Settings
 
 Click the **Kalium icon** in the top-right corner to open the **Template Part Settings** panel.
 
 ***
 
-### 4: Set the Type
+### 4. Set the Type
 
 Make sure the **Type** is set to **Section**.\
 If it's not, switch it manually — otherwise the section may not behave as expected.
 
 ***
 
-### 5: Set Display Conditions
+### 5. Set Display Conditions
 
 Click **Add Condition** to choose where this section should appear.
 
-To display the banner across the entire site:
+For this example, we want the banner to show across the entire site:
 
 * Set **General Page** → **Is** → **Entire Site**
 
-You can add more conditions using **AND** or **OR** logic. This allows you to create powerful conditional rules, such as:
+You can always add more than one condition and combine them using **AND** or **OR** logic to create more specific rules.
 
-* Show only on product pages **AND** only for logged-in users
-* Show on the blog page **OR** all category archives
-
-> ⚙️ For more complex combinations, see Advanced Display Conditions _(link to separate article)_.
+> For a complete overview of all condition types and how to use them, see this article.
 
 ***
 
-### 6: Choose Placement
+### 6. Choose Placement
 
 This setting is available only for **Sections**.
 
@@ -67,13 +72,13 @@ You can:
 
 For this example, choose **Header After**.
 
-Leave the **Priority** set to `10`. Lower numbers are placed earlier if multiple sections appear in the same location.
+Leave the **Priority** set to `10`. Lower numbers appear earlier when multiple sections target the same location.
 
 > 🔎 Learn more about placement options
 
 ***
 
-### 7: Container and Visibility Options
+### 7. Container and Visibility Options
 
 Under **Container Settings**, you can fine-tune how your section is wrapped and displayed:
 
@@ -84,8 +89,22 @@ Under **Container Settings**, you can fine-tune how your section is wrapped and 
 
 ***
 
-### 8: Publish
+### 8. Publish
 
 Once everything is configured, click **Publish**.
 
-Your section will now appear after the header on every page of your site, just as set by your conditions and placement.
+Your section will now appear after the header on every page of your site, based on the conditions and placement you selected.
+
+***
+
+### 9. Optional: Insert Manually with Gutenberg
+
+In addition to automatic placement, Kalium also provides a **Template Part Block** for Gutenberg. You can use this block to manually insert any section into a specific page or post — regardless of the display conditions.
+
+To do this:
+
+* Edit the page or post in Gutenberg
+* Add the **Template Part** block
+* Select the section you created from the dropdown
+
+This is useful when you want full manual control over placement within individual pages.
