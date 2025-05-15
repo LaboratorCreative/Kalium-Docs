@@ -79,8 +79,9 @@
 
 ## Template Parts
 
-* [Introduction](template-parts/introduction.md)
-* [Types](template-parts/types.md)
+* [Introduction](template-parts/introduction/README.md)
+  * [Types](template-parts/introduction/types.md)
+* [Creating Template Parts](template-parts/creating-template-parts.md)
 * [Settings](template-parts/settings.md)
 
 ## Typography
