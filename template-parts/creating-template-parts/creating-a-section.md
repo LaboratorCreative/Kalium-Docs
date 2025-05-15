@@ -22,12 +22,13 @@ Now add your content in the editor. This can be anything — a short message, a 
 
 In this example, we’ll use the default WordPress editor (Gutenberg) to build the section. If you prefer using **Elementor** or **WPBakery**, please check the respective articles:
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="creating-a-section/creating-a-section-with-elementor.md" %}
+[creating-a-section-with-elementor.md](creating-a-section/creating-a-section-with-elementor.md)
 {% endcontent-ref %}
 
-* Create a Section with Elementor
-* Create a Section with WPBakery
+{% content-ref url="creating-a-section/creating-a-section-with-wpbakery.md" %}
+[creating-a-section-with-wpbakery.md](creating-a-section/creating-a-section-with-wpbakery.md)
+{% endcontent-ref %}
 
 ***
 
@@ -54,7 +55,11 @@ For this example, we want the banner to show across the entire site:
 
 You can always add more than one condition and combine them using **AND** or **OR** logic to create more specific rules.
 
-> For a complete overview of all condition types and how to use them, see this article.
+For a complete overview of all condition types and how to use them, see the article below:
+
+{% content-ref url="../settings/display-conditions.md" %}
+[display-conditions.md](../settings/display-conditions.md)
+{% endcontent-ref %}
 
 ***
 
@@ -72,9 +77,11 @@ You can:
 
 For this example, choose **Header After**.
 
-Leave the **Priority** set to `10`. Lower numbers appear earlier when multiple sections target the same location.
+Leave the **Priority** set to `10`. Lower numbers appear earlier when multiple sections target the same location. Learn more about placement options:
 
-> 🔎 Learn more about placement options
+{% content-ref url="../settings/placement.md" %}
+[placement.md](../settings/placement.md)
+{% endcontent-ref %}
 
 ***
 
