@@ -51,6 +51,12 @@ If it's not, switch it manually — otherwise the section may not behave as expe
 
 <figure><img src="../../.gitbook/assets/type.jpg" alt="" width="278"><figcaption></figcaption></figure>
 
+For a complete overview of all types and how to use them, see the article below:
+
+{% content-ref url="../settings/type.md" %}
+[type.md](../settings/type.md)
+{% endcontent-ref %}
+
 ***
 
 ### 5. Set Display Conditions
@@ -67,8 +73,8 @@ You can always add more than one condition and combine them using **AND** or **O
 
 For a complete overview of all condition types and how to use them, see the article below:
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="../settings/display-conditions.md" %}
+[display-conditions.md](../settings/display-conditions.md)
 {% endcontent-ref %}
 
 ***
@@ -91,11 +97,16 @@ For this example, choose **Header After**.
 
 <figure><img src="../../.gitbook/assets/placement-1.jpg" alt=""><figcaption></figcaption></figure>
 
-Leave the **Priority** set to `10`. Lower numbers appear earlier when multiple sections target the same location. Learn more about placement options:
+{% hint style="info" %}
+Want to see the same hook locations as shown in the popup — but live on your site?\
+Just add `?view-theme-hooks=1` to the end of any page URL. This will display all available hook positions directly on the front end, exactly like the visual overlay in the Placement popup above. It's a helpful tool for advanced placement and testing.
+{% endhint %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+Leave the **Priority** set to `10` unless you need to control the display order of multiple sections targeting the same location.
+
+Sections with **lower priority numbers** appear first. For example, a section with priority `5` will show before one with priority `10` in the same hook location.
+
+This is especially useful when you're stacking multiple sections in the same area (e.g. adding a notice above a banner).
 
 ***
 

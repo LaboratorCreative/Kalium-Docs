@@ -1,33 +1,4 @@
-# Settings
-
-Template Parts in Kalium have a dedicated settings panel that lets you control how and where your content appears on your site. Depending on the type of Template Part you're creating (Section, Header, Footer, or Page), the available settings may vary.
-
-In this article, we’ll walk through the main parts of this panel — including how to open it and switch between Template Part types.
-
-***
-
-## Settings Panel
-
-To open the Template Part settings, click the **Kalium icon** in the top-right corner while editing a Template Part.
-
-This will toggle the settings panel on the right side of the editor. From here, you can configure all available options for your Template Part.
-
-<figure><img src="../.gitbook/assets/settings.jpg" alt=""><figcaption></figcaption></figure>
-
-***
-
-### Type
-
-At the top of the panel, you’ll see the **Type** dropdown. This defines the kind of Template Part you’re working on:
-
-* **Section** – Used to inject content into hook locations across the site.
-* **Header** – Replaces the default site header.
-* **Footer** – Replaces the default footer.
-* **Page** – Replaces entire pages like 404, search results, or archives.
-
-***
-
-### Display Conditions
+# Display Conditions
 
 Display Conditions let you control **where** and **when** a Template Part appears on your site.
 
@@ -37,7 +8,7 @@ This works with all Template Part types: **Sections**, **Headers**, **Footers**,
 
 ***
 
-#### How to Add Conditions
+### How to Add Conditions
 
 While editing a Template Part:
 
@@ -52,7 +23,7 @@ You can add multiple conditions and group them using **logical operators** — A
 
 ***
 
-#### Logical Operators: AND / OR
+### Logical Operators: AND / OR
 
 When adding more than one condition, you'll see a toggle at the top of the conditions panel to choose between **AND** and **OR**.
 
@@ -67,7 +38,7 @@ You can switch between these modes at any time to change how your display rules 
 
 ***
 
-#### Condition Types
+### Condition Types
 
 Here’s a full list of supported condition types, grouped for clarity. These allow you to target content by page, post, user status, device type, time, and more.
 
@@ -150,7 +121,7 @@ WooCommerce-specific conditions only appear if WooCommerce is active on your sit
 
 ***
 
-#### Using “is” and “is not”
+### Using “is” and “is not”
 
 Each condition supports two rule types:
 
@@ -167,16 +138,3 @@ Example:
 ***
 
 Display Conditions are one of the most powerful features in Template Parts. Combined with Placement and Container Settings, they give you full control over when and where your content appears — without any custom code.
-
-***
-
-### Placement
-
-The **Placement** setting is only available when you're creating a **Section**, and it defines where that section appears on the page. They are explained in detail in [creating-a-section.md](creating-template-parts/creating-a-section.md "mention").
-
-***
-
-### Container Settings
-
-The **Container Settings** section is also specific to **Sections**, allowing you to control layout, device visibility, and wrapper settings. They are explained in detail in [creating-a-section.md](creating-template-parts/creating-a-section.md "mention").
-
