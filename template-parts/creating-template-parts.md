@@ -27,7 +27,7 @@ Each type has a specific purpose, and you can create as many as you need dependi
 
 At the top of the Template Parts screen, you’ll see a set of tabs that help you filter, organize and view different types of Template Parts.
 
-<figure><img src="../.gitbook/assets/tabs.jpg" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../.gitbook/assets/tabs.jpg" alt="" width="375"><figcaption></figcaption></figure></div>
 
 These tabs make it easier to find what you’re working on, especially if you have a lot of Template Parts.
 

@@ -110,7 +110,7 @@ This is especially useful when you're stacking multiple sections in the same are
 
 ***
 
-### 7. Container and Visibility Options
+### 7. Container Settings
 
 Under **Container Settings**, you can fine-tune how your section is wrapped and displayed:
 
