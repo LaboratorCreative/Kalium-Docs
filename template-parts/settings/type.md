@@ -6,3 +6,5 @@ At the top of the panel, you’ll see the **Type** dropdown. This defines the ki
 * **Header** – Replaces the default site header.
 * **Footer** – Replaces the default footer.
 * **Page** – Replaces entire pages like 404, search results, or archives.
+
+<figure><img src="../../.gitbook/assets/type.jpg" alt="" width="278"><figcaption></figcaption></figure>
