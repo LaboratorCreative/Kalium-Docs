@@ -25,11 +25,15 @@ To insert a section manually in Gutenberg:
 
 This is useful when you want to insert the section exactly where you want — independent of display conditions or placement settings.
 
+
+
 ***
 
 ### Elementor
 
 Kalium includes a custom widget for Elementor called **Content Section**, designed specifically for adding Template Part Sections manually.
+
+<div><figure><img src="../../../.gitbook/assets/elementor-2.jpg" alt=""><figcaption><p>Click the "Content Section"</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/elementor-widget-2.jpg" alt=""><figcaption><p>Set up the options of the element</p></figcaption></figure></div>
 
 To use it:
 
@@ -43,6 +47,10 @@ To use it:
        > _Check if this section should be visible based on its Display Conditions. This has no effect unless conditions are defined in the section settings._
 
 If you leave **Check Display Conditions** off, the section will always appear wherever you’ve placed it.
+
+<figure><img src="../../../.gitbook/assets/elementor-widget.jpg" alt=""><figcaption><p>And here is the final result, we have added the section created with Elementor in Contact page</p></figcaption></figure>
+
+
 
 ***
 
