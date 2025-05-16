@@ -149,7 +149,7 @@ To insert a section manually in Gutenberg:
 
 ***
 
-### Optional: Shortcode Option
+#### Optional: Shortcode Option
 
 If you prefer, you can insert any Template Part Section using a shortcode.
 
