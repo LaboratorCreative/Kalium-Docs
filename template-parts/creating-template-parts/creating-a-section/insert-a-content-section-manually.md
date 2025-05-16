@@ -33,20 +33,29 @@ This is useful when you want to insert the section exactly where you want — in
 
 Kalium includes a custom widget for Elementor called **Content Section**, designed specifically for adding Template Part Sections manually.
 
-<div><figure><img src="../../../.gitbook/assets/elementor-2.jpg" alt=""><figcaption><p>Click the "Content Section"</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/elementor-widget-2.jpg" alt=""><figcaption><p>Set up the options of the element</p></figcaption></figure></div>
-
 To use it:
 
 1. Edit your page with Elementor.
-2. In the widget panel, search for **Content Section** under the **Kalium** category.
+2.  In the widget panel, search for **Content Section** under the **Kalium** category.\
+
+
+    <figure><img src="../../../.gitbook/assets/elementor-2.jpg" alt=""><figcaption><p>Click the "Content Section"</p></figcaption></figure>
 3. Drag the widget into the desired spot in your layout.
-4. In the widget settings, you'll find:
-   * **Display Section** – Select the section you want to show.
-   *   **Check Display Conditions** – Enable this to respect the section’s Display Conditions.
+4.  In the widget settings, you'll find:\
 
-       > _Check if this section should be visible based on its Display Conditions. This has no effect unless conditions are defined in the section settings._
 
-If you leave **Check Display Conditions** off, the section will always appear wherever you’ve placed it.
+    <figure><img src="../../../.gitbook/assets/elementor-widget-2.jpg" alt=""><figcaption></figcaption></figure>
+
+    * **Display Section** – Select the section you want to show.
+    *   **Check Display Conditions** – Enable this to respect the section’s Display Conditions.\
+
+
+        > Check if this section should be visible based on its Display Conditions. This has no effect unless conditions are defined in the section settings.\
+        > \
+        > If you leave **Check Display Conditions** off, the section will always appear wherever you’ve placed it.
+5. When you're done editing click **Publish**
+
+And this is how it looks in the page we have added:
 
 <figure><img src="../../../.gitbook/assets/elementor-widget.jpg" alt=""><figcaption><p>And here is the final result, we have added the section created with Elementor in Contact page</p></figcaption></figure>
 
@@ -60,14 +69,28 @@ If you’re using WPBakery Page Builder, Kalium includes a dedicated element cal
 
 To insert a Section manually:
 
-1. Edit the page using WPBakery.
-2. Click **Add Element** and search for **Content Section**.
-3. Select the section you want to display using the **Display Section** dropdown.
+1.  Edit the page using WPBakery.\
+
+
+    <figure><img src="../../../.gitbook/assets/wpbb.jpg" alt=""><figcaption></figcaption></figure>
+2.  Click **Add Element** and search for **Content Section** under **Laborator** tab.\
+
+
+    <figure><img src="../../../.gitbook/assets/wpb-2.jpg" alt=""><figcaption></figcaption></figure>
+3.  Select the section you want to display using the **Display Section** dropdown.\
+
+
+    <figure><img src="../../../.gitbook/assets/wpb-1.jpg" alt=""><figcaption></figcaption></figure>
 4.  Enable **Check Display Conditions** if you want the section to respect its defined visibility rules.
 
     > _Check if this section should be visible based on its Display Conditions. This has no effect unless conditions are defined in the section settings._
 
-You can place this element anywhere in your layout.
+
+5. Save the changes and click **Update**
+
+You can place this element anywhere in your layout, below you can see how it looks live:
+
+<figure><img src="../../../.gitbook/assets/wpblive.jpg" alt=""><figcaption><p>Live preview of the section we just added</p></figcaption></figure>
 
 ***
 
