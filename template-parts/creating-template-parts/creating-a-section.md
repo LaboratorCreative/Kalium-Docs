@@ -156,10 +156,23 @@ If you prefer, you can insert any Template Part Section using a shortcode.
 **Shortcode format:**
 
 ```
-[kalium_section id=“123”]
+[kalium_section id="123"]
 ```
 
 You don’t need to look up the ID manually — the shortcode is already visible next to each Template Part in the **Template Parts** dashboard. Just copy and paste it wherever you need.
+
+#### Optional: Check Display Conditions
+
+You can control whether the shortcode respects the section’s display conditions by adding the `check_conditions` parameter:
+
+* `check_conditions="yes"` – The section will only appear if its display conditions are met
+* `check_conditions="no"` – The section will appear unconditionally, wherever the shortcode is placed
+
+**Example**:
+
+```
+[kalium_section id="123" check_conditions="no"]
+```
 
 This is useful if you're placing the section inside:
 
