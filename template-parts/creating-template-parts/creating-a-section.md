@@ -93,8 +93,8 @@ For this example, choose **Header After**.
 
 Leave the **Priority** set to `10`. Lower numbers appear earlier when multiple sections target the same location. Learn more about placement options:
 
-{% content-ref url="creating-a-section/placement.md" %}
-[placement.md](creating-a-section/placement.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ***

@@ -29,10 +29,17 @@ At the top of the panel, you’ll see the **Type** dropdown. This defines the ki
 
 ### Display Conditions
 
-...
-
 
 
 ***
 
-The rest of the settings seen in the screenshot above like **Placement**, and **Container Settings** — are specific to the Section so they are explained in detail in [creating-a-section.md](creating-template-parts/creating-a-section.md "mention").
+### Placement
+
+The **Placement** setting is only available when you're creating a **Section**, and it defines where that section appears on the page. They are explained in detail in [creating-a-section.md](creating-template-parts/creating-a-section.md "mention").
+
+***
+
+### Container Settings
+
+The **Container Settings** section is also specific to **Sections**, allowing you to control layout, device visibility, and wrapper settings. They are explained in detail in [creating-a-section.md](creating-template-parts/creating-a-section.md "mention").
+
