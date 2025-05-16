@@ -161,7 +161,7 @@ If you prefer, you can insert any Template Part Section using a shortcode.
 
 You don’t need to look up the ID manually — the shortcode is already visible next to each Template Part in the **Template Parts** dashboard. Just copy and paste it wherever you need.
 
-#### Optional: Check Display Conditions
+#### Controlling Display Conditions
 
 You can control whether the shortcode respects the section’s display conditions by adding the `check_conditions` parameter:
 

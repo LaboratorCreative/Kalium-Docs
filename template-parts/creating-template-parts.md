@@ -14,10 +14,10 @@ To get started, go to **Kalium → Template Parts** in your dashboard.
 
 There are four types of Template Parts you can create:
 
-* **Sections** – Insert content into specific areas of your site using WordPress and plugin hook locations, like before the header, after the content, or between elements on WooCommerce pages.
-* **Headers** – Use a custom header instead of the default site header.
-* **Footers** – Swap out the footer based on the page, user, or even date.
-* **Pages** – Replace the layout of pages like 404, search results, category archives, and more.
+* **Section** – Insert content into specific areas of your site using WordPress and plugin hook locations, like before the header, after the content, or between elements on WooCommerce pages.
+* **Header** – Use a custom header instead of the default site header.
+* **Footer** – Swap out the footer based on the page, user, or even date.
+* **Page** – Replace the layout of pages like 404, search results, category archives, and more.
 
 Each type has a specific purpose, and you can create as many as you need depending on the parts of your site you want to customize.
 
@@ -31,7 +31,9 @@ At the top of the Template Parts screen, you’ll see a set of tabs that help yo
 
 These tabs make it easier to find what you’re working on, especially if you have a lot of Template Parts.
 
-> 💡 When adding a new Template Part, it’s helpful to switch to the tab that matches what you’re creating (like **Sections**) before clicking **Add New**. The type will be set automatically based on the tab you’re in — but you can still change it later if needed.
+{% hint style="info" %}
+When adding a new Template Part, it’s helpful to switch to the tab that matches what you’re creating (like **Sections**) before clicking **Add New**. The type will be set automatically based on the tab you’re in — but you can still change it later if needed.
+{% endhint %}
 
 ***
 
