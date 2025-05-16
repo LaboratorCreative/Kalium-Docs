@@ -121,3 +121,48 @@ Once everything is configured, click **Publish**.
 Your section will now appear after the header on every page of your site, based on the conditions and placement you selected, as you can see below:
 
 <figure><img src="../../.gitbook/assets/final.jpg" alt=""><figcaption></figcaption></figure>
+
+***
+
+### Optional: Insert the Section Manually
+
+In addition to automatic placement, Kalium lets you manually insert Template Part sections anywhere inside a page or post using the default editor.
+
+This is especially useful when you want to show a section in a very specific spot, without relying on automatic placement rules.
+
+It only applies to **Sections**, since they’re designed to be embedded within content. Other types like **Headers**, **Footers**, and **Pages** replace parts of your site and can’t be inserted manually.
+
+Below, we’ll explain how to insert sections manually using each method.
+
+#### Why use this?
+
+* **Visual placement** – Drop the section exactly where you want in your design
+* **Simple selection** – Choose any existing section from the dropdown
+* **No display rules needed** – Skip conditions and hook settings if you want manual control
+
+To insert a section manually in Gutenberg:
+
+1. Edit your page or post in the Gutenberg editor.
+2. Click the **“+” icon** to add a block.
+3. Search for **Content Section** and select the block.
+4. In the block settings, choose the section you want to display from the dropdown.
+
+***
+
+### Optional: Shortcode Option
+
+If you prefer, you can insert any Template Part Section using a shortcode.
+
+**Shortcode format:**
+
+```
+[kalium_section id=“123”]
+```
+
+You don’t need to look up the ID manually — the shortcode is already visible next to each Template Part in the **Template Parts** dashboard. Just copy and paste it wherever you need.
+
+This is useful if you're placing the section inside:
+
+* Widgets
+* Custom HTML areas
+* Third-party shortcode-compatible plugins
