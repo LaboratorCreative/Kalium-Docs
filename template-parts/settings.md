@@ -12,9 +12,11 @@ To open the Template Part settings, click the **Kalium icon** in the top-right c
 
 This will toggle the settings panel on the right side of the editor. From here, you can configure all available options for your Template Part.
 
+<figure><img src="../.gitbook/assets/settings.jpg" alt=""><figcaption></figcaption></figure>
+
 ***
 
-### Type: Choose What You're Creating
+### Type
 
 At the top of the panel, you’ll see the **Type** dropdown. This defines the kind of Template Part you’re working on:
 
@@ -25,6 +27,12 @@ At the top of the panel, you’ll see the **Type** dropdown. This defines the ki
 
 ***
 
-The rest of the settings — including Display Conditions, Placement, and Container Settings — are explained in separate articles.
+### Display Conditions
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Display Conditions</td><td><a href="settings/display-conditions.md">display-conditions.md</a></td></tr><tr><td>Placement</td><td><a href="settings/placement.md">placement.md</a></td></tr><tr><td>Container Settings</td><td><a href="settings/container-settings.md">container-settings.md</a></td></tr></tbody></table>
+...
+
+
+
+***
+
+The rest of the settings seen in the screenshot above like **Placement**, and **Container Settings** — are specific to the Section so they are explained in detail in [creating-a-section.md](creating-template-parts/creating-a-section.md "mention").

@@ -67,8 +67,8 @@ You can always add more than one condition and combine them using **AND** or **O
 
 For a complete overview of all condition types and how to use them, see the article below:
 
-{% content-ref url="../settings/display-conditions.md" %}
-[display-conditions.md](../settings/display-conditions.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ***
@@ -93,8 +93,8 @@ For this example, choose **Header After**.
 
 Leave the **Priority** set to `10`. Lower numbers appear earlier when multiple sections target the same location. Learn more about placement options:
 
-{% content-ref url="../settings/placement.md" %}
-[placement.md](../settings/placement.md)
+{% content-ref url="creating-a-section/placement.md" %}
+[placement.md](creating-a-section/placement.md)
 {% endcontent-ref %}
 
 ***
