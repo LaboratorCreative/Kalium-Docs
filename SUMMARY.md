@@ -89,10 +89,6 @@
   * [Replace a Page](template-parts/creating-template-parts/replace-a-page.md)
 * [Settings](template-parts/settings.md)
 
-***
-
-* [Page](page.md)
-
 ## Typography
 
 * [Fonts](typography/fonts/README.md)
