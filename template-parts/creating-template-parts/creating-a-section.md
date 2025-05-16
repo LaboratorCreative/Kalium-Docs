@@ -57,13 +57,11 @@ If it's not, switch it manually — otherwise the section may not behave as expe
 
 Click **Add Condition** to choose where this section should appear.
 
-<figure><img src="../../.gitbook/assets/conditions.jpg" alt="" width="276"><figcaption></figcaption></figure>
+<div><figure><img src="../../.gitbook/assets/conditions.jpg" alt="" width="276"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/conditions-1.jpg" alt="" width="275"><figcaption></figcaption></figure></div>
 
 For this example, we want the banner to show across the entire site:
 
 * Set **General Page** → **Is** → **Entire Site**
-
-<figure><img src="../../.gitbook/assets/conditions-1.jpg" alt="" width="275"><figcaption></figcaption></figure>
 
 You can always add more than one condition and combine them using **AND** or **OR** logical operators to create more advanced specific rules.
 
@@ -110,7 +108,7 @@ Under **Container Settings**, you can fine-tune how your section is wrapped and 
 * **Container Classes** – You can enter a class like `container` if you want the content to follow your site’s layout width. For this example, leave it blank.
 * **Tag Name** – You can optionally set a semantic HTML tag like `<aside>` or `<section>`. By default, this is set to `<div>`, so you can leave it empty.
 
-<div><figure><img src="../../.gitbook/assets/container.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/container-settings.jpg" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/container.jpg" alt="" width="277"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/container-settings.jpg" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ***
 
