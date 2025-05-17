@@ -151,12 +151,26 @@ Below, we’ll explain how to insert sections manually using each method.
 * **Simple selection** – Choose any existing section from the dropdown
 * **No display rules needed** – Skip conditions and hook settings if you want manual control
 
-To insert a section manually in Gutenberg:
+To insert a section manually:
 
-1. Edit your page or post in the Gutenberg editor.
-2. Click the **“+” icon** to add a block.
+1. Edit your page or post in the default WordPress editor.
+2.  Start by typing `/` or click the “+” icon to add a new block.\
+
+
+    <figure><img src="../../.gitbook/assets/gutenberg-1.jpg" alt=""><figcaption></figcaption></figure>
 3. Search for **Content Section** and select the block.
-4. In the block settings, choose the section you want to display from the dropdown.
+4.  In the block settings, choose the section you want to display from the dropdown.\
+
+
+    <figure><img src="../../.gitbook/assets/gutenberg-2.jpg" alt=""><figcaption></figcaption></figure>
+
+You’ll also find options to **Change Section**, **Check Conditions**, and **Edit Template**. Clicking **Edit Template** will open the template in a new tab so you can edit it directly.
+
+<figure><img src="../../.gitbook/assets/gutenberg-3.jpg" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Check Conditions lets you control where and when this section appears, for example, only on specific pages or for certain user roles.
+{% endhint %}
 
 ***
 
