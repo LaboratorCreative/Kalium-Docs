@@ -1,5 +1,7 @@
 # What are Template Parts?
 
+{% embed url="https://youtu.be/2PBk-CBg9HI" %}
+
 Ever wanted to show a special section only on product pages? Or maybe use a different footer during a sale? Even replace the default 404 page with something more helpful or on-brand? That’s what Template Parts are for.
 
 They let you display custom content in specific areas of your site, exactly where and when you want. No coding needed, and you can build everything using the page builder you're already comfortable with: Gutenberg, Elementor, or WPBakery.
