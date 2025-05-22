@@ -1,5 +1,7 @@
 # Creating a Section with WPBakery
 
+{% embed url="https://www.youtube.com/watch?v=Y6zofiX8ZoI" %}
+
 Template Parts work seamlessly with **WPBakery Page Builder**, allowing you to visually build custom sections and place them anywhere on your site — without needing extra plugins or complex configuration. It’s a theme-builder-like experience built right into Kalium.
 
 In this example, we’ll walk through how to create a **Section** using WPBakery.&#x20;

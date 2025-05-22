@@ -1,5 +1,7 @@
 # Creating a Section with Elementor
 
+{% embed url="https://www.youtube.com/watch?v=tisB5o8trIA" %}
+
 Template Parts work seamlessly with Elementor and allow you to visually build custom sections and place them anywhere on your site — all without needing **Elementor Pro**. This gives you theme-builder-level flexibility, built directly into Kalium.
 
 In this example, we’ll walk through how to create a **Section** using Elementor.&#x20;
