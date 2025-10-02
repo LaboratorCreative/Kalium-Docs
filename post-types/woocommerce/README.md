@@ -1,20 +1,6 @@
 ---
 cover: ../../.gitbook/assets/kalium-woocommerce.jpg
 coverY: -9.286821705426357
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # WooCommerce

@@ -1,79 +1,74 @@
 # Translating with WPML
 
-Kalium is fully compatible with WPML, a leading paid plugin for creating multilingual WordPress sites. WPML enhances WordPress by allowing you to translate your content into multiple languages, making it ideal for global websites. You can purchase WPML separately to make your website multilingual.
+[WPML](https://wpml.org) is the de-facto standard for multilingual WordPress, and is fully compatible with Kalium. WPML will provide [AI translations](https://wpml.org/documentation/automatic-translation/) for your content, which are typically **better than human translation**. You can edit and translate yourself if you prefer or use translation agencies.
 
-We've had a great experience working with WPML across our themes, including Aurum and Oxygen. When we released Kalium, we partnered with WPML again to ensure seamless compatibility. Kalium is [certified and tested](https://wpml.org/theme/kalium/?aid=150643\&affiliate_key=VWCj6GPGWxBE) by the WPML team.
+Kalium is a certified theme by WPML, so translating your website is easy and straightforward.
 
-Kalium ranks among the top 20 most-used themes with WPML, and WPML has published documentation on building multilingual websites using Kalium. You can view the article here: [How to translate Kalium theme using WPML](https://wpml.org/documentation/theme-compatibility/translating-kalium-theme-using-wpml/?aid=150643\&affiliate_key=VWCj6GPGWxBE).
+<figure><img src="../.gitbook/assets/image6.png" alt=""><figcaption></figcaption></figure>
 
-### Getting Started
+### **Getting started**
 
-WPML offers three versions: Multilingual Blog, Multilingual CMS and Multilingual Agency plan. We highly recommend the **Multilingual CMS** version for its extensive features, including translation management capabilities. The **Multilingual Blog** version does not include String Translation and translation management components.
+If you don’t yet have a WPML account, [buy](https://wpml.org/purchase/) either the Multilingual CMS (for 3 sites) or Multilingual Agency (unlimited sites).
 
-Ensure that you have the WPML Multilingual CMS, String Translation, and Media Translation\* plugins installed and activated.
+#### **Configuring WPML**
 
-![WPML required plugins](https://documentation.laborator.co/wp-content/uploads/2017/01/WPML-Plugins-2-scaled.jpg)
+Once WPML is installed on your website, go to **WPML** → **Setup Wizard** to configure the plugin on your site. This includes choosing the languages you want to translate into, selecting a URL format for translated content, and providing context about your site.
 
-#### Required Plugins
+<figure><img src="../.gitbook/assets/image1.png" alt=""><figcaption></figcaption></figure>
 
-* [**WPML Multilingual CMS**](https://wpml.org/download/wpml-multilingual-cms/?aid=150643\&affiliate_key=VWCj6GPGWxBE) — The core plugin that turns WordPress multilingual, adding basic translation controls and content translation capabilities.
-* [**WPML String Translation**](https://wpml.org/download/wpml-string-translation/?aid=150643\&affiliate_key=VWCj6GPGWxBE) — Allows you to translate interface strings directly from WordPress without using .mo files, including user-generated texts outside posts and pages.
-* [**WPML Media Translation**](https://wpml.org/download/wpml-media/?aid=150643\&affiliate_key=VWCj6GPGWxBE)\* — Manages media translations and controls which images display for each language.
+Using the context that you provide, [PTC (Private Translation Cloud)](https://ptc.wpml.org/about/) – the most accurate automatic translation in WPML, will produce translations that fit your target audience and industry.
 
-_\*Optional plugin._
+PTC is like your own team of expert translators with a deep understanding of your content and niche. It’s WPML’s proprietary AI technology, and even includes a translation quality guarantee: If you’re not satisfied with PTC’s translations, you’ll get a full refund.
 
-### Translating Your Pages
+Once you complete the setup wizard, you’re ready to start translating your website.
 
-WPML enables you to translate various content types, including pages and posts. For an easy start, refer to the [Getting Started Guide](https://wpml.org/documentation/getting-started-guide/?aid=150643\&affiliate_key=VWCj6GPGWxBE).
+#### **Translating your website content**
 
-### Translating Pages Built with WPBakery Page Builder
+To translate any content on your website with PTC, start by going to **WPML** → **Translation Dashboard**. This will open a dashboard with all your website content organized into sections, including:
 
-Kalium comes bundled with the WPBakery Page Builder plugin. For details on translating content created with WPBakery Page Builder, visit WPML's documentation on [how to translate WPBakery Page Builder content](https://wpml.org/documentation/plugins-compatibility/how-to-build-multilingual-sites-with-wpbakery-page-builder-and-wpml/?aid=150643\&affiliate_key=VWCj6GPGWxBE).
+* Pages and posts
+* Custom posts
+* Portfolio pages
+* Page builder widgets (Elementor, WPBakery, etc.)
+* WooCommerce products
+* Menus
+* And more…
 
-### Translating Pages Built with Elementor
+To automatically translate your content with PTC, simply select all the items you want to translate.
 
-Kalium also fully supports the Elementor plugin. For translation steps, visit WPML's documentation on [translating Elementor content](https://wpml.org/documentation/plugins-compatibility/elementor/?aid=150643\&affiliate_key=VWCj6GPGWxBE).
+<figure><img src="../.gitbook/assets/image8.png" alt=""><figcaption></figcaption></figure>
 
-### Translating Pages Built with Gutenberg
+Next, choose **Translate automatically** as your translation method, and click **Translate**. If you look under the table, WPML also shows you how much translating your content costs.
 
-Kalium and WPML support translating pages and posts created with native WordPress blocks and custom Gutenberg blocks. For more information, see WPML's guide on [translating Gutenberg content](https://wpml.org/documentation/plugins-compatibility/translating-content-created-gutenberg-blocks-plugins/?aid=150643\&affiliate_key=VWCj6GPGWxBE).
+<figure><img src="../.gitbook/assets/image7.png" alt=""><figcaption></figcaption></figure>
 
-### Translating Portfolio Pages and Categories
+Once WPML finishes translating your content, your translations will appear on your website when switching languages. For example, here’s the homepage in English:
 
-To translate Portfolio items or any custom post types, follow the same steps as for other types of pages. For detailed steps, visit WPML's [Getting Started Guide](https://wpml.org/documentation/getting-started-guide/?aid=150643\&affiliate_key=VWCj6GPGWxBE).
+<figure><img src="../.gitbook/assets/image4.png" alt=""><figcaption></figcaption></figure>
 
-![Translate Portfolio page](https://documentation.laborator.co/wp-content/uploads/2017/01/Click-on-the-plus-icon-to-translate-the-Portfolio-page-1.png)
+And here it is in French:
 
-**Portfolio Categories** can be translated on the Translation Editor screen or on the [Taxonomy Translation](https://wpml.org/documentation/getting-started-guide/?aid=150643\&affiliate_key=VWCj6GPGWxBE) page.
+<figure><img src="../.gitbook/assets/image5.png" alt=""><figcaption></figcaption></figure>
 
-![Translate categories using Taxonomy Translation page](https://documentation.laborator.co/wp-content/uploads/2017/01/Translate-the-categories-using-the-Taxonomy-Translation-page-3.png)
+If you want to provide a fully localized experience, you can also use the [WPML Media Translation](https://wpml.org/documentation/getting-started-guide/media-translation/) add-on to include different images in each language. This is useful when your images include text (like in our example) and you want to show translated versions in each language.
 
-**Note:** Translations of categories are universal; changes will be updated across all instances.
+While WPML’s automatic translations are highly accurate, you can always edit them using the **Advanced Translation Editor** if you want.
 
-### Translating Portfolio Page and Blog Page Title
+<figure><img src="../.gitbook/assets/image2.png" alt=""><figcaption></figcaption></figure>
 
-To translate portfolio or blog titles, use the String Translation plugin by WPML. Navigate to WPML > String Translation:
+Simply go to the **Translation Dashboard**, select the content you want to edit, and choose **Translate myself** in **Step 2**. Your translations will wait for you in **WPML** → **Translations**.
 
-![WPML Translate Portfolio and News Page Titles](https://documentation.laborator.co/wp-content/uploads/2017/01/WPML-Translate-Portfolio-and-News-page-titles-1024x522.png)
+#### **Translating texts from Kalium theme, plugins and other places**
 
-Select strings within the domain "admin\_texts\_theme\_mods\_kalium" to view all translatable strings.
+Besides content from pages and posts, your website usually includes additional texts coming from your theme and other plugins. These texts are called “strings”, and you can send them for translation from the **Other texts (Strings)** section in **Translation Management**.
 
-### Translating Texts from Kalium Theme, Plugins, and Other Places
+<figure><img src="../.gitbook/assets/image3.png" alt=""><figcaption></figcaption></figure>
 
-For translating texts from themes, plugins, and other elements, refer to WPML's [string translation documentation](https://wpml.org/documentation/getting-started-guide/string-translation/?aid=150643\&affiliate_key=VWCj6GPGWxBE).
+### **Useful Links**
 
-### Translating Kalium Menus
+Here you will find WPML documentation and information that can help you to translate your site.
 
-WPML allows easy synchronization of menus between languages. For guidance, see WPML's [how to translate a menu documentation](https://wpml.org/documentation/getting-started-guide/translating-menus/?aid=150643\&affiliate_key=VWCj6GPGWxBE).
-
-### Translating Slider Revolution
-
-Kalium includes the Slider Revolution plugin. For translating sliders, refer to WPML's [documentation on creating multilingual sliders](https://wpml.org/documentation/plugins-compatibility/creating-multilingual-sliders-with-revolution-slider-and-wpml/?aid=150643\&affiliate_key=VWCj6GPGWxBE).
-
-### Useful Links
-
-* [**WPML**](https://wpml.org/?aid=150643\&affiliate_key=VWCj6GPGWxBE) — Official site of the WPML plugin.
-* [**WPML Support**](https://wpml.org/forums/forum/english-support/?aid=150643\&affiliate_key=VWCj6GPGWxBE) — Support center for WPML users.
-* [**Video Tutorials**](https://www.youtube.com/channel/UC0-st_ubApkPzzgxuBh2T0A/videos) — Tutorials and news on WPML compatibility.
-* [**Translate Kalium Theme Using WPML**](https://wpml.org/documentation/theme-compatibility/translating-kalium-theme-using-wpml/?aid=150643\&affiliate_key=VWCj6GPGWxBE) — Official article specific to Kalium theme.
-* [**Translating Themes and Plugins**](https://wpml.org/documentation/getting-started-guide/theme-localization/?aid=150643\&affiliate_key=VWCj6GPGWxBE) — Guide on translating themes and plugins with WPML.
+* [WPML](https://wpml.org/?aid=150643\&affiliate_key=VWCj6GPGWxBE) — Official site of WPML plugin.
+* [WPML Support](https://wpml.org/forums/forum/english-support/?aid=150643\&affiliate_key=VWCj6GPGWxBE) — If you have purchased WPML, here is their support center.
+* [Translating Themes and Plugins](https://wpml.org/documentation/getting-started-guide/theme-localization/?aid=150643\&affiliate_key=VWCj6GPGWxBE) — See how to translate themes and plugins with WPML.
+* [Video Tutorials](https://www.youtube.com/channel/UC0-st_ubApkPzzgxuBh2T0A/videos) — Find out about new tutorials and compatibility news with themes and plugins.
