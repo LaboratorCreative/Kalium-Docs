@@ -35,6 +35,7 @@
   * [Styling](general/header/styling.md)
   * [Top Bar](general/header/top-bar.md)
   * [Sticky Header](general/header/sticky-header.md)
+  * [Transparent Header](general/header/transparent-header.md)
   * [Mobile Menu](general/header/mobile-menu.md)
   * [Other Options](general/header/other-options.md)
   * [In Page Options](general/header/in-page-options.md)

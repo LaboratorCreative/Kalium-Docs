@@ -6,10 +6,6 @@ In addition to the previous configuration options for the header, the following 
 
 This option allows the header to stretch across the entire width of the viewport, providing a seamless and uninterrupted appearance from edge to edge of the screen.
 
-### Transparent Header
-
-This option enables the header to blend seamlessly with the background of the page, making it appear as though it is floating over the content. This effect is achieved by setting the header’s background to transparent, allowing the underlying page content or background image to be visible through the header.
-
 ### Submenu Arrow
 
 This option controls the visibility of the arrow indicator next to menu items that have submenus. The arrow helps users identify expandable menu items and indicates that additional options are available when clicked or hovered over.​
