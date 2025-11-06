@@ -6,56 +6,107 @@ To enable the _Sticky Header_, navigate to **Appearance -> Customize -> Header**
 
 ***
 
-### Sticky Logo
+## Sticky Header
 
-Our sticky header implementation allows resizing _current logo_ when entering the _sticky state_, or completely switching the logo to another image.
+The Sticky Header feature allows the header to remain fixed at the top of the page while users scroll. This ensures that essential navigation elements and branding are always visible, providing consistent access to menu options and improving the overall browsing experience on longer pages.
 
-<figure><img src="../../.gitbook/assets/Sticky Header - Logo.jpg" alt="" width="324"><figcaption></figcaption></figure>
+To enable the _Sticky Header_, navigate to **Appearance → Customize → Header** and activate the **Sticky Header** option. Click on the option to access and adjust its settings.​
+
+***
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Sticky Behavior.png" alt="Sticky Beavior options" width="351"><figcaption><p>Sticky Behavior Options</p></figcaption></figure></div>
+
+#### Sections
+
+Choose which parts of the header become sticky when scrolling down the page.
+
+**All Rows**\
+Makes all header rows sticky when scrolling.
+
+**Main Row**\
+Only the main header row becomes sticky (default setting).
+
+**Top Row**\
+Only the top header row becomes sticky when scrolling.
+
+***
+
+#### Mode
+
+Select the sticky header behavior mode.
+
+**Standard**\
+The header remains visible at all times when scrolling down the page.
+
+**Auto Hide**\
+The header only appears when users scroll up on the page.
+
+***
+
+#### Effect
+
+Choose an animation effect for when the sticky header appears.
+
+**Available Effects**\
+Select from None, Slide, Fade, Slide and Fade, or Slide and Fade Up animations.
+
+> **Note:** Selecting an effect will disable the Progress with Scroll behavior, since the header will automatically appear in its active state.
+
+***
+
+#### Progress with Scroll
+
+This option links the sticky header animation to your scrolling progress.
+
+When enabled, the sticky header will smoothly follow your scrolling. When disabled, it will use a standard animation that plays instantly. This option is only available when Effect is set to "None".
+
+***
+
+#### Animation Duration
+
+Set the length of the animation in seconds when the sticky header appears or hides.&#x20;
+
+**Duration Range**\
+You can set values between 0 and 10 seconds. Default is 0.3 seconds.
+
+{% hint style="info" %}
+This option appears when Progress with Scroll is disabled or when an Effect other than "None" is selected.
+{% endhint %}
+
+***
+
+#### Offset
+
+Controls the distance from the top where sticky behavior begins.
+
+**Input Options**\
+You can enter a number in pixels (e.g., 50), or a CSS selector (e.g., .top-header-bar) to set the offset after another element.
+
+***
+
+#### Sticky Logo
+
+Our sticky header implementation allows resizing the current logo when entering the sticky state, or completely switching the logo to another image.
+
+**Shrink Logo**\
+Adjust how much the logo shrinks when the header becomes sticky (0-100%). The shrinking percentage is relative to the assigned site logo width.
 
 **Custom Logo**\
-To display a different image for the sticky header, enable this option and then select or upload your preferred sticky logo image.​&#x20;
+To display a different image for the sticky header, enable this option.
 
-**Logo Width**\
-If you set only the logo width, it will resize the existing site logo when the header becomes sticky. If a custom logo is added, the width will be applied to the new image instead.
-
-***
-
-### Auto Hide
-
-This option changes the sticky header behavior to only appear when users scroll up on page within a threshold of 50-100 pixels. To enable it toggle the **Auto Hide** option.
-
-<figure><img src="../../.gitbook/assets/Sticky Header - Auto Hide.jpg" alt="" width="322"><figcaption></figcaption></figure>
-
-**Animation**\
-The animation that shows the header on scrolling up.
-
-**Duration**\
-The length of animation in seconds.
+**Logo Image**\
+When Custom Logo is enabled, select or upload your preferred sticky logo image.
 
 ***
 
-### Animation
-
-The sticky header applies transformations when it switches to the sticky state. You can adjust the animation settings using the following options:
-
-<figure><img src="../../.gitbook/assets/Sticky Header - Animation.jpg" alt="" width="327"><figcaption></figcaption></figure>
-
-**Animate on Scroll**\
-The animation timeline is controlled by the scrollbar progress.​ Otherwise it will play animation right after entering the sticky state.
-
-**Smooth Transition**\
-Applicable when “Animate on Scroll” is enabled; if the scroll speed is fast, the animation will progress more slowly to appear smoother.
-
-**Initial Offset**\
-Scroll position when sticky header styles begin animation.
-
-***
-
-### Responsive
+#### Responsive
 
 The sticky header also includes responsive options, allowing you to enable or disable it for specific devices.
 
-<figure><img src="../../.gitbook/assets/Sticky Header - Responsive.jpg" alt="" width="325"><figcaption><p>Responsive devices that sticky header is enabled</p></figcaption></figure>
+**Enable On**\
+Select which device types will display the sticky header: Desktop, Tablet, and Mobile. All three are enabled by default.
+
+***
 
 ***
 
