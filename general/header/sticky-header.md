@@ -6,13 +6,9 @@ To enable the _Sticky Header_, navigate to **Appearance -> Customize -> Header**
 
 ***
 
-## Sticky Header
+### General
 
-The Sticky Header feature allows the header to remain fixed at the top of the page while users scroll. This ensures that essential navigation elements and branding are always visible, providing consistent access to menu options and improving the overall browsing experience on longer pages.
-
-To enable the _Sticky Header_, navigate to **Appearance → Customize → Header** and activate the **Sticky Header** option. Click on the option to access and adjust its settings.​
-
-***
+Control how your sticky header behaves when scrolling, customize logo appearance, and set responsive options for different devices.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Sticky Behavior.png" alt="Sticky Beavior options" width="351"><figcaption><p>Sticky Behavior Options</p></figcaption></figure></div>
 
@@ -84,6 +80,8 @@ You can enter a number in pixels (e.g., 50), or a CSS selector (e.g., .top-heade
 
 ***
 
+<figure><img src="../../.gitbook/assets/Sticky Logo Options.png" alt="" width="350"><figcaption><p>Logo Option on Sticky State</p></figcaption></figure>
+
 #### Sticky Logo
 
 Our sticky header implementation allows resizing the current logo when entering the sticky state, or completely switching the logo to another image.
@@ -98,6 +96,8 @@ To display a different image for the sticky header, enable this option.
 When Custom Logo is enabled, select or upload your preferred sticky logo image.
 
 ***
+
+<figure><img src="../../.gitbook/assets/Sticky Header - Responsive.jpg" alt="" width="325"><figcaption></figcaption></figure>
 
 #### Responsive
 
