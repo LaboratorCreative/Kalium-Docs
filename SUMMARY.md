@@ -138,6 +138,7 @@
 ## WP CLI
 
 * [Starter Sites](wp-cli/starter-sites.md)
+* [License Management](wp-cli/license-management.md)
 
 ## Troubleshooting
 
