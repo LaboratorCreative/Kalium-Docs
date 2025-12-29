@@ -139,3 +139,7 @@
 
 * [Manage Options in Customizer](troubleshooting/manage-options-in-customizer.md)
 * [Bad Hosting Environment](troubleshooting/bad-hosting-environment.md)
+
+## WP CLI
+
+* [Starter Sites](wp-cli/starter-sites.md)
