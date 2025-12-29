@@ -31,7 +31,7 @@ wp kalium starter-site list [--builder=<builder>] [--installed]
 +---+------------+-----------------+------------------------------+
 | # | id         | name            | builders                     |
 +---+------------+-----------------+------------------------------+
-| 1 | agency     | Agency          | gutenberg, elementor, wpb    |
+| 1 | agency     | Agency          | wpb                          |
 | 2 | * bookstore| Bookstore       | gutenberg, wpb               |
 | 3 | hotel      | Hotel           | gutenberg, elementor         |
 +---+------------+-----------------+------------------------------+
@@ -65,11 +65,11 @@ wp kalium starter-site install <id> [--builder=<builder>] [--regenerate-thumbnai
 **Example**
 
 ```bash
-# Install the Agency starter site with Gutenberg (default)
-wp kalium starter-site install agency --builder=gutenberg
+# Install the Bookstore starter site with Gutenberg (default)
+wp kalium starter-site install bookstore
 
 # Install with Elementor builder and thumbnail regeneration
-wp kalium starter-site install agency --builder=elementor --regenerate-thumbnails
+wp kalium starter-site install bookstore --builder=elementor --regenerate-thumbnails
 ```
 
 ***
@@ -97,7 +97,7 @@ wp kalium starter-site install-plugins <id> [--builder=<builder>]
 **Example**
 
 ```bash
-wp kalium starter-site install-plugins bookstore --builder=gutenberg
+wp kalium starter-site install-plugins architecture --builder=gutenberg
 ```
 
 ***
@@ -125,7 +125,7 @@ wp kalium starter-site import-content <id> [--builder=<builder>]
 **Example**
 
 ```bash
-wp kalium starter-site import-content hotel --builder=elementor
+wp kalium starter-site import-content architecture --builder=elementor
 ```
 
 ***
@@ -175,7 +175,7 @@ wp kalium starter-site regenerate-thumbnails <id> [--builder=<builder>]
 **Example**
 
 ```bash
-wp kalium starter-site regenerate-thumbnails agency --builder=gutenberg
+wp kalium starter-site regenerate-thumbnails architecture --builder=gutenberg
 ```
 
 ***
@@ -189,27 +189,27 @@ wp kalium starter-site regenerate-thumbnails agency --builder=gutenberg
 wp kalium starter-site list
 
 # 2. Install a starter site with Gutenberg (default)
-wp kalium starter-site install agency --builder=gutenberg --regenerate-thumbnails
+wp kalium starter-site install bookstore --regenerate-thumbnails
 ```
 
 #### Step-by-Step Installation
 
 ```bash
 # 1. Install required plugins first
-wp kalium starter-site install-plugins agency --builder=wpb
+wp kalium starter-site install-plugins bookstore --builder=wpb
 
 # 2. Import content
-wp kalium starter-site import-content agency --builder=wpb
+wp kalium starter-site import-content bookstore --builder=wpb
 
 # 3. Regenerate thumbnails (optional)
-wp kalium starter-site regenerate-thumbnails agency --builder=wpb
+wp kalium starter-site regenerate-thumbnails bookstore --builder=wpb
 ```
 
 #### Cleanup
 
 ```bash
 # Uninstall a starter site
-wp kalium starter-site uninstall agency
+wp kalium starter-site uninstall bookstore
 ```
 
 ***
