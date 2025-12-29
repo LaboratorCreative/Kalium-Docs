@@ -135,10 +135,10 @@
 * [Lightbox](other/lightbox.md)
 * [Custom CSS](other/custom-css.md)
 
-## WP CLI
+## WP CLI API
 
-* [Starter Sites](wp-cli/starter-sites.md)
-* [License Management](wp-cli/license-management.md)
+* [Starter Sites](wp-cli-api/starter-sites.md)
+* [License Management](wp-cli-api/license-management.md)
 
 ## Troubleshooting
 

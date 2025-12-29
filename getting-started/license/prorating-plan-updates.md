@@ -44,4 +44,4 @@ proration_discount = max(0, remaining_period x old_plan_last_payment )
 
 When updating a plan with a percentage-based coupon, the _proration_ discount will be calculated first, and the coupon discount will apply to the discounted price as the last discount.
 
-\
+<br>

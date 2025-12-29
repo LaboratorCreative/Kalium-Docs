@@ -26,4 +26,4 @@ Text displayed next to the hamburger menu icon when the menu is open, indicating
 Toggle to show or hide the hamburger menu icon.
 
 **Icon Alignment**\
-Sets the position of the hamburger menu icon within the header, allowing alignment options such as left or right.\
+Sets the position of the hamburger menu icon within the header, allowing alignment options such as left or right.<br>

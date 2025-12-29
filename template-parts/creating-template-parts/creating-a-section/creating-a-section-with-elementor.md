@@ -84,19 +84,16 @@ The **Content Section** element in Elementor lets you easily insert any section 
 **To use it:**
 
 1. Edit any page with Elementor.
-2.  In the Elements panel, search for **Content Section** under the **Kalium** category.\
-
+2.  In the Elements panel, search for **Content Section** under the **Kalium** category.<br>
 
     <figure><img src="../../../.gitbook/assets/elementor-2.jpg" alt=""><figcaption><p>Click the "Content Section"</p></figcaption></figure>
 3. Drag the element into the desired spot in your layout.
-4.  In the Content Section settings, you'll find:\
-
+4.  In the Content Section settings, you'll find:<br>
 
     <figure><img src="../../../.gitbook/assets/elementor-widget-2.jpg" alt=""><figcaption></figcaption></figure>
 
     * **Display Section** – Select the section you want to show.
-    *   **Check Display Conditions** – Enable this to respect the section’s Display Conditions.\
-
+    *   **Check Display Conditions** – Enable this to respect the section’s Display Conditions.<br>
 
         > Check if this section should be visible based on its Display Conditions. This has no effect unless conditions are defined in the section settings.\
         > \

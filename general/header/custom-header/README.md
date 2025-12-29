@@ -17,4 +17,4 @@ Elements can be dragged and repositioned between the above sections. Clicking th
 
 To add a new element click :heavy\_plus\_sign: **Add** and the popup with element types will be shown. Disabled elements require certain plugin to be active in order to be enabled.
 
-The following article will detail the purpose and usage of each element.​\
+The following article will detail the purpose and usage of each element.​<br>

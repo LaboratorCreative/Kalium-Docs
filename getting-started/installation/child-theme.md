@@ -27,18 +27,15 @@ Installing the Kalium child theme is simple. Follow these steps to get started:
     &#x20;
 
     <figure><img src="../../.gitbook/assets/install-step-1.jpg" alt=""><figcaption></figcaption></figure>
-4.  Click on the **Add New Theme** button at the top of the page\
-
+4.  Click on the **Add New Theme** button at the top of the page<br>
 
     <figure><img src="../../.gitbook/assets/child-theme-1.jpg" alt=""><figcaption></figcaption></figure>
-5.  Now click **Upload Theme** button in the same place\
-
+5.  Now click **Upload Theme** button in the same place<br>
 
     <figure><img src="../../.gitbook/assets/install-step-3.jpg" alt=""><figcaption></figcaption></figure>
 6. Click **Choose File**, then select the **kalium-child.zip** file you just downloaded.&#x20;
 7. Click **Install Now**.
-8.  The installation is complete, click **Activate** to enable Kalium Child Theme theme on your site\
-
+8.  The installation is complete, click **Activate** to enable Kalium Child Theme theme on your site<br>
 
     <figure><img src="../../.gitbook/assets/child-theme-2.jpg" alt=""><figcaption></figcaption></figure>
 

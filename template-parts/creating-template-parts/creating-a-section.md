@@ -156,13 +156,11 @@ Below, we’ll explain how to insert sections manually using each method.
 To insert a section manually:
 
 1. Edit your page or post in the default WordPress editor.
-2.  Start by typing `/` or click the “+” icon to add a new block.\
-
+2.  Start by typing `/` or click the “+” icon to add a new block.<br>
 
     <figure><img src="../../.gitbook/assets/gutenberg-1.jpg" alt=""><figcaption></figcaption></figure>
 3. Search for **Content Section** and select the block.
-4.  In the block settings, choose the section you want to display from the dropdown.\
-
+4.  In the block settings, choose the section you want to display from the dropdown.<br>
 
     <figure><img src="../../.gitbook/assets/gutenberg-2.jpg" alt=""><figcaption></figcaption></figure>
 

@@ -63,16 +63,13 @@ The **Content Section** element in WPBakery lets you insert any Template Part se
 
 **To insert a Section manually:**
 
-1.  Edit the page using WPBakery.\
-
+1.  Edit the page using WPBakery.<br>
 
     <figure><img src="../../../.gitbook/assets/wpbb.jpg" alt=""><figcaption></figcaption></figure>
-2.  Click **Add Element** and search for **Content Section** under **Laborator** tab.\
-
+2.  Click **Add Element** and search for **Content Section** under **Laborator** tab.<br>
 
     <figure><img src="../../../.gitbook/assets/wpb-2.jpg" alt=""><figcaption></figcaption></figure>
-3.  Select the section you want to display using the **Display Section** dropdown.\
-
+3.  Select the section you want to display using the **Display Section** dropdown.<br>
 
     <figure><img src="../../../.gitbook/assets/wpb-1.jpg" alt=""><figcaption></figcaption></figure>
 4.  Enable **Check Display Conditions** if you want the section to respect its defined visibility rules.

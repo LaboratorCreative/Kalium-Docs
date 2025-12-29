@@ -21,17 +21,14 @@ Installing the Kalium theme via WordPress is the simplest and most efficient met
     &#x20;
 
     <figure><img src="../../.gitbook/assets/install-step-1.jpg" alt=""><figcaption></figcaption></figure>
-3.  Click on the **Add New Theme** button at the top of the page\
-
+3.  Click on the **Add New Theme** button at the top of the page<br>
 
     <figure><img src="../../.gitbook/assets/install-step-2.jpg" alt=""><figcaption></figcaption></figure>
-4.  Now click **Upload Theme** button in the same place\
-
+4.  Now click **Upload Theme** button in the same place<br>
 
     <figure><img src="../../.gitbook/assets/install-step-3.jpg" alt=""><figcaption></figcaption></figure>
 5. Click **Choose File**, then select the **kalium.zip** file you just downloaded.&#x20;
 6. Click **Install Now**.
-7.  The installation is complete, click **Activate** to enable Kalium theme on your site\
-
+7.  The installation is complete, click **Activate** to enable Kalium theme on your site<br>
 
     <figure><img src="../../.gitbook/assets/install-step-4.jpg" alt=""><figcaption></figcaption></figure>

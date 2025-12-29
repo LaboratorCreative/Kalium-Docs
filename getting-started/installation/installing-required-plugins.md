@@ -19,8 +19,7 @@ For some starter sites, additional plugins may also be needed. These plugins are
 ### Installing Plugins
 
 1. Login to **WordPress Admin** Dashboard
-2.  Go to **Kalium -> Plugins**\
-
+2.  Go to **Kalium -> Plugins**<br>
 
     <figure><img src="../../.gitbook/assets/Theme Plugins.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -32,8 +31,7 @@ For some starter sites, additional plugins may also be needed. These plugins are
 
 1. Login to **WordPress Admin** Dashboard
 2. Go to **Kalium -> Plugins**
-3.  Plugins that have update are shown clearly with new version information\
-
+3.  Plugins that have update are shown clearly with new version information<br>
 
     <figure><img src="../../.gitbook/assets/Plugin Update.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -50,4 +48,4 @@ Over time, the plugin authors have added extra features that we’re not allowed
 You’ll always have access to the latest versions of these plugins with your Kalium theme, so you can enjoy their main functions without any extra charge. If you want to unlock advanced features or get support directly from the plugin creators, you would need to purchase a separate license.
 
 \
-\
+<br>
