@@ -88,6 +88,7 @@
   * [Creating a Header](template-parts/creating-template-parts/creating-a-header.md)
   * [Creating a Header](template-parts/creating-template-parts/creating-a-header-1.md)
   * [Replace a Page](template-parts/creating-template-parts/replace-a-page.md)
+  * [Popups](template-parts/creating-template-parts/popups.md)
 * [Settings](template-parts/settings/README.md)
   * [Type](template-parts/settings/type.md)
   * [Display Conditions](template-parts/settings/display-conditions.md)
