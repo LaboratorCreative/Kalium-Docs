@@ -63,12 +63,12 @@ Changing Type can make a part stop appearing. A part that worked as a Section ma
 [creating-a-section](../creating-template-parts/creating-a-section/)
 {% endcontent-ref %}
 
-{% content-ref url="../creating-template-parts/creating-a-header.md" %}
-[creating-a-header.md](../creating-template-parts/creating-a-header.md)
+{% content-ref url="../creating-template-parts/replace-the-header.md" %}
+[replace-the-header.md](../creating-template-parts/replace-the-header.md)
 {% endcontent-ref %}
 
-{% content-ref url="../creating-template-parts/creating-a-header-1.md" %}
-[creating-a-header-1.md](../creating-template-parts/creating-a-header-1.md)
+{% content-ref url="../creating-template-parts/replace-the-footer.md" %}
+[replace-the-footer.md](../creating-template-parts/replace-the-footer.md)
 {% endcontent-ref %}
 
 {% content-ref url="../creating-template-parts/replace-a-page.md" %}

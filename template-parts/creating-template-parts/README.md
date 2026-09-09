@@ -53,12 +53,12 @@ Now that you’ve seen how Template Parts are organized and where to find them, 
 [creating-a-section](creating-a-section/)
 {% endcontent-ref %}
 
-{% content-ref url="creating-a-header.md" %}
-[creating-a-header.md](creating-a-header.md)
+{% content-ref url="replace-the-header.md" %}
+[replace-the-header.md](replace-the-header.md)
 {% endcontent-ref %}
 
-{% content-ref url="creating-a-header-1.md" %}
-[creating-a-header-1.md](creating-a-header-1.md)
+{% content-ref url="replace-the-footer.md" %}
+[replace-the-footer.md](replace-the-footer.md)
 {% endcontent-ref %}
 
 {% content-ref url="replace-a-page.md" %}

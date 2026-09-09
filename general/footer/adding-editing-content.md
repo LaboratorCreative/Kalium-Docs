@@ -156,6 +156,6 @@ A Footer template part is matching those pages and replacing the Customizer foot
 **A row has no Background tab.**\
 Known issue. See the note above.
 
-{% content-ref url="../../template-parts/creating-template-parts/creating-a-header-1.md" %}
-[creating-a-header-1.md](../../template-parts/creating-template-parts/creating-a-header-1.md)
+{% content-ref url="../../template-parts/creating-template-parts/replace-the-footer.md" %}
+[replace-the-footer.md](../../template-parts/creating-template-parts/replace-the-footer.md)
 {% endcontent-ref %}
