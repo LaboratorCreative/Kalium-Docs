@@ -1,5 +1,91 @@
 # Adding/Editing Content
 
+Your footer is built in two layers, and knowing which one you need saves a lot of clicking.
+
+**The Footer Builder** — at **Appearance -> Customize -> Footer** — defines the footer's **structure**: how many rows there are, how they're divided into columns, and which widget area goes where.
+
+**Widgets** — at **Appearance -> Widgets** — fill that structure with **content**: your text, links, images and forms.
+
+Set the structure up once in the builder, then edit the content in Widgets whenever you like without going back to the Customizer.
+
+***
+
+## The Footer Builder
+
+Open **Appearance -> Customize -> Footer** and click **Footer Content**.
+
+Unlike the header, the footer has no fixed regions. **You add rows yourself** with **Add Footer Row**, and build each one up from columns and elements.
+
+### Building a footer
+
+#### 1. Add a row
+
+Click **Add Footer Row**. Each row is a horizontal band across the footer. Most footers have two: a wide one for the columns of links, and a narrow one underneath for the copyright line.
+
+#### 2. Add columns to the row
+
+Inside a row, add **Column** elements. Each column has a **Width** setting with 24 options, **set per device** — so four columns on a desktop can become two on a tablet and one on a phone.
+
+#### 3. Put something in each column
+
+Add elements inside the columns:
+
+**Widget Area**\
+Drops one of the six footer widget areas in. This is the usual choice — it's what lets you edit the content later from the Widgets screen.
+
+**Sidebar**\
+Places a chosen sidebar, with a **Widgets Per Row** setting of its own (per device) for splitting its widgets into columns.
+
+**Text**\
+Free text, straight in the builder. Supports HTML and shortcodes, which is how the copyright line is built.
+
+#### 4. Publish
+
+The preview updates as you work, but nothing saves until you click **Publish**.
+
+***
+
+### Row settings
+
+Click a row to open its settings:
+
+**Horizontal Gap** and **Vertical Gap** — the space between columns, per device.
+
+**Full Width** — the row runs edge to edge instead of sitting inside the content container.
+
+**Text**, **Headings** and **Links** — color overrides for that row, with **Links** having separate normal and hover colors. Handy for making a bottom copyright row quieter than the row above it.
+
+{% hint style="warning" %}
+**The Footer Row's Background tab is currently missing.** To give a row a background color, use **Appearance -> Customize -> Styling -> Colors -> Footer**, which sets the footer background, or add a class in the row's **CSS Classes** and target it with custom CSS.
+{% endhint %}
+
+***
+
+### The copyright line
+
+The bottom line of Kalium's default footer is a **Text** element containing two shortcodes:
+
+```
+[kalium_site_info]
+[kalium_social_icons]
+```
+
+To change the wording — including **removing the theme credit** — edit that Text element:
+
+```
+[kalium_site_info display="{copyright} {year} {site_title}. All rights reserved."]
+```
+
+The year updates itself, so you never have to edit it again.
+
+{% content-ref url="../../other/shortcodes.md" %}
+[shortcodes.md](../../other/shortcodes.md)
+{% endcontent-ref %}
+
+***
+
+## Widgets
+
 The footer content can be edited in two places:
 
 1. **Appearance -> Widgets**
@@ -38,3 +124,35 @@ Then in the **Appearance -> Customize -> Footer** section, set the number of **W
 <figure><img src="../../.gitbook/assets/Footer Widget Multi Column Customizer.jpg" alt=""><figcaption><p>Splited widget columns</p></figcaption></figure>
 
 Do not confuse the _**Column**_ element with _widget columns_, as it is mainly used for structuring the footer layout.
+
+***
+
+### Turning the footer off
+
+**Appearance -> Customize -> Footer -> Enable Footer** removes the footer from the whole site. Everything else on the screen disappears while it's off — which is worth knowing if the Footer Content builder seems to have vanished.
+
+To hide the footer on **one** page instead, use that page's **Parameters and Options -> Page Options -> Footer Visibility**.
+
+{% content-ref url="../../other/parameters-and-options.md" %}
+[parameters-and-options.md](../../other/parameters-and-options.md)
+{% endcontent-ref %}
+
+***
+
+### Common questions
+
+**My footer is empty.**\
+The structure exists but the widget areas have nothing in them. Go to **Appearance -> Widgets** and fill them.
+
+**My footer doesn't appear at all.**\
+Check **Enable Footer** is on. Then check whether a Footer template part is replacing it on those pages.
+
+**My footer content shows on some pages but not others.**\
+A Footer template part is matching those pages and replacing the Customizer footer.
+
+**A row has no Background tab.**\
+Known issue — see the note above.
+
+{% content-ref url="../../template-parts/creating-template-parts/creating-a-header-1.md" %}
+[creating-a-header-1.md](../../template-parts/creating-template-parts/creating-a-header-1.md)
+{% endcontent-ref %}

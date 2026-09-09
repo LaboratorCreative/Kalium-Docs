@@ -14,9 +14,34 @@ Here are some examples of Template Parts and how they can help:
 * Customize your blog category layout with a unique design
 * Add a call-to-action after product descriptions
 * Replace the default 404 page with something more useful
+* Open a newsletter popup when someone is about to leave
+* Add custom PHP, CSS or JavaScript without touching a theme file
 * ...and many other possibilities
 
 Template Parts are flexible, reusable, and give you a powerful way to personalize your site.
+
+***
+
+### The six types
+
+| Type | What it does |
+| --- | --- |
+| **Section** | Places a block of content at a chosen spot on other pages |
+| **Header** | Replaces the site header |
+| **Footer** | Replaces the site footer |
+| **Page** | Replaces an entire page's content |
+| **Popup** | Opens over the page when a trigger fires |
+| **Snippet** | Runs a piece of PHP, CSS or JavaScript |
+
+The first five are about **content**. The sixth, **Snippet**, is about **code** — it's Kalium's replacement for the old advice to "add this to your functions.php file", and it's new in Kalium 4.8.
+
+{% content-ref url="creating-template-parts/code-snippets/" %}
+[code-snippets](creating-template-parts/code-snippets/)
+{% endcontent-ref %}
+
+{% hint style="info" %}
+**Sections and Popups add to a page. Headers, Footers and Pages replace part of it.** That distinction explains most surprises — if your Customizer header settings suddenly stop applying on some pages, a Header template part is very likely matching them.
+{% endhint %}
 
 ***
 

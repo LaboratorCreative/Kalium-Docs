@@ -12,14 +12,20 @@ To get started, go to **Kalium → Template Parts** in your dashboard.
 
 ### Types of Template Parts
 
-There are four types of Template Parts you can create:
+There are six types of Template Parts you can create:
 
 * **Section** – Insert content into specific areas of your site using WordPress and plugin hook locations, like before the header, after the content, or between elements on WooCommerce pages.
 * **Header** – Use a custom header instead of the default site header.
 * **Footer** – Swap out the footer based on the page, user, or even date.
 * **Page** – Replace the layout of pages like 404, search results, category archives, and more.
+* **Popup** – Open content over the page when a trigger you choose fires.
+* **Snippet** – Run a piece of PHP, CSS or JavaScript instead of showing content.
 
 Each type has a specific purpose, and you can create as many as you need depending on the parts of your site you want to customize.
+
+{% content-ref url="../settings/type.md" %}
+[type.md](../settings/type.md)
+{% endcontent-ref %}
 
 ***
 
@@ -38,3 +44,31 @@ When adding a new Template Part, it’s helpful to switch to the tab that matche
 ***
 
 Now that you’ve seen how Template Parts are organized and where to find them, let’s go ahead and create our first one.
+
+***
+
+### Where each type is covered
+
+{% content-ref url="creating-a-section/" %}
+[creating-a-section](creating-a-section/)
+{% endcontent-ref %}
+
+{% content-ref url="creating-a-header.md" %}
+[creating-a-header.md](creating-a-header.md)
+{% endcontent-ref %}
+
+{% content-ref url="creating-a-header-1.md" %}
+[creating-a-header-1.md](creating-a-header-1.md)
+{% endcontent-ref %}
+
+{% content-ref url="replace-a-page.md" %}
+[replace-a-page.md](replace-a-page.md)
+{% endcontent-ref %}
+
+{% content-ref url="popups.md" %}
+[popups.md](popups.md)
+{% endcontent-ref %}
+
+{% content-ref url="code-snippets/" %}
+[code-snippets](code-snippets/)
+{% endcontent-ref %}

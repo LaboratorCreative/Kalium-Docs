@@ -4,6 +4,28 @@ Elements are a key part of the Custom Header Builder, and you can include as man
 
 <figure><img src="../../../.gitbook/assets/Header Elements.jpg" alt="" width="280"><figcaption><p>The list of elements supported in the custom header</p></figcaption></figure>
 
+{% hint style="info" %}
+Some elements need a plugin to be active before you can use them, and appear grayed out until it is. Those are noted against each element below.
+{% endhint %}
+
+***
+
+### Row
+
+Groups other elements together and controls how they're spread across the row. This is the element to reach for when you want a gap between two groups of items, or everything pushed to one side.
+
+**Content Align**\
+How the elements inside the row are distributed:
+
+* **Left** — grouped to the left
+* **Center** — grouped in the middle
+* **Right** — grouped to the right
+* **Space Between** — pushed apart to the outer edges, with the gap in the middle
+
+{% hint style="info" %}
+**Space Between** is how you get a logo on the left and a button on the right with everything spaced evenly in between, without setting any padding.
+{% endhint %}
+
 ***
 
 ### Menu
@@ -344,6 +366,8 @@ Note: The **Breadcrumb NavXT** plugin is required for this element to function.
 
 ### Common Options
 
+Every element in the header builder has these two, whatever else it offers.
+
 **Visible On**\
 Manage the visibility of each header element across different viewports, including Desktop, Tablet, and Mobile. This feature ensures that you can tailor the display of elements based on the user’s device, enhancing the overall user experience.
 
@@ -352,3 +376,56 @@ Apply additional styling to each element with Custom CSS. This option allows you
 
 **Style Options**\
 All style options are applied from the Style tab in the Header section. The following section will guide you through styling each header element in detail.
+
+{% content-ref url="../styling.md" %}
+[styling.md](../styling.md)
+{% endcontent-ref %}
+
+***
+
+### Where spacing comes from
+
+Header elements deliberately don't carry Margin, Padding, Border or Dimensions settings the way footer and product card elements do. That's intentional — it keeps headers consistent rather than letting every element drift.
+
+Spacing in the header comes from three places instead:
+
+* **The Row element's Content Align**, for spreading or grouping things across a row
+* **An element's own spacing setting**, such as **Menu Item Spacing** on the Menu
+* **The Header Style tab** in the Customizer, for padding around the header itself
+
+For anything those three can't do, use the element's **Custom CSS**.
+
+***
+
+### The same elements elsewhere
+
+The **Top Bar** and **Mobile Menu** builders use this same element list, with two differences:
+
+* The **Mobile Menu** has its own simplified **Menu** element, since a mobile panel lays menu items out vertically rather than in a row
+* The **Mobile Menu** has a simplified **Search Field** with just a **Placeholder** and a **Max Width**, rather than the alignment and animation settings the header version has
+
+Everything else behaves identically.
+
+{% content-ref url="../mobile-menu.md" %}
+[mobile-menu.md](../mobile-menu.md)
+{% endcontent-ref %}
+
+{% content-ref url="../top-bar.md" %}
+[top-bar.md](../top-bar.md)
+{% endcontent-ref %}
+
+***
+
+### If an element is missing from the list
+
+**Cart, Cart Totals or My Account** — WooCommerce isn't active.
+
+**Language Switcher** — WPML isn't active.
+
+**Breadcrumb** — the Breadcrumb NavXT plugin isn't installed.
+
+**There's no Logo element** — by design. The logo is set once under **Customize -> Styling -> Brand**, and the header builder positions elements around it. Left Content sits to its left, Right Content to its right.
+
+{% content-ref url="../../../styling/brand-and-logo.md" %}
+[brand-and-logo.md](../../../styling/brand-and-logo.md)
+{% endcontent-ref %}
