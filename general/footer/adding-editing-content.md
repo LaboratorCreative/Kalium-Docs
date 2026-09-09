@@ -16,7 +16,7 @@ Open **Appearance -> Customize -> Footer** and click **Footer Content**.
 
 Unlike the header, the footer has no fixed regions. **You add rows yourself** with **Add Footer Row**, and build each one up from columns and elements.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Footer Content builder with two rows added, showing the Add Footer Row button]
+<figure><img src="../../.gitbook/assets/adding-footer.jpg" alt=""><figcaption></figcaption></figure>
 
 ### Building a footer
 
@@ -104,7 +104,7 @@ Widgets locations that you can use in the footer are **Footer Widget Area 1** to
 
 <figure><img src="../../.gitbook/assets/Footer Widgets Sidebars.jpg" alt=""><figcaption><p>Footer Widget Areas that can be used in the footer</p></figcaption></figure>
 
-The content formatting and everything Block Editor offers can be constructed here.&#x20;
+The content formatting and everything Block Editor offers can be constructed here.
 
 With this approach, you can add any type of element to the footer, including images, maps, contact forms, and other content supported by the _Block Editor_ and the plugins that extend it.
 
@@ -116,7 +116,7 @@ When editing multiple widget locations, make sure to click the **Update** button
 
 The widget content flows vertically by default, but you can still organize it into columns for a more structured layout.
 
-You can add as many groups as needed in the widget area, and in the Customizer’s **Footer** section, you can configure these widgets to split into columns.&#x20;
+You can add as many groups as needed in the widget area, and in the Customizer’s **Footer** section, you can configure these widgets to split into columns.
 
 This setup supports varying column numbers on different responsive viewports.​
 

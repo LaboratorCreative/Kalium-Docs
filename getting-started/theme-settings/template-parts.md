@@ -1,12 +1,14 @@
 ---
-description: Switch the Template Parts system on or off, and control how Snippets are stored and guarded.
+description: >-
+  Switch the Template Parts system on or off, and control how Snippets are
+  stored and guarded.
 ---
 
 # Template Parts Settings
 
 **Kalium -> Settings -> Template Parts** holds three switches. The first decides whether the whole Template Parts system exists; the other two are about Snippets.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: Kalium -> Settings -> Template Parts showing all three settings]
+<figure><img src="../../.gitbook/assets/template-parts-settings.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 

@@ -20,7 +20,7 @@ Look for the small **device icons** beside a setting's label. Where they appear,
 2. Click the **device icon** for tablet or mobile
 3. Set the value for that device
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: a Customizer setting with the desktop/tablet/mobile device icons beside its label, clearly visible]
+<figure><img src="../.gitbook/assets/responsive.jpg" alt=""><figcaption></figcaption></figure>
 
 **A device with no value set inherits from the next size up.** So a value set for desktop applies to tablet and mobile until you give those their own. This is why you only need to change the sizes that actually need changing.
 

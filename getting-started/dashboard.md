@@ -52,7 +52,7 @@ It shows your PHP version, memory limit, whether your license is active, and whe
 
 Support will almost always ask for a screenshot of this screen, so it's worth knowing where it is.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Kalium -> Status screen showing the system checks]
+<figure><img src="../.gitbook/assets/status.jpg" alt=""><figcaption></figcaption></figure>
 
 #### Settings
 

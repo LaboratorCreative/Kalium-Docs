@@ -10,7 +10,7 @@ Kalium replaces WordPress's plain media player with a themed one, so video and a
 
 The settings are at **Appearance -> Customize -> General -> Media**, and they apply to **every** video and audio on your site at once.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: Appearance -> Customize -> General -> Media showing all five settings]
+<figure><img src="../.gitbook/assets/video-audio.jpg" alt="" width="349"><figcaption></figcaption></figure>
 
 ***
 

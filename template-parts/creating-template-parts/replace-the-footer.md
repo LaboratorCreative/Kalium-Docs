@@ -18,7 +18,7 @@ In your WordPress dashboard, go to **Kalium -> Template Parts**.
 
 Switch to the **Footers** tab at the top, then click **Add New**.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Template Parts screen with the Footers tab selected]
+<figure><img src="../../.gitbook/assets/footer.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -32,7 +32,7 @@ Build the footer in the editor using the block editor, Elementor or WPBakery. Co
 To show the current year in a copyright line without editing it every January, use the `[year]` shortcode. See [Shortcodes](../../other/shortcodes.md).
 {% endhint %}
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the editor with a simple custom footer built]
+<figure><img src="../../.gitbook/assets/footer-1.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -58,11 +58,11 @@ Make sure **Type** is set to **Footer**. Starting from the Footers tab sets it f
 
 Common setups:
 
-* **One landing page**: *Singular Content* -> *Single Page* -> choose the page
-* **Every blog post**: *Singular Content* -> *Single Post*
-* **The whole shop**: *WooCommerce* -> *Shop Archive*, plus a second row for *Product Page*, joined with **OR**
+* **One landing page**: _Singular Content_ -> _Single Page_ -> choose the page
+* **Every blog post**: _Singular Content_ -> _Single Post_
+* **The whole shop**: _WooCommerce_ -> _Shop Archive_, plus a second row for _Product Page_, joined with **OR**
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Display Conditions panel with a condition added]
+<figure><img src="../../.gitbook/assets/footer-2.jpg" alt=""><figcaption></figcaption></figure>
 
 {% content-ref url="../settings/display-conditions.md" %}
 [display-conditions.md](../settings/display-conditions.md)
@@ -80,7 +80,7 @@ The footer stays in place while the page content slides up over it as visitors s
 **Effect**\
 The animation used as the footer is revealed: None, Fade or Slide.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Footer Settings panel showing Fixed Footer and Effect]
+<figure><img src="../../.gitbook/assets/footer-3.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 

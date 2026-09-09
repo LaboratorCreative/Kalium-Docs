@@ -8,7 +8,7 @@ description: >-
 
 **Kalium -> Settings -> Portfolio** controls the portfolio module: whether it's loaded at all, and which post types get to use it.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: Kalium -> Settings -> Portfolio showing the extension toggle and the post types checklist]
+<figure><img src="../../.gitbook/assets/portfolio.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -41,7 +41,7 @@ A ticked post type receives:
 * **The Parameters and Options panel** on its items, Project Layout, Project Gallery, Checklists and the rest
 * **Its own Preselected Item Type and Default Archive Page** (below)
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Portfolio Post Types checklist with a custom post type ticked alongside Portfolio]
+<figure><img src="../../.gitbook/assets/portfolio-post-types.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 

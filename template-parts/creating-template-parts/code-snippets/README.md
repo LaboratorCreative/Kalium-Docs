@@ -1,6 +1,5 @@
 ---
-description: >-
-  Add PHP, CSS or JavaScript to your site without touching a single theme file.
+description: Add PHP, CSS or JavaScript to your site without touching a single theme file.
 ---
 
 # Code Snippets
@@ -14,7 +13,7 @@ Sooner or later, someone tells you to "add this to your functions.php file." It'
 * **It switches itself off if it breaks**, so a bad snippet cannot take your site down.
 * **You don't need a child theme** for small additions.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Template Parts screen on the Snippets tab, showing a few snippets with their type badges and status]
+<figure><img src="../../../.gitbook/assets/snippets.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -40,7 +39,7 @@ In your WordPress dashboard, go to **Kalium -> Template Parts**, switch to the *
 
 The editor opens differently from other Template Parts: instead of a blank canvas, you get a single code block with a **Snippet** header and a language badge on the right. Nothing else can be added, a snippet holds code and only code.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the snippet editor as it first opens, showing the locked code block and the language badge]
+<figure><img src="../../../.gitbook/assets/snippet-1.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -60,9 +59,9 @@ Open the Template Part Settings panel with the **Kalium icon** in the top-right 
 
 You can also click the badge on the code block itself to switch. Your code is kept when you change language.
 
-Not sure which you need? A rule of thumb: if it changes how something *looks*, it's CSS. If it changes what your site *does*, it's PHP.
+Not sure which you need? A rule of thumb: if it changes how something _looks_, it's CSS. If it changes what your site _does_, it's PHP.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Snippet Type dropdown open showing PHP, CSS and JavaScript]
+<figure><img src="../../../.gitbook/assets/snippet-2.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -74,7 +73,7 @@ Type or paste your code into the block. The editor highlights it for the languag
 
 **Format code**, in the bar under the editor, tidies your code to WordPress coding standards. It's optional, and it downloads on first use so it needs an internet connection. If your code has a syntax error, the message appears next to this button with the line number.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the code editor with a short PHP snippet in it, showing line numbers and the Format code button]
+<figure><img src="../../../.gitbook/assets/snippet-3.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -126,7 +125,7 @@ Snippets can include placeholders written as `{{NAME}}`, which are swapped for r
 
 Click **Placeholders** in the snippet's footer to see all 21 with their value on your site, and click one to insert it. They cover your site's addresses (`HOME_URL`, `SITE_URL`, `ADMIN_URL`, `AJAX_URL`, `REST_URL`, `LOGIN_URL`), its folders (`THEME_URL`, `CHILD_THEME_URL`, `CONTENT_URL`, `UPLOADS_URL`, `PLUGINS_URL`), details about the site (`SITE_NAME`, `SITE_DESCRIPTION`, `LOCALE`, `CHARSET`, `WP_VERSION`, `THEME_VERSION`, `YEAR`) and about the snippet itself (`SNIPPET_ID`, `SNIPPET_SLUG`, `RANDOM_ID`).
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Placeholders panel open, showing the list of placeholders with their values]
+<figure><img src="../../../.gitbook/assets/snippet-4.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Because values are filled in when you save, **moving your site to a new address means saving your snippets again** so they pick up the new one. Kalium regenerates them on its own when it notices the mismatch, but a manual save is the quick fix if a path looks wrong.

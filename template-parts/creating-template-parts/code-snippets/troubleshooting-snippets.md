@@ -1,5 +1,7 @@
 ---
-description: What to do when a snippet misbehaves, including getting back into a locked admin.
+description: >-
+  What to do when a snippet misbehaves, including getting back into a locked
+  admin.
 ---
 
 # When a Snippet Goes Wrong
@@ -32,7 +34,7 @@ Sometimes a snippet doesn't crash the site but breaks something in a way you nee
 
 A yellow notice appears on the Template Parts screens to remind you.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: Kalium -> Settings -> Template Parts showing the Snippets Safe Mode toggle, and the yellow notice it produces]
+<figure><img src="../../../.gitbook/assets/snippet-wrong.jpg" alt=""><figcaption></figcaption></figure>
 
 Turn it on, confirm the problem goes away, then re-enable your snippets one at a time until it returns. The last one you enabled is the culprit.
 
@@ -79,7 +81,7 @@ Work down this list:
 
 1. Is it **Published**, and not showing **Error**?
 2. Is **Snippets Safe Mode** off?
-3. Check **Execution Scope**, a *Frontend* snippet never runs in the admin, and an *Admin* one never runs on your public site.
+3. Check **Execution Scope**, a _Frontend_ snippet never runs in the admin, and an _Admin_ one never runs on your public site.
 4. If it has a **Placement**, try removing it. Locations that fire very early in the page never run snippets.
 
 #### A CSS or JavaScript snippet does nothing

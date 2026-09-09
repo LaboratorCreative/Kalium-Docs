@@ -26,7 +26,7 @@ How the elements inside the row are distributed:
 **Space Between** is how you get a logo on the left and a button on the right with everything spaced evenly in between, without setting any padding.
 {% endhint %}
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Row element's Content Align setting, ideally showing the Space Between result in the preview]
+<figure><img src="../../../.gitbook/assets/header-elements.jpg" alt="" width="284"><figcaption></figcaption></figure>
 
 ***
 
@@ -97,13 +97,13 @@ Adjust the alignment of the menu container, by default opens from right side.
 **Items per Row**\
 Divides the navigation menu items into columns within each row.
 
-**Widgets** \
+**Widgets**\
 Choose whether to display widgets within the menu container. The widgets displayed here are sourced from the **Off-Canvas Top** sidebar.
 
-**Columns** \
+**Columns**\
 Determines how many columns the widgets are divided into.
 
-**Container** \
+**Container**\
 Defines the size of the widget container relative to the Menu Container.
 {% endtab %}
 {% endtabs %}

@@ -1,7 +1,7 @@
 ---
 description: >-
-  Take over an entire page (the 404 page, search results, an archive) and
-  design it yourself.
+  Take over an entire page (the 404 page, search results, an archive) and design
+  it yourself.
 ---
 
 # Replace a Page
@@ -20,8 +20,6 @@ In your WordPress dashboard, go to **Kalium -> Template Parts**.
 
 Switch to the **Pages** tab at the top, then click **Add New**.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Template Parts screen with the Pages tab selected]
-
 ***
 
 ### 2. Name it and design the page
@@ -30,7 +28,7 @@ Name it after the page it replaces, such as **404 Page** or **Search Results**.
 
 Build the content in the editor. For a 404 page, a heading, a short line of friendly text, a search form and a button back to the home page covers it.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the editor with a custom 404 page designed]
+<figure><img src="../../.gitbook/assets/replace-page.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -54,17 +52,17 @@ Make sure **Type** is set to **Page**.
 
 This is done with Display Conditions, and for a Page part the condition **is** the choice of page. Click **Add Condition**:
 
-| To replace | Choose |
-| --- | --- |
-| The 404 page | *General Page* -> *404 Error Page* |
-| Search results | *General Page* -> *Search Page* |
-| The blog listing | *General Page* -> *Blog Page* |
-| A category archive | *Taxonomy* -> *Category Archive* |
-| A tag archive | *Taxonomy* -> *Tag Archive* |
-| An author's archive | *Archive* -> *Author Archive* |
-| A custom post type archive | *Archive* -> *Custom Post Type Archive* |
+| To replace                 | Choose                                  |
+| -------------------------- | --------------------------------------- |
+| The 404 page               | _General Page_ -> _404 Error Page_      |
+| Search results             | _General Page_ -> _Search Page_         |
+| The blog listing           | _General Page_ -> _Blog Page_           |
+| A category archive         | _Taxonomy_ -> _Category Archive_        |
+| A tag archive              | _Taxonomy_ -> _Tag Archive_             |
+| An author's archive        | _Archive_ -> _Author Archive_           |
+| A custom post type archive | _Archive_ -> _Custom Post Type Archive_ |
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Display Conditions panel with the 404 Error Page condition selected]
+<figure><img src="../../.gitbook/assets/replace-page-1.jpg" alt=""><figcaption></figcaption></figure>
 
 {% content-ref url="../settings/display-conditions.md" %}
 [display-conditions.md](../settings/display-conditions.md)
@@ -84,7 +82,7 @@ Keep the site footer below it. On by default.
 
 Turning both off gives you a blank canvas with nothing but your content, which is exactly how a distraction-free landing page or a "coming soon" page is built.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Page Settings panel showing the Show Header and Show Footer toggles]
+<figure><img src="../../.gitbook/assets/replace-page-2.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 

@@ -6,7 +6,7 @@ description: A copy of your theme, taken automatically before each update.
 
 **Kalium -> Settings -> Theme Backups** keeps a copy of your theme from just before each update, so you can go back if something isn't right afterwards.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: Kalium -> Settings -> Theme Backups showing the toggle and a list of existing backups]
+<figure><img src="../../.gitbook/assets/theme-backups.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 

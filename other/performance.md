@@ -12,7 +12,7 @@ A fast site keeps visitors and ranks better. Kalium has a screen of settings tha
 
 Everything below is at **Appearance -> Customize -> Performance**.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: Appearance -> Customize -> Performance showing the full list of settings]
+<figure><img src="../.gitbook/assets/performance.jpg" alt="" width="347"><figcaption></figcaption></figure>
 
 ***
 
@@ -150,4 +150,4 @@ Test before and after you change anything, or you're guessing.
 
 **PageSpeed Insights** and **GTmetrix** are both free. Test the same page each time, and test more than once, the first load after a change is always slower because caches are empty.
 
-Pay attention to how the page *feels* as well as the score. A site that scores 85 and shows text instantly is better than one scoring 95 that sits blank for two seconds.
+Pay attention to how the page _feels_ as well as the score. A site that scores 85 and shows text instantly is better than one scoring 95 that sits blank for two seconds.

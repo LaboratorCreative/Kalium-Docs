@@ -25,7 +25,7 @@ Click the **Add** button inside the region you want to fill. A list of available
 
 Where a canvas has many elements, a search field appears above the list, type a few letters rather than scrolling.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Add button in a region and the element list that opens]
+<figure><img src="../../../.gitbook/assets/custom-header-1.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Grayed-out elements need a plugin.** Cart, Cart Totals and My Account need WooCommerce active. Language Switcher needs WPML. They stay in the list so you know they exist.
@@ -39,7 +39,7 @@ Where a canvas has many elements, a search field appears above the list, type a 
 
 **Click an element** and its settings open beside the canvas. Each element has its own, the Menu element has menu settings, the Search element has search settings.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: an element selected with its settings panel open beside the canvas]
+<figure><img src="../../../.gitbook/assets/custom-header-2.jpg" alt=""><figcaption></figcaption></figure>
 
 #### 4. Hide something without deleting it
 
@@ -75,13 +75,13 @@ Left, Right and Bottom already exist and are the structure of the header. There'
 
 The same editor is used in nine other places. Once you know it here, you know it everywhere:
 
-| Where | What you're building |
-| --- | --- |
-| **Header -> Top Bar -> Top Bar Content** | The strip above the header |
-| **Header -> Mobile Menu -> Mobile Menu Content** | The mobile panel |
-| **Footer -> Footer Content** | The footer |
-| **General -> Social Icons** | Your social accounts |
-| **Blog / Portfolio / WooCommerce -> Social Sharing** | Which share buttons appear |
+| Where                                                   | What you're building          |
+| ------------------------------------------------------- | ----------------------------- |
+| **Header -> Top Bar -> Top Bar Content**                | The strip above the header    |
+| **Header -> Mobile Menu -> Mobile Menu Content**        | The mobile panel              |
+| **Footer -> Footer Content**                            | The footer                    |
+| **General -> Social Icons**                             | Your social accounts          |
+| **Blog / Portfolio / WooCommerce -> Social Sharing**    | Which share buttons appear    |
 | **WooCommerce -> Product Catalog -> Grid Product Card** | The product card in grid view |
 | **WooCommerce -> Product Catalog -> List Product Card** | The product card in list view |
 

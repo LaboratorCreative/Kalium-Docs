@@ -26,7 +26,7 @@ The image sits to the right of the form. This is the default.
 **Left**\
 The image sits to the left, with the form on the right.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Align option showing Left and Right, ideally with a preview of each]
+<figure><img src="../../.gitbook/assets/my-account.jpg" alt=""><figcaption></figcaption></figure>
 
 Here are screenshots showing how the option looks and how the form can appear with an image added:
 
@@ -48,7 +48,7 @@ Kalium styles those pages to match your site, but the content and behavior belon
 
 ### Doing more with the page
 
-If you want to change the layout itself (add a welcome message, your support details, a promotion for signed-in customers) create a **Template Part** of type *Section* and place it with a **WooCommerce -> My Account Page** condition.
+If you want to change the layout itself (add a welcome message, your support details, a promotion for signed-in customers) create a **Template Part** of type _Section_ and place it with a **WooCommerce -> My Account Page** condition.
 
 {% content-ref url="../../template-parts/creating-template-parts/creating-a-section/" %}
 [creating-a-section](../../template-parts/creating-template-parts/creating-a-section/)

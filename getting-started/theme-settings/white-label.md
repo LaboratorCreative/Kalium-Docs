@@ -14,7 +14,7 @@ This is built for agencies. If you build sites for clients and would rather the 
 **This section only appears if your license includes the White Label feature.** If you can't see it in the settings navigation, that's why. See [Managing Licenses](../license/managing-licenses.md).
 {% endhint %}
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: Kalium -> Settings -> White Label showing the master switch and the panels below it]
+<figure><img src="../../.gitbook/assets/white-label.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 

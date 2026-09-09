@@ -2,7 +2,7 @@
 description: Where to start when something isn't working.
 ---
 
-# Troubleshooting
+# Where to Start
 
 Most problems with a WordPress site come from a small number of causes, and they're the same causes over and over. Working through them in order will resolve the majority of issues before you need to contact anyone.
 
@@ -28,7 +28,7 @@ This screen tells you your PHP version, your memory limit, whether your license 
 
 Kalium needs **PHP 7.4 or newer** and **at least 128 MB of memory**. Many problems are a server below those numbers.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Kalium -> Status screen showing the system requirements checks]
+<figure><img src="../.gitbook/assets/status.jpg" alt=""><figcaption></figcaption></figure>
 
 #### 4. Turn off CSS and JavaScript optimization
 

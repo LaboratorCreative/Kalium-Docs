@@ -8,25 +8,25 @@ description: >-
 
 Kalium has two places where you change things, and knowing which is which saves a lot of hunting.
 
-**The Customizer**, **Appearance -> Customize**, decides how your site *looks*. Colors, fonts, header layout, the shop grid.
+**The Customizer**, **Appearance -> Customize**, decides how your site _looks_. Colors, fonts, header layout, the shop grid.
 
-**Theme Settings**, **Kalium -> Settings**, decides which features *exist*. Whether Template Parts is available at all, whether the portfolio module is loaded, whether backups are taken before updates.
+**Theme Settings**, **Kalium -> Settings**, decides which features _exist_. Whether Template Parts is available at all, whether the portfolio module is loaded, whether backups are taken before updates.
 
 Put simply: the Customizer styles a feature, Theme Settings decides whether there is a feature to style.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Kalium -> Settings screen showing the section navigation down the side]
+<figure><img src="../../.gitbook/assets/theme-settings.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 
 ### The five sections
 
-| Section | What it controls |
-| --- | --- |
+| Section            | What it controls                                                                        |
+| ------------------ | --------------------------------------------------------------------------------------- |
 | **Template Parts** | Whether the Template Parts system is available, and how Snippets are stored and guarded |
-| **Portfolio** | The portfolio module, and which post types can use it |
-| **Typography** | How fonts load, and the font defaults |
-| **Theme Backups** | Automatic backups taken before theme updates |
-| **White Label** | Replacing Kalium's branding with your own |
+| **Portfolio**      | The portfolio module, and which post types can use it                                   |
+| **Typography**     | How fonts load, and the font defaults                                                   |
+| **Theme Backups**  | Automatic backups taken before theme updates                                            |
+| **White Label**    | Replacing Kalium's branding with your own                                               |
 
 {% content-ref url="template-parts.md" %}
 [template-parts.md](template-parts.md)

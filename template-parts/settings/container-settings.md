@@ -22,7 +22,7 @@ The section stretches the full width of the browser window. This is how you buil
 The reverse also happens: a section that looks like it is escaping the page layout usually needs this turned back on.
 {% endhint %}
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the same section shown twice side by side, once with Wrap with Container on and once off, so the difference in width is obvious]
+<div><figure><img src="../../.gitbook/assets/container-1.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/container-2.jpg" alt=""><figcaption></figcaption></figure></div>
 
 ***
 

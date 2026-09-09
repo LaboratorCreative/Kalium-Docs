@@ -23,9 +23,9 @@ A grid of projects with the same layout, column and filtering choices as a portf
 A listing of posts, with control over how many appear, which categories they come from, and how they're laid out.
 
 **Content Section**\
-Places a Kalium Template Part of type *Section* into the page. Appears only while Template Parts is enabled.
+Places a Kalium Template Part of type _Section_ into the page. Appears only while Template Parts is enabled.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the block inserter with the Kalium category expanded, showing the three blocks]
+<figure><img src="../../.gitbook/assets/gutenberg-blocks.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 

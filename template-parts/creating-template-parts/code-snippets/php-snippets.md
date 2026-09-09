@@ -1,6 +1,5 @@
 ---
-description: >-
-  Change how your site behaves, the safe replacement for editing functions.php.
+description: Change how your site behaves, the safe replacement for editing functions.php.
 ---
 
 # PHP Snippets
@@ -28,7 +27,7 @@ Most code you'll be given belongs here. **If you're unsure, leave Placement empt
 
 #### With a Placement: for code that outputs something
 
-Give the snippet a placement and the code runs at that exact spot on the page, each time it's reached. Use it when the snippet needs to *print* something in a particular place, a notice above the checkout button, a line of text after every blog post.
+Give the snippet a placement and the code runs at that exact spot on the page, each time it's reached. Use it when the snippet needs to _print_ something in a particular place, a notice above the checkout button, a line of text after every blog post.
 
 {% content-ref url="../../settings/placement.md" %}
 [placement.md](../../settings/placement.md)
@@ -53,7 +52,7 @@ The snippet runs in the WordPress admin only. Use this for code that adds a colu
 **Everywhere**\
 The snippet runs in both.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Snippet Settings panel showing Execution Scope with its three options]
+
 
 {% hint style="info" %}
 Requests that are neither a normal page view nor the admin (REST API calls, scheduled tasks, anything run from the command line) count as **Frontend**.
@@ -70,8 +69,6 @@ However many placements fire on a page, the code runs at most once. Use this whe
 
 **Once, then disable**\
 The code runs a single time and the snippet switches itself to Disabled. This is for one-off jobs, a bulk update to some posts, a one-time cleanup. Enable it again to run it once more.
-
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Run Once setting expanded showing Run Once Mode]
 
 ***
 
@@ -131,7 +128,7 @@ If you later want the old text back, set the snippet to **Disabled** in the list
 ### Common questions
 
 **My snippet does nothing.**\
-Check it's Published and not showing **Error**. Then check **Execution Scope**, a *Frontend* snippet never runs in the admin, and an *Admin* one never runs on your site.
+Check it's Published and not showing **Error**. Then check **Execution Scope**, a _Frontend_ snippet never runs in the admin, and an _Admin_ one never runs on your site.
 
 **It runs twice.**\
 Two placements are firing on the same page. Turn on **Run Once**.

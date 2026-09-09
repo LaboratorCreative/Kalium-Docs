@@ -10,7 +10,7 @@ The Customizer sets how your whole site looks. **Parameters and Options** is whe
 
 **Where to find it:** edit any post, page, portfolio item or product, then scroll **below** the content editor to the box titled **Parameters and Options**.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Parameters and Options panel below the editor on a page, with its tabs visible down the side]
+<figure><img src="../.gitbook/assets/parameters-options.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -20,10 +20,10 @@ Three things about this panel confuse people, and all three are by design.
 
 **Tabs appear and disappear.** A tab only shows when it applies, the right post type, the right post format, the right project layout. This is why the panel looks completely different on a blog post than on a portfolio item, and why changing one dropdown can make new tabs appear.
 
-**"Use from Theme Options" means the Customizer decides.** Almost every dropdown starts there (sometimes worded *Inherit from Theme Options*). Choose anything else and this one item overrides the site-wide setting. To go back, set it to *Use from Theme Options* again.
+**"Use from Theme Options" means the Customizer decides.** Almost every dropdown starts there (sometimes worded _Inherit from Theme Options_). Choose anything else and this one item overrides the site-wide setting. To go back, set it to _Use from Theme Options_ again.
 
 {% hint style="info" %}
-For dropdowns, clearing a field is **not** the same as choosing *Use from Theme Options*. For color and spacing fields, though, an empty value does mean "inherit", so you can override one color and leave the rest alone.
+For dropdowns, clearing a field is **not** the same as choosing _Use from Theme Options_. For color and spacing fields, though, an empty value does mean "inherit", so you can override one color and leave the rest alone.
 {% endhint %}
 
 **Your last tab is remembered.** Reopen the same item and the panel returns to where you left it.
@@ -32,18 +32,18 @@ For dropdowns, clearing a field is **not** the same as choosing *Use from Theme 
 
 ### Which tabs appear where
 
-| Tab | Post | Page | Portfolio item | Product |
-| --- | :---: | :---: | :---: | :---: |
-| **Page Options** | Yes | Yes | Yes | Yes |
-| **Custom CSS** | Yes | Yes | Yes | Yes |
-| **Post Settings** | Yes | | | |
-| **Video / Audio / Gallery settings** | by format | | | |
-| **Portfolio Settings** | | template only | | |
-| **Project Layout** | | | Yes | |
-| **General Details** | | | Yes | |
-| **Featured Video** | | | Yes | |
-| **Other Settings** | | | Yes | |
-| **Project Link, Checklists, Project Gallery** | | | by layout | |
+| Tab                                           |    Post   |      Page     | Portfolio item | Product |
+| --------------------------------------------- | :-------: | :-----------: | :------------: | :-----: |
+| **Page Options**                              |    Yes    |      Yes      |       Yes      |   Yes   |
+| **Custom CSS**                                |    Yes    |      Yes      |       Yes      |   Yes   |
+| **Post Settings**                             |    Yes    |               |                |         |
+| **Video / Audio / Gallery settings**          | by format |               |                |         |
+| **Portfolio Settings**                        |           | template only |                |         |
+| **Project Layout**                            |           |               |       Yes      |         |
+| **General Details**                           |           |               |       Yes      |         |
+| **Featured Video**                            |           |               |       Yes      |         |
+| **Other Settings**                            |           |               |       Yes      |         |
+| **Project Link, Checklists, Project Gallery** |           |               |    by layout   |         |
 
 {% hint style="warning" %}
 **Portfolio Settings catches everyone out.** It appears on a **page**, one using the Portfolio page template, not on a portfolio item. It configures the listing, not an individual project.
@@ -58,16 +58,16 @@ Available on everything. These settings are about the **frame** around your cont
 ### Header Options
 
 **Header Position**\
-*Use from Theme Options* · *Content Below (Static)* · *Over the Content (Absolute)*. Choosing *Over the Content* makes the header transparent and sits it on top of the page, which is what you want when a page opens with a full-width image.
+_&#x55;se from Theme Options_ · _Content Below (Static)_ · _Over the Content (Absolute)_. Choosing _Over the Content_ makes the header transparent and sits it on top of the page, which is what you want when a page opens with a full-width image.
 
 **Header Spacing**\
-Only appears when the position is *Over the Content*. Sets how much room to leave so your content isn't hidden behind the header.
+Only appears when the position is _Over the Content_. Sets how much room to leave so your content isn't hidden behind the header.
 
 **Full-width Header**\
 Extends the header to the edges of the browser window on this page.
 
 **Header Styling**\
-Set this to *Yes* and a complete set of color overrides appears for this page alone, background, borders, padding, text, submenu colors, mobile menu colors, and separate normal / hover / active colors for links and menu pills.
+Set this to _Yes_ and a complete set of color overrides appears for this page alone, background, borders, padding, text, submenu colors, mobile menu colors, and separate normal / hover / active colors for links and menu pills.
 
 **Empty values are ignored**, so you can override a single color and leave everything else as it is.
 
@@ -83,10 +83,10 @@ Controls the title area at the top of the page.
 On or off. The rest of the tab only appears when it's on.
 
 **Page Title Type**\
-*Show this post title* or *Enter custom title*, useful when the page's real title is long and you want something shorter on screen.
+_&#x53;how this post title_ or _Enter custom title_, useful when the page's real title is long and you want something shorter on screen.
 
 **Page Heading Description Type**\
-*Use this post description* or *Enter custom description*.
+_&#x55;se this post description_ or _Enter custom description_.
 
 ### Logo & Menu
 
@@ -94,26 +94,26 @@ On or off. The rest of the tab only appears when it's on.
 A different logo on this page. The width is the maximum in pixels, which matters if you upload a retina (@2x) image.
 
 **Sticky Header**\
-*Use from Theme Options* · *Enable* · *Disable*. This is how you turn the sticky header off on one page.
+_&#x55;se from Theme Options_ · _Enable_ · _Disable_. This is how you turn the sticky header off on one page.
 
 **Custom Sticky Logo**\
 A different logo for when the header is stuck to the top.
 
 **Sticky Header Style**\
-Appears when sticky is set to *Enable*, a full set of color and spacing overrides for the sticky state on this page.
+Appears when sticky is set to _Enable_, a full set of color and spacing overrides for the sticky state on this page.
 
 ### Footer Options
 
 **Footer Visibility**\
-*Use from Theme Options* · *Show footer on this page* · *Hide footer on this page*. This is how you hide the footer on a landing page.
+_&#x55;se from Theme Options_ · _Show footer on this page_ · _Hide footer on this page_. This is how you hide the footer on a landing page.
 
 **Fixed Footer**\
-*Use from Theme Options* · *Normal* · three *Fixed to Bottom* variants with different animations.
+_&#x55;se from Theme Options_ · _Normal_ · three _Fixed to Bottom_ variants with different animations.
 
 ### Other Options
 
 **Custom Container Width**\
-Turn this on to set a different content width for this page. It reveals **Container Width** (*Large*, *Medium*, *Small* or *Custom*) and a slider when you pick *Custom*.
+Turn this on to set a different content width for this page. It reveals **Container Width** (_Large_, _Medium_, _Small_ or _Custom_) and a slider when you pick _Custom_.
 
 **Fullwidth container**\
 Overrides the width entirely and runs the content edge to edge.
@@ -121,7 +121,7 @@ Overrides the width entirely and runs the content edge to edge.
 ### Breadcrumb
 
 **Breadcrumb**\
-*Inherit from Theme Options* · *Enable* · *Disable*. Everything below appears only when set to *Enable*.
+_&#x49;nherit from Theme Options_ · _Enable_ · _Disable_. Everything below appears only when set to _Enable_.
 
 The rest (background and text color, border type and color, radius, margins and alignment) overrides the site-wide breadcrumb styling for this page. Leave a color empty to inherit it.
 
@@ -149,13 +149,13 @@ Good for a one-off tweak on a single page. For anything you'll reuse, a CSS snip
 On blog posts only.
 
 **Featured Image Placing**\
-*Use from Theme Options* · *Boxed* · *Wide* · *Full Width* · *Hide Featured Image*. This is how one post gets a full-width header image when the rest are boxed.
+_&#x55;se from Theme Options_ · _Boxed_ · _Wide_ · _Full Width_ · _Hide Featured Image_. This is how one post gets a full-width header image when the rest are boxed.
 
 **Image Size**\
-*Use from Theme Options* · *Default Thumbnail Size* · *Original Image Size*. Hidden when the image is set to be hidden.
+_&#x55;se from Theme Options_ · _Default Thumbnail Size_ · _Original Image Size_. Hidden when the image is set to be hidden.
 
 **Show Related Posts**\
-*Inherit from Theme Options* · Show · Hide.
+_&#x49;nherit from Theme Options_ · Show · Hide.
 
 {% hint style="info" %}
 The Show Related Posts options read "Products" on screen. On a blog post they control related **posts**. It's a wording slip in the theme, not a sign you're on the wrong setting.
@@ -165,11 +165,11 @@ The Show Related Posts options read "Products" on screen. On a blog post they co
 
 Set the post **Format** first, and a matching tab appears:
 
-| Format | Tab | What's in it |
-| --- | --- | --- |
-| Video | **Video Post Settings** | Video Resolution, Auto Play Video |
-| Audio | **Audio Post Settings** | Auto Play Audio |
-| Gallery | **Post Slider Images** | The gallery images |
+| Format  | Tab                     | What's in it                      |
+| ------- | ----------------------- | --------------------------------- |
+| Video   | **Video Post Settings** | Video Resolution, Auto Play Video |
+| Audio   | **Audio Post Settings** | Auto Play Audio                   |
+| Gallery | **Post Slider Images**  | The gallery images                |
 
 ***
 
@@ -177,7 +177,7 @@ Set the post **Format** first, and a matching tab appears:
 
 Portfolio items have the most settings, because the project layouts differ so much from one another.
 
-**Project Layout -> Item Type** is the first choice, and it decides what else you see: *Side Portfolio*, *Columned*, *Carousel*, *Zig Zag*, *Fullscreen*, *Lightbox* or *Design Your Own*.
+**Project Layout -> Item Type** is the first choice, and it decides what else you see: _Side Portfolio_, _Columned_, _Carousel_, _Zig Zag_, _Fullscreen_, _Lightbox_ or _Design Your Own_.
 
 {% hint style="warning" %}
 **Change the Item Type, then click Update.** The tabs for the new type won't appear until you save.
@@ -242,4 +242,4 @@ They're on the **page** that uses the Portfolio template.
 Set the post **Format** first.
 
 **The Breadcrumb fields are grayed out.**\
-Breadcrumb NavXT isn't installed, or Breadcrumb isn't set to *Enable*.
+Breadcrumb NavXT isn't installed, or Breadcrumb isn't set to _Enable_.

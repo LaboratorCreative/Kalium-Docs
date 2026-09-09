@@ -33,7 +33,7 @@ Nothing is shared with the Portfolio post type. Each one keeps its own settings,
 
 Its Customizer screens appear right away.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: Kalium -> Settings -> Portfolio showing the Portfolio Post Types checklist with a custom post type ticked]
+<figure><img src="../../.gitbook/assets/portfolio-post-types.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Only public post types appear in the list.** If you can't see the one you want, it was registered as private, either by the plugin that created it, or in the code that added it.

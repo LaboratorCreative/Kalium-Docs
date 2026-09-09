@@ -12,7 +12,7 @@ Everything here is under **Appearance -> Customize -> Search Results**.
 
 {% embed url="https://www.youtube.com/watch?v=nsIimGdgu3E" %}
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: Appearance -> Customize -> Search Results showing the two main settings]
+<figure><img src="../.gitbook/assets/search-results.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -67,7 +67,7 @@ Changing the image size doesn't resize pictures you've already uploaded. **Regen
 
 The shape each image is cropped to. **This setting is per device.**
 
-*Original* keeps each image's own shape. Choosing a ratio (*Square*, *Wide*, *Portrait* and so on) crops everything to match, which makes the results list look tidier since every row is the same height.
+_Original_ keeps each image's own shape. Choosing a ratio (_Square_, _Wide_, _Portrait_ and so on) crops everything to match, which makes the results list look tidier since every row is the same height.
 
 Choose **Custom** to enter your own ratio.
 
@@ -85,7 +85,7 @@ Rounds the corners of each image. Set all four corners together, or unlink them 
 
 ### Designing the whole results page
 
-The settings above control the standard results list. If you want to design the search results page yourself (your own layout, your own message when nothing is found) create a **Template Part** of type *Page* with a display condition of *General Page -> Search Page*.
+The settings above control the standard results list. If you want to design the search results page yourself (your own layout, your own message when nothing is found) create a **Template Part** of type _Page_ with a display condition of _General Page -> Search Page_.
 
 {% content-ref url="../template-parts/creating-template-parts/replace-a-page.md" %}
 [replace-a-page.md](../template-parts/creating-template-parts/replace-a-page.md)

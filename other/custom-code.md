@@ -22,15 +22,15 @@ Everything below is a way of adding code that survives updates.
 
 ### Where to put what
 
-| What you have | Where it goes |
-| --- | --- |
-| A few lines of CSS | **Appearance -> Customize -> Additional CSS** |
-| CSS for one page only | **Parameters and Options -> Custom CSS** on that page |
-| More CSS, or CSS that should only load on some pages | A **CSS Snippet** |
-| PHP, the "add this to functions.php" kind | A **PHP Snippet** |
-| JavaScript | A **JavaScript Snippet** |
-| A tracking or verification tag from another service | **Customize -> General -> Custom JavaScript** |
-| Template file changes, or a large amount of code | A **child theme** |
+| What you have                                        | Where it goes                                         |
+| ---------------------------------------------------- | ----------------------------------------------------- |
+| A few lines of CSS                                   | **Appearance -> Customize -> Additional CSS**         |
+| CSS for one page only                                | **Parameters and Options -> Custom CSS** on that page |
+| More CSS, or CSS that should only load on some pages | A **CSS Snippet**                                     |
+| PHP, the "add this to functions.php" kind            | A **PHP Snippet**                                     |
+| JavaScript                                           | A **JavaScript Snippet**                              |
+| A tracking or verification tag from another service  | **Customize -> General -> Custom JavaScript**         |
+| Template file changes, or a large amount of code     | A **child theme**                                     |
 
 ***
 
@@ -90,7 +90,7 @@ Goes just before the end of the page. Better for anything that doesn't need to r
 
 Both accept JavaScript and HTML, so you can paste a complete `<script>` tag exactly as the service gives it to you.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: Appearance -> Customize -> General -> Custom JavaScript showing both boxes]
+<figure><img src="../.gitbook/assets/custom-js.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Use the footer box unless the service tells you otherwise.** Scripts in the head delay your page from appearing; scripts in the footer don't.

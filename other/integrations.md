@@ -1,13 +1,12 @@
 ---
-description: >-
-  Third-party keys and services Kalium connects to, starting with Google Maps.
+description: Third-party keys and services Kalium connects to, starting with Google Maps.
 ---
 
 # Integrations
 
 **Appearance -> Customize -> General -> Integrations** is where Kalium stores keys for outside services.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: Appearance -> Customize -> General -> Integrations showing the Google Maps API Key field]
+<figure><img src="../.gitbook/assets/integrations.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -53,13 +52,13 @@ The exact reason is usually printed on the gray box itself, or in your browser's
 
 Not everything Kalium works with lives on this screen, most integrations need no key at all and simply activate when their plugin does:
 
-| Plugin | What Kalium adds |
-| --- | --- |
-| **WooCommerce** | The entire shop option group, header cart elements, product cards |
-| **WPML** | The Language Switcher element, and translation of builder content |
-| **Breadcrumb NavXT** | Breadcrumbs, with Kalium's styling |
-| **Elementor** and **WPBakery** | Kalium's own widgets and elements |
-| **ACF Pro** | The Parameters and Options panel |
+| Plugin                         | What Kalium adds                                                  |
+| ------------------------------ | ----------------------------------------------------------------- |
+| **WooCommerce**                | The entire shop option group, header cart elements, product cards |
+| **WPML**                       | The Language Switcher element, and translation of builder content |
+| **Breadcrumb NavXT**           | Breadcrumbs, with Kalium's styling                                |
+| **Elementor** and **WPBakery** | Kalium's own widgets and elements                                 |
+| **ACF Pro**                    | The Parameters and Options panel                                  |
 
 If a setting looks like it's doing nothing, an inactive plugin is a common cause, the setting stays visible either way.
 

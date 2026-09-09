@@ -22,17 +22,17 @@ In your WordPress dashboard, go to **Kalium -> Template Parts**.
 
 Switch to the **Headers** tab at the top, then click **Add New** in the top-left corner.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Template Parts screen with the Headers tab selected and the Add New button visible]
+<figure><img src="../../.gitbook/assets/header.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 
 ### 2. Name it and build the header
 
-Give it a name that says where it will be used, such as **Landing Page Header**.
+Give it a name that says where it will be used, such as **Pricing Page Header**.
 
 Now build the header in the editor. You can use the block editor, Elementor or WPBakery, whatever you normally build with. A header is ordinary content, so anything you can lay out on a page you can lay out here: a logo image, a menu block, a button, a row of contact details.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the editor with a simple custom header built, showing the title field filled in]
+<figure><img src="../../.gitbook/assets/header-1.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Building a header from scratch is not the only option. If your custom header only needs different **elements** (a search icon, a cart, a second menu) the drag-and-drop builder under **Appearance -> Customize -> Header -> Custom Header** may be a faster route. See [Custom Header](../../general/header/custom-header/).
@@ -64,12 +64,12 @@ This is the important step. **Display Conditions decide which pages get this hea
 
 Click **Add Condition** and choose where it applies. Some common setups:
 
-* **A single page**: *Singular Content* -> *Single Page* -> choose the page
-* **The front page only**: *General Page* -> *Front Page*
-* **Every product**: *WooCommerce* -> *Product Page*
-* **Everything except the front page**: *General Page* -> *Entire Site*, then a second row set to *Is not* -> *Front Page*, joined with **AND**
+* **A single page**: _Singular Content_ -> _Single Page_ -> choose the page
+* **The front page only**: _General Page_ -> _Front Page_
+* **Every product**: _WooCommerce_ -> _Product Page_
+* **Everything except the front page**: _General Page_ -> _Entire Site_, then a second row set to _Is not_ -> _Front Page_, joined with **AND**
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Display Conditions panel with a Single Page condition added]
+<figure><img src="../../.gitbook/assets/header-2.jpg" alt=""><figcaption></figcaption></figure>
 
 {% content-ref url="../settings/display-conditions.md" %}
 [display-conditions.md](../settings/display-conditions.md)
@@ -104,7 +104,7 @@ The header sits on top of the page content instead of above it, the transparent 
 **Content Spacing**\
 How much room to leave at the top of the content so it is not hidden behind the header. You can set this in PX, REM, EM, VW or VH.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Header Settings panel with Sticky Header expanded]
+<figure><img src="../../.gitbook/assets/header-3.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 

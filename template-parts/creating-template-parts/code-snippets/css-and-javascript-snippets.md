@@ -18,7 +18,7 @@ This is the opposite of PHP, where an empty placement is normal and usually corr
 
 Kalium handles this for you: **a new CSS or JavaScript snippet is given the Enqueue Scripts placement automatically**. Leave it alone and everything works. But if you clear the placement, or you're editing an older snippet, this is the first thing to check when nothing happens.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Placement panel on a new CSS snippet showing Enqueue Scripts already filled in]
+<figure><img src="../../../.gitbook/assets/custom-css.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Enqueue Scripts** is in the **Head** group of the location selector. It's the standard spot where WordPress loads styles and scripts, and it is almost always the right one.
@@ -57,14 +57,14 @@ Loads your styles from their own file rather than printing them into the page. T
 **Media**\
 Limits the styles to a particular context, using the same values as a stylesheet's media attribute. Leave it empty to apply everywhere. Useful values:
 
-| Value | Applies to |
-| --- | --- |
-| `print` | Only when the page is printed |
-| `(max-width: 768px)` | Only on screens narrower than 768px |
-| `(min-width: 1200px)` | Only on wide screens |
-| `screen` | Screens but not print |
+| Value                 | Applies to                          |
+| --------------------- | ----------------------------------- |
+| `print`               | Only when the page is printed       |
+| `(max-width: 768px)`  | Only on screens narrower than 768px |
+| `(min-width: 1200px)` | Only on wide screens                |
+| `screen`              | Screens but not print               |
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Snippet Settings panel for a CSS snippet, showing Enqueue as File and Media]
+<figure><img src="../../../.gitbook/assets/custom-css-1.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -83,12 +83,12 @@ How the browser should handle the script:
 * **Async**: the script loads alongside the page and runs as soon as it's ready. Order is not guaranteed.
 * **Defer**: the script loads alongside the page and runs after it's built. **This is the safest default** for most scripts.
 
-Turning on **ES Module** switches *Blocking* to *Defer* automatically, because a module cannot block.
+Turning on **ES Module** switches _Blocking_ to _Defer_ automatically, because a module cannot block.
 
 **Dependencies**\
 Script handles that must load before yours, separated by commas. The one you'll actually use is `jquery`, if your code starts with `jQuery(` or `$(`, put `jquery` here.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Snippet Settings panel for a JavaScript snippet, showing Enqueue as File, ES Module, Loading and Dependencies]
+<figure><img src="../../../.gitbook/assets/js-snippet.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -98,8 +98,8 @@ The real advantage of a snippet over Additional CSS is that it doesn't have to l
 
 Say you have a long stylesheet that only applies to your shop. Add **Execute Conditions**:
 
-* *WooCommerce* -> *Shop Archive*, joined with **OR**
-* *WooCommerce* -> *Product Page*
+* _WooCommerce_ -> _Shop Archive_, joined with **OR**
+* _WooCommerce_ -> _Product Page_
 
 Now those styles load on shop pages and nowhere else, every other page on your site stays that bit lighter.
 
@@ -125,7 +125,7 @@ Hiding the page title on a specific page:
 ```
 
 5. Leave **Placement** as **Enqueue Scripts**. It's already set
-6. Add an **Execute Condition**: *Singular Content* -> *Single Page* -> Contact
+6. Add an **Execute Condition**: _Singular Content_ -> _Single Page_ -> Contact
 7. **Publish**
 
 The title is hidden on that page and nowhere else.

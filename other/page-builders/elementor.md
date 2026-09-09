@@ -21,9 +21,9 @@ A grid of projects with the same layout, column and filtering choices as a portf
 A listing of posts, with control over how many appear, which categories they come from, and how they're laid out.
 
 **Content Section**\
-Places a Kalium Template Part of type *Section* into the page. Only appears while Template Parts is enabled.
+Places a Kalium Template Part of type _Section_ into the page. Only appears while Template Parts is enabled.
 
-[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Elementor widget panel with the Kalium widgets visible]
+<figure><img src="../../.gitbook/assets/elementor-elements.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -87,7 +87,7 @@ Check the font is saved under **Kalium -> Typography** and reload the editor.
 Usually caching. Clear your caching plugin and reload.
 
 **I can't edit a portfolio archive with Elementor.**\
-Archives aren't normal pages, so a builder can't open them directly. Use a Template Part of type *Page* instead.
+Archives aren't normal pages, so a builder can't open them directly. Use a Template Part of type _Page_ instead.
 
 {% content-ref url="../../template-parts/creating-template-parts/replace-a-page.md" %}
 [replace-a-page.md](../../template-parts/creating-template-parts/replace-a-page.md)
