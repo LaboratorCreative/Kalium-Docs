@@ -129,9 +129,9 @@ When adding more than one condition, you'll see a toggle at the top of the condi
 These are called **logical operators**, and they control how the conditions work together:
 
 * **AND** – All conditions must match for the Template Part to appear\
-  &#xNAN;_&#x45;xample: Show only on the Cart page **AND** only for logged-in users_
+  _&#x45;xample: Show only on the Cart page **AND** only for logged-in users_
 * **OR** – The Template Part appears if **any** of the conditions match\
-  &#xNAN;_&#x45;xample: Show on the Front Page **OR** the Blog page_
+  _&#x45;xample: Show on the Front Page **OR** the Blog page_
 
 You can switch between these modes at any time to change how your display rules are applied.
 

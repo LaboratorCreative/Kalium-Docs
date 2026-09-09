@@ -80,9 +80,9 @@
 
 ## Template Parts
 
-* [What are Template Parts?](template-parts/introduction/README.md)
-* [Creating Template Parts](template-parts/creating-template-parts.md)
-  * [Creating a Section](template-parts/creating-template-parts/creating-a-section.md)
+* [What are Template Parts?](template-parts/what-are-template-parts.md)
+* [Creating Template Parts](template-parts/creating-template-parts/README.md)
+  * [Creating a Section](template-parts/creating-template-parts/creating-a-section/README.md)
     * [Creating a Section with Elementor](template-parts/creating-template-parts/creating-a-section/creating-a-section-with-elementor.md)
     * [Creating a Section with WPBakery](template-parts/creating-template-parts/creating-a-section/creating-a-section-with-wpbakery.md)
   * [Creating a Header](template-parts/creating-template-parts/creating-a-header.md)

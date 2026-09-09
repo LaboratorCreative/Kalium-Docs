@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Site Frame
 
 Site frame is an optional feature that can be added to your site where it adds a border around your entire site. It is usually used by creative sites which want to have an unique experience of showcasing their services / products.
