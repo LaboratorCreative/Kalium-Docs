@@ -65,7 +65,7 @@ Some that come up often:
 **To find the right selector**, right-click the text on your site and choose **Inspect**. Your browser shows the element's classes, and you can use one of those.
 
 {% hint style="warning" %}
-A selector that's too broad can catch more than you intended — `div` or `span` will apply your font almost everywhere. Start specific and widen only if you need to.
+A selector that's too broad can catch more than you intended, `div` or `span` will apply your font almost everywhere. Start specific and widen only if you need to.
 {% endhint %}
 
 ***
@@ -74,9 +74,11 @@ A selector that's too broad can catch more than you intended — `div` or `span`
 
 There are two ways to say where a font goes, and they're easy to confuse.
 
-**Custom Selectors** — on the font itself. Best for broad, structural choices: all headings, all body text, all quotes.
+**Custom Selectors**\
+On the font itself. Best for broad, structural choices: all headings, all body text, all quotes.
 
-**Font Appearance** — a separate screen listing **66 named places** in the theme, grouped by area: individual heading levels, the header menu, the mini cart, the footer, the product page, buttons. Best when you want to change one specific thing without writing a selector.
+**Font Appearance**\
+A separate screen listing **66 named places** in the theme, grouped by area: individual heading levels, the header menu, the mini cart, the footer, the product page, buttons. Best when you want to change one specific thing without writing a selector.
 
 If you're trying to change the font on the mobile menu or the product title, Font Appearance almost certainly has it listed by name.
 
@@ -106,7 +108,7 @@ That's useful when you want a font to carry its own size wherever it's used. It'
 Check it has at least one selector, that its status is Active, and clear your caches.
 
 **Two fonts are fighting.**\
-Reorder them in the list — the later one wins.
+Reorder them in the list, the later one wins.
 
 **The size is ignored.**\
 Something more specific is winning: a Font Appearance element, another font's custom selector, or a page builder's own typography settings on that element.

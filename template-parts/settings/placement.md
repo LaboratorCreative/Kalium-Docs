@@ -2,7 +2,7 @@
 
 **Display Conditions decide _which pages_ a Template Part applies to. Placement decides _where on those pages_ it goes.** You normally set both.
 
-Placement is available for **Sections** and **Snippets** only. The other types already know where they belong — a Header replaces the header, a Page replaces the page — so they have no Placement setting at all.
+Placement is available for **Sections** and **Snippets** only. The other types already know where they belong (a Header replaces the header, a Page replaces the page) so they have no Placement setting at all.
 
 <figure><img src="../../.gitbook/assets/placement.jpg" alt="" width="278"><figcaption></figcaption></figure>
 
@@ -14,6 +14,8 @@ Click **Open hook location selector** to browse the available spots. There are *
 
 Locations are named for where they sit, and the names follow a pattern once you've seen a few: **Header After** is just below the header, **Loop Card Before** is above each card in a listing, **Post Content Before** is above the text of a single post.
 
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the hook location selector open, showing the groups down the left and locations on the right]
+
 | Group | Where it covers |
 | --- | --- |
 | **Head** | The document head, and the point where styles and scripts are queued |
@@ -24,9 +26,9 @@ Locations are named for where they sit, and the names follow a pattern once you'
 | **Loop** | Around a listing, and around each card inside one |
 | **Sidebar** | Before and after the widget column |
 | **Blog - Archive** | The blog listing and the parts of each card |
-| **Blog - Single** | A single post — its featured image, header, content and footer |
+| **Blog - Single** | A single post, its featured image, header, content and footer |
 | **Portfolio - General** | Portfolio listings and the lightbox |
-| **Portfolio - Single** | A single project — its content and gallery |
+| **Portfolio - Single** | A single project, its content and gallery |
 | **Comments** | Around the comment area |
 | **Search Page** | The search results page |
 | **WooCommerce - General** | Shop-wide spots |
@@ -38,8 +40,9 @@ Locations are named for where they sit, and the names follow a pattern once you'
 | **Other** | Everything that does not fit the groups above |
 
 {% hint style="info" %}
-Not sure which location is which? Kalium can show you. Open any page on your site while logged in and use the **hook viewer** to see the locations highlighted in place on the real page — far quicker than trial and error.
+Not sure which location is which? Kalium can show you. Open any page on your site while logged in and use the **hook viewer** to see the locations highlighted in place on the real page, far quicker than trial and error.
 
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the hook viewer overlay on a live page, showing hook locations marked in position]
 {% endhint %}
 
 ***
@@ -56,7 +59,7 @@ Most of the time you can leave this alone.
 
 ### More than one placement
 
-You can add several placements to a single Template Part, and it will appear at each one. This is useful for something like a promotional bar that belongs both after the header and above the checkout button — one part, two placements, edited in one place.
+You can add several placements to a single Template Part, and it will appear at each one. This is useful for something like a promotional bar that belongs both after the header and above the checkout button, one part, two placements, edited in one place.
 
 ***
 
@@ -73,7 +76,7 @@ This is the one part of Placement that assumes some technical knowledge. If you'
 For a Snippet, Placement answers *when the code runs* rather than where content appears. The rules are different enough to be worth stating plainly:
 
 * **CSS and JavaScript snippets need a placement.** Without one they do not run at all. New CSS and JavaScript snippets are given **Enqueue Scripts** automatically, which is almost always the right answer.
-* **PHP snippets usually should not have one.** Left with no placement, a PHP snippet runs as the theme loads — early enough to add hooks, filters and shortcodes. Give it a placement only when the code needs to output something at a specific spot on the page.
+* **PHP snippets usually should not have one.** Left with no placement, a PHP snippet runs as the theme loads, early enough to add hooks, filters and shortcodes. Give it a placement only when the code needs to output something at a specific spot on the page.
 
 {% content-ref url="../creating-template-parts/code-snippets/" %}
 [code-snippets](../creating-template-parts/code-snippets/)
@@ -83,7 +86,7 @@ For a Snippet, Placement answers *when the code runs* rather than where content 
 
 ### When a Section appears in the wrong place
 
-**It's at the top or bottom of the page instead of where you chose.** Check the location group matches the page type — a **Blog - Single** location does nothing on a product page.
+**It's at the top or bottom of the page instead of where you chose.** Check the location group matches the page type, a **Blog - Single** location does nothing on a product page.
 
 **It shows above something it should be below.** Raise the Priority number.
 

@@ -24,7 +24,7 @@ The builder here works exactly as it does for the header, so if you've built a c
 
 Click **Add** in **Main Content** or **Footer Content** and pick from the list.
 
-**Main Content** is the body of the menu — your navigation, a search field, anything visitors need first. **Footer Content** sits at the bottom of the panel, which is where social icons, a phone number or a language switcher belong.
+**Main Content** is the body of the menu, your navigation, a search field, anything visitors need first. **Footer Content** sits at the bottom of the panel, which is where social icons, a phone number or a language switcher belong.
 
 #### 2. Reorder by dragging
 
@@ -69,7 +69,7 @@ The **Slide Menu** provides a standard mobile menu animation, while the **Full S
 This option applies only to the **Slide Menu** type. Choose **Slide Right** or **Slide Left** to set the side the menu slides in from.
 
 **Close Button**\
-Adds a close (:x:) button to the menu, and sets where it sits: **None**, **Left** or **Right**. **None** is the default — visitors close the menu by tapping the overlay or the hamburger icon again.
+Adds a close (:x:) button to the menu, and sets where it sits: **None**, **Left** or **Right**. **None** is the default, visitors close the menu by tapping the overlay or the hamburger icon again.
 
 Adding one is worth it on a full-screen menu, where there's no visible overlay to tap.
 
@@ -90,7 +90,7 @@ Like other header parts, the mobile menu also supports custom styling, offering 
 The overlay color that covers the screen when the mobile menu is active.
 
 **Overlay Blur**\
-Blurs the page behind the overlay. A small amount separates the menu from the page underneath and makes the text easier to read — particularly useful when your overlay color is semi-transparent.
+Blurs the page behind the overlay. A small amount separates the menu from the page underneath and makes the text easier to read, particularly useful when your overlay color is semi-transparent.
 
 **Content Background**\
 Applicable only to the Slide Menu type, this option sets the background color of the menu content container.
@@ -129,7 +129,7 @@ That's **Breakpoint**.
 It only applies to the **Slide Menu** type. A full-screen menu has no direction to slide from.
 
 **The colors are wrong.**\
-Each color control has separate normal, hover and active states — changing only Normal leaves the others as they were.
+Each color control has separate normal, hover and active states, changing only Normal leaves the others as they were.
 
 **The mini cart sits below the hamburger instead of beside it.**\
 Try turning **Hamburger Icon Label** off. The label changes how the header flows on narrow screens.

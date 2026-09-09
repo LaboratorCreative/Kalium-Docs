@@ -24,7 +24,7 @@ Conditional Loading fixes that: load the font only where it's needed.
 
 #### When to leave it alone
 
-If a font is used across your whole site — your body text, your headings — leave Conditional Loading off. Restricting it just means some pages render with the wrong font until it arrives.
+If a font is used across your whole site (your body text, your headings) leave Conditional Loading off. Restricting it just means some pages render with the wrong font until it arrives.
 
 {% hint style="info" %}
 **Your font disappeared from some pages?** Check here first. A Conditional Loading rule that's narrower than you meant is the usual cause.
@@ -42,7 +42,8 @@ These settings normally come from **Kalium -> Settings -> Typography**, where th
 
 Tells the browser to start downloading the font immediately rather than waiting until it discovers the text that needs it.
 
-**Worth turning on for the font your visitors see first** — your body text, or your main heading font. Preloading everything defeats the purpose, since the browser then has several things all competing to be first.
+**Worth turning on for the font your visitors see first**\
+Your body text, or your main heading font. Preloading everything defeats the purpose, since the browser then has several things all competing to be first.
 
 #### Import Font
 
@@ -52,10 +53,10 @@ Where the font's loading instruction is placed in the page. The site-wide defaul
 
 **Active** or **Inactive**.
 
-Setting a font to Inactive stops it loading without deleting it — useful for testing whether a font is causing a problem, or keeping a font you may want back later.
+Setting a font to Inactive stops it loading without deleting it, useful for testing whether a font is causing a problem, or keeping a font you may want back later.
 
 {% hint style="info" %}
-**Turning a font off is the quickest way to test it.** If a font isn't behaving, set it Inactive and reload. If the problem goes, you've found it. Nothing is lost — set it back to Active.
+**Turning a font off is the quickest way to test it.** If a font isn't behaving, set it Inactive and reload. If the problem goes, you've found it. Nothing is lost, set it back to Active.
 {% endhint %}
 
 ***

@@ -1,6 +1,6 @@
 # Container Settings
 
-**Container Settings** is specific to **Sections**. It controls the wrapper Kalium puts around your section — how wide it is, which devices see it, and what HTML element is used.
+**Container Settings** is specific to **Sections**. It controls the wrapper Kalium puts around your section, how wide it is, which devices see it, and what HTML element is used.
 
 <figure><img src="../../.gitbook/assets/container-settings.jpg" alt="" width="278"><figcaption></figcaption></figure>
 
@@ -10,15 +10,19 @@
 
 This is the setting people come here for. It decides whether your section lines up with the rest of the page, or runs edge to edge.
 
-**On** — the section sits inside the site's content container, so its left and right edges line up with the header, the content and the footer. This is the default and it is what you want most of the time.
+**On**\
+The section sits inside the site's content container, so its left and right edges line up with the header, the content and the footer. This is the default and it is what you want most of the time.
 
-**Off** — the section stretches the full width of the browser window. This is how you build a full-width colored band, a wide image strip, or a promotional bar that spans the whole screen.
+**Off**\
+The section stretches the full width of the browser window. This is how you build a full-width colored band, a wide image strip, or a promotional bar that spans the whole screen.
 
 {% hint style="info" %}
 **"My section isn't full width."** Turn **Wrap with Container** off. This is the single most common question about sections.
 
 The reverse also happens: a section that looks like it is escaping the page layout usually needs this turned back on.
 {% endhint %}
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the same section shown twice side by side, once with Wrap with Container on and once off, so the difference in width is obvious]
 
 ***
 
@@ -48,7 +52,7 @@ You only need this if you're writing custom CSS and want a reliable way to targe
 
 The HTML element used for the wrapper. The default works for most sections.
 
-If you know why you'd want a `<section>` or an `<aside>` instead of a `<div>`, this is where you change it. If that sentence didn't mean anything to you, leave it as it is — it makes no visual difference.
+If you know why you'd want a `<section>` or an `<aside>` instead of a `<div>`, this is where you change it. If that sentence didn't mean anything to you, leave it as it is. It makes no visual difference.
 
 ***
 

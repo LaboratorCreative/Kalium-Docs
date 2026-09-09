@@ -6,6 +6,8 @@ description: Switch the Template Parts system on or off, and control how Snippet
 
 **Kalium -> Settings -> Template Parts** holds three switches. The first decides whether the whole Template Parts system exists; the other two are about Snippets.
 
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: Kalium -> Settings -> Template Parts showing all three settings]
+
 ***
 
 ### Template Parts
@@ -43,7 +45,7 @@ With this on, each snippet is saved to a file in `wp-content/uploads/kalium-snip
 * **CSS and JavaScript snippets gain the Enqueue as File option**, letting browsers cache them across page views
 * When something fails, WordPress points at the snippet file rather than blaming the theme
 
-The line underneath the setting tells you **whether the folder is writable**. If it isn't, snippets run from the database instead, whatever this switch says — everything still works, you just lose the caching benefits and the **Enqueue as File** option disappears.
+The line underneath the setting tells you **whether the folder is writable**. If it isn't, snippets run from the database instead, whatever this switch says, everything still works, you just lose the caching benefits and the **Enqueue as File** option disappears.
 
 Snippet files stay in place while a snippet is disabled or in the trash. They're removed only when a snippet is deleted permanently.
 
@@ -66,7 +68,7 @@ While it's on, a yellow notice appears on the Template Parts screens so you don'
 define( 'KALIUM_SNIPPETS_SAFE_MODE', true );
 ```
 
-Remove it once you're done — while it's there, the switch on this screen cannot turn snippets back on.
+Remove it once you're done, while it's there, the switch on this screen cannot turn snippets back on.
 {% endhint %}
 
 {% content-ref url="../../template-parts/creating-template-parts/code-snippets/troubleshooting-snippets.md" %}

@@ -1,5 +1,5 @@
 ---
-description: What to do when a snippet misbehaves — including getting back into a locked admin.
+description: What to do when a snippet misbehaves, including getting back into a locked admin.
 ---
 
 # When a Snippet Goes Wrong
@@ -12,25 +12,27 @@ Snippets are built on the assumption that code sometimes breaks. Kalium has seve
 
 ### The protection you get
 
-You don't have to do anything to get these — they're always on.
+You don't have to do anything to get these. They're always on.
 
 **A syntax error is caught when you save.** The save is refused, the error names the line, and your code stays in the editor. Nothing reaches your site.
 
-**Publishing is tested first.** Publishing a PHP snippet — or updating a published one, or enabling one from the list — loads a page of your site in the background with the code active. If it fails, the snippet stays off and you're shown the error.
+**Publishing is tested first.** Publishing a PHP snippet (or updating a published one, or enabling one from the list) loads a page of your site in the background with the code active. If it fails, the snippet stays off and you're shown the error.
 
 **A failure switches the snippet off.** If a snippet fails while your site is running, Kalium disables it there and then. The page finishes loading, the list shows an **Error** status, and a notice appears in your admin. Hover the Error for the message and line number.
 
-**Even the worst failures are handled.** For the rare kind PHP cannot recover from — running out of memory, for instance — visitors see a brief "please reload" page once, and the snippet is disabled the same way.
+**Even the worst failures are handled.** For the rare kind PHP cannot recover from (running out of memory, for instance) visitors see a brief "please reload" page once, and the snippet is disabled the same way.
 
 ***
 
 ### Snippets Safe Mode
 
-Sometimes a snippet doesn't crash the site but breaks something in a way you need to investigate — and you'd rather stop all snippets while you work out which one it is.
+Sometimes a snippet doesn't crash the site but breaks something in a way you need to investigate, and you'd rather stop all snippets while you work out which one it is.
 
 **Kalium -> Settings -> Template Parts -> Snippets Safe Mode** stops **every** snippet from running, without disabling any of them. Your snippets stay exactly as they are; they simply don't run while it's on.
 
 A yellow notice appears on the Template Parts screens to remind you.
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: Kalium -> Settings -> Template Parts showing the Snippets Safe Mode toggle, and the yellow notice it produces]
 
 Turn it on, confirm the problem goes away, then re-enable your snippets one at a time until it returns. The last one you enabled is the culprit.
 
@@ -52,7 +54,7 @@ define( 'KALIUM_SNIPPETS_SAFE_MODE', true );
 Every snippet stops running and your admin is reachable again. Fix or disable the snippet that caused it, then **remove the line** to bring your other snippets back.
 
 {% hint style="warning" %}
-While that line is in `wp-config.php`, the Safe Mode switch in **Kalium -> Settings** cannot turn snippets back on — the file wins. Remember to take the line out once you're done.
+While that line is in `wp-config.php`, the Safe Mode switch in **Kalium -> Settings** cannot turn snippets back on, the file wins. Remember to take the line out once you're done.
 {% endhint %}
 
 {% content-ref url="../../../getting-started/installation/child-theme.md" %}
@@ -69,7 +71,7 @@ It failed while running. Hover the **Error** status in the list for the message 
 
 #### Publishing is refused
 
-Read the message — it tells you which of two things happened. Either your code has a syntax error on the line named, or the safe activation check found your site doesn't load with the code active. Both point at the code.
+Read the message. It tells you which of two things happened. Either your code has a syntax error on the line named, or the safe activation check found your site doesn't load with the code active. Both point at the code.
 
 #### A PHP snippet does nothing
 
@@ -77,12 +79,12 @@ Work down this list:
 
 1. Is it **Published**, and not showing **Error**?
 2. Is **Snippets Safe Mode** off?
-3. Check **Execution Scope** — a *Frontend* snippet never runs in the admin, and an *Admin* one never runs on your public site.
+3. Check **Execution Scope**, a *Frontend* snippet never runs in the admin, and an *Admin* one never runs on your public site.
 4. If it has a **Placement**, try removing it. Locations that fire very early in the page never run snippets.
 
 #### A CSS or JavaScript snippet does nothing
 
-Almost always **Placement**. Styles and scripts need one — set it to **Enqueue Scripts** from the **Head** group. An empty placement means the code is never attached to the page.
+Almost always **Placement**. Styles and scripts need one. Set it to **Enqueue Scripts** from the **Head** group. An empty placement means the code is never attached to the page.
 
 #### The snippet runs twice
 
@@ -94,7 +96,7 @@ Placeholders like `{{HOME_URL}}` are filled in when a snippet is saved, so they 
 
 #### I don't see Enqueue as File
 
-**Snippet Files** is off, or the folder `wp-content/uploads/kalium-snippets/` isn't writable. **Kalium -> Settings -> Template Parts** shows which — the line under the setting reports whether the folder can be written to. Snippets still work either way; they just run from the database.
+**Snippet Files** is off, or the folder `wp-content/uploads/kalium-snippets/` isn't writable. **Kalium -> Settings -> Template Parts** shows which, the line under the setting reports whether the folder can be written to. Snippets still work either way; they just run from the database.
 
 #### I can't choose PHP or JavaScript
 

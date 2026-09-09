@@ -1,6 +1,6 @@
 ---
 description: >-
-  Change how your site behaves — the safe replacement for editing functions.php.
+  Change how your site behaves, the safe replacement for editing functions.php.
 ---
 
 # PHP Snippets
@@ -15,7 +15,7 @@ Writing PHP snippets requires an **administrator** account.
 
 This is the setting that decides everything, and it is worth understanding before you write anything.
 
-#### With no Placement — the usual choice
+#### With no Placement: the usual choice
 
 Leave **Placement** empty and your snippet runs as the theme loads, before the page is built. This is the right moment for code that **registers** something:
 
@@ -26,9 +26,9 @@ Leave **Placement** empty and your snippet runs as the theme loads, before the p
 
 Most code you'll be given belongs here. **If you're unsure, leave Placement empty.**
 
-#### With a Placement — for code that outputs something
+#### With a Placement: for code that outputs something
 
-Give the snippet a placement and the code runs at that exact spot on the page, each time it's reached. Use it when the snippet needs to *print* something in a particular place — a notice above the checkout button, a line of text after every blog post.
+Give the snippet a placement and the code runs at that exact spot on the page, each time it's reached. Use it when the snippet needs to *print* something in a particular place, a notice above the checkout button, a line of text after every blog post.
 
 {% content-ref url="../../settings/placement.md" %}
 [placement.md](../../settings/placement.md)
@@ -42,7 +42,7 @@ Some locations fire very early, while the theme is still loading. A snippet plac
 
 ### Execution Scope
 
-**Execution Scope** sits just under **Snippet Type**. It appears for PHP snippets that have no placement — with a placement, the location already says where the code runs, so the setting isn't needed.
+**Execution Scope** sits just under **Snippet Type**. It appears for PHP snippets that have no placement, with a placement, the location already says where the code runs, so the setting isn't needed.
 
 **Frontend**\
 The snippet runs on your public site only, not in the WordPress admin. This is the default and the right choice for anything that changes what visitors see.
@@ -53,8 +53,10 @@ The snippet runs in the WordPress admin only. Use this for code that adds a colu
 **Everywhere**\
 The snippet runs in both.
 
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Snippet Settings panel showing Execution Scope with its three options]
+
 {% hint style="info" %}
-Requests that are neither a normal page view nor the admin — REST API calls, scheduled tasks, anything run from the command line — count as **Frontend**.
+Requests that are neither a normal page view nor the admin (REST API calls, scheduled tasks, anything run from the command line) count as **Frontend**.
 {% endhint %}
 
 ***
@@ -67,7 +69,9 @@ Under **Snippet Settings** you'll find **Run Once**, which reveals **Run Once Mo
 However many placements fire on a page, the code runs at most once. Use this when a snippet is placed in more than one spot and the code should not repeat.
 
 **Once, then disable**\
-The code runs a single time and the snippet switches itself to Disabled. This is for one-off jobs — a bulk update to some posts, a one-time cleanup. Enable it again to run it once more.
+The code runs a single time and the snippet switches itself to Disabled. This is for one-off jobs, a bulk update to some posts, a one-time cleanup. Enable it again to run it once more.
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Run Once setting expanded showing Run Once Mode]
 
 ***
 
@@ -77,10 +81,10 @@ PHP is the one language where a mistake can take a site offline, so Kalium check
 
 **When you save**, the code is checked for syntax errors. If there's one, the save is refused, the message names the line, and your work stays in the editor.
 
-**When you publish** — or update the code of a published snippet, or enable one from the list — Kalium runs a **safe activation**: it loads a page of your site in the background with the new code active. If the page loads, the snippet goes live. If it doesn't, **the snippet stays switched off** and you're shown the error with its line number.
+**When you publish** (or update the code of a published snippet, or enable one from the list) Kalium runs a **safe activation**: it loads a page of your site in the background with the new code active. If the page loads, the snippet goes live. If it doesn't, **the snippet stays switched off** and you're shown the error with its line number.
 
 {% hint style="info" %}
-Some servers block a site from making requests to itself. If yours does, the check can't run — the snippet is enabled anyway and a notice tells you the check was skipped. Test your site yourself after publishing in that case.
+Some servers block a site from making requests to itself. If yours does, the check can't run, the snippet is enabled anyway and a notice tells you the check was skipped. Test your site yourself after publishing in that case.
 {% endhint %}
 
 ***
@@ -106,7 +110,7 @@ Say you want to change the "Add to cart" text on your shop to "Buy now".
 1. **Kalium -> Template Parts -> Snippets -> Add New**
 2. Name it **Change add to cart button text**
 3. Set **Snippet Type** to **PHP**
-4. Paste the code — no `<?php`, it's already there:
+4. Paste the code, no `<?php`, it's already there:
 
 ```php
 add_filter( 'woocommerce_product_single_add_to_cart_text', function () {
@@ -114,7 +118,7 @@ add_filter( 'woocommerce_product_single_add_to_cart_text', function () {
 } );
 ```
 
-5. Leave **Placement** empty — this registers a filter, so it belongs early
+5. Leave **Placement** empty, this registers a filter, so it belongs early
 6. Leave **Execution Scope** on **Frontend**
 7. **Publish**
 
@@ -127,7 +131,7 @@ If you later want the old text back, set the snippet to **Disabled** in the list
 ### Common questions
 
 **My snippet does nothing.**\
-Check it's Published and not showing **Error**. Then check **Execution Scope** — a *Frontend* snippet never runs in the admin, and an *Admin* one never runs on your site.
+Check it's Published and not showing **Error**. Then check **Execution Scope**, a *Frontend* snippet never runs in the admin, and an *Admin* one never runs on your site.
 
 **It runs twice.**\
 Two placements are firing on the same page. Turn on **Run Once**.

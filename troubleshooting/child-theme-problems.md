@@ -5,7 +5,7 @@ description: Broken child themes, settings that vanished, and blank pages.
 # Child Theme Problems
 
 {% hint style="info" %}
-**You may not need a child theme at all.** If all you want is custom PHP, CSS or JavaScript, add a **Snippet** instead — it survives updates on its own and can be switched off without FTP.
+**You may not need a child theme at all.** If all you want is custom PHP, CSS or JavaScript, add a **Snippet** instead, it survives updates on its own and can be switched off without FTP.
 
 A child theme is for overriding **template files**: changing the actual HTML structure of a page.
 {% endhint %}
@@ -22,7 +22,7 @@ Usually a mismatch between the child theme and the parent theme's folder name.
 
 **Check first:**
 
-1. By FTP, confirm the parent folder is exactly `wp-content/themes/kalium` — not `kalium-4`, `kalium-2` or `kalium (1)`
+1. By FTP, confirm the parent folder is exactly `wp-content/themes/kalium`, not `kalium-4`, `kalium-2` or `kalium (1)`
 2. Open the child theme's `style.css` and confirm its `Template:` line reads exactly `kalium`
 
 **The fix:** rename the parent folder to `kalium`, or correct the `Template:` line to match the parent's actual folder name. Then reactivate the child theme.
@@ -35,7 +35,7 @@ Uploading a theme twice often produces a folder like `kalium-2`. If you've reins
 
 ### My theme settings vanished when I activated the child theme
 
-**Your settings aren't lost.** Customizer settings are stored **per theme**, so switching from parent to child starts with an empty set — the old settings still belong to the parent.
+**Your settings aren't lost.** Customizer settings are stored **per theme**, so switching from parent to child starts with an empty set, the old settings still belong to the parent.
 
 **To bring them across:**
 
@@ -56,7 +56,7 @@ Your settings now belong to the child theme and survive updates.
 
 Usually an error in the child theme's `functions.php`, or a template file copied from an older version of Kalium.
 
-**Check first:** remove any template file you've copied into the child theme, one at a time. **A parent template that changed between versions will break when an old copy shadows it** — this is the most common cause, and it appears after an update rather than when you first set the child theme up.
+**Check first:** remove any template file you've copied into the child theme, one at a time. **A parent template that changed between versions will break when an old copy shadows it**. This is the most common cause, and it appears after an update rather than when you first set the child theme up.
 
 **Then:**
 

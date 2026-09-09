@@ -8,7 +8,7 @@ Most problems with a WordPress site come from a small number of causes, and they
 
 ***
 
-### Start here — the four checks
+### Start here: the four checks
 
 Do these first, in this order. They fix more problems than everything else on this page combined.
 
@@ -28,11 +28,13 @@ This screen tells you your PHP version, your memory limit, whether your license 
 
 Kalium needs **PHP 7.4 or newer** and **at least 128 MB of memory**. Many problems are a server below those numbers.
 
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Kalium -> Status screen showing the system requirements checks]
+
 #### 4. Turn off CSS and JavaScript optimization
 
 In WP Rocket, Autoptimize, LiteSpeed Cache or similar, temporarily switch off **minify**, **combine** and **delay JavaScript**, then reload.
 
-If the problem disappears, turn the settings back on one at a time until it returns — you've found the cause.
+If the problem disappears, turn the settings back on one at a time until it returns. You've found the cause.
 
 {% hint style="info" %}
 These optimization features work by rewriting your site's code, and sometimes they rewrite it wrongly. They're the most common cause of "it worked yesterday" problems that aren't caching.
@@ -104,7 +106,7 @@ When you can't tell what's causing something, this finds it quickly:
 2. If yes, turn them back on **one at a time**, checking after each. The one that brings the problem back is your answer.
 3. If no, switch to a default WordPress theme like Twenty Twenty-Four. If the problem persists there too, it isn't the theme.
 
-Do this on a staging copy if you have one. If you don't, do it at a quiet time — visitors will see the site change while you work.
+Do this on a staging copy if you have one. If you don't, do it at a quiet time, visitors will see the site change while you work.
 
 ***
 
@@ -112,12 +114,12 @@ Do this on a staging copy if you have one. If you don't, do it at a quiet time �
 
 Having these ready will get you a useful answer much faster:
 
-* **What you see**, and on which page — a link helps
+* **What you see**, and on which page, a link helps
 * **What you expected instead**
-* **When it started**, and what changed around then — an update, a new plugin, a migration
+* **When it started**, and what changed around then, an update, a new plugin, a migration
 * **A screenshot of Kalium -> Status**
 * **Whether the four checks above changed anything**
 
 {% hint style="info" %}
-If your site is completely down and you can't reach your admin at all, go straight to [Critical Errors](critical-errors.md) — it covers getting back in.
+If your site is completely down and you can't reach your admin at all, go straight to [Critical Errors](critical-errors.md), it covers getting back in.
 {% endhint %}

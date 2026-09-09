@@ -33,14 +33,14 @@ Template Parts are flexible, reusable, and give you a powerful way to personaliz
 | **Popup** | Opens over the page when a trigger fires |
 | **Snippet** | Runs a piece of PHP, CSS or JavaScript |
 
-The first five are about **content**. The sixth, **Snippet**, is about **code** — it's Kalium's replacement for the old advice to "add this to your functions.php file", and it's new in Kalium 4.8.
+The first five are about **content**. The sixth, **Snippet**, is about **code**. It's Kalium's replacement for the old advice to "add this to your functions.php file", and it's new in Kalium 4.8.
 
 {% content-ref url="creating-template-parts/code-snippets/" %}
 [code-snippets](creating-template-parts/code-snippets/)
 {% endcontent-ref %}
 
 {% hint style="info" %}
-**Sections and Popups add to a page. Headers, Footers and Pages replace part of it.** That distinction explains most surprises — if your Customizer header settings suddenly stop applying on some pages, a Header template part is very likely matching them.
+**Sections and Popups add to a page. Headers, Footers and Pages replace part of it.** That distinction explains most surprises, if your Customizer header settings suddenly stop applying on some pages, a Header template part is very likely matching them.
 {% endhint %}
 
 ***
@@ -49,7 +49,7 @@ The first five are about **content**. The sixth, **Snippet**, is about **code** 
 
 Template Parts are enabled by default when you install Kalium. If you ever need to turn them off or back on:
 
-1. Go to **Kalium → Settings** in your WordPress admin.
+1. Go to **Kalium -> Settings** in your WordPress admin.
 2. On the left sidebar, click **Template Parts**.
 3. Use the toggle switch to enable or disable the feature.
 

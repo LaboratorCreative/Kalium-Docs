@@ -1,14 +1,14 @@
 ---
 description: >-
-  Small tags that drop dynamic content — the copyright line, social icons, a
-  template part — into places that only accept text.
+  Small tags that drop dynamic content, the copyright line, social icons, a
+  template part, into places that only accept text.
 ---
 
 # Shortcodes
 
 A shortcode is a short tag in square brackets that WordPress swaps for real content when the page loads. `[year]` becomes 2026. `[kalium_social_icons]` becomes your row of social links.
 
-They're useful wherever you can type text but can't drop in a proper element — a widget, a text field, the middle of a paragraph.
+They're useful wherever you can type text but can't drop in a proper element, a widget, a text field, the middle of a paragraph.
 
 **Two of them are already on your site.** Kalium's default footer is built from `[kalium_site_info]` and `[kalium_social_icons]`, which is why the copyright year updates itself.
 
@@ -20,7 +20,7 @@ They're useful wherever you can type text but can't drop in a proper element —
 | --- | --- |
 | Post and page content | Yes |
 | The builder's **Text** element | Yes |
-| Text widgets | Yes — Kalium adds this; WordPress doesn't have it |
+| Text widgets | Yes, Kalium adds this; WordPress doesn't have it |
 | WPBakery text elements | Yes |
 | Theme option text fields | Only where the field says so |
 | Custom JavaScript fields | No |
@@ -76,7 +76,7 @@ This is the cleanest way to change the footer branding.
 
 ### `[kalium_social_icons]`
 
-Shows the accounts you've set once under **Appearance -> Customize -> General -> Social Icons**. The shortcode takes the list from there — the attributes only change how it looks.
+Shows the accounts you've set once under **Appearance -> Customize -> General -> Social Icons**. The shortcode takes the list from there, the attributes only change how it looks.
 
 | Attribute | Values | Default |
 | --- | --- | --- |
@@ -89,7 +89,7 @@ Shows the accounts you've set once under **Appearance -> Customize -> General ->
 | `new_tab` | `yes` / `no` | theme default |
 | `no_follow` | `yes` / `no` | theme default |
 
-Six color attributes take either `brand` — each network's own color — or any CSS color:
+Six color attributes take either `brand`, each network's own color, or any CSS color:
 
 `color` · `color_hover` · `label_color` · `label_hover` · `background` · `background_hover`
 
@@ -100,7 +100,7 @@ Six color attributes take either `brand` — each network's own color — or any
 {% hint style="info" %}
 **Nothing appears?** No accounts are set under **Customize -> General -> Social Icons**. The shortcode has no list of its own.
 
-**A color attribute is ignored?** `background` and `outline` need a shape to work with — set `radius` first.
+**A color attribute is ignored?** `background` and `outline` need a shape to work with. Set `radius` first.
 {% endhint %}
 
 {% content-ref url="social-icons.md" %}
@@ -109,7 +109,7 @@ Six color attributes take either `brand` — each network's own color — or any
 
 ### `[lab_social_networks]`
 
-The original social shortcode from before Kalium 4.0. **Existing uses keep working** — there's no need to convert them. Use `[kalium_social_icons]` for anything new.
+The original social shortcode from before Kalium 4.0. **Existing uses keep working**. There's no need to convert them. Use `[kalium_social_icons]` for anything new.
 
 ***
 
@@ -128,7 +128,7 @@ Drops a Template Part of type **Section** into content, wherever you put the tag
 [kalium_section id="482"]
 ```
 
-Display conditions are skipped by default — you're placing it deliberately, so it appears where you put it. Set `check_conditions="yes"` to honor them anyway.
+Display conditions are skipped by default. You're placing it deliberately, so it appears where you put it. Set `check_conditions="yes"` to honor them anyway.
 
 {% hint style="info" %}
 **Nothing renders?** The ID must belong to a template part whose Type is **Section**. A Header, Footer, Page or Popup part returns nothing at all.
@@ -142,7 +142,7 @@ Runs a Template Part of type **Snippet** inside content. The Template Parts list
 | --- | --- | --- |
 | `id` | The snippet's ID | `0` |
 | `check_conditions` | `yes` / `no` | `no` |
-| anything else | Passed to the snippet | — |
+| anything else | Passed to the snippet |, |
 
 ```
 [kalium_snippet id="512" title="Hello" count="3"]
@@ -178,7 +178,7 @@ The like button with its count.
 | --- | --- |
 | `id` | The current post |
 
-Likes are switched on per area — for the portfolio grid that's **Customize -> Portfolio -> Portfolio Page -> Like Feature**.
+Likes are switched on per area, for the portfolio grid that's **Customize -> Portfolio -> Portfolio Page -> Like Feature**.
 
 ***
 
@@ -196,7 +196,7 @@ Prints today's date.
 [date format="Y"]
 ```
 
-That prints just the year — handy in a copyright line.
+That prints just the year, handy in a copyright line.
 
 {% hint style="info" %}
 Kalium only registers `[date]` if no plugin has already claimed it. If the output looks unfamiliar, another plugin owns the tag.
@@ -210,14 +210,14 @@ Kalium takes over WordPress's own `[video]` and `[audio]` shortcodes to use a be
 
 | Attribute | Values | Applies to |
 | --- | --- | --- |
-| `playsinline` | `yes` / `no` — play inline on iPhone instead of going fullscreen | video |
-| `object_fit` | `contain` / `cover` — how the video fills its box | video |
-| `controls` | `yes` / `no` — lets you hide the controls | both |
+| `playsinline` | `yes` / `no`, play inline on iPhone instead of going fullscreen | video |
+| `object_fit` | `contain` / `cover`, how the video fills its box | video |
+| `controls` | `yes` / `no`, lets you hide the controls | both |
 | `poster` | An attachment ID as well as a URL | both |
 
 `autoplay` also gains a third value:
 
-**`autoplay="on-viewport"`** starts playback when the video scrolls into view rather than on page load. **This is the one to use** — browsers block most autoplay on load, but allow this.
+**`autoplay="on-viewport"`** starts playback when the video scrolls into view rather than on page load. **This is the one to use**, browsers block most autoplay on load, but allow this.
 
 ```
 [video src="film.mp4" autoplay="on-viewport" object_fit="cover" playsinline="yes"]
@@ -226,11 +226,11 @@ Kalium takes over WordPress's own `[video]` and `[audio]` shortcodes to use a be
 **Site-wide settings** live at **Customize -> General -> Media**: which player is used, whether videos autoplay and repeat, and whether YouTube links use YouTube's player or the theme's. An attribute on the shortcode always beats the site-wide setting.
 
 {% hint style="info" %}
-**A video won't autoplay.** Browsers block autoplay with sound. Kalium mutes autoplaying video for you — unless you've set `muted="false"` yourself, which stops it starting. Prefer `autoplay="on-viewport"`.
+**A video won't autoplay.** Browsers block autoplay with sound. Kalium mutes autoplaying video for you, unless you've set `muted="false"` yourself, which stops it starting. Prefer `autoplay="on-viewport"`.
 
 **Every video on the site autoplays.** That's **Customize -> General -> Media -> Autoplay Videos**, not the shortcode.
 
-**The video looks different in the editor than on the site.** Expected — Kalium doesn't theme the editor's preview. Check the front end.
+**The video looks different in the editor than on the site.** Expected, Kalium doesn't theme the editor's preview. Check the front end.
 
 **`[audio]` is tiny.** Without a poster it defaults to a narrow bar. Set a `width`, or give it a `poster` image.
 {% endhint %}
@@ -246,4 +246,4 @@ The field doesn't process shortcodes. Move it to page content, a text widget, or
 Kalium switches ACF's shortcode off deliberately. Use a builder element or a template part to show a custom field.
 
 **Nothing appears where a shortcode should be.**\
-For `[kalium_section]` and `[kalium_snippet]`, check the ID is right and the part is the correct Type and published. A PHP snippet that outputs nothing shows nothing — that's not an error.
+For `[kalium_section]` and `[kalium_snippet]`, check the ID is right and the part is the correct Type and published. A PHP snippet that outputs nothing shows nothing. That's not an error.

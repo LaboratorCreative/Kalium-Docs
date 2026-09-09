@@ -6,7 +6,7 @@ description: >-
 
 # The WordPress Block Editor
 
-The block editor — sometimes called Gutenberg — is built into WordPress. There's nothing to install and nothing to license, and it's what you get by default when you create a new page.
+The block editor, sometimes called Gutenberg, is built into WordPress. There's nothing to install and nothing to license, and it's what you get by default when you create a new page.
 
 Kalium adds its own blocks to it, so you can drop a portfolio grid or a post listing into a page without any extra plugin.
 
@@ -25,11 +25,13 @@ A listing of posts, with control over how many appear, which categories they com
 **Content Section**\
 Places a Kalium Template Part of type *Section* into the page. Appears only while Template Parts is enabled.
 
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the block inserter with the Kalium category expanded, showing the three blocks]
+
 ***
 
 ### These blocks render live
 
-Kalium's blocks aren't fixed snapshots — they ask your site for content each time a page loads.
+Kalium's blocks aren't fixed snapshots, they ask your site for content each time a page loads.
 
 Publish a new project and it appears in every **Portfolio Items** block automatically. Edit a Template Part and every page using **Content Section** picks up the change. You don't need to go back and re-edit the pages.
 
@@ -49,7 +51,7 @@ Snippets use the block editor too, in a special form: a single locked code block
 
 ### Using it alongside a page builder
 
-You can mix builders across a site — some pages in Elementor, some in the block editor — as long as each individual page sticks to one.
+You can mix builders across a site (some pages in Elementor, some in the block editor) as long as each individual page sticks to one.
 
 If a page was built with WPBakery or Elementor, keep editing it there. Switching a built page to the block editor means rebuilding it.
 
@@ -58,10 +60,10 @@ If a page was built with WPBakery or Elementor, keep editing it there. Switching
 ### Common questions
 
 **I don't see a Kalium category in the inserter.**\
-Both blocks that can be switched off — Portfolio Items and Content Section — depend on their feature being enabled under **Kalium -> Settings**. If all three are missing, try reloading the editor.
+Both blocks that can be switched off, Portfolio Items and Content Section, depend on their feature being enabled under **Kalium -> Settings**. If all three are missing, try reloading the editor.
 
 **My block shows "This block has encountered an error".**\
 Usually a caching or optimization plugin interfering with the editor. Clear your caches and reload.
 
 **The block looks different on the site than in the editor.**\
-Expected to a degree — the editor previews content, but the theme's full styling only applies on the real page. Check the front end before adjusting.
+Expected to a degree, the editor previews content, but the theme's full styling only applies on the real page. Check the front end before adjusting.

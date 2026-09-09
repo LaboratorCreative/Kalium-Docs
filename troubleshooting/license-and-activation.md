@@ -14,7 +14,7 @@ This changed from Kalium 3, where updates were free. If you're coming from Kaliu
 
 ### The Kalium menu has no sub-items
 
-Not a broken installation — the sub-menu only appears once the theme is registered.
+Not a broken installation, the sub-menu only appears once the theme is registered.
 
 Click **Kalium** in the admin menu. With nothing to expand, it opens the activation screen. Enter your license key there.
 
@@ -55,7 +55,7 @@ Each license covers a fixed number of sites, and staging or development copies u
 
 ### Activation fails on a staging site
 
-Some hosts — Flywheel, WP Engine and similar — serve staging on a domain that doesn't match your license.
+Some hosts (Flywheel, WP Engine and similar) serve staging on a domain that doesn't match your license.
 
 Contact support with the staging domain and ask for it to be associated with your account.
 
@@ -75,7 +75,7 @@ This is a conflict between the licensing system used by Kalium and another produ
 
 1. Access the site by FTP
 2. Rename `wp-content/plugins` to `plugins-off` to disable everything
-3. Load the site — it should return
+3. Load the site. It should return
 4. Rename the folder back and reactivate plugins one at a time to find the other licensed product, then update it
 
 ***
@@ -84,7 +84,7 @@ This is a conflict between the licensing system used by Kalium and another produ
 
 Backups are written only when the theme updates, and **only while the license is active**.
 
-With a lapsed license the step is skipped **silently** — the setting still shows as on, the update still runs, and nothing is saved.
+With a lapsed license the step is skipped **silently**, the setting still shows as on, the update still runs, and nothing is saved.
 
 Renew or reactivate the license before updating. Take a manual backup in the meantime.
 
@@ -99,7 +99,7 @@ Renew or reactivate the license before updating. Take a manual backup in the mea
 If several unrelated things have stopped at once, check **Kalium -> Status** before investigating each one:
 
 * **Theme updates** don't appear
-* **Bundled plugins** can't install or update — "update package not available"
+* **Bundled plugins** can't install or update, "update package not available"
 * **Starter sites** list is empty or won't load
 * **Theme backups** are silently skipped
 * **White Label** is unavailable

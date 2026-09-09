@@ -10,13 +10,17 @@ Kalium replaces WordPress's plain media player with a themed one, so video and a
 
 The settings are at **Appearance -> Customize -> General -> Media**, and they apply to **every** video and audio on your site at once.
 
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: Appearance -> Customize -> General -> Media showing all five settings]
+
 ***
 
 ### Media Player
 
-**Video.js** — Kalium's themed player. This is the default, and it's what makes video match your site's styling. It only loads when a video actually scrolls into view, so it costs nothing on pages without one.
+**Video.js**\
+Kalium's themed player. This is the default, and it's what makes video match your site's styling. It only loads when a video actually scrolls into view, so it costs nothing on pages without one.
 
-**Browser Native** — the player built into the visitor's browser. Different on every browser, but the lightest option.
+**Browser Native**\
+The player built into the visitor's browser. It differs from browser to browser, but it is the lightest option.
 
 Stay on **Video.js** unless you have a reason not to.
 
@@ -26,22 +30,27 @@ Stay on **Video.js** unless you have a reason not to.
 
 Only appears when **Media Player** is Video.js.
 
-**Minimal** — a clean, understated set of controls. The default.
+**Minimal**\
+A clean, understated set of controls. This is the default.
 
-**Standard** — the fuller control bar.
+**Standard**\
+The fuller control bar.
 
 ***
 
 ### Autoplay Videos
 
-**Disable** — videos wait for the visitor to press play. The default, and the safest.
+**Disable**\
+Videos wait for the visitor to press play. This is the default, and the safest.
 
-**Always** — videos start on page load.
+**Always**\
+Videos start on page load.
 
-**When Visible on Viewport** — videos start when they scroll into view. **This is the one to use** if you want autoplay at all.
+**When Visible on Viewport**\
+Videos start when they scroll into view. **This is the one to use** if you want autoplay at all.
 
 {% hint style="warning" %}
-**Browsers block autoplay with sound.** Kalium mutes autoplaying media for you so it will actually start — otherwise browsers would simply refuse.
+**Browsers block autoplay with sound.** Kalium mutes autoplaying media for you so it will actually start, otherwise browsers would simply refuse.
 
 **Always** frequently doesn't work as expected, because a browser may decline to play a video the visitor hasn't scrolled to yet. **When Visible on Viewport** is far more reliable.
 {% endhint %}
@@ -60,9 +69,11 @@ Good for a short background clip. Irritating for anything with sound.
 
 Only appears when **Media Player** is Video.js.
 
-**On** — YouTube videos use YouTube's own player, with its branding and suggested videos at the end.
+**On**\
+YouTube videos use YouTube's own player, with its branding and suggested videos at the end.
 
-**Off** — YouTube videos use Kalium's player, matching everything else on your site.
+**Off**\
+YouTube videos use Kalium's player, matching everything else on your site.
 
 ***
 
@@ -88,7 +99,7 @@ Kalium adds several attributes WordPress doesn't have, including `playsinline` (
 That's **Autoplay Videos** here, not the individual videos.
 
 **A video won't autoplay.**\
-Browsers block audible autoplay. Kalium mutes autoplaying media so it can start — unless you've set `muted="false"` yourself. Prefer **When Visible on Viewport**.
+Browsers block audible autoplay. Kalium mutes autoplaying media so it can start, unless you've set `muted="false"` yourself. Prefer **When Visible on Viewport**.
 
 **The video looks different in the editor than on the site.**\
 Expected. Kalium deliberately leaves the editor's media preview alone, so you see the plain player there and the themed one on your site. Check the front end.

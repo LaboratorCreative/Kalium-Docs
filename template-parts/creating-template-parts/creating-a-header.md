@@ -6,12 +6,12 @@ description: >-
 
 # Replace the Header
 
-Your site already has a header, set up under **Appearance -> Customize -> Header**. That header applies everywhere. A **Header** template part lets you build a second one and use it only where you want it — a slim header for landing pages, a header with a phone number for the contact page, or a completely different header for one section of the site.
+Your site already has a header, set up under **Appearance -> Customize -> Header**. That header applies everywhere. A **Header** template part lets you build a second one and use it only where you want it, a slim header for landing pages, a header with a phone number for the contact page, or a completely different header for one section of the site.
 
 Where a Header template part applies, it **replaces** the Customizer header entirely. Both do not show at once.
 
 {% hint style="info" %}
-If you only want to change the logo, the sticky behavior or the colors on one page, you do not need a template part. Open that page and use the **Header** tab in Parameters and Options instead — see [In Page Options](../../general/header/in-page-options.md).
+If you only want to change the logo, the sticky behavior or the colors on one page, you do not need a template part. Open that page and use the **Header** tab in Parameters and Options instead. See [In Page Options](../../general/header/in-page-options.md).
 {% endhint %}
 
 ***
@@ -22,16 +22,20 @@ In your WordPress dashboard, go to **Kalium -> Template Parts**.
 
 Switch to the **Headers** tab at the top, then click **Add New** in the top-left corner.
 
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Template Parts screen with the Headers tab selected and the Add New button visible]
+
 ***
 
 ### 2. Name it and build the header
 
 Give it a name that says where it will be used, such as **Landing Page Header**.
 
-Now build the header in the editor. You can use the block editor, Elementor or WPBakery — whatever you normally build with. A header is ordinary content, so anything you can lay out on a page you can lay out here: a logo image, a menu block, a button, a row of contact details.
+Now build the header in the editor. You can use the block editor, Elementor or WPBakery, whatever you normally build with. A header is ordinary content, so anything you can lay out on a page you can lay out here: a logo image, a menu block, a button, a row of contact details.
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the editor with a simple custom header built, showing the title field filled in]
 
 {% hint style="info" %}
-Building a header from scratch is not the only option. If your custom header only needs different **elements** — a search icon, a cart, a second menu — the drag-and-drop builder under **Appearance -> Customize -> Header -> Custom Header** may be a faster route. See [Custom Header](../../general/header/custom-header/).
+Building a header from scratch is not the only option. If your custom header only needs different **elements** (a search icon, a cart, a second menu) the drag-and-drop builder under **Appearance -> Customize -> Header -> Custom Header** may be a faster route. See [Custom Header](../../general/header/custom-header/).
 {% endhint %}
 
 ***
@@ -56,14 +60,16 @@ Switching the type changes which settings appear below, so set this first.
 
 ### 5. Set Display Conditions
 
-This is the important step. **Display Conditions decide which pages get this header** — and without at least one condition, the header never appears anywhere.
+This is the important step. **Display Conditions decide which pages get this header**, and without at least one condition, the header never appears anywhere.
 
 Click **Add Condition** and choose where it applies. Some common setups:
 
-* **A single page** — *Singular Content* -> *Single Page* -> choose the page
-* **The front page only** — *General Page* -> *Front Page*
-* **Every product** — *WooCommerce* -> *Product Page*
-* **Everything except the front page** — *General Page* -> *Entire Site*, then a second row set to *Is not* -> *Front Page*, joined with **AND**
+* **A single page**: *Singular Content* -> *Single Page* -> choose the page
+* **The front page only**: *General Page* -> *Front Page*
+* **Every product**: *WooCommerce* -> *Product Page*
+* **Everything except the front page**: *General Page* -> *Entire Site*, then a second row set to *Is not* -> *Front Page*, joined with **AND**
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Display Conditions panel with a Single Page condition added]
 
 {% content-ref url="../settings/display-conditions.md" %}
 [display-conditions.md](../settings/display-conditions.md)
@@ -93,10 +99,12 @@ How long the animation takes, in seconds.
 
 #### Over the Content
 
-The header sits on top of the page content instead of above it — the transparent header effect, useful when the page opens with a full-width image. Turning it on reveals:
+The header sits on top of the page content instead of above it, the transparent header effect, useful when the page opens with a full-width image. Turning it on reveals:
 
 **Content Spacing**\
 How much room to leave at the top of the content so it is not hidden behind the header. You can set this in PX, REM, EM, VW or VH.
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Header Settings panel with Sticky Header expanded]
 
 ***
 

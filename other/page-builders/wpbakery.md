@@ -5,14 +5,14 @@ description: >-
 
 # WPBakery
 
-WPBakery Page Builder is bundled with Kalium — it's included with your theme license, so there's nothing extra to buy and no separate key to enter.
+WPBakery Page Builder is bundled with Kalium. It's included with your theme license, so there's nothing extra to buy and no separate key to enter.
 
 Most of Kalium's starter sites are built with WPBakery, so if you imported one, this is very likely the builder your pages already use.
 
 Install it from **Kalium -> Plugins**.
 
 {% hint style="info" %}
-**You don't need to activate WPBakery separately.** It's licensed through Kalium. If you see a prompt asking for a WPBakery purchase code, you can ignore it — the theme handles the licensing.
+**You don't need to activate WPBakery separately.** It's licensed through Kalium. If you see a prompt asking for a WPBakery purchase code, you can ignore it, the theme handles the licensing.
 {% endhint %}
 
 ***
@@ -20,6 +20,8 @@ Install it from **Kalium -> Plugins**.
 ### Kalium's elements
 
 Kalium adds **27 elements** to WPBakery. They appear alongside the standard ones when you add an element to a row.
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the WPBakery element picker showing the Kalium elements]
 
 **Content**
 
@@ -65,7 +67,7 @@ Kalium adds **27 elements** to WPBakery. They appear alongside the standard ones
 | **Breadcrumb** | The breadcrumb trail |
 
 {% hint style="info" %}
-Elements that come in pairs — **Team Members** and **Team Member**, **Clients** and **Client Logo**, **Map** and **Map Location** — work together. Add the container first, then add the individual items inside it.
+Elements that come in pairs (**Team Members** and **Team Member**, **Clients** and **Client Logo**, **Map** and **Map Location**) work together. Add the container first, then add the individual items inside it.
 {% endhint %}
 
 ***
@@ -97,10 +99,10 @@ The portfolio module is off under **Kalium -> Settings -> Portfolio**.
 Template Parts is off under **Kalium -> Settings -> Template Parts**.
 
 **WPBakery is asking for a purchase code.**\
-Ignore it — the theme licenses it for you.
+Ignore it, the theme licenses it for you.
 
 **My page shows shortcodes as plain text like `[vc_row]`.**\
-WPBakery has been deactivated. Reinstall it from **Kalium -> Plugins** and the page renders again — the content is safe, it just needs the plugin to display it.
+WPBakery has been deactivated. Reinstall it from **Kalium -> Plugins** and the page renders again, the content is safe, it just needs the plugin to display it.
 
 **The map is a gray box.**\
 Add a Google Maps API key under **Appearance -> Customize -> General**.

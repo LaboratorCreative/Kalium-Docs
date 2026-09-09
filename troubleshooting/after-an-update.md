@@ -4,7 +4,7 @@ description: Broken layouts, missing images, lost settings and failed updates.
 
 # Problems After Updating
 
-The most common category of support request — and almost all of it comes down to four causes: a cache still serving old files, a plugin that needs updating alongside the theme, settings stored somewhere the update didn't touch, or an optimization plugin rewriting the theme's code.
+The most common category of support request, and almost all of it comes down to four causes: a cache still serving old files, a plugin that needs updating alongside the theme, settings stored somewhere the update didn't touch, or an optimization plugin rewriting the theme's code.
 
 ***
 
@@ -12,10 +12,10 @@ The most common category of support request — and almost all of it comes down 
 
 Most problems on this page are solved before you reach the specific sections below.
 
-1. **Clear every cache** — your caching plugin, your host's cache, and any CDN such as Cloudflare. Then hard refresh (**Ctrl+Shift+R** / **Cmd+Shift+R**).
+1. **Clear every cache**, your caching plugin, your host's cache, and any CDN such as Cloudflare. Then hard refresh (**Ctrl+Shift+R** / **Cmd+Shift+R**).
 2. **Update the plugins too.** **Kalium -> Plugins**, update anything with a newer version. A theme update often expects newer plugins.
-3. **Check the update finished.** **Kalium -> Status** — does the theme version match what you expected? A failed update can leave a half-written theme folder.
-4. **Turn off CSS/JS optimization** temporarily — minify, combine and delay JavaScript. Reload. If that fixes it, re-enable one setting at a time to find which.
+3. **Check the update finished.** **Kalium -> Status**, does the theme version match what you expected? A failed update can leave a half-written theme folder.
+4. **Turn off CSS/JS optimization** temporarily, minify, combine and delay JavaScript. Reload. If that fixes it, re-enable one setting at a time to find which.
 
 ***
 
@@ -77,7 +77,7 @@ Every Customizer setting is restored. Fonts, template parts and portfolio conten
 Kalium 4 moved typography out of the Customizer into its own screen.
 
 1. Open **Kalium -> Typography**
-2. Check your fonts are listed and active — re-add any that are missing
+2. Check your fonts are listed and active, re-add any that are missing
 3. Clear your caches
 
 {% content-ref url="../typography/fonts/" %}
@@ -88,7 +88,7 @@ Kalium 4 moved typography out of the Customizer into its own screen.
 
 ### Layout or spacing changed after upgrading from Kalium 3
 
-Kalium 4 rebuilt the styling system, and some Kalium 3 values don't carry across — particularly custom CSS written against the old class names.
+Kalium 4 rebuilt the styling system, and some Kalium 3 values don't carry across, particularly custom CSS written against the old class names.
 
 **Check first:** open **Appearance -> Customize -> Additional CSS** and look for rules using `!important`. These often survive an upgrade and then fight the new defaults. Check your child theme's stylesheet too.
 
@@ -120,7 +120,7 @@ The update is exceeding your server's limits.
 
 1. Ask your host to raise the memory limit to 256 MB and max execution time to 120 seconds
 2. Try the update again
-3. If it still fails, update by FTP instead — download the theme from your account and upload it manually
+3. If it still fails, update by FTP instead, download the theme from your account and upload it manually
 
 {% content-ref url="../getting-started/installation/installing-theme-via-ftp.md" %}
 [installing-theme-via-ftp.md](../getting-started/installation/installing-theme-via-ftp.md)
@@ -138,6 +138,6 @@ Kalium's elements are registered by the theme, so an outdated theme can lose the
 
 ### Spacing or margins changed after updating WPBakery
 
-Clear every cache first — this is usually all it takes.
+Clear every cache first. This is usually all it takes.
 
 If it persists, check whether your custom CSS targets WPBakery's own class names. Those change between major versions, so a rule that worked before may now be pointing at nothing.

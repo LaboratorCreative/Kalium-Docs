@@ -17,14 +17,16 @@ Groups other elements together and controls how they're spread across the row. T
 **Content Align**\
 How the elements inside the row are distributed:
 
-* **Left** — grouped to the left
-* **Center** — grouped in the middle
-* **Right** — grouped to the right
-* **Space Between** — pushed apart to the outer edges, with the gap in the middle
+* **Left**: grouped to the left
+* **Center**: grouped in the middle
+* **Right**: grouped to the right
+* **Space Between**: pushed apart to the outer edges, with the gap in the middle
 
 {% hint style="info" %}
 **Space Between** is how you get a logo on the left and a button on the right with everything spaced evenly in between, without setting any padding.
 {% endhint %}
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Row element's Content Align setting, ideally showing the Space Between result in the preview]
 
 ***
 
@@ -385,7 +387,7 @@ All style options are applied from the Style tab in the Header section. The foll
 
 ### Where spacing comes from
 
-Header elements deliberately don't carry Margin, Padding, Border or Dimensions settings the way footer and product card elements do. That's intentional — it keeps headers consistent rather than letting every element drift.
+Header elements deliberately don't carry Margin, Padding, Border or Dimensions settings the way footer and product card elements do. That's intentional. It keeps headers consistent rather than letting every element drift.
 
 Spacing in the header comes from three places instead:
 
@@ -418,13 +420,17 @@ Everything else behaves identically.
 
 ### If an element is missing from the list
 
-**Cart, Cart Totals or My Account** — WooCommerce isn't active.
+**Cart, Cart Totals or My Account**\
+WooCommerce isn't active.
 
-**Language Switcher** — WPML isn't active.
+**Language Switcher**\
+WPML isn't active.
 
-**Breadcrumb** — the Breadcrumb NavXT plugin isn't installed.
+**Breadcrumb**\
+The Breadcrumb NavXT plugin isn't installed.
 
-**There's no Logo element** — by design. The logo is set once under **Customize -> Styling -> Brand**, and the header builder positions elements around it. Left Content sits to its left, Right Content to its right.
+**There's no Logo element**\
+By design. The logo is set once under **Customize -> Styling -> Brand**, and the header builder positions elements around it. Left Content sits to its left, Right Content to its right.
 
 {% content-ref url="../../../styling/brand-and-logo.md" %}
 [brand-and-logo.md](../../../styling/brand-and-logo.md)

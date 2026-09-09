@@ -17,7 +17,7 @@ Things that look fine on a computer and wrong on a phone. If you're looking for 
 **Check first, in this order:**
 
 1. **Clear all caches.** Mobile is often served a separately cached version of the page, so it can be stale when desktop isn't.
-2. **Switch off CSS and JavaScript optimization** temporarily — minify, combine, delay JavaScript. **Combining files is the single most common cause of mobile-only breakage.**
+2. **Switch off CSS and JavaScript optimization** temporarily, minify, combine, delay JavaScript. **Combining files is the single most common cause of mobile-only breakage.**
 3. **Test on a real device**, not just a narrowed browser window. Some issues only appear with real touch input.
 
 If turning optimization off fixes it, re-enable the settings one at a time until the problem returns.
@@ -28,7 +28,8 @@ If turning optimization off fixes it, re-enable the settings one at a time until
 
 Almost always a transparent header without enough spacing on small screens.
 
-**Customize -> Header -> Transparent Header -> Spacing** — click the **mobile** device icon and increase the value.
+**Customize -> Header -> Transparent Header -> Spacing**\
+Click the **mobile** device icon and increase the value.
 
 This setting is per device, so your desktop value doesn't apply to phones. That's exactly why the problem shows up on mobile only.
 
@@ -36,7 +37,7 @@ This setting is per device, so your desktop value doesn't apply to phones. That'
 
 ### The page scrolls sideways
 
-Something on the page is wider than the screen — usually a fixed width or a negative margin set in a page builder.
+Something on the page is wider than the screen, usually a fixed width or a negative margin set in a page builder.
 
 **To find it:** narrow your browser window to phone width and look for the element extending past the right edge.
 
@@ -46,7 +47,7 @@ Something on the page is wider than the screen — usually a fixed width or a ne
 
 ### Hover effects don't work on touch screens
 
-This is expected — phones have no hover. Kalium's portfolio and product hover effects show on tap instead, which means one tap to reveal and a second to follow the link.
+This is expected, phones have no hover. Kalium's portfolio and product hover effects show on tap instead, which means one tap to reveal and a second to follow the link.
 
 **If you'd rather the first tap follow the link**, either choose a hover effect that doesn't overlay content, or turn the hover overlay off for mobile in the relevant **Featured Image** settings.
 
@@ -68,7 +69,7 @@ Slider sizing belongs to the slider plugin, not to Kalium.
 
 Open the slider's own responsive settings and set the height and layer positions per device.
 
-Also check the padding on the builder row the slider sits in — a fixed-width row will clip a responsive slider no matter what the slider is set to.
+Also check the padding on the builder row the slider sits in, a fixed-width row will clip a responsive slider no matter what the slider is set to.
 
 ***
 
@@ -80,7 +81,7 @@ Font sizes are per device.
 2. Open the setting for the element
 3. Switch to the **mobile** icon and set the size there
 
-Headings are the usual offender. A 56px display heading that looks striking on a desktop overwhelms a phone screen — 28 to 32px is more typical.
+Headings are the usual offender. A 56px display heading that looks striking on a desktop overwhelms a phone screen, 28 to 32px is more typical.
 
 {% content-ref url="../typography/font-sizes.md" %}
 [font-sizes.md](../typography/font-sizes.md)

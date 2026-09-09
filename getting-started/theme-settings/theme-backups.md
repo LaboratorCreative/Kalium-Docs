@@ -6,6 +6,8 @@ description: A copy of your theme, taken automatically before each update.
 
 **Kalium -> Settings -> Theme Backups** keeps a copy of your theme from just before each update, so you can go back if something isn't right afterwards.
 
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: Kalium -> Settings -> Theme Backups showing the toggle and a list of existing backups]
+
 ***
 
 ### Theme Backups
@@ -21,7 +23,7 @@ With it enabled, Kalium copies your current theme before each update runs. Below
 These both surprise people, so they're worth stating plainly.
 
 {% hint style="warning" %}
-**Backups are only taken when the theme updates.** Not on a schedule, not on demand — there is no "back up now" button. If you want a copy before making changes of your own, use a backup plugin or your host's backup tool.
+**Backups are only taken when the theme updates.** Not on a schedule, not on demand. There is no "back up now" button. If you want a copy before making changes of your own, use a backup plugin or your host's backup tool.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -36,7 +38,7 @@ If your license has lapsed, don't rely on this before updating. [Renew it](../li
 
 Find the backup you want in the list and click **Restore**. Your theme returns to how it was at that point.
 
-**Download** saves the backup as a file to your computer — useful before a big change, or if you want to keep a copy somewhere else.
+**Download** saves the backup as a file to your computer, useful before a big change, or if you want to keep a copy somewhere else.
 
 ***
 

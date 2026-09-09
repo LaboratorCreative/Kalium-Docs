@@ -44,7 +44,7 @@ The arrow beside **Publish** offers two more options:
 Keeps your changes without applying them to the live site. Come back later and publish when you're ready.
 
 **Schedule**\
-Publishes automatically at a date and time you choose — handy for a seasonal look that should go live at midnight.
+Publishes automatically at a date and time you choose, handy for a seasonal look that should go live at midnight.
 
 ***
 
@@ -54,7 +54,7 @@ Kalium hides settings that don't apply yet, which keeps the panels manageable bu
 
 **A setting appears when the setting above it is switched on.** **Sticky Effect** only exists once **Sticky Header** is enabled. **Custom Logo** only once **Sticky Logo** is on. If you can't find something, check the setting directly above where you expect it.
 
-**A whole section can be switched off.** The Portfolio and WooCommerce groups disappear entirely when their feature is inactive — Portfolio under **Kalium -> Settings**, WooCommerce when the plugin isn't active.
+**A whole section can be switched off.** The Portfolio and WooCommerce groups disappear entirely when their feature is inactive, Portfolio under **Kalium -> Settings**, WooCommerce when the plugin isn't active.
 
 **Use the search box.** Typing a few letters of a setting's name is usually faster than clicking through the panels.
 
@@ -77,7 +77,7 @@ Kalium has several places that change how your site looks, and knowing which doe
 | **Kalium -> Template Parts** | Custom sections, headers, footers and popups |
 
 {% hint style="info" %}
-**A Customizer setting stopped working on one page?** Check that page's **Parameters and Options** panel — a per-page override beats the site-wide setting.
+**A Customizer setting stopped working on one page?** Check that page's **Parameters and Options** panel, a per-page override beats the site-wide setting.
 
 **On several pages?** A Template Part is probably replacing that part of the site.
 {% endhint %}
@@ -92,7 +92,7 @@ Kalium has several places that change how your site looks, and knowing which doe
 
 **Appearance -> Customize -> Manage Options** exports every Customizer setting to a file, and imports one back.
 
-Use it before making big changes, and when moving a site — **theme settings are stored per site and don't travel with a copy of your files.**
+Use it before making big changes, and when moving a site: **theme settings are stored per site and don't travel with a copy of your files.**
 
 {% content-ref url="../troubleshooting/manage-options-in-customizer.md" %}
 [manage-options-in-customizer.md](../troubleshooting/manage-options-in-customizer.md)

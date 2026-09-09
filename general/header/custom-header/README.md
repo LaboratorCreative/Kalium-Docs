@@ -23,7 +23,9 @@ The builder works the same way everywhere it appears, so learning it here covers
 
 Click the **Add** button inside the region you want to fill. A list of available elements opens.
 
-Where a canvas has many elements, a search field appears above the list — type a few letters rather than scrolling.
+Where a canvas has many elements, a search field appears above the list, type a few letters rather than scrolling.
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Add button in a region and the element list that opens]
 
 {% hint style="info" %}
 **Grayed-out elements need a plugin.** Cart, Cart Totals and My Account need WooCommerce active. Language Switcher needs WPML. They stay in the list so you know they exist.
@@ -35,13 +37,15 @@ Where a canvas has many elements, a search field appears above the list — type
 
 #### 3. Change an element's settings
 
-**Click an element** and its settings open beside the canvas. Each element has its own — the Menu element has menu settings, the Search element has search settings.
+**Click an element** and its settings open beside the canvas. Each element has its own, the Menu element has menu settings, the Search element has search settings.
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: an element selected with its settings panel open beside the canvas]
 
 #### 4. Hide something without deleting it
 
 Click the :eye: **eye icon** on an element to switch it off. It stays in place with everything configured, and clicking again brings it back.
 
-This is far better than deleting when you're experimenting — you don't have to set it up again.
+This is far better than deleting when you're experimenting, you don't have to set it up again.
 
 #### 5. Set different values per device
 
@@ -54,7 +58,7 @@ Many settings have small **device icons** beside them for desktop, tablet and mo
 **Click Publish in the Customizer.** The preview updates live as you work, but nothing is stored until you publish.
 
 {% hint style="warning" %}
-**"My changes aren't on the site."** This is almost always it — the builder previews live, which makes it easy to forget the changes aren't saved yet.
+**"My changes aren't on the site."** This is almost always it, the builder previews live, which makes it easy to forget the changes aren't saved yet.
 {% endhint %}
 
 ***
@@ -89,7 +93,7 @@ The same editor is used in nine other places. Once you know it here, you know it
 
 ### Spacing in the header builder
 
-Header, Top Bar and Mobile Menu elements are deliberately leaner than the footer and product card ones. Each carries **its own settings, plus Visible On and Custom CSS** — but no Margin, Padding, Border or Dimensions.
+Header, Top Bar and Mobile Menu elements are deliberately leaner than the footer and product card ones. Each carries **its own settings, plus Visible On and Custom CSS**, but no Margin, Padding, Border or Dimensions.
 
 Spacing in the header comes from three places instead:
 
@@ -97,7 +101,7 @@ Spacing in the header comes from three places instead:
 * **Each element's own spacing setting**, such as **Menu Item Spacing** on the Menu
 * **The header's Style tab** in the Customizer, for padding around the whole thing
 
-This keeps headers consistent between sites. Elsewhere in the builder — the footer and product cards — elements do carry the full set of layout, border and spacing options.
+This keeps headers consistent between sites. Elsewhere in the builder, the footer and product cards, elements do carry the full set of layout, border and spacing options.
 
 {% content-ref url="../styling.md" %}
 [styling.md](../styling.md)
@@ -127,7 +131,7 @@ Cart, Cart Totals and My Account need WooCommerce. Language Switcher needs WPML.
 Publish the Customizer. The preview updates live, but nothing saves until you do.
 
 **An element looks right on desktop but wrong on mobile.**\
-Its settings are per device — switch to the mobile icon and set it there.
+Its settings are per device, switch to the mobile icon and set it there.
 
 **The product card ignores my changes.**\
 Check you edited the card matching **Shop Products View**. Grid and list are separate builders.

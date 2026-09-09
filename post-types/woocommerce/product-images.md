@@ -5,7 +5,7 @@ Customize the display of product images across your WooCommerce store with the s
 {% hint style="info" %}
 **This section comes from WooCommerce itself, not Kalium.** It decides the sizes WordPress generates for your product images.
 
-How those images are then *displayed* — the gallery style, the card layout, hover effects — is set in Kalium's own screens under **Product Catalog** and **Product Page**.
+How those images are then *displayed* (the gallery style, the card layout, hover effects) is set in Kalium's own screens under **Product Catalog** and **Product Page**.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -43,7 +43,7 @@ Displays images using the original aspect ratio in which they were uploaded. Thi
 <figure><img src="../../.gitbook/assets/woocommerce-product-images-uncropped.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**1:1 is the safest choice for most shops.** Uncropped looks fine when every product photo is shot the same way, and untidy the moment one isn't — a grid of mixed portrait and landscape images has uneven rows.
+**1:1 is the safest choice for most shops.** Uncropped looks fine when every product photo is shot the same way, and untidy the moment one isn't, a grid of mixed portrait and landscape images has uneven rows.
 {% endhint %}
 
 ***
@@ -80,7 +80,7 @@ Raise **Main Image Width** or **Thumbnail Width**, then regenerate thumbnails. I
 That's **Thumbnail Cropping**. Try 1:1 for consistency, or Uncropped to stop cropping entirely.
 
 **Product images don't load on the first visit.**\
-A timing issue fixed in a past release — update Kalium.
+A timing issue fixed in a past release. Update Kalium.
 
 {% content-ref url="../../troubleshooting/image-problems.md" %}
 [image-problems.md](../../troubleshooting/image-problems.md)

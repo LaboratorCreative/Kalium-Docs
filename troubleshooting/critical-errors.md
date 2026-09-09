@@ -35,14 +35,14 @@ Also check **Kalium -> Status** if you can reach your admin: Kalium needs **PHP 
 
 You'll need FTP access or your host's file manager for this.
 
-**Step 1 — rule out plugins**
+**Step 1, rule out plugins**
 
 1. Rename the folder `wp-content/plugins` to `plugins-off`
 2. Reload your site
 
 **If the site comes back**, a plugin is the cause. Rename the folder back to `plugins`, then go to **Plugins** in your admin and disable them one at a time until the problem returns.
 
-**Step 2 — rule out the theme**
+**Step 2, rule out the theme**
 
 If the site is still down:
 
@@ -52,7 +52,7 @@ If the site is still down:
 4. Reload
 
 {% hint style="info" %}
-Renaming the plugins folder disables everything at once — it's the fastest way to answer "is it a plugin?" Nothing is lost; your settings are all in the database and come back when you rename the folder.
+Renaming the plugins folder disables everything at once. It's the fastest way to answer "is it a plugin?" Nothing is lost; your settings are all in the database and come back when you rename the folder.
 {% endhint %}
 
 ***
@@ -83,7 +83,7 @@ Every snippet stops running and your admin is reachable again. Remove the line o
 
 ### One page is blank but the rest of the site works
 
-This is rarely a real error — usually something is deliberately replacing that page.
+This is rarely a real error, usually something is deliberately replacing that page.
 
 **Check first:**
 
@@ -115,7 +115,7 @@ ACF Pro is bundled with Kalium and powers the portfolio's settings. Install and 
 An error mentioning a PHP version, or a `TypeError`, usually means your host upgraded PHP underneath you.
 
 1. Check **Kalium -> Status** for your PHP version
-2. Update Kalium and all its bundled plugins — the latest versions carry the compatibility fixes
+2. Update Kalium and all its bundled plugins, the latest versions carry the compatibility fixes
 3. If the site is down and you can't reach the admin, ask your host to move PHP back one version temporarily, then update
 
 ***
@@ -124,10 +124,10 @@ An error mentioning a PHP version, or a `TypeError`, usually means your host upg
 
 Once it's running again, work out what caused it before carrying on:
 
-* **A plugin** — check whether it has an update, or find an alternative
-* **A code snippet** — check the Template Parts list for one showing an **Error** status
-* **The update didn't finish** — check **Kalium -> Status** shows the version you expect
-* **Server limits** — ask your host to raise the memory limit to 256 MB
+* **A plugin**: check whether it has an update, or find an alternative
+* **A code snippet**: check the Template Parts list for one showing an **Error** status
+* **The update didn't finish**: check **Kalium -> Status** shows the version you expect
+* **Server limits**: ask your host to raise the memory limit to 256 MB
 
 {% content-ref url="bad-hosting-environment.md" %}
 [bad-hosting-environment.md](bad-hosting-environment.md)

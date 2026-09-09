@@ -1,14 +1,14 @@
 ---
 description: >-
   Use Kalium's project layouts on a Case Studies, Services or any other post
-  type — without calling it Portfolio.
+  type, without calling it Portfolio.
 ---
 
 # Portfolio Post Types
 
 Kalium's portfolio gives you seven project layouts, galleries, filters and hover effects. Most sites use it for a portfolio, which is what it's called.
 
-But **the module isn't tied to the Portfolio post type**. You can give the whole thing to any other post type on your site — so a **Case Studies** section gets the same project layouts and galleries, and is still called Case Studies everywhere your visitors see it.
+But **the module isn't tied to the Portfolio post type**. You can give the whole thing to any other post type on your site, so a **Case Studies** section gets the same project layouts and galleries, and is still called Case Studies everywhere your visitors see it.
 
 ***
 
@@ -18,7 +18,7 @@ Tick a post type in the settings and it receives the complete module:
 
 * **Its taxonomies attached automatically**, so category filters work
 * **Its own complete set of Portfolio options** in the Customizer, named after the post type
-* **The Parameters and Options panel** on its items — Project Layout, Project Gallery, Checklists and everything else
+* **The Parameters and Options panel** on its items, Project Layout, Project Gallery, Checklists and everything else
 * **Its own Preselected Item Type and Default Archive Page**
 
 Nothing is shared with the Portfolio post type. Each one keeps its own settings, so your Case Studies can use a Carousel layout while your Portfolio uses Columned.
@@ -33,8 +33,10 @@ Nothing is shared with the Portfolio post type. Each one keeps its own settings,
 
 Its Customizer screens appear right away.
 
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: Kalium -> Settings -> Portfolio showing the Portfolio Post Types checklist with a custom post type ticked]
+
 {% hint style="info" %}
-**Only public post types appear in the list.** If you can't see the one you want, it was registered as private — either by the plugin that created it, or in the code that added it.
+**Only public post types appear in the list.** If you can't see the one you want, it was registered as private, either by the plugin that created it, or in the code that added it.
 {% endhint %}
 
 ***
@@ -56,7 +58,7 @@ The page used as that post type's listing.
 {% hint style="warning" %}
 **If the new options don't show in the Customizer**, save the settings page, then reload the Customizer. The screens are registered on the next load.
 
-**If your item URLs return a 404 error**, go to **Settings -> Permalinks** and click **Save Changes** once. Nothing needs altering — saving is what rebuilds the addresses. This happens whenever you add or remove a post type here.
+**If your item URLs return a 404 error**, go to **Settings -> Permalinks** and click **Save Changes** once. Nothing needs altering, saving is what rebuilds the addresses. This happens whenever you add or remove a post type here.
 {% endhint %}
 
 ***
@@ -75,10 +77,10 @@ Untick it and save.
 
 Say you run a design studio. You want a **Portfolio** of visual work, and a separate **Case Studies** section with longer write-ups. Both should use Kalium's project layouts, but a visitor should never see the word "portfolio" on a case study.
 
-1. Create the **Case Studies** post type — with a plugin like Custom Post Type UI, or however you normally add one
+1. Create the **Case Studies** post type, with a plugin like Custom Post Type UI, or however you normally add one
 2. Go to **Kalium -> Settings -> Portfolio** and tick **Case Studies**
 3. Save, then visit **Settings -> Permalinks** and save once
-4. Open the Customizer — there's now a **Case Studies** group beside **Portfolio**
+4. Open the Customizer. There's now a **Case Studies** group beside **Portfolio**
 5. Set up the listing layout there, independently of your Portfolio
 6. Back in Settings, set **Preselected Item Type** for Case Studies to the layout you'll use most
 
@@ -90,7 +92,7 @@ Now both sections have the full module, their own settings, and their own names.
 
 If your site has no use for a portfolio at all, switch **Portfolio Extension** off at **Kalium -> Settings -> Portfolio**. That removes the module, its post type and its Customizer screens.
 
-Nothing is deleted — your projects stay in the database and come back if you switch it on again.
+Nothing is deleted, your projects stay in the database and come back if you switch it on again.
 
 {% content-ref url="../../getting-started/theme-settings/portfolio.md" %}
 [portfolio.md](../../getting-started/theme-settings/portfolio.md)

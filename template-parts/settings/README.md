@@ -2,7 +2,7 @@
 
 Template Parts in Kalium have a dedicated settings panel that lets you control how and where your content appears on your site. Depending on the type of Template Part you're creating (Section, Header, Footer, Page, Popup, or Snippet), the available settings may vary.
 
-In this article, we’ll walk through the main parts of this panel — including how to open it and switch between Template Part types.
+In this article, we’ll walk through the main parts of this panel, including how to open it and switch between Template Part types.
 
 ***
 
@@ -31,9 +31,9 @@ This will toggle the settings panel on the right side of the editor. From here, 
 
 Two settings are shared by everything, though they behave slightly differently:
 
-**Display Conditions** decide **which pages** the part applies to. Every type has them, and **without at least one condition a part is never shown** — with one exception: on a Snippet they're called **Execute Conditions**, and an empty list there means *no restriction* rather than *never*.
+**Display Conditions** decide **which pages** the part applies to. Every type has them, and **without at least one condition a part is never shown**, with one exception: on a Snippet they're called **Execute Conditions**, and an empty list there means *no restriction* rather than *never*.
 
-**Placement** decides **where on the page** something goes. Only **Sections** and **Snippets** have it — the other types already know where they belong.
+**Placement** decides **where on the page** something goes. Only **Sections** and **Snippets** have it, the other types already know where they belong.
 
 {% content-ref url="type.md" %}
 [type.md](type.md)
@@ -54,6 +54,6 @@ Two settings are shared by everything, though they behave slightly differently:
 ***
 
 {% hint style="info" %}
-**A setting you expected isn't there?** Check the **Type** first — most of the panel changes with it. A Header part has no Placement, and a Section has no Header Settings.
+**A setting you expected isn't there?** Check the **Type** first, most of the panel changes with it. A Header part has no Placement, and a Section has no Header Settings.
 {% endhint %}
 

@@ -18,6 +18,8 @@ This is the opposite of PHP, where an empty placement is normal and usually corr
 
 Kalium handles this for you: **a new CSS or JavaScript snippet is given the Enqueue Scripts placement automatically**. Leave it alone and everything works. But if you clear the placement, or you're editing an older snippet, this is the first thing to check when nothing happens.
 
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Placement panel on a new CSS snippet showing Enqueue Scripts already filled in]
+
 {% hint style="info" %}
 **Enqueue Scripts** is in the **Head** group of the location selector. It's the standard spot where WordPress loads styles and scripts, and it is almost always the right one.
 {% endhint %}
@@ -32,10 +34,10 @@ Kalium already has a box for custom CSS at **Appearance -> Customize -> Addition
 
 **Use a CSS snippet** when you want:
 
-* **Conditions** — styles that only load on the shop, or only for logged-in visitors
-* **Organization** — several named snippets instead of one long unbroken box
-* **A separate file** — better for browser caching on a large stylesheet
-* **Media targeting** — styles only for print, or only below a screen width
+* **Conditions**: styles that only load on the shop, or only for logged-in visitors
+* **Organization**: several named snippets instead of one long unbroken box
+* **A separate file**: better for browser caching on a large stylesheet
+* **Media targeting**: styles only for print, or only below a screen width
 
 Neither is more "correct". For three lines, use Additional CSS.
 
@@ -62,12 +64,14 @@ Limits the styles to a particular context, using the same values as a stylesheet
 | `(min-width: 1200px)` | Only on wide screens |
 | `screen` | Screens but not print |
 
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Snippet Settings panel for a CSS snippet, showing Enqueue as File and Media]
+
 ***
 
 ### Settings for JavaScript snippets
 
 **Enqueue as File**\
-As above — loads the script from its own file instead of printing it inline. The two settings below only exist once this is on.
+As above, loads the script from its own file instead of printing it inline. The two settings below only exist once this is on.
 
 **ES Module**\
 Lets your code use modern `import` and `export` syntax. Turn this on only if the code you're adding needs it; most snippets don't.
@@ -75,14 +79,16 @@ Lets your code use modern `import` and `export` syntax. Turn this on only if the
 **Loading**\
 How the browser should handle the script:
 
-* **Blocking** — the page waits for the script before continuing. Only for code that must run before anything renders.
-* **Async** — the script loads alongside the page and runs as soon as it's ready. Order is not guaranteed.
-* **Defer** — the script loads alongside the page and runs after it's built. **This is the safest default** for most scripts.
+* **Blocking**: the page waits for the script before continuing. Only for code that must run before anything renders.
+* **Async**: the script loads alongside the page and runs as soon as it's ready. Order is not guaranteed.
+* **Defer**: the script loads alongside the page and runs after it's built. **This is the safest default** for most scripts.
 
 Turning on **ES Module** switches *Blocking* to *Defer* automatically, because a module cannot block.
 
 **Dependencies**\
-Script handles that must load before yours, separated by commas. The one you'll actually use is `jquery` — if your code starts with `jQuery(` or `$(`, put `jquery` here.
+Script handles that must load before yours, separated by commas. The one you'll actually use is `jquery`, if your code starts with `jQuery(` or `$(`, put `jquery` here.
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Snippet Settings panel for a JavaScript snippet, showing Enqueue as File, ES Module, Loading and Dependencies]
 
 ***
 
@@ -95,7 +101,7 @@ Say you have a long stylesheet that only applies to your shop. Add **Execute Con
 * *WooCommerce* -> *Shop Archive*, joined with **OR**
 * *WooCommerce* -> *Product Page*
 
-Now those styles load on shop pages and nowhere else — every other page on your site stays that bit lighter.
+Now those styles load on shop pages and nowhere else, every other page on your site stays that bit lighter.
 
 {% content-ref url="../../settings/display-conditions.md" %}
 [display-conditions.md](../../settings/display-conditions.md)
@@ -118,7 +124,7 @@ Hiding the page title on a specific page:
 }
 ```
 
-5. Leave **Placement** as **Enqueue Scripts** — it's already set
+5. Leave **Placement** as **Enqueue Scripts**. It's already set
 6. Add an **Execute Condition**: *Singular Content* -> *Single Page* -> Contact
 7. **Publish**
 
@@ -129,10 +135,10 @@ The title is hidden on that page and nowhere else.
 ### Common questions
 
 **My CSS snippet does nothing.**\
-Check **Placement**. Empty means it never loads — set it to **Enqueue Scripts**.
+Check **Placement**. Empty means it never loads. Set it to **Enqueue Scripts**.
 
 **My styles load but are ignored.**\
-Something more specific is overriding them. This is normal CSS behavior rather than a snippet problem — a more specific selector wins.
+Something more specific is overriding them. This is normal CSS behavior rather than a snippet problem, a more specific selector wins.
 
 **My JavaScript throws an error about `$`.**\
 Add `jquery` to **Dependencies**, or write `jQuery` in full instead of `$`.
@@ -144,4 +150,4 @@ Set **Loading** to **Defer**.
 JavaScript and PHP require an administrator account. CSS is available to anyone who can edit Template Parts.
 
 **I don't see Enqueue as File.**\
-**Snippet Files** is switched off, or the snippets folder isn't writable. Check **Kalium -> Settings -> Template Parts** — the line under the setting says which.
+**Snippet Files** is switched off, or the snippets folder isn't writable. Check **Kalium -> Settings -> Template Parts**, the line under the setting says which.

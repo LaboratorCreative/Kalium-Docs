@@ -4,7 +4,7 @@ description: Add to cart, the cart drawer, product galleries and pagination.
 
 # Shop Problems
 
-Many shop issues below were fixed in past Kalium releases, so **update to the latest version first** — it resolves a good proportion of them outright.
+Many shop issues below were fixed in past Kalium releases, so **update to the latest version first**, it resolves a good proportion of them outright.
 
 {% hint style="info" %}
 **Payments, shipping, tax and stock are WooCommerce's own settings**, under **WooCommerce -> Settings**. Kalium controls how the shop *looks*, not how it processes orders. If something isn't working about an order, check WooCommerce first.
@@ -30,7 +30,7 @@ This isn't a Kalium setting. Check WooCommerce, and any membership or wholesale 
 
 ### The cart drawer doesn't open or close
 
-**Check first:** **Customize -> Header -> Cart -> Click Action**. If it's set to *Go to Cart Page*, there's no drawer at all — that's by design.
+**Check first:** **Customize -> Header -> Cart -> Click Action**. If it's set to *Go to Cart Page*, there's no drawer at all. That's by design.
 
 If it's set to open the drawer and nothing happens, update Kalium. This was fixed for the drawer not opening from a product page, and for it not closing after a quantity change.
 
@@ -42,7 +42,7 @@ If it's set to open the drawer and nothing happens, update Kalium. This was fixe
 
 ### The column switcher doesn't work
 
-Update — this was fixed twice.
+Update. This was fixed twice.
 
 {% hint style="info" %}
 **Product Columns** and **Masonry Mode** are hidden when **Columns Switcher** is off, because they depend on it. If those settings have disappeared, that's why.
@@ -52,7 +52,7 @@ Update — this was fixed twice.
 
 ### Grid columns are wrong on mobile
 
-**Product Columns is per device.** Click the mobile icon beside the setting and set the value explicitly — the desktop count doesn't carry down.
+**Product Columns is per device.** Click the mobile icon beside the setting and set the value explicitly, the desktop count doesn't carry down.
 
 {% content-ref url="../other/responsive-settings.md" %}
 [responsive-settings.md](../other/responsive-settings.md)
@@ -62,7 +62,7 @@ Update — this was fixed twice.
 
 ### Pagination loses my filters, or shows pages that don't exist
 
-Update first — this was fixed for compatibility with Product Filters for WooCommerce, for the mobile pagination layout, and for a hover overlay covering the pagination and blocking clicks.
+Update first. This was fixed for compatibility with Product Filters for WooCommerce, for the mobile pagination layout, and for a hover overlay covering the pagination and blocking clicks.
 
 If it persists, filtered pagination depends on your **filter plugin** generating proper page addresses. Check that plugin's own settings.
 
@@ -78,7 +78,7 @@ A timing issue, fixed in a past release. Update.
 
 **Check first:** which **Shop Single Gallery Type** is selected. Each shows a different set of settings, and most of the screen is hidden when *Simple* is chosen.
 
-Known issues that have since been fixed include vertical gallery thumbnails on mobile and a gap in vertical carousel mode — so update if you see either.
+Known issues that have since been fixed include vertical gallery thumbnails on mobile and a gap in vertical carousel mode, so update if you see either.
 
 {% hint style="info" %}
 **If the product page uses Elementor's page template**, Kalium deliberately hands the gallery over to WooCommerce's own, because Elementor's product widget expects that markup. This is intended. To keep Kalium's gallery, use a Kalium page template for products instead.
@@ -98,7 +98,7 @@ Fixed in a past release. Update.
 
 ### The My Account or password reset form is broken
 
-Both were fixed — the reset password layout when the My Account image was enabled, and the login form not being visible by default. Update.
+Both were fixed, the reset password layout when the My Account image was enabled, and the login form not being visible by default. Update.
 
 {% content-ref url="../post-types/woocommerce/my-account.md" %}
 [my-account.md](../post-types/woocommerce/my-account.md)

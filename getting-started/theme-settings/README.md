@@ -1,6 +1,6 @@
 ---
 description: >-
-  Kalium -> Settings is where whole features are switched on and off — separate
+  Kalium -> Settings is where whole features are switched on and off, separate
   from the Customizer, which decides how they look.
 ---
 
@@ -8,11 +8,13 @@ description: >-
 
 Kalium has two places where you change things, and knowing which is which saves a lot of hunting.
 
-**The Customizer** — **Appearance -> Customize** — decides how your site *looks*. Colors, fonts, header layout, the shop grid.
+**The Customizer**, **Appearance -> Customize**, decides how your site *looks*. Colors, fonts, header layout, the shop grid.
 
-**Theme Settings** — **Kalium -> Settings** — decides which features *exist*. Whether Template Parts is available at all, whether the portfolio module is loaded, whether backups are taken before updates.
+**Theme Settings**, **Kalium -> Settings**, decides which features *exist*. Whether Template Parts is available at all, whether the portfolio module is loaded, whether backups are taken before updates.
 
 Put simply: the Customizer styles a feature, Theme Settings decides whether there is a feature to style.
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Kalium -> Settings screen showing the section navigation down the side]
 
 ***
 
@@ -60,7 +62,7 @@ Template Parts is switched off, or **Hide Template Parts** is on under White Lab
 **The Portfolio options vanished from the Customizer.**\
 **Portfolio Extension** is off, or the post type was unticked under **Portfolio Post Types**.
 
-**A dashboard page is missing** — Plugins, Starter Sites, Status, Changelog or Account.\
+**A dashboard page is missing**, Plugins, Starter Sites, Status, Changelog or Account.\
 Check the Hide switches under White Label.
 
 **None of my snippets run, but they're all published.**\

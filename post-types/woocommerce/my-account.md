@@ -4,7 +4,7 @@ The My Account section in WooCommerce allows you to add an image next to the log
 
 <figure><img src="../../.gitbook/assets/woocommerce-my-account.jpg" alt="" width="345"><figcaption></figcaption></figure>
 
-A plain login form on a blank page is one of the least welcoming pages on a shop. An image beside it makes the page feel like part of your site rather than a system screen — a lifestyle photo, a product shot, or simply your brand colors.
+A plain login form on a blank page is one of the least welcoming pages on a shop. An image beside it makes the page feel like part of your site rather than a system screen, a lifestyle photo, a product shot, or simply your brand colors.
 
 ***
 
@@ -26,6 +26,8 @@ The image sits to the right of the form. This is the default.
 **Left**\
 The image sits to the left, with the form on the right.
 
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Align option showing Left and Right, ideally with a preview of each]
+
 Here are screenshots showing how the option looks and how the form can appear with an image added:
 
 <figure><img src="../../.gitbook/assets/woocommerce-my-account-live.jpg" alt=""><figcaption></figcaption></figure>
@@ -38,7 +40,7 @@ The image is decorative and is hidden on smaller screens so the form gets the fu
 
 ### What else is on the My Account page
 
-The rest of the page — the tabs for orders, downloads, addresses and account details — is WooCommerce's own, under **WooCommerce -> Settings -> Accounts & Privacy**. That's where you control whether customers can register, whether they can order without an account, and which sections they see.
+The rest of the page (the tabs for orders, downloads, addresses and account details) is WooCommerce's own, under **WooCommerce -> Settings -> Accounts & Privacy**. That's where you control whether customers can register, whether they can order without an account, and which sections they see.
 
 Kalium styles those pages to match your site, but the content and behavior belong to WooCommerce.
 
@@ -46,7 +48,7 @@ Kalium styles those pages to match your site, but the content and behavior belon
 
 ### Doing more with the page
 
-If you want to change the layout itself — add a welcome message, your support details, a promotion for signed-in customers — create a **Template Part** of type *Section* and place it with a **WooCommerce -> My Account Page** condition.
+If you want to change the layout itself (add a welcome message, your support details, a promotion for signed-in customers) create a **Template Part** of type *Section* and place it with a **WooCommerce -> My Account Page** condition.
 
 {% content-ref url="../../template-parts/creating-template-parts/creating-a-section/" %}
 [creating-a-section](../../template-parts/creating-template-parts/creating-a-section/)
@@ -63,7 +65,7 @@ It only appears once an image is set.
 This was fixed in a past release, along with a broken reset password layout when the account image was enabled. Update Kalium.
 
 **Customers can't register.**\
-That's WooCommerce, not Kalium — **WooCommerce -> Settings -> Accounts & Privacy**, and enable account creation on the My Account page.
+That's WooCommerce, not Kalium: **WooCommerce -> Settings -> Accounts & Privacy**, and enable account creation on the My Account page.
 
 {% content-ref url="../../troubleshooting/shop-problems.md" %}
 [shop-problems.md](../../troubleshooting/shop-problems.md)

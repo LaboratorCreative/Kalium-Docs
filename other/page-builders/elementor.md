@@ -4,7 +4,7 @@ description: What Kalium adds to Elementor, and how the two work together.
 
 # Elementor
 
-Elementor is a visual page builder — you drag elements onto the page and see the result as you work. Kalium supports it fully and adds three of its own widgets, plus a few connections that make the theme and the builder agree with each other.
+Elementor is a visual page builder, you drag elements onto the page and see the result as you work. Kalium supports it fully and adds three of its own widgets, plus a few connections that make the theme and the builder agree with each other.
 
 Install it from **Kalium -> Plugins** so you get the version Kalium was tested against.
 
@@ -22,6 +22,8 @@ A listing of posts, with control over how many appear, which categories they com
 
 **Content Section**\
 Places a Kalium Template Part of type *Section* into the page. Only appears while Template Parts is enabled.
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Elementor widget panel with the Kalium widgets visible]
 
 ***
 
@@ -51,7 +53,7 @@ Pick a color from the palette rather than typing a hex value, and changing the p
 
 ### Building Template Parts with Elementor
 
-Kalium's Template Parts can be built with Elementor — sections, headers, footers, popups and page replacements all open in Elementor's full editor, the same as a normal page.
+Kalium's Template Parts can be built with Elementor, sections, headers, footers, popups and page replacements all open in Elementor's full editor, the same as a normal page.
 
 The one exception is **Snippets**, which hold code rather than layout. Elementor isn't offered for those.
 
@@ -63,12 +65,12 @@ The one exception is **Snippets**, which hold code rather than layout. Elementor
 
 ### Elementor Pro's Theme Builder
 
-If you have Elementor Pro, you have two ways to replace a header, footer or archive template — Elementor's Theme Builder, and Kalium's Template Parts. Both work.
+If you have Elementor Pro, you have two ways to replace a header, footer or archive template, Elementor's Theme Builder, and Kalium's Template Parts. Both work.
 
 **Pick one and stick to it.** Using both to replace the same thing is where problems start: two headers on a page almost always means one of each is active.
 
 {% hint style="info" %}
-**A Kalium setting stopped working after building with Elementor Pro's Theme Builder.** An Elementor template is replacing that part of the page, so the Customizer no longer governs it. Same as with Kalium's own Template Parts — whichever replaces the header owns the header.
+**A Kalium setting stopped working after building with Elementor Pro's Theme Builder.** An Elementor template is replacing that part of the page, so the Customizer no longer governs it. Same as with Kalium's own Template Parts, whichever replaces the header owns the header.
 {% endhint %}
 
 ***

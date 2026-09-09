@@ -18,17 +18,21 @@ In your WordPress dashboard, go to **Kalium -> Template Parts**.
 
 Switch to the **Footers** tab at the top, then click **Add New**.
 
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Template Parts screen with the Footers tab selected]
+
 ***
 
 ### 2. Name it and build the footer
 
 Give it a name that describes where it will be used, such as **Minimal Landing Footer**.
 
-Build the footer in the editor using the block editor, Elementor or WPBakery. Columns of links, a newsletter form, a logo and a copyright line — anything you can lay out on a page works here.
+Build the footer in the editor using the block editor, Elementor or WPBakery. Columns of links, a newsletter form, a logo and a copyright line, anything you can lay out on a page works here.
 
 {% hint style="info" %}
 To show the current year in a copyright line without editing it every January, use the `[year]` shortcode. See [Shortcodes](../../other/shortcodes.md).
 {% endhint %}
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the editor with a simple custom footer built]
 
 ***
 
@@ -54,9 +58,11 @@ Make sure **Type** is set to **Footer**. Starting from the Footers tab sets it f
 
 Common setups:
 
-* **One landing page** — *Singular Content* -> *Single Page* -> choose the page
-* **Every blog post** — *Singular Content* -> *Single Post*
-* **The whole shop** — *WooCommerce* -> *Shop Archive*, plus a second row for *Product Page*, joined with **OR**
+* **One landing page**: *Singular Content* -> *Single Page* -> choose the page
+* **Every blog post**: *Singular Content* -> *Single Post*
+* **The whole shop**: *WooCommerce* -> *Shop Archive*, plus a second row for *Product Page*, joined with **OR**
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Display Conditions panel with a condition added]
 
 {% content-ref url="../settings/display-conditions.md" %}
 [display-conditions.md](../settings/display-conditions.md)
@@ -69,10 +75,12 @@ Common setups:
 Footers have two settings of their own:
 
 **Fixed Footer**\
-The footer stays in place while the page content slides up over it as visitors scroll — the footer is revealed underneath rather than pushed down. It is a striking effect on a short page and is best avoided on very long ones.
+The footer stays in place while the page content slides up over it as visitors scroll, the footer is revealed underneath rather than pushed down. It is a striking effect on a short page and is best avoided on very long ones.
 
 **Effect**\
 The animation used as the footer is revealed: None, Fade or Slide.
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Footer Settings panel showing Fixed Footer and Effect]
 
 ***
 
@@ -88,6 +96,7 @@ Click **Publish**, then visit a page your conditions match.
 
 **The footer shows on more pages than expected** usually means conditions are joined with **OR** where **AND** was intended. **OR** widens the match; **AND** narrows it.
 
-**Nothing appears at all** — check the part is Published and has at least one condition.
+**Nothing appears at all**\
+Check the part is Published and has at least one condition.
 
 To go back to the Customizer footer without losing your work, set the part to **Disabled** in the Template Parts list.

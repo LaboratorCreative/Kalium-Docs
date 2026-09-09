@@ -6,7 +6,7 @@ description: >-
 
 # Plugin Problems and Conflicts
 
-Kalium bundles four premium plugins — **ACF Pro**, **WPBakery Page Builder**, **Slider Revolution** and **LayerSlider**. They're licensed through your Kalium license, so you install and update them from **Kalium -> Plugins**, not the usual WordPress plugin screen.
+Kalium bundles four premium plugins: **ACF Pro**, **WPBakery Page Builder**, **Slider Revolution** and **LayerSlider**. They're licensed through your Kalium license, so you install and update them from **Kalium -> Plugins**, not the usual WordPress plugin screen.
 
 Two things follow from that, and between them they explain most plugin problems: **the theme supplies the download**, and **an inactive license means no downloads at all**.
 
@@ -16,14 +16,14 @@ Two things follow from that, and between them they explain most plugin problems:
 
 ### "Update package not available"
 
-By far the most common — usually on ACF Pro or Slider Revolution.
+By far the most common, usually on ACF Pro or Slider Revolution.
 
 The plugin author has released a new version, but WordPress has nowhere to download it from, because a bundled premium plugin has no public download. Kalium supplies the file, and it can only supply a version it actually carries.
 
 **Check first:**
 
-1. **Kalium -> Status** — is your license active? An inactive license means no plugin downloads.
-2. **Kalium -> Status** — is the theme itself up to date? A newer bundled plugin usually arrives *with* a theme update.
+1. **Kalium -> Status**, is your license active? An inactive license means no plugin downloads.
+2. **Kalium -> Status**, is the theme itself up to date? A newer bundled plugin usually arrives *with* a theme update.
 
 **The fix:**
 
@@ -50,7 +50,7 @@ The bundled copy is licensed through Kalium and should never need its own key. B
 
 Almost always **ACF Pro being inactive**. The portfolio's per-project fields are ACF fields, so without it the project template has nothing to render.
 
-1. **Plugins -> Installed Plugins** — check *Advanced Custom Fields PRO* is active
+1. **Plugins -> Installed Plugins**, check *Advanced Custom Fields PRO* is active
 2. If it isn't installed, get it from **Kalium -> Plugins**
 3. Reload a project page
 
@@ -58,10 +58,10 @@ Almost always **ACF Pro being inactive**. The portfolio's per-project fields are
 
 ### My widgets disappeared
 
-WordPress replaced the classic widget screen with a block-based one. Your sidebars still exist — the new screen just may not show them as you expect.
+WordPress replaced the classic widget screen with a block-based one. Your sidebars still exist, the new screen just may not show them as you expect.
 
 1. Install and activate the **Classic Widgets** plugin
-2. Open **Appearance -> Widgets** — your sidebars and their content are there
+2. Open **Appearance -> Widgets**, your sidebars and their content are there
 
 {% content-ref url="../general/sidebars/troubleshooting-sidebar.md" %}
 [troubleshooting-sidebar.md](../general/sidebars/troubleshooting-sidebar.md)
@@ -90,7 +90,7 @@ Do this on a staging copy if you have one.
 2. Clear all caches and test
 3. Re-enable them one at a time, testing after each
 
-**If you need those settings on**, exclude Kalium's own scripts from optimization. Most plugins accept a path pattern — exclude anything under the theme's `assets/js` directory.
+**If you need those settings on**, exclude Kalium's own scripts from optimization. Most plugins accept a path pattern, exclude anything under the theme's `assets/js` directory.
 
 ***
 
@@ -100,7 +100,7 @@ A gallery plugin is applying its own lightbox on top of Kalium's.
 
 **Either** disable the other plugin's lightbox while keeping its linking behavior, **or** turn Kalium's off at **Appearance -> Customize -> General -> Lightbox** and let the other plugin own it.
 
-Either works — just don't have both.
+Either works, just don't have both.
 
 {% content-ref url="../other/lightbox.md" %}
 [lightbox.md](../other/lightbox.md)
@@ -112,7 +112,7 @@ Either works — just don't have both.
 
 Elementor Pro's Theme Builder takes over headers and footers as soon as it's active, even if you haven't built one.
 
-**Either** build a header and footer in Elementor's Theme Builder, **or** let Kalium handle them — Kalium restores its own when no Elementor header or footer matches the page. If both are missing, update Kalium.
+**Either** build a header and footer in Elementor's Theme Builder, **or** let Kalium handle them, Kalium restores its own when no Elementor header or footer matches the page. If both are missing, update Kalium.
 
 ***
 
@@ -142,7 +142,7 @@ Usually specificity rather than a conflict.
 
 **Check** **Appearance -> Customize -> Additional CSS** and your child theme's stylesheet for existing rules using `!important` on the same property.
 
-**The fix:** remove the competing `!important`, or make your own selector more specific. Better still, set the value through the Customizer where one exists — it survives updates and avoids the fight entirely.
+**The fix:** remove the competing `!important`, or make your own selector more specific. Better still, set the value through the Customizer where one exists, it survives updates and avoids the fight entirely.
 
 ***
 
@@ -158,7 +158,7 @@ Usually specificity rather than a conflict.
 
 1. Access your site by FTP and rename the plugin's folder in `wp-content/plugins/` to disable it
 2. Reload to confirm the site recovers
-3. If it was one of the four bundled plugins, reinstall it through **Kalium -> Plugins** — that copy matches what the theme expects
+3. If it was one of the four bundled plugins, reinstall it through **Kalium -> Plugins**, that copy matches what the theme expects
 
 {% content-ref url="critical-errors.md" %}
 [critical-errors.md](critical-errors.md)

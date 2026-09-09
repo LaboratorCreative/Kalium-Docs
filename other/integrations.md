@@ -1,11 +1,13 @@
 ---
 description: >-
-  Third-party keys and services Kalium connects to — starting with Google Maps.
+  Third-party keys and services Kalium connects to, starting with Google Maps.
 ---
 
 # Integrations
 
 **Appearance -> Customize -> General -> Integrations** is where Kalium stores keys for outside services.
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: Appearance -> Customize -> General -> Integrations showing the Google Maps API Key field]
 
 ***
 
@@ -13,7 +15,7 @@ description: >-
 
 Google requires every website that displays a Google Map to have its own API key. Without one, a map shows as a gray box with a warning across it rather than your location.
 
-Paste your key here and every map on your site uses it — the **Map** element in WPBakery, and anything else that draws a Google map.
+Paste your key here and every map on your site uses it, the **Map** element in WPBakery, and anything else that draws a Google map.
 
 #### Getting a key
 
@@ -49,7 +51,7 @@ The exact reason is usually printed on the gray box itself, or in your browser's
 
 ### Other integrations
 
-Not everything Kalium works with lives on this screen — most integrations need no key at all and simply activate when their plugin does:
+Not everything Kalium works with lives on this screen, most integrations need no key at all and simply activate when their plugin does:
 
 | Plugin | What Kalium adds |
 | --- | --- |
@@ -59,7 +61,7 @@ Not everything Kalium works with lives on this screen — most integrations need
 | **Elementor** and **WPBakery** | Kalium's own widgets and elements |
 | **ACF Pro** | The Parameters and Options panel |
 
-If a setting looks like it's doing nothing, an inactive plugin is a common cause — the setting stays visible either way.
+If a setting looks like it's doing nothing, an inactive plugin is a common cause, the setting stays visible either way.
 
 {% content-ref url="../troubleshooting/settings-not-applying.md" %}
 [settings-not-applying.md](../troubleshooting/settings-not-applying.md)

@@ -1,6 +1,6 @@
 ---
 description: >-
-  Replace Kalium's branding in the admin with your own — for agencies handing a
+  Replace Kalium's branding in the admin with your own, for agencies handing a
   site to a client.
 ---
 
@@ -13,6 +13,8 @@ This is built for agencies. If you build sites for clients and would rather the 
 {% hint style="info" %}
 **This section only appears if your license includes the White Label feature.** If you can't see it in the settings navigation, that's why. See [Managing Licenses](../license/managing-licenses.md).
 {% endhint %}
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: Kalium -> Settings -> White Label showing the master switch and the panels below it]
 
 ***
 
@@ -30,7 +32,7 @@ Replaces the word "Kalium" throughout the admin with your own name.
 What appears in place of "Kalium".
 
 **Agency URL**\
-Where your name links to — your own site.
+Where your name links to, your own site.
 
 **Agency Icon**\
 The icon shown beside it.
@@ -71,7 +73,8 @@ Hide the ones a client has no business seeing, and keep the ones they'll need.
 ### Two warnings worth reading first
 
 {% hint style="warning" %}
-**Before turning on "Hide White Label Settings"** — it hides the White Label section from the settings navigation, **including from you**.
+**Before turning on "Hide White Label Settings"**\
+It hides the White Label section from the settings navigation, **including from you**.
 
 It isn't permanent. The section is still reachable by going straight to its address:
 
@@ -79,7 +82,7 @@ It isn't permanent. The section is still reachable by going straight to its addr
 /wp-admin/admin.php?page=kalium&tab=settings&section=white-label
 ```
 
-**Bookmark that before you enable it.** Everything else in White Label can be undone from the section itself — but only if you can reach it.
+**Bookmark that before you enable it.** Everything else in White Label can be undone from the section itself, but only if you can reach it.
 {% endhint %}
 
 {% hint style="warning" %}

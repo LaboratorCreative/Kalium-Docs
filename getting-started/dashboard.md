@@ -14,7 +14,7 @@ Everything Kalium adds to your admin lives under the **Kalium** menu.
 
 #### Home
 
-The welcome screen above — your plan, your support period, your theme version, and quick links to the things you'll need most.
+The welcome screen above, your plan, your support period, your theme version, and quick links to the things you'll need most.
 
 This is also where you activate your license. If the **Kalium** menu has no sub-items yet, clicking it brings you here to enter your key.
 
@@ -24,7 +24,7 @@ This is also where you activate your license. If the **Kalium** menu has no sub-
 
 #### Starter Sites
 
-Ready-made websites you can import in one step — a complete design with pages, menus and demo content, which you then replace with your own.
+Ready-made websites you can import in one step, a complete design with pages, menus and demo content, which you then replace with your own.
 
 The fastest way to get a site that looks finished.
 
@@ -37,7 +37,7 @@ The fastest way to get a site that looks finished.
 Where you install and update the plugins Kalium works with, including four premium ones bundled with your license: **ACF Pro**, **WPBakery Page Builder**, **Slider Revolution** and **LayerSlider**.
 
 {% hint style="warning" %}
-**Always install these from here**, not from the WordPress plugin directory. The bundled copies are licensed through Kalium — a copy from elsewhere won't match your license and will be overwritten.
+**Always install these from here**, not from the WordPress plugin directory. The bundled copies are licensed through Kalium, a copy from elsewhere won't match your license and will be overwritten.
 {% endhint %}
 
 {% content-ref url="installation/installing-required-plugins.md" %}
@@ -52,9 +52,11 @@ It shows your PHP version, memory limit, whether your license is active, and whe
 
 Support will almost always ask for a screenshot of this screen, so it's worth knowing where it is.
 
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Kalium -> Status screen showing the system checks]
+
 #### Settings
 
-Where whole features are switched on and off — Template Parts, the portfolio module, theme backups, white labeling.
+Where whole features are switched on and off, Template Parts, the portfolio module, theme backups, white labeling.
 
 Different from the Customizer: **Settings decides whether a feature exists, the Customizer decides how it looks.**
 
@@ -64,7 +66,7 @@ Different from the Customizer: **Settings decides whether a feature exists, the 
 
 #### Template Parts
 
-Reusable pieces of your site you build once and place anywhere — custom sections, replacement headers and footers, popups, and code snippets.
+Reusable pieces of your site you build once and place anywhere, custom sections, replacement headers and footers, popups, and code snippets.
 
 {% content-ref url="../template-parts/what-are-template-parts.md" %}
 [what-are-template-parts.md](../template-parts/what-are-template-parts.md)
@@ -72,7 +74,7 @@ Reusable pieces of your site you build once and place anywhere — custom sectio
 
 #### Typography
 
-Every font on your site — adding them, sizing them, and choosing where each one applies.
+Every font on your site, adding them, sizing them, and choosing where each one applies.
 
 {% content-ref url="../typography/fonts/" %}
 [fonts](../typography/fonts/)
@@ -90,7 +92,7 @@ Two things hide Kalium's screens, and neither is a fault:
 
 **Your license isn't active.** The **Kalium** menu shows no sub-items until the theme is registered. Click **Kalium** and enter your key.
 
-**White Label is hiding it.** **Kalium -> Settings -> White Label** can hide the Plugins, Starter Sites, Template Parts, Status, Changelog and Account screens — usually set up by whoever built the site.
+**White Label is hiding it.** **Kalium -> Settings -> White Label** can hide the Plugins, Starter Sites, Template Parts, Status, Changelog and Account screens, usually set up by whoever built the site.
 
 {% content-ref url="theme-settings/white-label.md" %}
 [white-label.md](theme-settings/white-label.md)

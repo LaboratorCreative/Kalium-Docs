@@ -6,7 +6,7 @@ description: >-
 
 # A Setting Isn't Working
 
-You've set the option, you've saved, and nothing changed. In almost every case the setting is fine — something else is taking priority over it.
+You've set the option, you've saved, and nothing changed. In almost every case the setting is fine, something else is taking priority over it.
 
 Here are the five things that do that, in the order they're worth checking.
 
@@ -59,16 +59,16 @@ Some settings appear whether or not the plugin they need is installed. They simp
 | **Language Switcher** does nothing | WPML active |
 | **Breadcrumb** can't be enabled | Breadcrumb NavXT installed |
 | The whole **WooCommerce** group is missing | WooCommerce active |
-| The **cart** is missing from the header | WooCommerce active — or **Hide when Empty** is on and the cart is empty |
+| The **cart** is missing from the header | WooCommerce active, or **Hide when Empty** is on and the cart is empty |
 | The **free shipping bar** never appears | A free shipping method with a minimum order set up in WooCommerce, and the page ticked under **Locations to Show** |
 
 ***
 
 ### 5. The page is stale
 
-The change is saved — you're just not seeing it.
+The change is saved. You're just not seeing it.
 
-1. **Clear every cache** — hosting, plugin and CDN
+1. **Clear every cache**, hosting, plugin and CDN
 2. **Check CSS/JavaScript optimization** isn't serving an older combined file
 3. **Load the page signed out**, or in a private browsing window
 
@@ -84,11 +84,11 @@ The change is saved — you're just not seeing it.
 
 Permalinks need rebuilding after the portfolio slug or its assigned post types change.
 
-Go to **Settings -> Permalinks** and click **Save Changes** once. Nothing needs altering — saving is what rebuilds them.
+Go to **Settings -> Permalinks** and click **Save Changes** once. Nothing needs altering, saving is what rebuilds them.
 
 #### Widgets I deleted are still showing
 
-**Single Post** falls back to **Blog Archive**, and **Single Product** falls back to **Shop Archive**, when the single area is empty. Emptying a widget area doesn't hide the sidebar — it inherits the archive's.
+**Single Post** falls back to **Blog Archive**, and **Single Product** falls back to **Shop Archive**, when the single area is empty. Emptying a widget area doesn't hide the sidebar, it inherits the archive's.
 
 **The fix:** turn the sidebar off for that area instead of emptying it.
 
@@ -108,7 +108,7 @@ Password-protected posts and attachment pages deliberately hide the featured ima
 
 #### An Elementor template replaced my archive
 
-Elementor Pro templates whose conditions match an archive address replace Kalium's archive entirely — the same way Kalium's own Template Parts do.
+Elementor Pro templates whose conditions match an archive address replace Kalium's archive entirely, the same way Kalium's own Template Parts do.
 
 {% content-ref url="plugin-conflicts.md" %}
 [plugin-conflicts.md](plugin-conflicts.md)
@@ -118,7 +118,7 @@ Elementor Pro templates whose conditions match an archive address replace Kalium
 
 ### If a setting has vanished from the screen
 
-That's a different problem. Most Kalium settings are hidden on purpose until a related setting is switched on — **Sticky Effect** only appears once Sticky Header is enabled, and so on.
+That's a different problem. Most Kalium settings are hidden on purpose until a related setting is switched on: **Sticky Effect** only appears once Sticky Header is enabled, and so on.
 
 Check the setting directly above the one you're looking for. If a whole section is missing, check **Kalium -> Settings**, where entire features can be switched off.
 

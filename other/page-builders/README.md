@@ -1,6 +1,6 @@
 ---
 description: >-
-  Kalium works with Elementor, WPBakery and the built-in WordPress editor — and
+  Kalium works with Elementor, WPBakery and the built-in WordPress editor, and
   adds its own elements to each.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 Kalium doesn't tie you to one way of building pages. Three editors are supported, and Kalium adds its own elements to each of them so you can drop a portfolio grid or a blog listing into a page without writing anything.
 
-You can use more than one on the same site — a page built with Elementor sits happily beside one built with the block editor. What you can't do is build the *same* page with two of them.
+You can use more than one on the same site, a page built with Elementor sits happily beside one built with the block editor. What you can't do is build the *same* page with two of them.
 
 ***
 
@@ -66,7 +66,7 @@ Drops a Template Part of type *Section* into the page. Handy when one page needs
 
 ### Installing a builder
 
-Elementor and WPBakery are both offered through **Kalium -> Plugins**, along with everything else the theme bundles. Install from there rather than hunting for them elsewhere — you get the version Kalium was tested against.
+Elementor and WPBakery are both offered through **Kalium -> Plugins**, along with everything else the theme bundles. Install from there rather than hunting for them elsewhere, you get the version Kalium was tested against.
 
 {% content-ref url="../../getting-started/installation/installing-required-plugins.md" %}
 [installing-required-plugins.md](../../getting-started/installation/installing-required-plugins.md)

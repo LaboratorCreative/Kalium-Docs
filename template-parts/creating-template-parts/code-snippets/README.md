@@ -1,14 +1,14 @@
 ---
 description: >-
-  Add PHP, CSS or JavaScript to your site without touching a single theme file —
-  new in Kalium 4.8.
+  Add PHP, CSS or JavaScript to your site without touching a single theme file.
+  New in Kalium 4.8.
 ---
 
 # Code Snippets
 
 Sooner or later, someone tells you to "add this to your functions.php file." It's common advice, and it's a bad idea: theme files are replaced when the theme updates, taking your changes with them, and one typo in that file can take the whole site offline.
 
-**Snippets** are Kalium's answer. A Snippet is a Template Part that holds code instead of layout — a few lines of PHP, a stylesheet, or a script. It lives in your database rather than a theme file, which means:
+**Snippets** are Kalium's answer. A Snippet is a Template Part that holds code instead of layout, a few lines of PHP, a stylesheet, or a script. It lives in your database rather than a theme file, which means:
 
 * **Updates don't touch it.** Update Kalium as often as you like.
 * **You can switch it off** from a list, without editing anything.
@@ -16,6 +16,8 @@ Sooner or later, someone tells you to "add this to your functions.php file." It'
 * **You don't need a child theme** for small additions.
 
 New in **Kalium 4.8**.
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Template Parts screen on the Snippets tab, showing a few snippets with their type badges and status]
 
 ***
 
@@ -39,7 +41,9 @@ Snippets are part of the Template Parts system, so they need it switched on at *
 
 In your WordPress dashboard, go to **Kalium -> Template Parts**, switch to the **Snippets** tab, and click **Add New**.
 
-The editor opens differently from other Template Parts: instead of a blank canvas, you get a single code block with a **Snippet** header and a language badge on the right. Nothing else can be added — a snippet holds code and only code.
+The editor opens differently from other Template Parts: instead of a blank canvas, you get a single code block with a **Snippet** header and a language badge on the right. Nothing else can be added, a snippet holds code and only code.
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the snippet editor as it first opens, showing the locked code block and the language badge]
 
 ***
 
@@ -53,13 +57,15 @@ Give it a name that describes what the code does, not what it is. **Hide prices 
 
 Open the Template Part Settings panel with the **Kalium icon** in the top-right corner. Directly under **Type** you'll find **Snippet Type**, offering:
 
-* **PHP** — changes how WordPress behaves
-* **CSS** — changes how the site looks
-* **JavaScript** — adds behavior in the browser
+* **PHP**: changes how WordPress behaves
+* **CSS**: changes how the site looks
+* **JavaScript**: adds behavior in the browser
 
 You can also click the badge on the code block itself to switch. Your code is kept when you change language.
 
 Not sure which you need? A rule of thumb: if it changes how something *looks*, it's CSS. If it changes what your site *does*, it's PHP.
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Snippet Type dropdown open showing PHP, CSS and JavaScript]
 
 ***
 
@@ -70,6 +76,8 @@ Type or paste your code into the block. The editor highlights it for the languag
 **For PHP, do not type `<?php`.** The opening tag is shown for you on the first line. If you paste code that begins with it, Kalium removes it for you.
 
 **Format code**, in the bar under the editor, tidies your code to WordPress coding standards. It's optional, and it downloads on first use so it needs an internet connection. If your code has a syntax error, the message appears next to this button with the line number.
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the code editor with a short PHP snippet in it, showing line numbers and the Format code button]
 
 ***
 
@@ -91,7 +99,7 @@ This step depends on the language, and it's the part that most often goes wrong.
 
 Click **Publish**.
 
-For PHP snippets, Kalium runs a safety check first: it quietly loads a page of your site in the background with the new code active. If the site loads, the snippet is published. **If it doesn't, the snippet stays switched off and you're shown the error and the line number** — your site is never left broken.
+For PHP snippets, Kalium runs a safety check first: it quietly loads a page of your site in the background with the new code active. If the site loads, the snippet is published. **If it doesn't, the snippet stays switched off and you're shown the error and the line number**, your site is never left broken.
 
 ***
 
@@ -101,7 +109,7 @@ Every Template Part has Display Conditions. On a Snippet they're called **Execut
 
 **An empty condition list means "no restriction", not "never".** A Section with no conditions never shows. A Snippet with no conditions runs everywhere it's allowed to.
 
-Add conditions when a snippet should only run in some places — a script that belongs on the checkout page, styles that only apply to blog posts.
+Add conditions when a snippet should only run in some places, a script that belongs on the checkout page, styles that only apply to blog posts.
 
 {% content-ref url="../../settings/display-conditions.md" %}
 [display-conditions.md](../../settings/display-conditions.md)
@@ -120,6 +128,8 @@ Snippets can include placeholders written as `{{NAME}}`, which are swapped for r
 ```
 
 Click **Placeholders** in the snippet's footer to see all 21 with their value on your site, and click one to insert it. They cover your site's addresses (`HOME_URL`, `SITE_URL`, `ADMIN_URL`, `AJAX_URL`, `REST_URL`, `LOGIN_URL`), its folders (`THEME_URL`, `CHILD_THEME_URL`, `CONTENT_URL`, `UPLOADS_URL`, `PLUGINS_URL`), details about the site (`SITE_NAME`, `SITE_DESCRIPTION`, `LOCALE`, `CHARSET`, `WP_VERSION`, `THEME_VERSION`, `YEAR`) and about the snippet itself (`SNIPPET_ID`, `SNIPPET_SLUG`, `RANDOM_ID`).
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Placeholders panel open, showing the list of placeholders with their values]
 
 {% hint style="info" %}
 Because values are filled in when you save, **moving your site to a new address means saving your snippets again** so they pick up the new one. Kalium regenerates them on its own when it notices the mismatch, but a manual save is the quick fix if a path looks wrong.
@@ -143,9 +153,9 @@ Drop it into any post or page to run the snippet at that spot. PHP output is pri
 
 The Template Parts list is where you work day to day:
 
-* **Enable / Disable** — switch a snippet off without deleting it. The first thing to try when something goes wrong.
-* **Duplicate** — copy a snippet before experimenting. The copy is created as Disabled with "(Copy)" in the title, keeping all its settings.
-* **Status** — shows Published, Disabled, or **Error**. Hover an Error for the message and line number.
+* **Enable / Disable**: switch a snippet off without deleting it. The first thing to try when something goes wrong.
+* **Duplicate**: copy a snippet before experimenting. The copy is created as Disabled with "(Copy)" in the title, keeping all its settings.
+* **Status**: shows Published, Disabled, or **Error**. Hover an Error for the message and line number.
 
 ***
 

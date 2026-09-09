@@ -1,6 +1,6 @@
 ---
 description: >-
-  How to set a different value for desktop, tablet and mobile — and why a site
+  How to set a different value for desktop, tablet and mobile, and why a site
   can look fine on a computer but wrong on a phone.
 ---
 
@@ -16,9 +16,11 @@ Kalium is responsive throughout: your site reflows to fit whatever screen it's v
 
 Look for the small **device icons** beside a setting's label. Where they appear, the setting is responsive.
 
-1. Find the setting — spacing, font size, column counts and padding usually are
+1. Find the setting, spacing, font size, column counts and padding usually are
 2. Click the **device icon** for tablet or mobile
 3. Set the value for that device
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: a Customizer setting with the desktop/tablet/mobile device icons beside its label, clearly visible]
 
 **A device with no value set inherits from the next size up.** So a value set for desktop applies to tablet and mobile until you give those their own. This is why you only need to change the sizes that actually need changing.
 
@@ -49,7 +51,7 @@ One column is usually right for phones. Two can work for a product grid if the i
 
 Phones get their own size and your desktop layout is untouched.
 
-Headings are the usual culprit. A 56px display heading that looks striking on a desktop is overwhelming on a phone — 28 to 32px is more typical.
+Headings are the usual culprit. A 56px display heading that looks striking on a desktop is overwhelming on a phone, 28 to 32px is more typical.
 
 {% content-ref url="../typography/font-sizes.md" %}
 [font-sizes.md](../typography/font-sizes.md)
@@ -88,7 +90,7 @@ Raise it if your menu has many items and starts wrapping on tablets. Lower it if
 
 ### Making images fit better on mobile
 
-When a grid reflows to one column, images with different shapes can make the page look untidy — one portrait, one landscape, one square.
+When a grid reflows to one column, images with different shapes can make the page look untidy, one portrait, one landscape, one square.
 
 Set an **Aspect Ratio** in the area's **Featured Image** settings. Every image is then cropped to the same shape, and the grid stays even at any width.
 
@@ -98,7 +100,7 @@ After changing an aspect ratio, regenerate your thumbnails so existing images ar
 
 ### Checking your work
 
-The Customizer has device preview buttons at the bottom of the panel — desktop, tablet and mobile. They're the quickest way to check a change without leaving the screen.
+The Customizer has device preview buttons at the bottom of the panel, desktop, tablet and mobile. They're the quickest way to check a change without leaving the screen.
 
 They're a preview, not a real phone. Before launching, open the site on an actual device: real phones have different fonts, a different scrollbar and a browser bar that takes up space.
 
@@ -106,7 +108,7 @@ They're a preview, not a real phone. Before launching, open the site on an actua
 
 ### When something is wrong on mobile only
 
-Problems that only appear on phones — content hidden behind the header, sideways scrolling, hover effects that don't work — have their own article:
+Problems that only appear on phones (content hidden behind the header, sideways scrolling, hover effects that don't work) have their own article:
 
 {% content-ref url="../troubleshooting/mobile-problems.md" %}
 [mobile-problems.md](../troubleshooting/mobile-problems.md)

@@ -6,11 +6,13 @@ description: >-
 
 # Search Results
 
-When a visitor searches your site, WordPress builds a results page for them. Kalium gives you control over what goes on it — which types of content are included, and whether each result shows a picture.
+When a visitor searches your site, WordPress builds a results page for them. Kalium gives you control over what goes on it, which types of content are included, and whether each result shows a picture.
 
 Everything here is under **Appearance -> Customize -> Search Results**.
 
 {% embed url="https://www.youtube.com/watch?v=nsIimGdgu3E" %}
+
+[TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: Appearance -> Customize -> Search Results showing the two main settings]
 
 ***
 
@@ -36,7 +38,7 @@ Tick any type of content you'd rather **not** appear in search results:
 * Portfolio
 
 {% hint style="info" %}
-**Tick Template Parts.** They're stored as a post type, so they're searchable by default — which means a visitor can land on a raw header or a section fragment with no context. Almost every site should exclude them.
+**Tick Template Parts.** They're stored as a post type, so they're searchable by default, which means a visitor can land on a raw header or a section fragment with no context. Almost every site should exclude them.
 
 If you've ever wondered why a strange, half-built page appeared in your search results, this is why.
 {% endhint %}
@@ -53,7 +55,7 @@ These appear once **Featured Image** is on.
 
 #### Image Size
 
-Which stored image size to load. The default is **Thumbnail — 150 x 150**, which is plenty for a small image beside a result.
+Which stored image size to load. The default is **Thumbnail, 150 x 150**, which is plenty for a small image beside a result.
 
 Choose **Custom Image Size** to set your own dimensions.
 
@@ -65,7 +67,7 @@ Changing the image size doesn't resize pictures you've already uploaded. **Regen
 
 The shape each image is cropped to. **This setting is per device.**
 
-*Original* keeps each image's own shape. Choosing a ratio — *Square*, *Wide*, *Portrait* and so on — crops everything to match, which makes the results list look tidier since every row is the same height.
+*Original* keeps each image's own shape. Choosing a ratio (*Square*, *Wide*, *Portrait* and so on) crops everything to match, which makes the results list look tidier since every row is the same height.
 
 Choose **Custom** to enter your own ratio.
 
@@ -83,7 +85,7 @@ Rounds the corners of each image. Set all four corners together, or unlink them 
 
 ### Designing the whole results page
 
-The settings above control the standard results list. If you want to design the search results page yourself — your own layout, your own message when nothing is found — create a **Template Part** of type *Page* with a display condition of *General Page -> Search Page*.
+The settings above control the standard results list. If you want to design the search results page yourself (your own layout, your own message when nothing is found) create a **Template Part** of type *Page* with a display condition of *General Page -> Search Page*.
 
 {% content-ref url="../template-parts/creating-template-parts/replace-a-page.md" %}
 [replace-a-page.md](../template-parts/creating-template-parts/replace-a-page.md)
@@ -93,7 +95,7 @@ The settings above control the standard results list. If you want to design the 
 
 ### Adding a search box to your header
 
-The results page is only half of it — visitors need somewhere to search from. The header has a search element you can switch on, with an optional animated icon.
+The results page is only half of it, visitors need somewhere to search from. The header has a search element you can switch on, with an optional animated icon.
 
 {% content-ref url="../general/header/custom-header/elements.md" %}
 [elements.md](../general/header/custom-header/elements.md)
@@ -110,7 +112,7 @@ Tick **Template Parts** under **Exclude Post Types**.
 Check they aren't ticked under **Exclude Post Types**. WooCommerce also has its own search behavior worth checking.
 
 **The images are the wrong shape.**\
-That's **Aspect Ratio**, not Image Size — and it's per device, so check tablet and mobile separately.
+That's **Aspect Ratio**, not Image Size, and it's per device, so check tablet and mobile separately.
 
 **The images are blurry.**\
 Raise **Image Size**, then regenerate your thumbnails.

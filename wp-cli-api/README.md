@@ -1,12 +1,12 @@
 ---
 description: >-
-  Managing Kalium from the command line — for automated deployments and people
+  Managing Kalium from the command line, for automated deployments and people
   who work in a terminal.
 ---
 
 # WP CLI API
 
-Kalium can be managed from the command line as well as from the WordPress admin. If you've never used a command line, **you don't need this section** — everything here can also be done from your dashboard.
+Kalium can be managed from the command line as well as from the WordPress admin. If you've never used a command line, **you don't need this section**, everything here can also be done from your dashboard.
 
 It exists for two groups of people:
 
@@ -43,7 +43,7 @@ Import, list and remove starter sites. Useful for setting up a new site in one s
 [license-management.md](license-management.md)
 {% endcontent-ref %}
 
-Activate, deactivate and check the theme license. This is the one agencies use most — activating a license as part of a deployment, or releasing it when a staging site is torn down.
+Activate, deactivate and check the theme license. This is the one agencies use most, activating a license as part of a deployment, or releasing it when a staging site is torn down.
 
 ***
 
