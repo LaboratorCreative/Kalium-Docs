@@ -8,7 +8,7 @@ Here, you can manage advanced options to customize the font experience, includin
 
 Configure when to include the font on specific pages, posts, or other post types. You can also exclude it from certain areas if needed:
 
-<figure><img src="../../.gitbook/assets/conditional-font-loading (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/conditional-font-loading.jpg" alt=""><figcaption></figcaption></figure>
 
 **Every font on a page has to be downloaded before text appears in it.** A font used on one landing page but loaded on all 200 pages of your site is 200 pages paying for something one of them uses.
 

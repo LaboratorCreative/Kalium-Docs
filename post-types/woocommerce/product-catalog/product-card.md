@@ -2,13 +2,11 @@
 
 A product card serves as the visual representation of a single product in your catalog. It acts as an individual element designed to be duplicated and displayed in a repeating loop throughout your product listings. Each card typically showcases key information, including the product image, title, price, and any other details you choose to include. There are two distinct types of product cards:
 
-
-
 <div><figure><img src="../../../.gitbook/assets/woocommerce-catalog-grid-card.jpg" alt="" width="375"><figcaption><p>Grid Product Card</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/woocommerce-catalog-list-card.jpg" alt="" width="375"><figcaption><p>List Product Card</p></figcaption></figure></div>
 
 ### Grid Product Card
 
-This layout is used when you select the Grid type in your catalog settings. It organizes products in a neat, grid-like arrangement, making it perfect for showcasing multiple items in an attractive and orderly fashion.&#x20;
+This layout is used when you select the Grid type in your catalog settings. It organizes products in a neat, grid-like arrangement, making it perfect for showcasing multiple items in an attractive and orderly fashion.
 
 <figure><img src="../../../.gitbook/assets/woocommerce-catalog-grid.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -56,7 +54,7 @@ Select and add elements such as **Row**, **Title**, **Image**, and **Price** to 
 
 #### 4. Name and Save Template
 
-In this example, we used three simple and crucial elements: **Image**, **Title**, and **Price** to create an effective product card layout. Once you’ve arranged all the elements, provide a name for your template. This will help you easily identify it later. After naming your template, save it to ensure your work is not lost.&#x20;
+In this example, we used three simple and crucial elements: **Image**, **Title**, and **Price** to create an effective product card layout. Once you’ve arranged all the elements, provide a name for your template. This will help you easily identify it later. After naming your template, save it to ensure your work is not lost.
 
 <figure><img src="../../../.gitbook/assets/woocommerce-catalog-custom-template-1.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -95,13 +93,13 @@ When customizing your product card, you have a variety of elements to choose fro
 
 When working with product card elements, each one offers various options to customize and manage your layout. Regardless of the element type, you will encounter three core options:
 
-* **Expand/Collapse** (applicable only to Nestable elements): This option allows you to expand or collapse the element to view or hide its nested content.&#x20;
+* **Expand/Collapse** (applicable only to Nestable elements): This option allows you to expand or collapse the element to view or hide its nested content.
 * **Options**: This provides additional settings specific to the element you are working with.
 * **Remove**: Use this to remove any unwanted elements from the template.
 
 <figure><img src="../../../.gitbook/assets/woocommerce-catalog-card-options.jpg" alt=""><figcaption><p>Element Options: <strong>Expand/Collapse</strong>, <strong>Options</strong> and <strong>Remove</strong></p></figcaption></figure>
 
-You can also drag and drop elements to reorder them or add new elements within nested components.&#x20;
+You can also drag and drop elements to reorder them or add new elements within nested components.
 
 ***
 
@@ -200,7 +198,7 @@ Show the product price in the card.
 
 Include an "Add to Cart" button for quick purchasing.
 
-<div><figure><img src="../../../.gitbook/assets/add-to-cart-1.jpg" alt="" width="284"><figcaption><p>Content tab</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/add-to-cart-2.jpg" alt="" width="284"><figcaption><p>Style tab</p></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/add-to-cart-1.jpg" alt="" width="284"><figcaption><p>Content tab</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/wishist-2.jpg" alt="" width="284"><figcaption><p>Style tab</p></figcaption></figure></div>
 
 ### Sale Badge
 
@@ -228,7 +226,7 @@ Show specific product attributes.
 
 ### Wishlist
 
-Add an option for users to save products to their wishlist.&#x20;
+Add an option for users to save products to their wishlist.
 
 <div><figure><img src="../../../.gitbook/assets/wishlist-1.jpg" alt="" width="284"><figcaption><p>Content tab</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/wishist-2.jpg" alt="" width="284"><figcaption><p>Style</p></figcaption></figure></div>
 
@@ -238,7 +236,7 @@ This element requires the **YITH Wishlist** plugin to be installed and activated
 
 ### Swap on Hover
 
-Enable a feature to swap content when hovering over the card.&#x20;
+Enable a feature to swap content when hovering over the card.
 
 The suppported elements that can be swapped on hover are:
 

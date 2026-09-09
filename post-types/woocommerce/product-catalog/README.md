@@ -83,9 +83,7 @@ The "Options" section provides additional customization settings to refine the a
 
 Configure the visibility and placement of the sidebar on your shop page. You can choose to display or hide the sidebar, or adjust its position to fit your design needs. To turn on the sidebar simply switch the toggle to on and then it will become a section which you can click:
 
-<figure><img src="../../../.gitbook/assets/woocommerce-sidebar-enable (1).jpg" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../../../.gitbook/assets/woocommerce-sidebar-enable.jpg" alt=""><figcaption></figcaption></figure>
 
 #### Sidebar Alignment
 
@@ -154,7 +152,7 @@ For additional styling and customization of the sidebar, you can adjust the glob
 Enable catalog mode to transform your shop into a product catalog. When activated, catalog mode hides the cart and checkout functionalities, including the "Add to Cart" buttons. This mode is ideal for sites that wish to display products without facilitating online purchases, offering a streamlined browsing experience focused solely on product showcasing. It has the following options
 
 * **Catalog Mode** - Toggle to turn on or off the catalog mode.
-* **Hide Prices** - When switched on, the prices will hide from the products all over the site.&#x20;
+* **Hide Prices** - When switched on, the prices will hide from the products all over the site.
 
 <div><figure><img src="../../../.gitbook/assets/woocommerce-catalog-catalog-mode.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/woocommerce-sidebar-toggle-title.jpg" alt=""><figcaption></figcaption></figure></div>
 
@@ -201,7 +199,7 @@ Set the alignment of pagination controls for both types:
 * **Left**: Align pagination controls to the left.
 * **Center**: Center-align pagination controls.
 * **Right**: Align pagination controls to the right.
-* **Space Between**:  Distribute space between items (Available only for Numbers type)
+* **Space Between**: Distribute space between items (Available only for Numbers type)
 
 ## Category Box
 
@@ -229,7 +227,7 @@ This is how they look live in your site:
 ### Additional Options
 
 * **Show Count**: Toggle this option to display the number of products within each category.
-* **Separate Categories**: Shows only when "**Show products & categories**" is selected under  [**Shop Page Display**](./#shop-page-display), toggle this option to separate categories from products into different sections, see examples below:
+* **Separate Categories**: Shows only when "**Show products & categories**" is selected under [**Shop Page Display**](./#shop-page-display), toggle this option to separate categories from products into different sections, see examples below:
 
 <div><figure><img src="../../../.gitbook/assets/woocommerce-catalog-categories-1 (1).jpg" alt="" width="375"><figcaption><p>Separate Categories Turned Off<br>By default categories show next to products</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/woocommerce-catalog-categories-2 (1).jpg" alt="" width="375"><figcaption><p>Separate Categories Turned On<br>Categories showing in a separate row from products</p></figcaption></figure></div>
 

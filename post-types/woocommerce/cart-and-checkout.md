@@ -10,7 +10,7 @@ Choose how the order review is shown during cart and checkout, it has the follow
 * **Invoice Flat**: Shows the order summary in a simple, flat layout.
 * **Sticky**: Keeps the order review visible as customers scroll down the page, ensuring they can always see their order details.
 
-<div><figure><img src="../../.gitbook/assets/woocommerce-cart-checkout-invoice-flat.jpg" alt="" width="375"><figcaption><p>Invoice Flat</p></figcaption></figure> <figure><img src="../../.gitbook/assets/woocommerce-cart-checkout-invoice-cut (1).jpg" alt="" width="375"><figcaption><p>Invoice Cut</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/woocommerce-cart-checkout-invoice-flat.jpg" alt="" width="375"><figcaption><p>Invoice Flat</p></figcaption></figure> <figure><img src="../../.gitbook/assets/woocommerce-cart-checkout-invoice-cut.jpg" alt="" width="375"><figcaption><p>Invoice Cut</p></figcaption></figure></div>
 
 ### Steps
 

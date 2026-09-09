@@ -79,8 +79,6 @@ Configure the visibility and placement of the sidebar on your product page. You 
 
 <figure><img src="../../.gitbook/assets/woocommerce-product-page-sidebar.jpg" alt=""><figcaption></figcaption></figure>
 
-
-
 #### Sidebar Alignment
 
 Choose the alignment of the sidebar:
@@ -103,8 +101,6 @@ If you’re looking for more detailed instructions on adding widgets to your sid
 {% hint style="info" %}
 For additional styling and customization of the sidebar, you can adjust the global sidebar settings located under **Appearance -> Customize -> Sidebars**. This area allows you to manage the overall look and feel of sidebars across your site, check the [sidebar styling article](../../general/sidebars/).
 {% endhint %}
-
-
 
 ## Breadcrumb
 
@@ -133,7 +129,7 @@ And each of them have the option to show the tab **Titles**, which when toggled 
 
 <figure><img src="../../.gitbook/assets/woocommerce-product-tabs-titles.jpg" alt=""><figcaption></figcaption></figure>
 
-#### Tabs&#x20;
+#### Tabs
 
 Display product details in a tabbed format:
 
@@ -151,7 +147,7 @@ Show product details in expandable sections:
 * **Show in Summary**: Toggle to display accordions within the summary or below it.
 * **Collapse All**: Set all accordions to be collapsed by default.
 
-<div><figure><img src="../../.gitbook/assets/woocommerce-product-tabs-accordions.jpg" alt=""><figcaption><p>Accordions</p></figcaption></figure> <figure><img src="../../.gitbook/assets/woocommerce-product-tabs-accordion-summary (1).jpg" alt=""><figcaption><p>Show in Summary</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/woocommerce-product-tabs-accordions.jpg" alt=""><figcaption><p>Accordions</p></figcaption></figure> <figure><img src="../../.gitbook/assets/woocommerce-product-tabs-accordion-summary.jpg" alt=""><figcaption><p>Show in Summary</p></figcaption></figure></div>
 
 #### Stacked
 
