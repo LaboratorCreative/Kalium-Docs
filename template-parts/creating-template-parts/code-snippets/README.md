@@ -1,7 +1,6 @@
 ---
 description: >-
   Add PHP, CSS or JavaScript to your site without touching a single theme file.
-  New in Kalium 4.8.
 ---
 
 # Code Snippets
@@ -14,8 +13,6 @@ Sooner or later, someone tells you to "add this to your functions.php file." It'
 * **You can switch it off** from a list, without editing anything.
 * **It switches itself off if it breaks**, so a bad snippet cannot take your site down.
 * **You don't need a child theme** for small additions.
-
-New in **Kalium 4.8**.
 
 [TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: the Template Parts screen on the Snippets tab, showing a few snippets with their type badges and status]
 

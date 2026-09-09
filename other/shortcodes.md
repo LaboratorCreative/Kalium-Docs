@@ -109,7 +109,7 @@ Six color attributes take either `brand`, each network's own color, or any CSS c
 
 ### `[lab_social_networks]`
 
-The original social shortcode from before Kalium 4.0. **Existing uses keep working**. There's no need to convert them. Use `[kalium_social_icons]` for anything new.
+The original social shortcode, kept working for sites built with earlier versions of the theme. **Existing uses keep working**, so there's no need to convert them. Use `[kalium_social_icons]` for anything new.
 
 ***
 

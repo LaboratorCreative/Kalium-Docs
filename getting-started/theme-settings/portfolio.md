@@ -6,7 +6,7 @@ description: >-
 
 # Portfolio Settings
 
-**Kalium -> Settings -> Portfolio** controls the portfolio module: whether it's loaded at all, and, since Kalium 4.7, which post types get to use it.
+**Kalium -> Settings -> Portfolio** controls the portfolio module: whether it's loaded at all, and which post types get to use it.
 
 [TAKE THE SCREENSHOT OF THIS PARTICULAR SECTION AND POST HERE: Kalium -> Settings -> Portfolio showing the extension toggle and the post types checklist]
 

@@ -9,7 +9,7 @@ description: >-
 Importing a starter site asks a lot of a server in one go, it creates hundreds of pages, downloads hundreds of images and installs several plugins. Almost every problem comes down to one of three things: **server limits**, **an inactive license**, or **a theme version older than the fix**.
 
 {% hint style="info" %}
-**Before anything else, make sure Kalium is up to date.** Importer problems were fixed in several releases, and on WordPress 7.1 specifically, versions before Kalium 4.7 cannot import at all.
+**Before anything else, make sure Kalium is up to date.** Importer problems have been fixed in several releases, and on recent versions of WordPress an out-of-date theme cannot import at all.
 {% endhint %}
 
 ***

@@ -12,7 +12,7 @@ Menus are the most common thing to go wrong on a site, and mobile menus most of 
 
 **Check first:**
 
-1. **Are you up to date?** Several menu bugs have been fixed, a menu not closing when a link is clicked, submenu links following instead of expanding, invisible hamburger bars.
+1. **Are you up to date?** Several menu bugs have been fixed: a menu not closing when a link is clicked, submenu links following instead of expanding, and invisible hamburger bars.
 2. **Is there a JavaScript error?** Open your browser's developer console. This is usually a caching plugin combining scripts.
 
 **The fix:** update Kalium, then clear your caches and switch off **JavaScript combining** and **delay JavaScript** in your optimization plugin to confirm.

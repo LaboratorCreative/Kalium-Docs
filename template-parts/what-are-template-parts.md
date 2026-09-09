@@ -33,7 +33,7 @@ Template Parts are flexible, reusable, and give you a powerful way to personaliz
 | **Popup** | Opens over the page when a trigger fires |
 | **Snippet** | Runs a piece of PHP, CSS or JavaScript |
 
-The first five are about **content**. The sixth, **Snippet**, is about **code**. It's Kalium's replacement for the old advice to "add this to your functions.php file", and it's new in Kalium 4.8.
+The first five are about **content**. The sixth, **Snippet**, is about **code**. It's Kalium's replacement for the old advice to "add this to your functions.php file".
 
 {% content-ref url="creating-template-parts/code-snippets/" %}
 [code-snippets](creating-template-parts/code-snippets/)
