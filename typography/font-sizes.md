@@ -1,3 +1,7 @@
+---
+description: Size, line height and letter spacing for every text element.
+---
+
 # Font Sizes
 
 Managing font sizes is important for a clean and consistent look on your site. The Font Sizes tab settings let you adjust how text appears across your website, including font size, line height, and letter spacing. Here’s a simple guide to help you customize these settings.
@@ -56,7 +60,6 @@ The **Base Font** section allows you to set the root font size for the site. Thi
 Adjusting the base font size affects how other font sizes are calculated when using relative units. For example, if you set the base font size to 16px, a font size of 1.5rem will be 24px (1.5 times the base size). This consistency is crucial for responsive design, ensuring that text remains proportionate and legible across different devices.
 
 
-
 ***
 
 ### How Can I Set a Specific Font Size for a Selector on the Site?
@@ -85,4 +88,3 @@ To apply the font size to a specific area on your site, you first need to identi
 4. **Copy the class name**. For example, you might see something like `<div class="header-title">`.
 5. **Use this class name** (e.g., `.header-title`) when adding a new selector in the Font settings.
 6. **Follow the steps** to add a new selector and set the font size for this class.
-

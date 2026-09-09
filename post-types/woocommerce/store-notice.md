@@ -1,3 +1,7 @@
+---
+description: A single message shown across the whole store.
+---
+
 # Store Notice
 
 The Store Notice feature in WooCommerce allows you to display a message across your online store, ideal for announcements or updates.

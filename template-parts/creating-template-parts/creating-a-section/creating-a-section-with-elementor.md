@@ -1,3 +1,7 @@
+---
+description: Building a section visually, without needing Elementor Pro.
+---
+
 # Creating a Section with Elementor
 
 {% embed url="https://www.youtube.com/watch?v=tisB5o8trIA" %}

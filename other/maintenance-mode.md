@@ -1,3 +1,7 @@
+---
+description: Put the site behind a holding page while you work, with no plugin.
+---
+
 # Maintenance Mode
 
 With Kalium, there’s no need to install extra plugins to display a maintenance message on your site. While you’re working on your site, you can simply activate Maintenance Mode to let visitors know that your site will be back soon.

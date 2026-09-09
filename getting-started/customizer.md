@@ -1,3 +1,7 @@
+---
+description: Where you change how the site looks, and how its settings behave.
+---
+
 # Customizer
 
 The Customizer is where you can edit Kalium's look and functionality. It allows you to adjust theme options such as colors, layouts, and widget placements. With real-time previews, you can see how changes affect your site before applying them, making it easy to customize the theme to fit your design preferences.

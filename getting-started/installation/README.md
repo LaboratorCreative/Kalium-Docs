@@ -1,3 +1,7 @@
+---
+description: The two ways to install the theme, and which to use.
+---
+
 # Installation
 
 Now that you’ve purchased the Kalium theme, you’re all set to install it on your WordPress site. The installation process is quick and easy. There are two methods you can use:&#x20;

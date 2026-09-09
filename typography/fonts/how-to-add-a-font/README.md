@@ -1,3 +1,7 @@
+---
+description: Adding a font and choosing where it applies.
+---
+
 # How to Add a Font
 
 This guide will show you how to easily add and manage fonts on your site. The steps are simple and straightforward, so you can quickly choose and apply fonts to get the look you want for your site.&#x20;

@@ -1,3 +1,7 @@
+---
+description: Writing a post, and the options Kalium adds to it.
+---
+
 # Creating a Blog Post
 
 Now that your [Blog page](creating-a-blog-page.md) is set up, it's time to dive into creating engaging content. Whether you're sharing personal stories, news updates, or insights on your favorite topics, WordPress makes it easy to publish and manage your blog posts.
@@ -102,7 +106,6 @@ To use the Audio format in Kalium, follow these steps:
 In the **Parameters and Options** area under **Audio Post Settings**, you can select the option **Auto Play Audio** to play the audio automatically, as explained below:
 
 <figure><img src="../../.gitbook/assets/post-format-options-audio (1).jpg" alt=""><figcaption></figcaption></figure>
-
 
 
 ## Post Settings

@@ -1,3 +1,7 @@
+---
+description: How to tell whether your host is the real cause, and what to ask for.
+---
+
 # Bad Hosting Environment
 
 ### Understanding the Pitfalls of Bad Hosting Environments

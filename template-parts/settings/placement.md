@@ -1,3 +1,7 @@
+---
+description: Where on the page a Section appears, or when a Snippet runs.
+---
+
 # Placement
 
 **Display Conditions decide&#x20;**_**which pages**_**&#x20;a Template Part applies to. Placement decides&#x20;**_**where on those pages**_**&#x20;it goes.** You normally set both.

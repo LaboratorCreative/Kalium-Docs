@@ -1,3 +1,7 @@
+---
+description: Building a section with WPBakery, which is bundled with the theme.
+---
+
 # Creating a Section with WPBakery
 
 {% embed url="https://www.youtube.com/watch?v=Y6zofiX8ZoI" %}
@@ -58,7 +62,6 @@ The **Content Section** element in WPBakery lets you insert any Template Part se
 * **Visual placement** – Drop the section exactly where you want on the page
 * **Simple selection** – Choose from your existing Template Part sections
 * **No display logic required** – Skip conditions and hook settings for full manual control
-
 
 
 **To insert a Section manually:**

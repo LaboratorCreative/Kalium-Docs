@@ -1,3 +1,7 @@
+---
+description: Placing your own content at a chosen spot on the site.
+---
+
 # Creating a Section
 
 Sections let you insert custom content into specific parts of your site — like above the header, below the content, or inside WooCommerce product pages. These are placed using WordPress and plugin hook locations, and you can decide exactly when and where they appear using display conditions.

@@ -1,3 +1,7 @@
+---
+description: Reusable pieces of layout and code you build once and place anywhere.
+---
+
 # What are Template Parts?
 
 {% embed url="https://youtu.be/2PBk-CBg9HI" %}

@@ -1,3 +1,7 @@
+---
+description: Where template parts live, and the six kinds you can create.
+---
+
 # Creating Template Parts
 
 Now that you’ve learned what Template Parts are and how they work, it’s time to start creating one. Whether you’re adding a custom section, replacing your site’s footer, or building a new layout for your 404 page, the process is simple and familiar.

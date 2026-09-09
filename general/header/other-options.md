@@ -1,3 +1,7 @@
+---
+description: The remaining header settings that do not fit elsewhere.
+---
+
 # Other Options
 
 In addition to the previous configuration options for the header, the following extra settings offer additional customization and functionality that complement the main features:

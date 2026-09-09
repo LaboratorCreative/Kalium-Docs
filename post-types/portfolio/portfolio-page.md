@@ -1,3 +1,7 @@
+---
+description: The project grid, its columns, filters and hover effects.
+---
+
 # Portfolio Page
 
 The **Portfolio Page** (or, in WordPress terms, the _Portfolio Archive_) allows you to customize the general layout of all the projects that are listed. To customize the Portfolio page, navigate to **Appearance -> Customize -> Portfolio -> Portfolio Page**.

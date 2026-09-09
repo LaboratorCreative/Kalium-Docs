@@ -1,3 +1,7 @@
+---
+description: The cart and checkout layout, including multi-step checkout.
+---
+
 # Cart & Checkout
 
 This section in WooCommerce allows you to customize how the checkout process is displayed to your customers, offering several options to enhance the shopping experience. This section is located under **Appearance -> Customize -> WooCommerce -> Cart & Checkout**.

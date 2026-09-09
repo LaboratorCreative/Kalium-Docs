@@ -1,3 +1,7 @@
+---
+description: Content that opens over the page, with triggers and display rules.
+---
+
 # Popups
 
 Popups are a powerful way to capture visitor attention and drive engagement on your website. Whether you're promoting a sale, collecting newsletter subscribers, displaying important announcements, or presenting exit offers, Kalium's popup system gives you complete control over when, where, and how your popups appear.

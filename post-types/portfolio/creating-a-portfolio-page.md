@@ -1,3 +1,7 @@
+---
+description: Setting up the page that lists your projects.
+---
+
 # Creating a Portfolio Page
 
 The Portfolio Page, also known as the _portfolio archive_, displays all your portfolio items in one place. By default, the portfolio page is located at this URL `yoursite.com/portfolio` unless you [modify it](creating-a-portfolio-page.md#permalinks-structure).

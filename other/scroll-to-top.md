@@ -1,3 +1,7 @@
+---
+description: The button that returns visitors to the top of a long page.
+---
+
 # Scroll to Top
 
 The **Scroll To Top** button allows users to quickly return to the top of a webpage with a single click. This feature enhances the browsing experience on sites with longer content by saving time and reducing the effort required to manually scroll back up.

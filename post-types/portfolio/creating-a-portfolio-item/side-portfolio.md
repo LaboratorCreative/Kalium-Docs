@@ -1,3 +1,7 @@
+---
+description: Gallery and description side by side.
+---
+
 # Side Portfolio
 
 This layout features a horizontal separation between the gallery and the content, creating a side-by-side arrangement. The gallery is displayed alongside the project content, offering a clear distinction between visual and textual information.

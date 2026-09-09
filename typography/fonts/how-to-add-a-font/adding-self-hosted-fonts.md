@@ -1,3 +1,7 @@
+---
+description: Serving font files from your own server, which also helps with GDPR.
+---
+
 # Adding Self-Hosted Fonts
 
 The process of adding Self-Hosted Fonts is quite similar to the general font-adding process. This method also ensures compliance with GDPR regulations by hosting the font directly on your website rather than fetching it from external sources.

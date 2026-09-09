@@ -1,3 +1,7 @@
+---
+description: The six types, and why this setting decides all the others.
+---
+
 # Type
 
 At the top of the panel, you'll see the **Type** dropdown. This defines the kind of Template Part you're working on, and it is the most important setting on the panel: **it decides which other settings appear below it.**

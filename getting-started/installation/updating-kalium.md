@@ -1,3 +1,7 @@
+---
+description: Keeping the theme current, and what to check afterwards.
+---
+
 # Updating Kalium
 
 Updating Kalium is a simple process, similar as with any other WordPress theme. By keeping your theme up to date, you ensure you have the latest features, improvements, and security updates. Follow these simple steps to update your theme:
@@ -57,4 +61,3 @@ Our theme automatically creates a backup of the previous theme version (files on
 #### Clear the caches
 
 It is always recommended to clear your browser cache, any caching plugins, and server cache after updating. Old cached files can cause visual issues or other problems following an update. Clearing your cache ensures that these issues are avoided and that your site reflects the latest changes.
-

@@ -1,3 +1,7 @@
+---
+description: What Kalium is for, and what you need before installing it.
+---
+
 # Before Getting Started
 
 ### What is Kalium?

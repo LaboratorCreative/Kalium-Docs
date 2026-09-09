@@ -1,3 +1,7 @@
+---
+description: Buying Kalium, and what you get with it.
+---
+
 # How To Purchase Kalium
 
 Kalium is available for purchase exclusively through our website, it is a quite simple and straightforward process. Our payment processing platform, managed by [Freemius](https://freemius.com), provides a secure and flexible payment option. Let’s get started with the purchase process by visiting the pricing page:&#x20;

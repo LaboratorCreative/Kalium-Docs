@@ -1,3 +1,7 @@
+---
+description: Building a header of your own with the drag-and-drop builder.
+---
+
 # Custom Header
 
 Custom Header type offers a flexible drag-and-drop interface, allowing you to design your header with _12 unique, customizable elements_. Each element comes with its own set of options and can be tailored for visibility across different device viewports. For further customization, you can also apply Custom CSS on element level, giving you full control over its styling.

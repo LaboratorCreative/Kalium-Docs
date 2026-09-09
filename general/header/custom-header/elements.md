@@ -1,3 +1,7 @@
+---
+description: Every element you can put in a header, and what each one does.
+---
+
 # Elements
 
 Elements are a key part of the Custom Header Builder, and you can include as many as you need.

@@ -1,3 +1,7 @@
+---
+description: How fonts load, and the defaults that apply to all of them.
+---
+
 # Typography Settings
 
 Various settings are available to help you customize the typography on your site. Here’s a look at the options for managing and adjusting your fonts

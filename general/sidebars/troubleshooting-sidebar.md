@@ -1,3 +1,7 @@
+---
+description: When a sidebar is missing, empty, or showing the wrong widgets.
+---
+
 # Troubleshooting Sidebar
 
 ### Why Isn’t My Sidebar Showing?

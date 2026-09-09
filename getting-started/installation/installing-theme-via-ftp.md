@@ -1,3 +1,7 @@
+---
+description: Uploading the theme by FTP when the dashboard route fails.
+---
+
 # Installing theme via FTP
 
 {% hint style="info" %}
@@ -13,7 +17,6 @@ If you prefer or need to use FTP to install the Kalium theme, this method involv
 3. Click “**Download**” button next to the Kalium theme to download the **kalium.zip** file.
 
 <figure><img src="../../.gitbook/assets/download-kalium.jpg" alt="Download Kalium from My Account page"><figcaption><p>My acount page with the Downloads tab active</p></figcaption></figure>
-
 
 
 ### Step 2: Set Up or Use an FTP Client

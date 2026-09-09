@@ -1,3 +1,7 @@
+---
+description: Design the card that repeats for every product in the grid.
+---
+
 # Product Card
 
 A product card serves as the visual representation of a single product in your catalog. It acts as an individual element designed to be duplicated and displayed in a repeating loop throughout your product listings. Each card typically showcases key information, including the product image, title, price, and any other details you choose to include. There are two distinct types of product cards:

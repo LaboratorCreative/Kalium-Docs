@@ -1,3 +1,7 @@
+---
+description: One place to set how every button on the site looks.
+---
+
 # Buttons
 
 Globally manage the appearance of buttons across your site to have a consistency in design. Customize the button styles under **Appearance** -> **Customize** -> **Styling** -> **Buttons**. Each button style can be set for three states:&#x20;

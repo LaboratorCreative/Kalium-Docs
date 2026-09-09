@@ -1,3 +1,7 @@
+---
+description: Activate and check the license from the command line.
+---
+
 # License Management
 
 The theme provides a WP-CLI interface for managing theme license activation directly from the command line. This is useful for automated deployments, CI/CD pipelines, or managing licenses on staging/production environments without accessing the WordPress admin.

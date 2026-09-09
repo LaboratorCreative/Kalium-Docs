@@ -1,3 +1,7 @@
+---
+description: Build a project layout yourself with any page builder.
+---
+
 # Design Your Own
 
 This layout allows for extensive customization using any page builder of your choice, such as Block Editor, Elementor, or WPBakery. By leveraging these tools, you can design and configure your content directly within the page builder interface, offering a high degree of flexibility and control.&#x20;

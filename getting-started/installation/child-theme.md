@@ -1,3 +1,7 @@
+---
+description: When you need a child theme, and how to set one up.
+---
+
 # Child Theme
 
 Sometimes, you might need to add extra code or make personalized modifications. A child theme allows you to make these changes without modifying the original Kalium theme files. This guarantees your customizations remain unchanged even when you update the main theme. It’s a smart approach to keep your site looking and functioning exactly how you want it, while also staying up-to-date with Kalium’s latest features.
@@ -38,7 +42,6 @@ Installing the Kalium child theme is simple. Follow these steps to get started:
 8.  The installation is complete, click **Activate** to enable Kalium Child Theme theme on your site<br>
 
     <figure><img src="../../.gitbook/assets/child-theme-2.jpg" alt=""><figcaption></figcaption></figure>
-
 
 
 Once you have installed and activated the Kalium child theme, your WordPress dashboard's **Appearance -> Themes** section should display both the Kalium parent theme and the Kalium child theme. The Kalium child theme should be listed as the active theme, with the Kalium parent theme shown as an inactive theme. This setup confirms that the child theme is properly installed and ready for customization.

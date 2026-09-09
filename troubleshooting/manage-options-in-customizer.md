@@ -1,3 +1,7 @@
+---
+description: Export, import and reset your theme settings, and move them between sites.
+---
+
 # Manage Options in Customizer
 
 {% embed url="https://www.youtube.com/watch?v=TjKG8cMJawg" %}
@@ -55,4 +59,3 @@ If you wish to revert all customizer settings to their default state, you can re
 {% hint style="danger" %}
 **CAUTION**: This action cannot be undone. All your current customizations will be lost, so ensure you have exported or backed up any important settings before proceeding.
 {% endhint %}
-

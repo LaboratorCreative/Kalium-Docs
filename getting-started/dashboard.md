@@ -1,3 +1,7 @@
+---
+description: The Kalium menu, screen by screen, and what each one is for.
+---
+
 # Dashboard
 
 Theme Dashboard is an important section where you can find useful information about the theme, manage your license, access quick links for site editing, find help resources, and explore other features related to Kalium.

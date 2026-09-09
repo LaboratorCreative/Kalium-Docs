@@ -1,3 +1,7 @@
+---
+description: The single product page, from gallery style to tabs.
+---
+
 # Product Page
 
 Located under **Appearance -> Customize -> WooCommerce -> Product Page**, this section allows you to design various aspects of your product page to meet your specific needs. From image dimensions to gallery layouts and additional features, you have control over how your products are presented.

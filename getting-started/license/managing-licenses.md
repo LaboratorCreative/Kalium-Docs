@@ -1,3 +1,7 @@
+---
+description: Moving, deactivating and reviewing your license through Freemius.
+---
+
 # Managing Licenses
 
 Our licensing mechanism is efficiently managed by our trusted partner, [Freemius](https://freemius.com), ensuring a seamless and secure licensing experience for all our users.

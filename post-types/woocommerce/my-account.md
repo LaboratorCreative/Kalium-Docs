@@ -1,3 +1,7 @@
+---
+description: Adding an image beside the login and registration forms.
+---
+
 # My Account
 
 The My Account section in WooCommerce allows you to add an image next to the login and registration forms. You can find this option under **Appearance -> Customize -> WooCommerce -> My Account**.

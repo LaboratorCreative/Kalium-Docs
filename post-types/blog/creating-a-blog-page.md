@@ -1,3 +1,7 @@
+---
+description: Telling WordPress which page shows your posts.
+---
+
 # Creating a Blog Page
 
 By default, WordPress allows you to designate a page as your blog, which then serves as a dynamic feed for your posts. This means that whenever you publish a new post, it automatically appears on this page, keeping your content organized and easily accessible for your readers.
@@ -60,7 +64,6 @@ Switch to the **Style** tab in the widget settings. You can choose to [inherit s
 ### Publish Your Page
 
 Once you're satisfied with the setup, click the **Publish** button in the top right corner to make your blog page live.
-
 
 
 ## Creating a Blog Page with WPBakery

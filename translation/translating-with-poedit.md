@@ -1,3 +1,7 @@
+---
+description: Create or edit a .po file when your language is not bundled.
+---
+
 # Translating with Poedit
 
 If your language is not included in Kalium's pre-translated languages, or if you want to modify existing translations, you can easily do so by creating or editing a **.po** file. The process involves translating text strings and saving the translations so that WordPress can read them. Whether you're starting a new translation from scratch or just editing existing translations, the steps are straightforward.

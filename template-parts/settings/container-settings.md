@@ -1,3 +1,7 @@
+---
+description: Wrapper width, device visibility and classes for a Section.
+---
+
 # Container Settings
 
 **Container Settings** is specific to **Sections**. It controls the wrapper Kalium puts around your section, how wide it is, which devices see it, and what HTML element is used.

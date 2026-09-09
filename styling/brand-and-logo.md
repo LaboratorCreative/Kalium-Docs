@@ -1,3 +1,7 @@
+---
+description: Your logo, favicon and the browser colors that go with them.
+---
+
 # Brand and Logo
 
 In Kalium, setting up your site's branding is quite simple. You can easily manage your branding elements through the **Appearance** -> **Customize** -> **Styling** -> **Brand** section. You have the option to use a logo or not by switching the toggle. This area allows you to customize the following key brand elements:

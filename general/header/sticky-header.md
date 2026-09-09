@@ -1,3 +1,7 @@
+---
+description: Keeping the header on screen as visitors scroll.
+---
+
 # Sticky Header
 
 The Sticky Header feature allows the header to remain fixed at the top of the page while users scroll. This ensures that essential navigation elements and branding are always visible, providing consistent access to menu options and improving the overall browsing experience on longer pages.

@@ -1,3 +1,7 @@
+---
+description: Open media straight in an overlay, with no project page.
+---
+
 # Lightbox
 
 The Lightbox item type displays your media directly in a lightbox view, offering an engaging way to showcase images or videos with overlay effects. Users can view content in a larger, focused format.

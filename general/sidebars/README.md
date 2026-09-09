@@ -1,3 +1,7 @@
+---
+description: Turning sidebars on, styling them, and making them follow the page.
+---
+
 # Sidebars
 
 {% embed url="https://www.youtube.com/watch?v=rXa6J4VpmA0" %}

@@ -1,3 +1,7 @@
+---
+description: How licensing works inside the theme, rather than the legal terms.
+---
+
 # License
 
 {% hint style="info" %}

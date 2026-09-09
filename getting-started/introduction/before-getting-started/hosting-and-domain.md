@@ -1,3 +1,7 @@
+---
+description: Choosing a host and domain that will not cause problems later.
+---
+
 # Hosting and Domain
 
 Choosing the right hosting provider is crucial for getting the most out of our themes. It’s important to pick a WordPress-friendly host that fits your needs in terms of location, pricing, and services.

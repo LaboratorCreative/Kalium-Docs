@@ -1,3 +1,7 @@
+---
+description: The hands-on route, for when you want control over each step.
+---
+
 # Migrating Manually
 
 For a more hands-on approach, our manual migration guide provides detailed instructions to upgrade from Kalium 3 to Kalium 4. This method involves transferring your license and updating the theme manually, giving you greater control over the process. Perfect for those who prefer or need a more involved migration, this guide will walk you through each step to ensure a successful upgrade.

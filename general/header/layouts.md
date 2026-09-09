@@ -1,3 +1,7 @@
+---
+description: Building a header from the pre-defined layouts.
+---
+
 # Layouts
 
 In this section, you’ll learn how to create a header using the pre-defined layout types.
@@ -27,7 +31,6 @@ This option appears after enabling the Hamburger Menu and controls the animation
 ### Fullscreen
 
 This header type will display only the Hamburger Menu toggle, which, when clicked, reveals the navigation menu as an overlay with a smooth animation.
-
 
 
 <figure><img src="../../.gitbook/assets/Header - Fullscreen - Options.jpg" alt="" width="322"><figcaption></figcaption></figure>

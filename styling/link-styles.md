@@ -1,3 +1,7 @@
+---
+description: How links look and animate inside your content.
+---
+
 # Link Styles
 
 Links inside pages, blog posts and other related entry content can have custom link animation / style, which can be edited on **Appearance** -> **Customizer** -> **Styling** -> **Link Styles**

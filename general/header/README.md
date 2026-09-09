@@ -1,3 +1,7 @@
+---
+description: The five header types, the three rows, and where the logo sits.
+---
+
 # Header
 
 {% embed url="https://www.youtube.com/watch?v=RczSrKJCzqA&feature=youtu.be" %}

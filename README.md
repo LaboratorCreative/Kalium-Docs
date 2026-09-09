@@ -1,4 +1,5 @@
 ---
+description: Start here. What Kalium is, and where to go first.
 cover: .gitbook/assets/kalium-documentation.jpg
 coverY: -13.170562200200258
 layout:

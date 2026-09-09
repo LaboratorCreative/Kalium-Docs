@@ -1,3 +1,7 @@
+---
+description: A grid of gallery items beside the project content.
+---
+
 # Columned
 
 The Columned item type organizes gallery items into columns, forming a grid to showcase gallery content effectively. Similar to the [Side Portfolio](side-portfolio.md) type, it shares many common options, but the gallery can be displayed either above or below the content.&#x20;

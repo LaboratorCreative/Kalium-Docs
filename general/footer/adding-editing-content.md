@@ -1,3 +1,7 @@
+---
+description: The two layers of a footer, structure in the builder and content in widgets.
+---
+
 # Adding/Editing Content
 
 Your footer is built in two layers, and knowing which one you need saves a lot of clicking.
@@ -58,8 +62,10 @@ The row runs edge to edge instead of sitting inside the content container.
 
 **Text**, **Headings** and **Links** set color overrides for that row, with **Links** having separate normal and hover colors. This is handy for making a bottom copyright row quieter than the row above it.
 
-{% hint style="warning" %}
-**The Footer Row's Background tab is currently missing.** To give a row a background color, use **Appearance -> Customize -> Styling -> Colors -> Footer**, which sets the footer background, or add a class in the row's **CSS Classes** and target it with custom CSS.
+**Background** gives the row its own background: a color, or an image with position, repeat and size controls.
+
+{% hint style="info" %}
+To set a background behind the whole footer rather than one row, use **Appearance -> Customize -> Styling -> Colors -> Footer**.
 {% endhint %}
 
 ***
@@ -153,8 +159,8 @@ Check **Enable Footer** is on. Then check whether a Footer template part is repl
 **My footer content shows on some pages but not others.**\
 A Footer template part is matching those pages and replacing the Customizer footer.
 
-**A row has no Background tab.**\
-Known issue. See the note above.
+**A row's background color isn't applying.**\
+Check whether **Styling -> Colors -> Footer** is setting a background behind the whole footer. A row background sits on top of it, so a solid footer color can hide a subtle row color.
 
 {% content-ref url="../../template-parts/creating-template-parts/replace-the-footer.md" %}
 [replace-the-footer.md](../../template-parts/creating-template-parts/replace-the-footer.md)

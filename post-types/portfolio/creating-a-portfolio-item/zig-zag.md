@@ -1,3 +1,7 @@
+---
+description: Content and gallery alternating down the page.
+---
+
 # Zig Zag
 
 The Zig Zag item type presents a distinctive layout where content and gallery items alternate in a zigzag pattern, creating a dynamic visual flow. This layout is ideal for showcasing items in a staggered fashion, enhancing visual interest and engagement.

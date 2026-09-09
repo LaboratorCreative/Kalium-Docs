@@ -1,3 +1,7 @@
+---
+description: Set your social accounts once, then place them anywhere.
+---
+
 # Social Icons
 
 All your social profile links can be added in **Appearance** -> **Customize** -> **General** -> **Social Icons**
@@ -7,7 +11,6 @@ More than 40 known social profile links are supported but you can also add your 
 ### Adding a Social Icon
 
 To add a link click the :heavy\_plus\_sign: **Add** and select the social profile you want to add:
-
 
 
 <figure><img src="../.gitbook/assets/Social Icon Add.jpg" alt="" width="326"><figcaption><p>Adding Social Icon</p></figcaption></figure>

@@ -1,3 +1,7 @@
+---
+description: The quickest install, straight from your dashboard.
+---
+
 # Installing theme via WordPress
 
 {% embed url="https://www.youtube.com/watch?v=RbeiFrC1jp0" %}
@@ -11,7 +15,6 @@ Installing the Kalium theme via WordPress is the simplest and most efficient met
 3. Click “**Download**” button next to the Kalium theme to download the **kalium.zip** file.
 
 <figure><img src="../../.gitbook/assets/download-kalium.jpg" alt="Download Kalium from My Account page"><figcaption><p>My acount page with the Downloads tab active</p></figcaption></figure>
-
 
 
 ### Step 2: Install the Theme

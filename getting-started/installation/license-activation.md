@@ -1,3 +1,7 @@
+---
+description: Activating your license to unlock updates, plugins and starter sites.
+---
+
 # License Activation
 
 {% embed url="https://www.youtube.com/watch?v=RbeiFrC1jp0" %}

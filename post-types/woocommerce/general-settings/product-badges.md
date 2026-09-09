@@ -1,3 +1,7 @@
+---
+description: The Sale, New and Out of Stock labels on your products.
+---
+
 # Product Badges
 
 Customize these badges to fit your store's design and effectively draw attention to important product details. You can find these settings under **Appearance -> Customize -> WooCommerce -> General Settings -> Product Badge**, the options are explained below.
@@ -29,7 +33,6 @@ A circular badge style.
 * **Fixed Size**: Toggle to maintain a fixed size, preventing the badge from resizing with text. This is particularly useful for badges with longer texts, such as "Out of stock."
 
 
-
 #### Triangle&#x20;
 
 A triangular badge that can be used on the edges of the image.
@@ -48,7 +51,6 @@ Options related only to the sale badge
 Here is an example of how they look:
 
 <div><figure><img src="../../../.gitbook/assets/sale-badge-percentage.jpg" alt="" width="72"><figcaption><p>Sale Badge With<br>Percentage  </p></figcaption></figure> <figure><img src="../../../.gitbook/assets/sale-badge (1).jpg" alt="" width="74"><figcaption><p>Default WooCommerce <br>Sale Badge</p></figcaption></figure></div>
-
 
 
 ## Enabled Badges

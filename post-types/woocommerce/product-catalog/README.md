@@ -1,3 +1,7 @@
+---
+description: The shop grid, its columns, filters and pagination.
+---
+
 # Product Catalog
 
 Customizing the appearance and style of your shop page is essential for creating a visually appealing and user-friendly online store. The Product Catalog settings in WooCommerce allow you to control many aspects of how products are shown on your shop page. You can find these settings under **Appearance -> Customize -> WooCommerce -> Product Catalog**.

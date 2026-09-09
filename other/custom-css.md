@@ -1,3 +1,7 @@
+---
+description: Adding your own CSS through the Customizer.
+---
+
 # Custom CSS
 
 Customizing your WordPress site with your own CSS can be a great way to make your theme truly unique. One of the simplest and most user-friendly methods to do this is through the Theme Customizer. Here's how you can easily add your custom CSS to your WordPress site.

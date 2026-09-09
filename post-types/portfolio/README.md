@@ -1,3 +1,7 @@
+---
+description: Showcasing your work, and giving other post types the same layouts.
+---
+
 # Portfolio
 
 The Portfolio has been an integral part of the Kalium theme since its inception, starting from version 1. It’s not just a feature, it’s a source of pride for the theme.&#x20;

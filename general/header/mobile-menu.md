@@ -1,3 +1,7 @@
+---
+description: The menu small screens get, from its content to its breakpoint.
+---
+
 # Mobile Menu
 
 The Mobile Menu provides a streamlined navigation experience for smaller screens. It features a collapsible, touch-friendly interface with a hamburger icon that toggles the menu at the defined mobile menu breakpoint.

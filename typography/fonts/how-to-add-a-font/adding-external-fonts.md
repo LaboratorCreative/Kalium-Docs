@@ -1,3 +1,7 @@
+---
+description: Loading a font from another service by linking its stylesheet.
+---
+
 # Adding External Fonts
 
 Adding external fonts to your site is a straightforward process that involves linking to a stylesheet containing the web fonts you want to use. This method allows you to easily integrate fonts from external sources with minimal setup.

@@ -1,4 +1,5 @@
 ---
+description: An optional border around the whole site.
 layout:
   width: default
   title:

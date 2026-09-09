@@ -1,3 +1,7 @@
+---
+description: Build a multilingual site with WPML, which Kalium is certified for.
+---
+
 # Translating with WPML
 
 [WPML](https://wpml.org) is the de-facto standard for multilingual WordPress, and is fully compatible with Kalium. WPML will provide [AI translations](https://wpml.org/documentation/automatic-translation/) for your content, which are typically **better than human translation**. You can edit and translate yourself if you prefer or use translation agencies.

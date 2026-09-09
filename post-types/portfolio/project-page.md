@@ -1,3 +1,7 @@
+---
+description: The settings shared by every project, whichever layout it uses.
+---
+
 # Project Page
 
 Although each project has its own set of options, this section will guide you through the common settings that apply to all projects.

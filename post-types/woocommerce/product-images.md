@@ -1,3 +1,7 @@
+---
+description: The sizes WooCommerce saves your product images at.
+---
+
 # Product Images
 
 Customize the display of product images across your WooCommerce store with the settings found under **Appearance -> Customize -> WooCommerce -> Product Images**. These options allow you to adjust how images appear on single product pages and throughout your catalog, helping you create a visually appealing and consistent look for your products.

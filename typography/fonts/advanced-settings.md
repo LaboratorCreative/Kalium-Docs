@@ -1,3 +1,7 @@
+---
+description: Load a font only where it is needed, and override its defaults.
+---
+
 # Advanced Settings
 
 Here, you can manage advanced options to customize the font experience, including when to load the font and how to override default font settings. This section is ideal for users who need specific configurations for different parts of their site or want to optimize font loading performance.

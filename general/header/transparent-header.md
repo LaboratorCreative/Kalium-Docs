@@ -1,3 +1,7 @@
+---
+description: Letting the header float over the page instead of sitting above it.
+---
+
 # Transparent Header
 
 This option enables the header to blend seamlessly with the background of the page, making it appear as though it is floating over the content. This effect is achieved by setting the header's background to transparent, allowing the underlying page content or background image to be visible through the header.

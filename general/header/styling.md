@@ -1,3 +1,7 @@
+---
+description: Colors, spacing and alignment for every part of the header.
+---
+
 # Styling
 
 In this section, we explore how to style your header to match your site’s design. Header styling options allow you to customize various aspects of the header, including colors, spacing, and alignment of header elements.

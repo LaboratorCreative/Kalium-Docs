@@ -1,3 +1,7 @@
+---
+description: Override the header on one page, post, product or project.
+---
+
 # In Page Options
 
 The **In Page Options** for headers allow you to customize the appearance and functionality of headers on individual pages, posts, or custom post types like Products and Portfolios.&#x20;

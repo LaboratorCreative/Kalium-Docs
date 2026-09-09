@@ -53,7 +53,6 @@ The snippet runs in the WordPress admin only. Use this for code that adds a colu
 The snippet runs in both.
 
 
-
 {% hint style="info" %}
 Requests that are neither a normal page view nor the admin (REST API calls, scheduled tasks, anything run from the command line) count as **Frontend**.
 {% endhint %}

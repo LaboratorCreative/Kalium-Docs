@@ -179,8 +179,8 @@ Portfolio items have the most settings, because the project layouts differ so mu
 
 **Project Layout -> Item Type** is the first choice, and it decides what else you see: _Side Portfolio_, _Columned_, _Carousel_, _Zig Zag_, _Fullscreen_, _Lightbox_ or _Design Your Own_.
 
-{% hint style="warning" %}
-**Change the Item Type, then click Update.** The tabs for the new type won't appear until you save.
+{% hint style="info" %}
+The tabs change as soon as you pick a different **Item Type**. You don't need to save first.
 {% endhint %}
 
 The remaining tabs are:
@@ -233,7 +233,7 @@ This tab appears on a **page** using the **Portfolio** page template, and it con
 Advanced Custom Fields Pro powers this panel and must be active. It's bundled with Kalium. Install it from **Kalium -> Plugins**.
 
 **You changed Item Type and nothing appeared.**\
-Click **Update** first.
+The tabs swap as soon as the dropdown changes. If they didn't, reload the editor.
 
 **You're looking for portfolio listing settings on a project.**\
 They're on the **page** that uses the Portfolio template.

@@ -1,3 +1,7 @@
+---
+description: What counts as an installation, and which plan you need.
+---
+
 # Activation Scope
 
 Understanding the activation scope of Kalium is crucial for selecting the plan that best fits your needs. This article will help you determine what constitutes an active installation and how the licensing mechanism supports different activation instances.

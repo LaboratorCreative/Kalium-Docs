@@ -1,7 +1,10 @@
+---
+description: The layout and card style of your post listing.
+---
+
 # Blog Page
 
 The Blog Page settings in the Customizer allow you to change the appearance and layout of your blog posts. To access these settings, navigate to **Appearance -> Customize -> Blog -> Blog Page**.&#x20;
-
 
 
 <figure><img src="../../.gitbook/assets/blog-page-options.jpg" alt=""><figcaption></figcaption></figure>
@@ -223,4 +226,3 @@ The **Style** tab provides options to customize the appearance of post card on t
 * **Border**: Customize the card's border by setting the width, size, and type (e.g., solid, dashed). This option also includes responsive settings, enabling you to define different border styles for different screen sizes.
 * **Border Radius**: Set how rounded the corners of the card should be. The border radius option includes responsive settings, allowing for different levels of rounding on various devices.
 * **Box Shadow**: Apply a shadow effect to the card, giving it a three-dimensional appearance. This option allows you to adjust the intensity and direction of the shadow.
-

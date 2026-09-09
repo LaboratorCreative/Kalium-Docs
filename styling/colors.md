@@ -1,3 +1,7 @@
+---
+description: The palette behind the whole theme, and how to use it.
+---
+
 # Colors
 
 Colors are a fundamental aspect of the theme, and understanding how to work with them will help you achieve the best results and enhance your site’s overall appearance.

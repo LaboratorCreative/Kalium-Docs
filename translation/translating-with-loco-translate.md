@@ -1,3 +1,7 @@
+---
+description: Translate the theme from inside WordPress, with no external tools.
+---
+
 # Translating with Loco Translate
 
 Loco Translate is a popular WordPress plugin that simplifies the process of translating themes and plugins, making it an excellent choice for translating Kalium. With Loco Translate, you can easily manage translation files directly from your WordPress dashboard without needing any external software.

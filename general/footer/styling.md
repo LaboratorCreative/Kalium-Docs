@@ -1,3 +1,7 @@
+---
+description: Row width, spacing and the look of the footer.
+---
+
 # Styling
 
 ### Full Width Row
@@ -41,4 +45,3 @@ You can adjust the spacing of elements for each row, as the **Row** provides set
 Click the vertical three dots on **Row** element and go to **Content** section, scroll to _Horizontal_ and _Vertical_ Gap:
 
 <figure><img src="../../.gitbook/assets/Footer Columns - Spacing.jpg" alt=""><figcaption><p>Adjusting the elements spacing in a row</p></figcaption></figure>
-

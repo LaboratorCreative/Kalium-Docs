@@ -1,3 +1,7 @@
+---
+description: How Kalium handles translation, and which tool suits your site.
+---
+
 # Translation introduction
 
 At Laborator, we recognize that our theme should cater to a diverse, global audience. To accommodate this, we have built Kalium with translation in mind, ensuring that every word and sentence can be personalized to fit various languages and locales.

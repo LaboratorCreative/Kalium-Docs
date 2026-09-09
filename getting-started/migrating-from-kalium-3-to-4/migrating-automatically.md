@@ -1,3 +1,7 @@
+---
+description: The guided route, handling the license transfer and update for you.
+---
+
 # Migrating Automatically
 
 Upgrade from Kalium 3 to Kalium 4 effortlessly by following our step-by-step guide for automatic migration. This method streamlines the process through your WordPress dashboard, handling license transfer and theme updates with minimal effort on your part. Ideal for a smooth and hassle-free upgrade.

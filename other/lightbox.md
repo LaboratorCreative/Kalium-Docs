@@ -1,3 +1,7 @@
+---
+description: The overlay that opens images and video, and how to style it.
+---
+
 # Lightbox
 
 Kalium has a built-in lightbox, which enhances the visual experience by allowing contents of all types to be displayed in an overlay on several sections, including the Blog, Portfolio, and WooCommerce product page. It is fast and responsive, allowing a smooth experience while viewing images or videos.
@@ -22,4 +26,3 @@ Settings that lightbox supports are:
 * **Thumbnail** - Image size for the thumbnails.
 
 <figure><img src="../.gitbook/assets/Lightbox Settings.jpg" alt="" width="343"><figcaption><p>Global lightbox settings</p></figcaption></figure>
-

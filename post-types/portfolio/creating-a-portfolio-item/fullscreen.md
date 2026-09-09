@@ -1,3 +1,7 @@
+---
+description: A gallery that fills the viewport, for image-led projects.
+---
+
 # Fullscreen
 
 Fullscreen item type offers an immersive viewing experience by allowing the gallery to occupy the entire viewport, creating a strong focus on the visual content. This layout is particularly effective for showcasing high-impact images or videos where every detail matters.

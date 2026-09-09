@@ -1,7 +1,10 @@
+---
+description: Setting up a blog and choosing how it looks.
+---
+
 # Blog
 
 Creating a blog is a fantastic way to connect with your audience, share your thoughts, and build a community around your passions. Whether you're starting a personal diary, a professional blog, or a niche site dedicated to a specific topic, WordPress provides the tools to set up and customize your blog page to fit your needs.
-
 
 
 ### Creating a Blog Page and Blog Post

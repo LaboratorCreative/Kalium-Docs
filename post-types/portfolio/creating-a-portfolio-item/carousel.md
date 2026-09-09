@@ -1,3 +1,7 @@
+---
+description: A full-width sliding gallery for a project.
+---
+
 # Carousel
 
 The Carousel item type offers a dynamic full-width gallery experience by showcasing images in a carousel format. This layout allows you to feature images in a slideshow that spans the entire width of the page.&#x20;

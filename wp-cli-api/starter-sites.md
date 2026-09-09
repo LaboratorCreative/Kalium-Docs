@@ -1,3 +1,7 @@
+---
+description: List, import and remove starter sites from the command line.
+---
+
 # Starter Sites
 
 The theme provides a WP-CLI interface for managing starter sites (demo content) directly from the command line. This is useful for automated deployments, CI/CD pipelines, or quick site setup without using the WordPress admin interface.

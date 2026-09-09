@@ -1,3 +1,7 @@
+---
+description: Show customers how close they are to free shipping.
+---
+
 # Free Shipping Bar
 
 The Free Shipping Bar is an effective tool to motivate customers to increase their order size by showcasing how much more they need to spend to qualify for free shipping. This feature, found under **Appearance -> Customize -> WooCommerce -> General Settings**, can be turned on or off and can be strategically placed on different pages to maximize its impact and encourage larger purchases.

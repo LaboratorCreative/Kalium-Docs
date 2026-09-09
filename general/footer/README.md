@@ -1,3 +1,7 @@
+---
+description: The footer, its widget areas, and how it is put together.
+---
+
 # Footer
 
 The Kalium footer is highly flexible and user-friendly, utilizing widget areas for easy customization. With the Block Editor, you can effortlessly add and arrange text, images, menus, and other elements, making it simple to create a footer that fits your design and functional needs.

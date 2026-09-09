@@ -1,3 +1,7 @@
+---
+description: The plugins Kalium bundles, and installing them from one screen.
+---
+
 # Installing Required Plugins
 
 Installing required plugins for Kalium is straightforward and simple process, typically involving just a few clicks. Each plugin has a brief description of its functionality, version, and action buttons such as Install, Update, or Activate.

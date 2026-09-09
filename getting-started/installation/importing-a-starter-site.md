@@ -1,3 +1,7 @@
+---
+description: Start from a finished design and replace the content with your own.
+---
+
 # Importing a Starter Site
 
 {% embed url="https://www.youtube.com/watch?v=fx1gx1e0u9A" %}
@@ -43,4 +47,3 @@ The import process will start, and you will see a progress indicator explaining 
 Now that your starter site is imported, you can start customizing it to fit your business needs. The imported site will include all the necessary elements and plugins, making it easy for you to tweak and personalize the design.&#x20;
 
 <figure><img src="../../.gitbook/assets/starter-site-import-4.jpg" alt=""><figcaption></figcaption></figure>
-

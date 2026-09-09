@@ -1,3 +1,7 @@
+---
+description: The cart drawer, and how it opens.
+---
+
 # Mini Cart
 
 A mini cart is a great feature that lets users quickly view their cart contents without going away from their current page. Located under **Appearance -> Customize -> WooCommerce -> General Settings**, the **Mini Cart** settings enable you to control how this cart preview appears and behaves, providing a seamless shopping experience.
@@ -32,4 +36,3 @@ There are two types of mini cart, and they are:
 * **Border Radius**: Set the border radius to create rounded corners, with responsive options available.
 * **Box Shadow**: Add a shadow effect to the drawer for a more pronounced appearance.
 * **Offset**: Adjust the drawer’s position relative to the edges of the browser window. This includes vertical and horizontal offsets, allowing you to fine-tune where the drawer appears on the screen.
-

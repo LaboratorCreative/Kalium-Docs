@@ -1,3 +1,7 @@
+---
+description: Using your Adobe Fonts library in Kalium.
+---
+
 # Adding Adobe Fonts
 
 The process of adding Adobe Fonts is quite similar to the general font adding process. By following these steps, you’ll be able to seamlessly incorporate Adobe Fonts into your site and enhance your typography.
@@ -55,7 +59,6 @@ Select the font source from the available options, in this case Adobe Fonts, and
 In the left panel, the fonts you've selected and added to your project in Adobe Fonts will show while in the right you will see the variants you've selected.
 
 <figure><img src="../../../.gitbook/assets/typography-adobe-fonts-2.jpg" alt=""><figcaption></figcaption></figure>
-
 
 
 ### 10. Apply the Font

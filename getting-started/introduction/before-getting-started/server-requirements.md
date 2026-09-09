@@ -1,3 +1,7 @@
+---
+description: What your server needs, and how to ask your host for it.
+---
+
 # Server Requirements
 
 To get the most out of Kalium and have smooth experience with WordPress, it’s important that your hosting meets the following requirements:
@@ -73,4 +77,3 @@ Best regards,\
 \[Your Name]
 
 </details>
-

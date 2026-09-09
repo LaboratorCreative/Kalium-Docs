@@ -1,3 +1,7 @@
+---
+description: Three ways to let visitors change language, using WPML.
+---
+
 # Adding a Language Switcher
 
 Kalium supports multilingual websites through WPML, allowing you to add a language switcher in various locations. This guide covers how to add a language switcher in Kalium using WPML through three methods: Header, Widget, and Shortcode.

@@ -1,3 +1,7 @@
+---
+description: Choosing which pages a template part applies to.
+---
+
 # Display Conditions
 
 Display Conditions let you control **where** and **when** a Template Part appears on your site.
@@ -52,14 +56,12 @@ Here’s a full list of supported condition types, grouped for clarity. These al
 | Search Page      | Search results pages                |
 
 
-
 | **Singular Content**    | **Where it applies**                                                              |
 | ----------------------- | --------------------------------------------------------------------------------- |
 | Single Post             | Individual blog posts                                                             |
 | Single Page             | Individual static pages                                                           |
 | Custom Post Type Single | Select any custom post type (e.g. Portfolio, Product), then choose specific items |
 | Attachment              | Media attachment pages                                                            |
-
 
 
 | **Archive**              | **Where it applies**                                           |
@@ -70,7 +72,6 @@ Here’s a full list of supported condition types, grouped for clarity. These al
 | Custom Post Type Archive | Archive page for custom post types (e.g. Products, Portfolios) |
 
 
-
 | **Taxonomy**            | **Where it applies**                                                        |
 | ----------------------- | --------------------------------------------------------------------------- |
 | Category Archive        | Blog categories (e.g. News, Tutorials)                                      |
@@ -78,13 +79,11 @@ Here’s a full list of supported condition types, grouped for clarity. These al
 | Custom Taxonomy Archive | Choose custom taxonomy and terms (e.g. Product Categories, Portfolio Types) |
 
 
-
 | **User**   | **Where it applies**                                                         |
 | ---------- | ---------------------------------------------------------------------------- |
 | Logged In  | Shows only to users who are logged in                                        |
 | Logged Out | Shows only to users who are not logged in                                    |
 | User Role  | Target specific roles like Administrator, Editor, Subscriber, Customer, etc. |
-
 
 
 | **WooCommerce**          | **Where it applies**                        |
@@ -102,13 +101,11 @@ WooCommerce-specific conditions only appear if WooCommerce is active on your sit
 {% endhint %}
 
 
-
 | **Date & Time** | **Where it applies**                                |
 | --------------- | --------------------------------------------------- |
 | Specific Date   | Show only on a selected date                        |
 | Specific Time   | Show only during a specific time of day             |
 | Specific Days   | Show only on selected weekdays (e.g. weekends only) |
-
 
 
 | **Custom Condition** | **Where it applies**                                                      |

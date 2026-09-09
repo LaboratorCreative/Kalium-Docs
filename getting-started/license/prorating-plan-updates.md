@@ -1,3 +1,7 @@
+---
+description: What happens to your billing when you change plan.
+---
+
 # Prorating Plan Updates
 
 We support prorating of plan upgrades & downgrades.

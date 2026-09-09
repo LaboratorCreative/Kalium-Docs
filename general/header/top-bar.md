@@ -1,3 +1,7 @@
+---
+description: The optional strip above the header, and what goes in it.
+---
+
 # Top Bar
 
 The Top Bar is an optional feature that can be activated via **Appearance** -> **Customize** -> **Header** by enabling the **Top Bar** option and then clicking on it to view the options.&#x20;

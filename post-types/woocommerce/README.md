@@ -1,4 +1,5 @@
 ---
+description: What Kalium adds to WooCommerce, screen by screen.
 cover: ../../.gitbook/assets/kalium-woocommerce.jpg
 coverY: -9.286821705426357
 layout:

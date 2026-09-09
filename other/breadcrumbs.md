@@ -1,3 +1,7 @@
+---
+description: Showing visitors where they are, using Breadcrumb NavXT.
+---
+
 # Breadcrumbs
 
 Breadcrumbs provide users with a clear path of their navigation history on your site, enhancing the user experience by showing their current location relative to the site structure. In Kalium, breadcrumbs can be customized via the **Appearance -> Customize -> General -> Breadcrumb** section. By default, breadcrumbs are disabled and require the [**Breadcrumb NavXT**](https://wordpress.org/plugins/breadcrumb-navxt/) plugin for functionality. Follow the steps below to set up and configure breadcrumbs:
@@ -55,7 +59,6 @@ Manage the visibility of breadcrumbs across different devices:
 * **Mobile**
 
 Set preferences for each device type to ensure optimal display.
-
 
 
 ### Style

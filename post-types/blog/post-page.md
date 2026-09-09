@@ -1,3 +1,7 @@
+---
+description: The single post layout, from featured image to related posts.
+---
+
 # Post Page
 
 The Post Page section, accessible via **Appearance -> Customize -> Blog -> Post Page**, lets you define the layout and styling of your individual blog posts. This area is designed to give you control over how your content is presented, with options for adjusting the featured image, configuring post metadata, and enabling additional elements like social sharing or author information.&#x20;

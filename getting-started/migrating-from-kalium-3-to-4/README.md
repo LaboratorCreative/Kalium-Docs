@@ -1,3 +1,7 @@
+---
+description: What changed in Kalium 4, and how to move a site across.
+---
+
 # Migrating from Kalium 3 to 4
 
 Upgrading from **Kalium 3** to **Kalium 4** is more than just a simple update—it’s a significant leap forward.

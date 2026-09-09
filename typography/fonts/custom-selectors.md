@@ -1,3 +1,7 @@
+---
+description: Point a font at exactly the part of the site you want it on.
+---
+
 # Custom Selectors
 
 In this section, you can apply the font to specific areas of your site by choosing from the list of pre-defined selectors or by entering a relevant CSS class or ID. This feature gives you precise control over where the font appears on your site.

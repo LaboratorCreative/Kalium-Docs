@@ -1,3 +1,7 @@
+---
+description: What visitors see while an image is still loading.
+---
+
 # Image Placeholder
 
 Images are crucial to your website’s user experience, and how they’re presented can significantly impact it.

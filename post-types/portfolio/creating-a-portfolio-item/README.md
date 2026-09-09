@@ -1,3 +1,7 @@
+---
+description: Creating a project and choosing one of the seven layouts.
+---
+
 # Creating a Portfolio Item
 
 Now that your [Portfolio page](../creating-a-portfolio-page.md) is set up, it's time to dive into creating captivating projects. Whether you're showcasing your latest work, highlighting case studies, or presenting your creative portfolio, Kalium makes it easy to publish and manage your portfolio items.

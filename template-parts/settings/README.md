@@ -1,3 +1,7 @@
+---
+description: The panel beside the editor, and which settings each type shows.
+---
+
 # Settings
 
 Template Parts in Kalium have a dedicated settings panel that lets you control how and where your content appears on your site. Depending on the type of Template Part you're creating (Section, Header, Footer, Page, Popup, or Snippet), the available settings may vary.
@@ -56,4 +60,3 @@ Two settings are shared by everything, though they behave slightly differently:
 {% hint style="info" %}
 **A setting you expected isn't there?** Check the **Type** first, most of the panel changes with it. A Header part has no Placement, and a Section has no Header Settings.
 {% endhint %}
-

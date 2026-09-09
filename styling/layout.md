@@ -1,3 +1,7 @@
+---
+description: Container width and the spacing between blocks.
+---
+
 # Layout
 
 Layout options allow you to set the container size for the entire site and adjust block spacing.
@@ -34,4 +38,3 @@ Go to **Parameters and Options** -> **Page Options** -> **Other Settings**
 <figure><img src="../.gitbook/assets/Container Size for Single Item.jpg" alt=""><figcaption><p>Setting custom container width for current page/post</p></figcaption></figure>
 
 The same settings available in the Customizer are also found here.
-

@@ -1,3 +1,7 @@
+---
+description: The look of every form field, from contact forms to checkout.
+---
+
 # Forms
 
 Manage the appearance and layout of forms across your entire site to maintain a consistent design. This applies to all forms, including contact forms, search forms, comment sections, checkout pages, and more. You can customize the form styles under **Appearance** -> **Customize** -> **Styling** -> **Forms**.
