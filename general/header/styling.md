@@ -57,8 +57,11 @@ The spacing between root-level menu items.
 **Links**\
 The colors for the normal, hover, and active states of the menu items.
 
-**Background**, **Border**, **Padding**, **Radius** and **Shadow**\
+**Background**, **Border**, **Padding**, **Border Radius** and **Shadow**\
 The style settings for the submenu container.
+
+**Pill Background**\
+The pill background for submenu items, in their normal, hover and active states. Only when **Pill Navigation** is on.
 
 ***
 
@@ -92,7 +95,7 @@ An overlay menu that covers the entire screen, providing a full-page navigation 
 <div><figure><img src="../../.gitbook/assets/Header Style - Fullscreen.jpg" alt="" width="332"><figcaption><p>Fullscreen menu style options</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Header Style - Fullscreen Background.jpg" alt="" width="324"><figcaption><p>Fullscreen menu background style options</p></figcaption></figure></div>
 
 **Custom Background**\
-The background color and image options.
+A toggle that opens its own screen, holding **Color**, **Image**, **Position**, **Repeat**, **Size** (_Cover_, _Contain_ or _Custom_) and **Custom Size** for when Size is Custom.
 
 **Links**\
 Colors for link states: **normal**, _**hover**_ and _**active**_.
@@ -119,9 +122,6 @@ The color settings for the menu links in their different states: _**normal**_, _
 
 **Text** \
 The color settings for other text elements within the menu container.
-
-**Pill Background** \
-The background color for pill-styled navigation items, applicable if pill navigation is enabled.
 
 ***
 

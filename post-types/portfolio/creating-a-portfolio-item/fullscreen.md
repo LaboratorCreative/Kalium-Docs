@@ -16,11 +16,11 @@ Here, you can adjust the visibility and display of the description and project i
 
 ### Content Box State
 
-The content box has three states: _Collapsed_, _Expanded_, or _Hidden_. By default, the content box is Collapsed, but you can set it to _Expanded_ using the Item **Description Visibility** option. To hide the content box entirely, enable the **Hide Project Description** option.
+The content box has three states: _Collapsed_, _Expanded_, or _Hidden_. By default, the content box is Collapsed, but you can set it to _Expanded_ with **Item Description Visibility**. To hide the content box entirely, enable the **Hide Project Description** option.
 
 <div><figure><img src="../../../.gitbook/assets/Fullscreen - Content Box State - Collapsed.jpg" alt="" width="375"><figcaption><p>Collapsed content</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/Fullscreen - Content Box State - Expanded.jpg" alt="" width="375"><figcaption><p>Expanded content</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/Fullscreen - Content Box State - Hidden.jpg" alt="" width="375"><figcaption><p>Hidden content</p></figcaption></figure></div>
 
-You can also customize the text for the expand handle in the **Show Project Info** text field.
+You can also customize the text for the expand handle in the **Show Project Info Text** field.
 
 ## Project Gallery
 

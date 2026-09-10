@@ -4,7 +4,7 @@ description: What changed in Kalium 4, and how to move a site across.
 
 # Migrating from Kalium 3 to 4
 
-Upgrading from **Kalium 3** to **Kalium 4** is more than just a simple update—it’s a significant leap forward.
+Upgrading from **Kalium 3** to **Kalium 4** is more than just a simple update. It’s a significant leap forward.
 
 Kalium 4 brings many exciting updates that make building your website easier and more powerful. It has faster performance, better customization options, and a simpler, more user-friendly design, making it feel like a brand-new tool that meets today’s web design trends.
 

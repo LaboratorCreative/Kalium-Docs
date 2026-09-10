@@ -12,7 +12,7 @@ The menu content is divided into two sections: _Main Content_ and _Footer Conten
 
 Like other header sections, the mobile menu uses a drag-and-drop interface to organize and structure the menu elements.
 
-The mobile menu offers a slightly smaller selection of elements, as not all elements available in other header sections are supported in the mobile menu.​
+The mobile menu offers a shorter list of elements than the header does: **Menu**, **Search Field**, **Social Icons**, **Text**, **Button**, **Cart Totals** and **Language Switcher**. None of them has a **Visible On** setting, since the mobile menu only appears below the breakpoint anyway.​
 
 <figure><img src="../../.gitbook/assets/Mobile Menu Elements.jpg" alt="" width="268"><figcaption><p>Mobile menu elements</p></figcaption></figure>
 

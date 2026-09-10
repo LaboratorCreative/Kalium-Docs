@@ -12,11 +12,11 @@ To do that go to **Appearance** -> **Customize** -> **General** -> **Maintenance
 
 There are several options you can set for this mode:
 
-* **Page Title** - The title display both on browser title bar and as main heading in the page.
+* **Title** - The title display both on browser title bar and as main heading in the page.
 * **Description** - Optional explaining text for the maintenance mode.
-* **Custom Logo** - Adds your logo above the title, if no logo is assigned it will use current logo from your brand.
-* **Countdown Timer** - An interactive timer that counts down to the date of launch of your site.
+* **Logo** - Adds your logo above the title, if no logo is assigned it will use current logo from your brand. Turning it on reveals **Custom Logo Image** and **Max. Width**.
+* **Countdown Timer** - An interactive timer that counts down to the date of launch of your site. Turning it on reveals **Date** and **Time**.
 * **Social Networks** - Shows your defined social networks in the bottom of the page.
-* **Style Options** - Background and text color as well as custom image for the background.
+* **Style Options** - **Text Color** and **Background Color**, plus a **Background Image** with its **Background Fill** (_Cover_ or _Contain_) and a **Color Overlay** over the top.
 
 <figure><img src="../.gitbook/assets/Maintenance Mode Options.jpg" alt=""><figcaption><p>Options for the Maintenance Mode page</p></figcaption></figure>

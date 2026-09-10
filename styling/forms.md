@@ -10,7 +10,7 @@ Manage the appearance and layout of forms across your entire site to maintain a 
 
 ### General
 
-The General tab in allows you to control the overall layout and style of forms across your site. This tab includes options to choose the layout type and activate the legacy form style if needed.
+The General tab lets you control the overall layout and style of forms across your site. This tab includes options to choose the layout type and activate the legacy form style if needed.
 
 #### Form Layout
 
@@ -42,8 +42,9 @@ In the Style tab, you can customize various aspects of the form fields:
 <figure><img src="../.gitbook/assets/forms-inputs.jpg" alt="" width="341"><figcaption></figcaption></figure>
 
 * **Placeholder**: Set the text color for the placeholder in form fields.
-* **Text**: Customize the text color for three states — Normal, Hover, and Active.
-* **Border**: Define the border color for the three states — Normal, Hover, and Active.
+* **Text**: Customize the text color for three states, Normal, Hover and Focus.
+* **Background**: The field background for the same three states. Type 1 only.
+* **Border**: Define the border color for the three states, Normal, Hover and Focus.
 * **Border Width**: Adjust the thickness of the border around form fields.
 * **Padding**: Control the space inside the form fields to adjust the size and spacing of the text.
 * **Border Radius**: Set how rounded the corners of the form fields are.
@@ -55,7 +56,7 @@ Add a shadow effect to the form fields to give them depth and make them stand ou
 <figure><img src="../.gitbook/assets/forms-boxshadow.jpg" alt="" width="339"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Some style elements won’t be visible when using Type 2, as it lacks a regular border. Features like border radius and box shadow won’t be applied in this layout.
+Some style settings are hidden when using Type 2, as it lacks a regular border: **Background**, **Border Radius** and the three **Box Shadow** settings appear only for Type 1.
 {% endhint %}
 
 #### Textarea
@@ -73,9 +74,9 @@ Some style elements won’t be visible when using Type 2, as it lacks a regular 
 
 ### Will Form Styling Apply to Other Form Plugins?
 
-Kalium has been tested with the most well-known form plugins to ensure a seamless design experience. Even though these plugins have their own styling, Kalium will automatically select the necessary styling options so that our styles apply to each form.&#x20;
+Kalium has been tested with the most well-known form plugins to ensure a seamless design experience. The theme styles the form fields themselves, so its styling reaches any plugin's fields as long as the plugin is not painting over them.&#x20;
 
-Make sure to select the **Theme Styled** option in your form plugin settings to make sure Kalium form styles are applied, no matter which plugin you're using.
+That is what the plugin's own setting decides. Select the **Theme Styled** option, or the nearest equivalent, in your form plugin settings so it stops applying its own field styles and Kalium's come through.
 
 The supported plugins include&#x20;
 

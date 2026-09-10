@@ -29,7 +29,7 @@ Places a Kalium Template Part of type _Section_ into the page. Only appears whil
 
 ### Your Kalium fonts appear in Elementor
 
-Any font you've added under **Kalium -> Typography** shows up in Elementor's own font picker, listed alongside Google Fonts and the system ones.
+Any font you've added under **Kalium -> Typography** shows up in Elementor's own font picker, in a **Theme Fonts** group at the top of the list.
 
 That means you set a font up once, in one place, and use it in both. You don't need to add it again for Elementor.
 
@@ -81,7 +81,7 @@ If you have Elementor Pro, you have two ways to replace a header, footer or arch
 Portfolio Items needs the portfolio module enabled; Content Section needs Template Parts enabled. Both are under **Kalium -> Settings**.
 
 **My theme fonts don't appear in Elementor's picker.**\
-Check the font is saved under **Kalium -> Typography** and reload the editor.
+Only fonts that are **active** in **Kalium -> Typography** are passed across. Check the font is saved and active, then reload the editor.
 
 **The page looks different in the editor than on the site.**\
 Usually caching. Clear your caching plugin and reload.

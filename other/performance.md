@@ -32,7 +32,7 @@ There's very little reason not to enable this.
 
 **On by default.**
 
-Tells the browser to start downloading fonts immediately, rather than waiting until it finds the text that needs them.
+Tells the browser to start downloading fonts immediately, rather than waiting until it finds the text that needs them. It reaches Self-Hosted fonts only.
 
 #### Font Face Rendering
 
@@ -57,15 +57,15 @@ Each of these removes something your site may not need.
 
 #### WordPress Emoji Script
 
-**On by default**, meaning the script is removed.
+**On by default, which means the script loads.** Turn it **off** to drop it.
 
-WordPress loads a script to support emoji in older browsers. Every modern browser handles emoji natively, so this is safe to leave enabled, emoji still work.
+WordPress loads a script to support emoji in older browsers. Every modern browser handles emoji natively, so turning this off is safe, emoji still work.
 
 #### WordPress Embed Script
 
-Removes WordPress's script for embedding other WordPress posts.
+**On by default, which means the script loads.** Turn it **off** to drop it.
 
-If you don't embed posts from other WordPress sites, you don't need it.
+It is the script that turns a pasted link into an embedded frame, a Twitter post for instance. If you don't embed posts from other WordPress sites, you don't need it.
 
 #### Always Include jQuery
 
@@ -88,6 +88,10 @@ Only appears when **Always Include jQuery** is on. It's a compatibility layer fo
 #### Preload Theme Icons
 
 Loads Kalium's icon font earlier, so icons don't appear a moment after the rest of the page.
+
+#### JPEG Image Quality
+
+How hard WordPress compresses your JPEGs, from 50 to 100. It starts at 82%, which is WordPress's own default. If you change it, regenerate your thumbnails so existing images are recompressed.
 
 ***
 

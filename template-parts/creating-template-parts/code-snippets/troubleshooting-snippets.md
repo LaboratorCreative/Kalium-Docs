@@ -94,7 +94,7 @@ Two placements are firing on the same page. Turn on **Run Once** under Snippet S
 
 #### A path or address in my snippet is wrong after moving the site
 
-Placeholders like `{{HOME_URL}}` are filled in when a snippet is saved, so they still hold the old address. Open the snippet and save it again to refresh them. Kalium regenerates them on its own too, but saving is the quick fix.
+Check whether the address is written out in full in your code. Placeholders like `{{HOME_URL}}` are filled in each time the snippet's code is written out, so they follow the site on their own; a hard-coded address does not. Replace it with the matching placeholder.
 
 #### I don't see Enqueue as File
 

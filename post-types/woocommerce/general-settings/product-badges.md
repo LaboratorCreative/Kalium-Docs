@@ -1,5 +1,5 @@
 ---
-description: The Sale, New and Out of Stock labels on your products.
+description: The Sale, Featured, Out of Stock and Backorder labels on your products.
 ---
 
 # Product Badges
@@ -30,7 +30,7 @@ A circular badge style.
 * **Upper Case**: Toggle this option to automatically convert badge text to uppercase.
 * **Size**: Adjust the size range of the badge.
 * **Radius**: Set the border radius for a more rounded badge.
-* **Fixed Size**: Toggle to maintain a fixed size, preventing the badge from resizing with text. This is particularly useful for badges with longer texts, such as "Out of stock."
+* **Square Size**: Toggle to keep the badge square, so it does not stretch with longer text such as "Out of stock."
 
 
 #### Triangle&#x20;
@@ -73,3 +73,4 @@ Customize the colors for each badge type:
 * **Sale**: Choose the text color and background color for sale badges.
 * **Featured**: Select the text color and background color for featured product badges.
 * **Out of Stock**: Adjust the text color and background color for out-of-stock badges.
+* **Backorder**: Set the text color and background color for products on backorder.

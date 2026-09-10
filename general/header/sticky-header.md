@@ -131,6 +131,9 @@ Additional elements in the sticky header support styling on sticky state and the
 **Links**\
 The colors for the normal, hover, and active states of the menu items.
 
+**Hamburger Menu**\
+The normal, hover and active colors of the menu toggle button.
+
 **Text**\
 The color settings for other text elements within sticky header.
 

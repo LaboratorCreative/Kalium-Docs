@@ -6,7 +6,7 @@ description: Letting the header float over the page instead of sitting above it.
 
 This option enables the header to blend seamlessly with the background of the page, making it appear as though it is floating over the content. This effect is achieved by setting the header's background to transparent, allowing the underlying page content or background image to be visible through the header.
 
-To enable the _Transparent Header_, navigate to **Appearance → Customize → Header** and activate the **Transparent Header** option. Click on the option to access and adjust its settings.
+To enable the _Transparent Header_, navigate to **Appearance -> Customize -> Header** and activate the **Transparent Header** option. Click on the option to access and adjust its settings.
 
 ***
 
@@ -46,7 +46,9 @@ Control where and when the transparent header appears on your website.
 Set up rules to determine on which pages the transparent header will be displayed. You can create multiple conditions using various criteria such as page types, specific pages, post categories, and more.
 
 {% hint style="info" %}
-**Important:** You must set at least one display condition to enable the transparent header. Without any conditions defined, the transparent header will not be activated.
+**Important:** Display conditions are what switch the transparent header on across the site. With none set, it applies only where a single post or page asks for it itself, through **Parameters and Options -> Page Options -> Header Options -> Header Position** set to _Over the Content (Absolute)_.
+
+That per-page setting also wins the other way: _Content Below (Static)_ keeps the header opaque on that page whatever the conditions here say.
 {% endhint %}
 
 ***

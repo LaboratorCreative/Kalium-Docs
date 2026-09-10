@@ -118,7 +118,7 @@ Click **Publish**. Visit one of the pages your conditions match and the new head
 
 **Your Customizer header settings stop applying on those pages.** This is the point of the feature, but it surprises people: if you change the logo under **Appearance -> Customize -> Header** and nothing happens on one page, a Header template part is very likely matching it.
 
-**Two headers on one page** means two Header parts match it. Tighten the conditions on one of them.
+**The wrong header shows.** More than one Header part matches the page, and only the first match is used. Tighten the conditions so each one matches its own pages.
 
 **The header disappeared everywhere** usually means the conditions are too narrow, or there are none at all. A part with no conditions is never shown.
 

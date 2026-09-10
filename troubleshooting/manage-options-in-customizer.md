@@ -23,8 +23,8 @@ Exporting your customizer settings allows you to save your current configuration
 
 <figure><img src="../.gitbook/assets/manage-options-1.jpg" alt="" width="337"><figcaption></figcaption></figure>
 
-1. **Go to Export Section:**
-   * In the **Manage Options** panel, locate the **Export** section.
+1. **Go to Export Options:**
+   * In the **Manage Options** panel, locate the **Export Options** section.
 2.  **Export Settings:**
 
     * Click the **Export Theme Options** button.
@@ -38,11 +38,17 @@ Importing settings is useful for applying previously exported configurations to 
 
 <figure><img src="../.gitbook/assets/manage-options-2.jpg" alt="" width="331"><figcaption></figcaption></figure>
 
-1. **Go to Import Section:**
-   * In the **Manage Options** panel, find the **Import** section.
+1. **Go to Import Options:**
+   * In the **Manage Options** panel, find the **Import Options** section.
 2. **Upload File:**
    * Drag and drop the exported JSON file into the input field, or click to select the file from your computer.
    * Click the **Import Theme Options** button to upload and apply the settings.
+
+### Transferring Between Parent and Child Theme
+
+**Transfer Options** does in one step what exporting and importing does in three. On a child theme it offers to bring the parent theme's options across; on the parent it offers the child's.
+
+Use this rather than the export/import route when you are moving between the Kalium parent theme and the Kalium child theme on the same site.
 
 ### Resetting to Default
 
@@ -50,8 +56,8 @@ If you wish to revert all customizer settings to their default state, you can re
 
 <figure><img src="../.gitbook/assets/manage-options-3.jpg" alt="" width="336"><figcaption></figcaption></figure>
 
-1. **Go to Reset Section:**
-   * In the **Manage Options** panel, locate the **Reset** section.
+1. **Go to Reset Options:**
+   * In the **Manage Options** panel, locate the **Reset Options** section.
 2. **Reset Settings:**
    * Click the **Reset Theme Options** button. This will revert all customizer options to their default values.
    * A confirmation popup will appear with the message: **"Are you sure you want to reset theme options? This action is irreversible!"**, click **OK** to proceed.

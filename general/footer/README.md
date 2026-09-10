@@ -68,7 +68,7 @@ After inserting the row and columns, they will automatically include Widget Area
 
 <figure><img src="../../.gitbook/assets/Footer Widget Areas.jpg" alt="" width="278"><figcaption></figcaption></figure>
 
-Each widget area stacks content vertically by default. To arrange the content in columns, adjust the **Widgets per Row** option by clicking the three dots in the **Widget Area** element options:
+Each widget area stacks content vertically by default. To arrange the content in columns, adjust the **Widgets Per Row** option by clicking the three dots in the **Widget Area** element options:
 
 <figure><img src="../../.gitbook/assets/Widgets Per Row.jpg" alt="" width="267"><figcaption><p>Set the number of columns (optional)</p></figcaption></figure>
 

@@ -24,7 +24,7 @@ Breadcrumbs provide users with a clear path of their navigation history on your 
 
 Once breadcrumbs are enabled, you can customize them using the following options:
 
-#### Type
+#### Breadcrumb Border Type
 
 <figure><img src="../.gitbook/assets/breadcrumb-2.jpg" alt="" width="343"><figcaption></figcaption></figure>
 
@@ -44,11 +44,11 @@ This alignment option is available for all breadcrumb types.
 
 #### Display
 
-Control where breadcrumbs are shown or hidden by toggling the options on or off. Additionally, breadcrumbs can be added directly to the header as a [header element](../general/header/custom-header/elements.md#breadcrumb).
+Five toggles decide which pages get breadcrumbs: **Homepage**, **Blog Page**, **Portfolio Page**, **Search Page** and **404 Page**. Blog Page and Portfolio Page are on by default, the other three off. Additionally, breadcrumbs can be added directly to the header as a [header element](../general/header/custom-header/elements.md#breadcrumb).
 
 <figure><img src="../.gitbook/assets/breadcrumb-3.jpg" alt="" width="340"><figcaption></figcaption></figure>
 
-#### Responsive
+#### Visibility
 
 <figure><img src="../.gitbook/assets/breadcrumb-4.jpg" alt="" width="339"><figcaption></figcaption></figure>
 
@@ -81,7 +81,7 @@ Define the border color for Type 2 and Type 3 breadcrumbs.
 
 #### Border Radius
 
-Adjust the border radius for Type 1 and Type 3 breadcrumbs.
+Adjust the border radius. Available for all three types.
 
 #### Margin
 

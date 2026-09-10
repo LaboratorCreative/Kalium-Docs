@@ -1,10 +1,10 @@
 ---
-description: Wrapper width, device visibility and classes for a Section.
+description: Wrapper width, device visibility and classes for a Section, Header or Footer.
 ---
 
 # Container Settings
 
-**Container Settings** is specific to **Sections**. It controls the wrapper Kalium puts around your section, how wide it is, which devices see it, and what HTML element is used.
+**Container Settings** applies to **Sections**, **Headers** and **Footers**. It controls the wrapper Kalium puts around the part, how wide it is, which devices see it, and what HTML element is used.
 
 <figure><img src="../../.gitbook/assets/container-settings.jpg" alt="" width="278"><figcaption></figcaption></figure>
 
@@ -18,7 +18,7 @@ This is the setting people come here for. It decides whether your section lines 
 The section sits inside the site's content container, so its left and right edges line up with the header, the content and the footer. This is the default and it is what you want most of the time.
 
 **Off**\
-The section stretches the full width of the browser window. This is how you build a full-width colored band, a wide image strip, or a promotional bar that spans the whole screen.
+No wrapper is printed at all, so the section stretches the full width of the browser window. This is how you build a full-width colored band, a wide image strip, or a promotional bar that spans the whole screen. The three settings below belong to that wrapper, so they disappear while this is off.
 
 {% hint style="info" %}
 **"My section isn't full width."** Turn **Wrap with Container** off. This is the single most common question about sections.

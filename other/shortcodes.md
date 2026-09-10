@@ -6,11 +6,11 @@ description: >-
 
 # Shortcodes
 
-A shortcode is a short tag in square brackets that WordPress swaps for real content when the page loads. `[year]` becomes 2026. `[kalium_social_icons]` becomes your row of social links.
+A shortcode is a short tag in square brackets that WordPress swaps for real content when the page loads. `[date format="Y"]` becomes 2026. `[kalium_social_icons]` becomes your row of social links.
 
 They're useful wherever you can type text but can't drop in a proper element, a widget, a text field, the middle of a paragraph.
 
-**Two of them are already on your site.** Kalium's default footer is built from `[kalium_site_info]` and `[kalium_social_icons]`, which is why the copyright year updates itself.
+**Two of them are already on your site.** Kalium's default footer puts `[kalium_site_info]` and `[kalium_social_icons]` into its first two widget areas, which is why the copyright year updates itself.
 
 ***
 
@@ -142,7 +142,7 @@ Runs a Template Part of type **Snippet** inside content. The Template Parts list
 | --- | --- | --- |
 | `id` | The snippet's ID | `0` |
 | `check_conditions` | `yes` / `no` | `no` |
-| anything else | Passed to the snippet |, |
+| anything else | Any text value | None |
 
 ```
 [kalium_snippet id="512" title="Hello" count="3"]

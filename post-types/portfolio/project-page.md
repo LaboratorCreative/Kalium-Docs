@@ -72,11 +72,13 @@ Allow visitors to share the projects on various social networks directly from th
 Add or remove sharing networks from the following options:
 
 * Facebook
-* X (Twitter)
-* Pinterest
-* Email
+* Twitter X
+* Bluesky
+* Threads
 * LinkedIn
 * Tumblr
+* Pinterest
+* Email
 * VKontakte
 * WhatsApp
 * Telegram
@@ -90,11 +92,12 @@ This option enables the _Lightbox_ feature for gallery images. When activated, c
 This feature does not apply to **Lightbox item types** but affects only images inside galleries.​
 {% endhint %}
 
-## Image Captions
+## Gallery
 
-In project galleries, this setting controls images with caption text.
+Settings for the images inside project galleries.
 
-* **Image Captions:** Toggle captions on or off for all gallery images.
-* **Caption Position:** Placement of the caption element.
-  * **Hover:** Show captions only when the user hovers over the image.
+* **Image Captions:** Toggle captions on or off for all gallery images. On by default.
+* **Caption Position:** Placement of the caption element, shown while captions are on.
+  * **Hover:** Show captions only when the user hovers over the image. This is the default.
   * **Below:** Display the caption consistently below the image.
+* **Image Size:** The size gallery images are served at, Large by default, with a **Custom Size** field when you choose Custom Image Size.

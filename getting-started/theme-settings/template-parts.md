@@ -49,7 +49,7 @@ With this on, each snippet is saved to a file in `wp-content/uploads/kalium-snip
 
 The line underneath the setting tells you **whether the folder is writable**. If it isn't, snippets run from the database instead, whatever this switch says, everything still works, you just lose the caching benefits and the **Enqueue as File** option disappears.
 
-Snippet files stay in place while a snippet is disabled or in the trash. They're removed only when a snippet is deleted permanently.
+Snippet files stay in place while a snippet is disabled or in the trash. They are removed when a snippet is deleted permanently, or when you switch a part's Type away from Snippet.
 
 ***
 

@@ -26,7 +26,7 @@ The Text Transform option allows you to adjust the case of your text, such as ma
 
 ### Units
 
-You can select from various units for font sizes, line height, letter spacing, and text transform, including:
+You can select from various units for font sizes, line height and letter spacing, including:
 
 * **PX** (Pixels)
 * **EM** (Relative to the font size of the element)

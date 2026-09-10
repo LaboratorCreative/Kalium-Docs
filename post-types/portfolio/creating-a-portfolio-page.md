@@ -57,6 +57,7 @@ After selecting Portfolio Page template, click on **Parameters and Options -> Po
 * **Custom Query:** This option provides a query builder that allows you to select specific items to appear on that page only. It enables you to customize the content displayed on the portfolio page according to your preferences.
 * **Masonry Style Portfolio:** Create a custom pattern for displaying portfolio images. It allows you to design a creative layout with various image formats that will align neatly based on the Masonry layout style. This section is covered **here**.
 * **Default Filter Category:** Set a default filter category that will be applied automatically when users visit the portfolio page.
+* **Hide "All" filter link from portfolio:** Drops the **All** entry from the filter row, which pairs with a default filter category.
 
 ### Grid Settings
 
@@ -66,12 +67,14 @@ Various grid settings are available for the Portfolio Page template in **Grid Se
 
 * **Columns Count**: Set the number of items per row.&#x20;
 * **Reveal Effect**: Control the animation effect applied to portfolio items as they enter the viewport. [Learn more about reveal effect ->](portfolio-page.md#reveal-effect)
-* **Full Width Container**: Enabling this option makes the portfolio container span the full width of the viewport. [Learn more about full width container ->](portfolio-page.md#full-width-container)
-* **Title and Filter Container**: Visible when the Full Width Container is set to **Yes**. This option extends the portfolio items to align with the container’s edges, creating a more immersive layout.
+* **Full-width Container**: Enabling this option makes the portfolio container span the full width of the viewport. [Learn more about full width container ->](portfolio-page.md#full-width-container)
+* **Title and Filter Container**: Visible when Full-width Container is set to **Yes**. Leave it on **Yes** to keep the title and filters inside the normal container while the items run wide, or choose **No (Full-width)** to let those run wide too.
 
 ### Layout Type
 
-Alternatively, you can use either of the two available [Portfolio Page](portfolio-page.md) card layouts in the **Layout Type** tab. Select the layout type you want to apply for portfolio items in this page only. By default, it inherits the layout type set in the Customizer.
+Alternatively, you can use either of the two available [Portfolio Page](portfolio-page.md) card layouts in the **Layout Type** tab, named here **Thumbnails with Visible Titles** and **Thumbnails with Titles Inside**. Select the layout type you want to apply for portfolio items in this page only. By default, it inherits the layout type set in the Customizer.
+
+Choosing one reveals that layout's own overrides, each also defaulting to **Use from Theme Options**: **Dynamic Image Height**, **Thumbnail Hover Effect** and **Custom Hover Background Color** for both, plus **Grid Spacing**, **Thumbnail Hover Text Position** and **Thumbnail Hover Style** for Thumbnails with Titles Inside.
 
 <div><figure><img src="../../.gitbook/assets/Creating a Portfolio - Page Template Layout Type 1.jpg" alt=""><figcaption><p>Layout Type 1</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Creating a Portfolio - Page Template Layout Type 2.jpg" alt=""><figcaption><p>Layout Type 2</p></figcaption></figure></div>
 

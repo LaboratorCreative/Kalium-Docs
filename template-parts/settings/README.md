@@ -27,8 +27,8 @@ This will toggle the settings panel on the right side of the editor. From here, 
 | Type | Settings you'll see |
 | --- | --- |
 | **Section** | Display Conditions, Placement, Container Settings |
-| **Header** | Display Conditions, Header Settings |
-| **Footer** | Display Conditions, Footer Settings |
+| **Header** | Display Conditions, Container Settings, Header Settings |
+| **Footer** | Display Conditions, Container Settings, Footer Settings |
 | **Page** | Display Conditions, Page Settings |
 | **Popup** | Display Conditions, Popup Settings, Popup Triggers |
 | **Snippet** | Snippet Type, Execution Scope, Execute Conditions, Placement, Snippet Settings |

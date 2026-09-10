@@ -4,7 +4,7 @@ description: Getting WordPress running before you install the theme.
 
 # WordPress Installation
 
-To install and start using Kalium, you need to have a working version of WordPress already set up on your site. If you haven’t installed WordPress yet or need help with the process, don’t worry—we’ve got you covered. Below are some valuable resources that provide detailed instructions and support for installing and setting up WordPress:
+To install and start using Kalium, you need to have a working version of WordPress already set up on your site. If you haven’t installed WordPress yet or need help with the process, don’t worry, we’ve got you covered. Below are some valuable resources that provide detailed instructions and support for installing and setting up WordPress:
 
 * [WordPress Codex](https://developer.wordpress.org/advanced-administration/before-install/howto-install/) – General info about WordPress and how to install it on your server.
 * [First Steps With WordPress](https://wordpress.org/documentation/article/first-steps-with-wordpress-block-editor/) – General info about multiple topics about WordPress.

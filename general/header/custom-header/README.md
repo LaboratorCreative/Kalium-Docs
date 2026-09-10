@@ -32,7 +32,7 @@ Where a canvas has many elements, a search field appears above the list, type a 
 <figure><img src="../../../.gitbook/assets/custom-header-1.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**Grayed-out elements need a plugin.** Cart, Cart Totals and My Account need WooCommerce active. Language Switcher needs WPML. They stay in the list so you know they exist.
+**Grayed-out elements need a plugin.** Cart, Cart Totals and My Account need WooCommerce active. Language Switcher needs WPML, and Breadcrumb needs Breadcrumb NavXT. They stay in the list so you know they exist.
 {% endhint %}
 
 #### 2. Move things around
@@ -97,7 +97,7 @@ The same editor is used in nine other places. Once you know it here, you know it
 
 ### Spacing in the header builder
 
-Header, Top Bar and Mobile Menu elements are deliberately leaner than the footer and product card ones. Each carries **its own settings, plus Visible On and Custom CSS**, but no Margin, Padding, Border or Dimensions.
+Header, Top Bar and Mobile Menu elements are deliberately leaner than the footer and product card ones. Each carries **its own settings, plus Visible On and Custom CSS**, but no Margin, Padding, Border or Dimensions. Two exceptions: the **Row** has only its Content Align, and the **Button** has its own Padding and Border Radius. In the Mobile Menu, no element has Visible On.
 
 Spacing in the header comes from three places instead:
 
@@ -129,7 +129,7 @@ The following article will detail the purpose and usage of each element.​
 Regions are fixed. Remove or hide the elements inside instead.
 
 **An element is missing from the list.**\
-Cart, Cart Totals and My Account need WooCommerce. Language Switcher needs WPML.
+Cart, Cart Totals and My Account need WooCommerce. Language Switcher needs WPML, and Breadcrumb needs Breadcrumb NavXT.
 
 **My changes aren't on the site.**\
 Publish the Customizer. The preview updates live, but nothing saves until you do.

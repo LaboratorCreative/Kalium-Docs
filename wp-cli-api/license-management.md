@@ -1,5 +1,5 @@
 ---
-description: Activate and check the license from the command line.
+description: Activate and deactivate the license from the command line.
 ---
 
 # License Management

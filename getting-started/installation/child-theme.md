@@ -54,6 +54,10 @@ If you have already completed your site using the Kalium parent theme and want t
 
 By following this process, you can ensure that all your theme options and personal settings are carried over to the child theme seamlessly, allowing you to take full advantage of the child theme’s benefits without starting from scratch. Let's migrate:
 
+{% hint style="info" %}
+**There is a one-step shortcut.** After activating the child theme, **Appearance -> Customize -> Manage Options** offers **Transfer Options**, which brings the parent theme's options across directly. The export and import route below does the same thing and is worth knowing if you are also moving to another site.
+{% endhint %}
+
 1. **Export Parent Theme Options**
    * Before activating the child theme, go to **Appearance -> Customize -> Manage Options**.
    * Export the options of the parent theme by clicking the **Export Theme Options** button.

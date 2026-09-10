@@ -6,7 +6,7 @@ description: The single product page, from gallery style to tabs.
 
 Located under **Appearance -> Customize -> WooCommerce -> Product Page**, this section allows you to design various aspects of your product page to meet your specific needs. From image dimensions to gallery layouts and additional features, you have control over how your products are presented.
 
-## Product Image Width
+## Shop Single Gallery Size
 
 Determine how wide the product image should be displayed on the product page:
 
@@ -65,17 +65,18 @@ Customize the layout and behavior of your product image gallery:
 #### Gallery Options
 
 * **Enlarge Icon**: Toggle to show or hide the icon that allows users to enlarge images.
-* **Mouse/Touch Behaviour**: Choose the action triggered by clicking or touching an image:
-  * **Zoom/Lightbox**: Decide between zooming into the image or opening it in a lightbox.
+* **Mouse/Touch Behavior**: On by default. It reveals **Shop Single Gallery Image Click Action**, which decides between zooming into the image (**Zoom**) and opening it in a lightbox (**Lightbox**).
 * [**Gap**](#user-content-fn-1)[^1]: Set the space between gallery images. This option has responsive controls for various device sizes and applies to all gallery types except Simple.
 * **Max Items**: Limit the number of images shown in the gallery or select "All" to display every image.
 * [**Gallery Auto Play**](#user-content-fn-2)[^2]: Enter the interval (in seconds) for automatic image rotation.
-* [**Navigation**](#user-content-fn-2)[^2]: Choose between **Arrows**, **Dots**, or both for navigation controls.
+* [**Navigation**](#user-content-fn-2)[^2]: Choose between **Arrows**, **Dots**, or both for navigation controls. Only Arrows is ticked by default.
 * [**Animation**](#user-content-fn-2)[^2]: Select **Slide** or **Fade** for image transitions.
 * [**Carousel Thumbnails**](#user-content-fn-3)[^3]: Enable carousel view for thumbnails.
   * **Auto Thumbnails per View**: Automatically adjusts the number of thumbnails shown per view.
   * **Thumbnails per View**: Manually set the number of thumbnails displayed per view.
-* **Max Items**: Limit the number of thumbnail items shown or select "All" to display all thumbnails.
+* **Stretch**: For the Grid types at Small, Medium or Large, stretches the grid to fill the column.
+* **Carousel on Mobile**: On by default, turns a Grid gallery into a carousel on small screens.
+* **Item Max Width**: For the Carousel type, the widest a single slide may be. 600 by default.
 
 ## Sidebar
 
@@ -83,9 +84,9 @@ Configure the visibility and placement of the sidebar on your product page. You 
 
 <figure><img src="../../.gitbook/assets/woocommerce-product-page-sidebar.jpg" alt=""><figcaption></figcaption></figure>
 
-#### Sidebar Alignment
+#### Shop Single Sidebar Align
 
-Choose the alignment of the sidebar:
+Choose the alignment of the sidebar. **Right** is the default:
 
 <div align="center"><figure><img src="../../.gitbook/assets/woocommerce-product-page-sidebar-inside.jpg" alt="" width="335"><figcaption></figcaption></figure></div>
 
@@ -94,7 +95,7 @@ Choose the alignment of the sidebar:
 
 #### Full Height
 
-Set the height of the sidebar to Full Height if you want it to have a 100% height within the container of the product.
+Set the height of the sidebar to Full Height if you want it to have a 100% height within the container of the product. On by default.
 
 #### Sidebar Widgets
 
@@ -137,7 +138,7 @@ And each of them have the option to show the tab **Titles**, which when toggled 
 
 Display product details in a tabbed format:
 
-* **Style**: Choose between **Underline** or **Pills**.
+* **Style**: Choose between **Pills**, the default, or **Underline**.
 * **Orientation**: Select **Horizontal** or **Vertical** layout.
 
 <div><figure><img src="../../.gitbook/assets/woocommerce-product-tabs-underline.jpg" alt="" width="375"><figcaption><p>Underline Style</p></figcaption></figure> <figure><img src="../../.gitbook/assets/woocommerce-product-tabs-pills.jpg" alt="" width="375"><figcaption><p>Pill Style</p></figcaption></figure></div>
@@ -187,11 +188,13 @@ Allow visitors to share your product on various social networks directly from th
 Add or remove sharing networks from the following options:
 
 * Facebook
-* X (Twitter)
-* Pinterest
-* Email
+* Twitter X
+* Bluesky
+* Threads
 * LinkedIn
 * Tumblr
+* Pinterest
+* Email
 * VKontakte
 * WhatsApp
 * Telegram

@@ -17,7 +17,7 @@ The settings are at **Appearance -> Customize -> General -> Media**, and they ap
 ### Media Player
 
 **Video.js**\
-Kalium's themed player. This is the default, and it's what makes video match your site's styling. It only loads when a video actually scrolls into view, so it costs nothing on pages without one.
+Kalium's themed player. This is the default, and it's what makes video match your site's styling. It is loaded on demand, only where the page actually holds a video or audio element, so it costs nothing on pages without one.
 
 **Browser Native**\
 The player built into the visitor's browser. It differs from browser to browser, but it is the lightest option.

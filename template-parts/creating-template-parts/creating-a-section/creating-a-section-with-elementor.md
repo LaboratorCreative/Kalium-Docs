@@ -6,7 +6,7 @@ description: Building a section visually, without needing Elementor Pro.
 
 {% embed url="https://www.youtube.com/watch?v=tisB5o8trIA" %}
 
-Template Parts work seamlessly with Elementor and allow you to visually build custom sections and place them anywhere on your site — all without needing **Elementor Pro**. This gives you theme-builder-level flexibility, built directly into Kalium.
+Template Parts work seamlessly with Elementor and allow you to visually build custom sections and place them anywhere on your site, all without needing **Elementor Pro**. This gives you theme-builder-level flexibility, built directly into Kalium.
 
 In this example, we’ll walk through how to create a **Section** using Elementor.&#x20;
 
@@ -18,7 +18,7 @@ By default, Template Parts are not editable with Elementor unless you enable the
 
 To do that:
 
-1. Go to **Elementor → Settings**
+1. Go to **Elementor -> Settings**
 2. Under the **Post Types** section, make sure **Template Parts** is checked
 3. Click **Save Changes**
 
@@ -30,13 +30,13 @@ To do that:
 
 Now that Elementor can edit Template Parts, you’re ready to create one:
 
-1. Go to **Kalium → Template Parts**
+1. Go to **Kalium -> Template Parts**
 2. Click **Add New**
 3. Add a title for your section (e.g. `30% Off Banner`)
 4. Click **Publish**
 
 {% hint style="info" %}
-&#x20;You can set up **Display Conditions**, **Placement**, and **Container Settings** now or later — the process is the same as when using Gutenberg.
+&#x20;You can set up **Display Conditions**, **Placement**, and **Container Settings** now or later, the process is the same as when using Gutenberg.
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/elementor.jpg" alt=""><figcaption></figcaption></figure>
@@ -50,7 +50,7 @@ Once the Template Part has been published, you’ll see the **Edit with Elemento
 Click it to open the section in the Elementor editor.
 
 {% hint style="warning" %}
-If the **Edit with Elementor** button doesn't show up, it means Template Parts are not enabled in **Elementor → Settings**. Make sure the checkbox is active under **Post Types**.
+If the **Edit with Elementor** button doesn't show up, it means Template Parts are not enabled in **Elementor -> Settings**. Make sure the checkbox is active under **Post Types**.
 {% endhint %}
 
 ***
@@ -59,7 +59,7 @@ If the **Edit with Elementor** button doesn't show up, it means Template Parts a
 
 Now you're in the Elementor editor.
 
-1. Add your content — for this example, we’ve added a banner block announcing a **30% Sale**
+1. Add your content, for this example we’ve added a banner block announcing a **30% Sale**
 2. Design the section as you like
 3. When finished, click **Publish**
 
@@ -69,7 +69,7 @@ Now you're in the Elementor editor.
 
 ### 5. Check Your Section
 
-Return to **Kalium → Template Parts** and you'll see your newly created section listed with an **Elementor** label. This means the section was built using Elementor and can be edited with it any time.
+Return to **Kalium -> Template Parts** and you'll see your newly created section listed with an **Elementor** label. This means the section was built using Elementor and can be edited with it any time.
 
 <figure><img src="../../../.gitbook/assets/elementorr-2.jpg" alt=""><figcaption><p>The "Elementor" label shows after the section title, so you will know it's built with Elementor</p></figcaption></figure>
 
@@ -77,7 +77,7 @@ Return to **Kalium → Template Parts** and you'll see your newly created sectio
 
 ### Optional: Insert the Section Manually
 
-The **Content Section** element in Elementor lets you easily insert any section of Template Parts directly into your layout — no need to configure display conditions or placement settings.
+The **Content Section** element in Elementor lets you easily insert any section of Template Parts directly into your layout, with no need to configure display conditions or placement settings.
 
 #### Why use this?
 
@@ -97,11 +97,12 @@ The **Content Section** element in Elementor lets you easily insert any section 
     <figure><img src="../../../.gitbook/assets/elementor-widget-2.jpg" alt=""><figcaption></figcaption></figure>
 
     * **Display Section** – Select the section you want to show.
+    * **Edit Section** – Opens that section in a new tab. It appears once a section is chosen.
     *   **Check Display Conditions** – Enable this to respect the section’s Display Conditions.<br>
 
-        > Check if this section should be visible based on its Display Conditions. This has no effect unless conditions are defined in the section settings.\
-        > \
-        > If you leave **Check Display Conditions** off, the section will always appear wherever you’ve placed it.
+        > Check if this section should be visible based on its Display Conditions.
+
+        Left off, the section always appears wherever you’ve placed it. Turned on, the section’s own conditions decide, so a section with no conditions set is hidden.
 5. When you're done editing click **Publish**
 
 And this is how it looks in the page we have added:

@@ -108,7 +108,7 @@ Appears when sticky is set to _Enable_, a full set of color and spacing override
 _&#x55;se from Theme Options_ · _Show footer on this page_ · _Hide footer on this page_. This is how you hide the footer on a landing page.
 
 **Fixed Footer**\
-_&#x55;se from Theme Options_ · _Normal_ · three _Fixed to Bottom_ variants with different animations.
+_&#x55;se from Theme Options_ · _Normal_ · three _Fixed to Bottom_ variants: no animation, fade, or slide.
 
 ### Other Options
 
@@ -116,7 +116,7 @@ _&#x55;se from Theme Options_ · _Normal_ · three _Fixed to Bottom_ variants wi
 Turn this on to set a different content width for this page. It reveals **Container Width** (_Large_, _Medium_, _Small_ or _Custom_) and a slider when you pick _Custom_.
 
 **Fullwidth container**\
-Overrides the width entirely and runs the content edge to edge.
+Appears with the same toggle and overrides the width entirely, running the content edge to edge. Turning it on hides **Container Width**.
 
 ### Breadcrumb
 

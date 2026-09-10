@@ -12,11 +12,10 @@ To show it on your site go to **Appearance** -> **Customize** -> **General** -> 
 
 After you enable it, it will be visible on entire site whenever the defined conditions for showing the button are met.&#x20;
 
-You can choose to show the scroll to top button in three ways:
+Two settings decide when it appears:
 
-1. When user reaches **the footer**
-2. When users scroll to certain percentage of the scroll
-3. When users scroll a specific number of pixels
+1. **Show on Footer**, on by default, waits until the visitor reaches the footer
+2. Turn that off and **Scroll Position** takes over, in either `%` of the page or `px` scrolled. It starts at `50%`
 
 <figure><img src="../.gitbook/assets/Scroll to Top Trigger.jpg" alt="" width="327"><figcaption><p>When to show the <strong>Scroll to Top</strong> button</p></figcaption></figure>
 

@@ -69,7 +69,7 @@ wp kalium starter-site install <id> [--builder=<builder>] [--regenerate-thumbnai
 **Example**
 
 ```bash
-# Install the Bookstore starter site with Gutenberg (default)
+# Install the Bookstore starter site with its first listed builder
 wp kalium starter-site install bookstore
 
 # Install with Elementor builder and thumbnail regeneration
@@ -192,7 +192,7 @@ wp kalium starter-site regenerate-thumbnails architecture --builder=gutenberg
 # 1. List available starter sites
 wp kalium starter-site list
 
-# 2. Install a starter site with Gutenberg (default)
+# 2. Install a starter site
 wp kalium starter-site install bookstore --regenerate-thumbnails
 ```
 
@@ -232,9 +232,9 @@ The CLI will exit with an error in the following cases:
 
 ### Notes
 
-* Gutenberg is the default and recommended builder for most starter sites
-* The `--builder` option is important when a starter site supports multiple page builders
-* Available builders: `gutenberg` (default), `elementor`, `wpb`
+* Omitting `--builder` uses the first builder listed for that starter site, which is the first entry in the **builders** column of `list`
+* The `--builder` option matters when a starter site supports several page builders
+* Available builders: `gutenberg`, `elementor`, `wpb`
 * Running `install` will spawn separate processes for plugin installation and content import
 * Thumbnail regeneration only affects images imported by the specific starter site
-* The Portfolio post type is temporarily activated during plugin installation
+* The Portfolio post type is registered for the duration of a starter site command, so demo content carrying portfolio items is not skipped

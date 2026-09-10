@@ -4,7 +4,7 @@ description: Running Kalium in Arabic, Hebrew and other right-to-left languages.
 
 # RTL Languages
 
-Kalium is designed to be versatile and accessible for users worldwide, including those who use [RTL languages](#user-content-fn-1)[^1] — such as Arabic and Hebrew. They are written and read from right to left. Kalium fully supports RTL, ensuring that your site looks and functions perfectly, regardless of the language direction.
+Kalium is designed to be versatile and accessible for users worldwide, including those who use [RTL languages](#user-content-fn-1)[^1], such as Arabic and Hebrew. They are written and read from right to left. Kalium fully supports RTL, ensuring that your site looks and functions perfectly, regardless of the language direction.
 
 ### Enabling RTL on Your Site
 

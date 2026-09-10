@@ -36,7 +36,7 @@ Its Customizer screens appear right away.
 <figure><img src="../../.gitbook/assets/portfolio-post-types.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**Only public post types appear in the list.** If you can't see the one you want, it was registered as private, either by the plugin that created it, or in the code that added it.
+**The list holds public custom post types only.** Three things keep one out: it was registered as private, it is one of WordPress's built-in types (posts, pages), or it is on the theme's ignore list of types that exist for other purposes, form and slider plugins, popups, page-builder templates and the like.
 {% endhint %}
 
 ***
@@ -112,7 +112,7 @@ Save the settings page, then reload the Customizer.
 Either **Portfolio Extension** is off, or the post type was unticked.
 
 **The post type I want isn't in the list.**\
-Only public post types appear.
+It is private, built into WordPress, or on the theme's ignore list of plugin-owned types.
 
 {% content-ref url="../../troubleshooting/settings-not-applying.md" %}
 [settings-not-applying.md](../../troubleshooting/settings-not-applying.md)

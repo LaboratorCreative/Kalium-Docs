@@ -26,27 +26,27 @@ You can choose between two layout types: **Default Layout** and **Centered Conte
 
 You can customize your Project Gallery with several options, including:
 
-* **Reveal Effect:** Choose the animation or transition effect when gallery items are revealed.
-* **Spacing:** Adjust the spacing between items to fit your layout needs.
-* **Captions:** Enable or disable captions for gallery images.
-* **Items Gap:** Set the gap between items to control the overall look of your gallery.
+* **Images Reveal Effect:** _None_, _Fade_ or _Slide and Fade_ as gallery items come into view.
+* **Image Spacing:** _Default spacing_ or _No spacing (merged)_.
+* **Image Captions Position:** _Use from Theme Options_, _On hover_ or _Below image_.
 
 <figure><img src="../../../.gitbook/assets/Zig Zag - Project Gallery Options.jpg" alt=""><figcaption></figcaption></figure>
 
 The Project Gallery section supports various media types:
 
-* **Single Image:** Display a single image to showcase individual visuals or key elements of your project.
-* **Slider Images:** Add a slider with multiple images for viewers to scroll through different angles or stages of your project.
-* **Image Comparison:** Use an interactive slider to compare two images side by side, ideal for before-and-after shots or contrasting design options.
-* **Video:** Embed videos from platforms like YouTube or Vimeo, or use self-hosted video files for project demonstrations or other relevant content.
-* **Text Quote:** Insert a text quote or message to highlight key feedback, project descriptions, or significant statements related to your work.
-* **HTML Code:** Add custom HTML to include additional elements such as interactive widgets, forms, or bespoke features that enhance your gallery.
+* **Image:** Display a single image to showcase individual visuals or key elements of your project.
+* **Images Slider:** Add a slider with multiple images for viewers to scroll through different angles or stages of your project.
+* **Comparison Images:** Use an interactive slider to compare two images side by side, ideal for before-and-after shots or contrasting design options.
+* **YouTube Video**, **Vimeo Video** and **Self-Hosted Video:** Embed a video for project demonstrations or other relevant content.
+* **HTML:** Add custom HTML to include additional elements such as interactive widgets, forms, or bespoke features that enhance your gallery.
+
+This layout has no **Text Quote** item, unlike Side Portfolio and Columned.
 
 Zig Zag provides additional details for every gallery item type, including:
 
 * **Description:** Rich text editor for adding detailed descriptions.
-* **Width:** Adjust the width of the description.
-* **Alignment:** Set the alignment of the description in relation to the gallery media.
+* **Description Width:** _Six columns (50%)_, _Five columns (40%)_ or _Four columns (33%)_.
+* **Description Alignment:** _Left_ or _Right_ of the gallery media.
 
 To add a gallery item, click **Add New** and select from the available media types.&#x20;
 

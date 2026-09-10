@@ -20,7 +20,7 @@ To get started, let's create the portfolio item. Navigate to the WordPress sideb
 6. **Select Tags** (optional): Add relevant tags to your portfolio item to enhance searchability and filter options. Tags are also optional but can be helpful for filtering the items.
 7. **Click Publish**: Once you’ve completed all the necessary fields, click **Publish** to make your portfolio item live on your website.
 
-The **Project Settings** tabs contain all the settings for configuring your portfolio item. These settings may vary depending on the portfolio type you choose, as each type has its own set of unique options. However, there are also common options that are shared across all portfolio types.
+The **Parameters and Options** tabs contain all the settings for configuring your portfolio item. These settings may vary depending on the portfolio type you choose, as each type has its own set of unique options. However, there are also common options that are shared across all portfolio types.
 
 {% hint style="info" %}
 Creating a portfolio item involves the use of custom fields, which are managed through the **Advanced Custom Fields Pro** plugin. This plugin is essential for customizing and displaying the content of your portfolio items.
@@ -36,7 +36,7 @@ Here, you can provide general information about the portfolio item.
 
 <figure><img src="../../../.gitbook/assets/Creating a Portfolio Item - Item Details.jpg" alt=""><figcaption></figcaption></figure>
 
-* **Subtitle:** A brief, one-line title to describe the item (optional).
+* **Sub Title:** A brief, one-line title to describe the item (optional).
 
 ### Prev-Next Navigation
 
@@ -79,21 +79,23 @@ You can replace the featured image with a video. If the video is set to autoplay
 <figure><img src="../../../.gitbook/assets/Creating a Portfolio Item - Featured Video.jpg" alt=""><figcaption></figcaption></figure>
 
 * **Featured Video:** Upload the video material by clicking Add Video and then Add File for the video source.
-* **Autoplay:** Automatically starts the video when the portfolio item loads (default). If on, the video will be muted automatically, for [this particular reason](https://developer.chrome.com/blog/autoplay).
+* **Autoplay:** Automatically starts the video when the portfolio item loads (default).
+* **Mute:** Plays the video silently. Leave this on with Autoplay, because browsers refuse to start an audible video without the visitor asking, for [this particular reason](https://developer.chrome.com/blog/autoplay).
 * **Controls:** Display video controls (play, pause, etc.) for user interaction.
 * **Loop:** Automatically restart the video when it finishes.
 
 ### Other Settings
 
-Allows you to further customize your portfolio items with options to set a custom hover background color, select the style of the hover overlay, and define the default state of the overlay—whether it should appear on hover, be hidden on hover, or always be visible.&#x20;
+Allows you to further customize your portfolio items with options to set custom hover colors, select the style of the hover overlay, and define the default state of the overlay, whether it should appear on hover, be hidden on hover, or always be visible.&#x20;
 
 These settings apply specifically to the Project Page (portfolio catalog).
 
 <figure><img src="../../../.gitbook/assets/Creating a Portfolio Item - Other Settings.jpg" alt=""><figcaption></figcaption></figure>
 
 * **Custom Hover Background Color**: The color to apply to the hover layer.
-* **Hover Effect Style**: Show or hide the entire overlay information, or set a custom style for it.
-* **Hover Layer State**: Set the default state for the overlay layer, which can appear on hover, be hidden on hover, or always be visible.
+* **Custom Hover Text Color**: The color of the title and subtitle on that layer.
+* **Hover Effect Style**: _Use from Theme Options_, _No hover effect_, _Full background hover_ or _Distanced background hover_.
+* **Hover Layer State**: _Show on Hover_, _Always Show_ or _Hide on Hover_.
 
 ## Setting Up Item Types
 

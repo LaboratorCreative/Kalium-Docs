@@ -40,14 +40,14 @@ Note that setting **Carousel Start Position** to **Center** and having **Infinit
 
 The **Project Gallery** for the Carousel item type supports images only. The gallery container has the following options:
 
-* **Reveal Effect**: Select the animation or transition effect for revealing gallery items.
-* **Spacing**: Adjust the space between images to fit your layout.
-* **Captions**: Toggle captions on or off for the gallery images.
-* **Maximum Carousel Height**: Set the maximum height for the carousel.
-* **Carousel Content Start Position**: Choose to start from the center or left.
-* **Loop**: Enable infinite looping of slides.
-* **Autoplay**: Set the carousel to autoplay with a specified time interval.
-* **Items Gap**: Define the gap between items for the desired visual effect.
+* **Images Reveal Effect**: _None_, _Fade_ or _Slide and Fade_ for revealing gallery items.
+* **Image Spacing**: _Default spacing_ or _No spacing (merged)_.
+* **Image Captions Position**: _Use from Theme Options_, _On hover_ or _Below image_.
+* **Gallery Columns Gap**: The gap between items, in pixels.
+* **Maximum Image Height**: The tallest an image may be in the carousel.
+* **Carousel Start Position**: _Center_ or _Left_.
+* **Infinite Loop Slides**: Loops the slides endlessly.
+* **Auto Play**: Seconds between automatic slide changes. Leave it empty to turn it off.
 
 <figure><img src="../../../.gitbook/assets/Carousel - Project Gallery Options.jpg" alt=""><figcaption></figcaption></figure>
 

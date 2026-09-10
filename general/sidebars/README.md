@@ -6,7 +6,7 @@ description: Turning sidebars on, styling them, and making them follow the page.
 
 {% embed url="https://www.youtube.com/watch?v=rXa6J4VpmA0" %}
 
-Kalium offers extensive options to customize the sidebars on your website, allowing you to create the perfect layout for your content. The sidebar settings can be accessed by navigating to **Appearance -> Customizer -> Sidebars** in your WordPress dashboard. Below is a detailed guide to the different customization options available for sidebars in Kalium.
+Kalium offers extensive options to customize the sidebars on your website, allowing you to create the perfect layout for your content. The sidebar settings can be accessed by navigating to **Appearance -> Customize -> Sidebars** in your WordPress dashboard. Below is a detailed guide to the different customization options available for sidebars in Kalium.
 
 ### Sidebar Types
 
@@ -33,7 +33,7 @@ This setting controls the gap between the sidebar and the main content. Adjustin
 
 Allows you to define the inner spacing (padding) within the sidebar or widget if they are separated. It’s useful for ensuring that your sidebar content has enough breathing room.
 
-#### Widget Vertical Spacing
+#### Widgets Vertical Spacing
 
 This option sets the gap between individual widgets within the sidebar. It helps maintain consistent spacing and a clean look.
 
@@ -51,12 +51,12 @@ Kalium offers a sticky sidebar feature that keeps the sidebar visible as the use
 
 <figure><img src="../../.gitbook/assets/sidebars-3.jpg" alt="" width="329"><figcaption></figcaption></figure>
 
-* **Sticky Behaviour:**&#x20;
+* **Sticky Behavior:**&#x20;
   * Entire Sidebar: The entire sidebar remains sticky.
-  * Widget&#x73;**:** Set the number of the bottom widgets that you want to remain sticky.
-* **Offset from Top:** This setting controls the distance from the top of the page when the sidebar becomes sticky.
+  * Widget&#x73;**:** Only the last widgets stay sticky. Choosing this reveals **Last Widgets**, the number of bottom widgets to keep, which starts at 1.
+* **Offset From Top:** This setting controls the distance from the top of the page when the sidebar becomes sticky.
 
-### Responsive Visibility
+### Visible On
 
 You can control whether the sidebar is visible on different devices by toggling the respective options:
 
@@ -74,8 +74,8 @@ The Style tab provides a range of customization options that allow you to style 
 
 #### Text
 
-* **Title and Text Color:** Customize the color of the sidebar titles and text.
-* **Links Color and Hover Color:** Set the color for links and the color that appears when hovering over them.
+* **Title & Text:** Customize the color of the sidebar titles and text.
+* **Links:** Set the color for links in their normal and hover states.
 
 <figure><img src="../../.gitbook/assets/sidebars-5.jpg" alt="" width="331"><figcaption></figcaption></figure>
 

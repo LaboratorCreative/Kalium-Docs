@@ -43,7 +43,7 @@ Import, list and remove starter sites. Useful for setting up a new site in one s
 [license-management.md](license-management.md)
 {% endcontent-ref %}
 
-Activate, deactivate and check the theme license. This is the one agencies use most, activating a license as part of a deployment, or releasing it when a staging site is torn down.
+Activate and deactivate the theme license. This is the one agencies use most, activating a license as part of a deployment, or releasing it when a staging site is torn down.
 
 ***
 

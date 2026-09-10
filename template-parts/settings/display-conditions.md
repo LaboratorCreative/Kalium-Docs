@@ -6,9 +6,9 @@ description: Choosing which pages a template part applies to.
 
 Display Conditions let you control **where** and **when** a Template Part appears on your site.
 
-You can create rules to include or exclude specific areas based on page type, user role, WooCommerce state, date, and more — giving you full control over visibility without writing any code.
+You can create rules to include or exclude specific areas based on page type, user role, WooCommerce state, date, and more, giving you full control over visibility without writing any code.
 
-This works with all Template Part types: **Sections**, **Headers**, **Footers**, and **Pages**.
+This works with every Template Part type: **Sections**, **Headers**, **Footers**, **Pages** and **Popups**. On a **Snippet** the same panel is called **Execute Conditions**, and it gates when the code runs.
 
 ***
 
@@ -29,10 +29,12 @@ While editing a Template Part:
 
 ### Using “is” and “is not”
 
-Each condition supports two rule types:
+Most conditions offer two rule types:
 
-* **is** – The Template Part will be shown on the selected target(s)
-* **is not** – The Template Part will be hidden on the selected target(s)
+* **Is** – The Template Part will be shown on the selected target(s)
+* **Is Not** – The Template Part will be hidden on the selected target(s)
+
+Some conditions offer more. Text-matching ones such as **URL Query String**, **Referrer URL** and **Meta** add **Starts With**, **Ends With**, **Matches Regex** and **Not Matches Regex**. **Specific Date** and **Specific Time** add **Before**, **After**, **On or Before** and **On or After**. Conditions that test for presence, such as **Featured Image**, read **Has** and **Has Not** instead.
 
 {% hint style="info" %}
 Example:
@@ -45,7 +47,7 @@ Example:
 
 ### Condition Types
 
-Here’s a full list of supported condition types, grouped for clarity. These allow you to target content by page, post, user status, device type, time, and more.
+Here’s a full list of supported condition types, grouped for clarity. These allow you to target content by page, post, user status, taxonomy, time, and more.
 
 | **General Page** | **Where it applies**                |
 | ---------------- | ----------------------------------- |
@@ -54,6 +56,7 @@ Here’s a full list of supported condition types, grouped for clarity. These al
 | Blog Page        | The main blog listing page          |
 | 404 Error Page   | The "Page Not Found" screen         |
 | Search Page      | Search results pages                |
+| Maintenance Mode Page | The maintenance page, when that mode is on |
 
 
 | **Singular Content**    | **Where it applies**                                                              |
@@ -77,6 +80,19 @@ Here’s a full list of supported condition types, grouped for clarity. These al
 | Category Archive        | Blog categories (e.g. News, Tutorials)                                      |
 | Tag Archive             | Blog tags                                                                   |
 | Custom Taxonomy Archive | Choose custom taxonomy and terms (e.g. Product Categories, Portfolio Types) |
+
+
+| **Current Post**  | **Where it applies**                                             |
+| ----------------- | ---------------------------------------------------------------- |
+| Featured Image    | Whether the current item has one                                  |
+| Type              | The post type of the current item                                 |
+| Meta              | A meta key and value on the current item                          |
+| ID                | A specific post ID                                                |
+| Format            | The post format                                                   |
+| Status            | The post status                                                   |
+| Author            | The item's author                                                 |
+| Term              | A taxonomy term on the current item                               |
+| Sticky            | Whether the post is sticky                                        |
 
 
 | **User**   | **Where it applies**                                                         |
@@ -111,7 +127,6 @@ WooCommerce-specific conditions only appear if WooCommerce is active on your sit
 | **Custom Condition** | **Where it applies**                                                      |
 | -------------------- | ------------------------------------------------------------------------- |
 | PHP Callback         | Enter a custom PHP function that returns true/false                       |
-| Post Meta            | Target based on a meta key/value with operators (e.g. `meta_key = value`) |
 | URL Query String     | Match parts of the URL (e.g. `?utm_campaign=summer`)                      |
 | Referrer URL         | Show based on the referring page or site                                  |
 
@@ -119,19 +134,19 @@ WooCommerce-specific conditions only appear if WooCommerce is active on your sit
 
 ### Logical Operators: AND / OR
 
-When adding more than one condition, you'll see a toggle at the top of the conditions panel to choose between **AND** and **OR**.
+Every condition after the first carries its own **OR** / **AND** toggle, shown just above it. **OR** is the default.
 
 <div align="left"><figure><img src="../../.gitbook/assets/logical-conditions.jpg" alt="" width="112"><figcaption></figcaption></figure></div>
 
-These are called **logical operators**, and they control how the conditions work together:
+These are called **logical operators**, and they control how that condition joins the one before it:
 
-* **AND** – All conditions must match for the Template Part to appear\
+* **AND** – This condition and the one above it must both match\
   _&#x45;xample: Show only on the Cart page **AND** only for logged-in users_
-* **OR** – The Template Part appears if **any** of the conditions match\
+* **OR** – This condition starts a fresh alternative, and the part appears if any alternative matches\
   _&#x45;xample: Show on the Front Page **OR** the Blog page_
 
-You can switch between these modes at any time to change how your display rules are applied.
+Because the toggle is per condition, you can mix them. A run of conditions joined by **AND** has to match as a whole, and an **OR** begins the next run. Four conditions joined AND, OR, AND read as "(1 and 2) or (3 and 4)".
 
 ***
 
-Display Conditions are one of the most powerful features in Template Parts. Combined with Placement and Container Settings, they give you full control over when and where your content appears — without any custom code.
+Display Conditions are one of the most powerful features in Template Parts. Combined with Placement and Container Settings, they give you full control over when and where your content appears, without any custom code.

@@ -10,7 +10,7 @@ Popups are a powerful way to capture visitor attention and drive engagement on y
 
 #### Creating a Popup
 
-1. Navigate to **WordPress Admin → Kalium → Template Parts**
+1. Navigate to **WordPress Admin -> Kalium -> Template Parts**
 2. Click the **Add New** button
 3. Select **Popup** as the template part type
 4. Design your popup content using your preferred editor:
@@ -155,6 +155,8 @@ Control how often the popup reappears after a visitor closes it. This prevents a
 | **One Time Only**    | Never shows again after being closed                        |
 | **Custom Interval**  | Specify exact seconds between displays                      |
 
+**Once Per Session** is the default.
+
 **Tip:** For important announcements, "Once Per Session" works well. For promotional popups, "Once Per Day" or "Once Per Week" is less intrusive.
 
 ***
@@ -209,7 +211,7 @@ Configure the backdrop that appears behind your popup.
 | ------------------- | ------------------------------------------------------------ |
 | **Overlay**         | Enable or disable the darkened backdrop                      |
 | **Overlay Color**   | Backdrop color with opacity (default: semi-transparent dark) |
-| **Background Blur** | Blur the page content behind the overlay (0-10 pixels)       |
+| **Overlay Blur**    | Blur the page content behind the overlay (0-10 pixels)       |
 | **Close on Click**  | Allow visitors to close the popup by clicking the overlay    |
 
 ***
@@ -225,8 +227,8 @@ Configure how visitors can close the popup.
 | **Close Button**      | Show or hide the X button                             |
 | **Button Position**   | Inside or Outside the popup                           |
 | **Button Size**       | Size of the close button (supports responsive values) |
-| **Button Color**      | Icon color for normal and hover states                |
-| **Button Background** | Background color for normal and hover states          |
+| **Color**             | Icon color for normal and hover states                |
+| **Background**        | Background color for normal and hover states          |
 
 #### Keyboard
 
@@ -238,8 +240,8 @@ Configure how visitors can close the popup.
 
 | Option         | Description                                 |
 | -------------- | ------------------------------------------- |
-| **Auto Close** | Automatically close the popup after a delay |
-| **Delay**      | Seconds before auto-closing (default: 10)   |
+| **Auto Close**       | Automatically close the popup after a delay |
+| **Auto Close Delay** | Seconds before auto-closing (default: 10)   |
 
 **Use case:** Time-limited announcements or messages that should disappear automatically.
 
@@ -249,7 +251,7 @@ Configure how visitors can close the popup.
 
 Configure the opening and closing effects for your popup.
 
-#### Animation Type
+#### Effect
 
 | Type            | Description                     |
 | --------------- | ------------------------------- |
@@ -262,7 +264,9 @@ Configure the opening and closing effects for your popup.
 | **Slide Right** | Enters from the left            |
 | **Bounce In**   | Playful bouncing effect         |
 
-#### Animation Duration
+**Fade** is the default.
+
+#### Duration
 
 Speed of the animation in seconds (default: 0.3). Lower values create snappier animations, higher values create smoother, slower effects.
 

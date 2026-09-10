@@ -81,6 +81,7 @@ When customizing your product card, you have a variety of elements to choose fro
 #### Elements
 
 * **Row** (Nestable)
+* **Column** (Nestable)
 * **Title**
 * **Image** (Nestable)
 * **Price**

@@ -60,7 +60,7 @@ Not everything Kalium works with lives on this screen, most integrations need no
 | **Elementor** and **WPBakery** | Kalium's own widgets and elements                                 |
 | **ACF Pro**                    | The Parameters and Options panel                                  |
 
-If a setting looks like it's doing nothing, an inactive plugin is a common cause, the setting stays visible either way.
+If a setting looks like it's doing nothing, an inactive plugin is a common cause. Some settings stay visible regardless, the Breadcrumb screen among them, and builder elements stay in the list grayed out. The whole **WooCommerce** option group is the exception: without the plugin it does not appear at all.
 
 {% content-ref url="../troubleshooting/settings-not-applying.md" %}
 [settings-not-applying.md](../troubleshooting/settings-not-applying.md)

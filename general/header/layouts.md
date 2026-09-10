@@ -36,7 +36,7 @@ This header type will display only the Hamburger Menu toggle, which, when clicke
 <figure><img src="../../.gitbook/assets/Header - Fullscreen - Options.jpg" alt="" width="322"><figcaption></figcaption></figure>
 
 **Content Alignment**\
-The placement of the navigation menu determines its layout: the _Left_ and _Centered_ options display menu links as a vertical list, while the _Horizontal_ option arranges menu items in a horizontal row.
+The placement of the navigation menu determines its layout: the _Left_ and _Centered_ options display menu links as a vertical list, while _Horizontal (Centered)_ arranges menu items in a horizontal row.
 
 **Search Field**\
 Optionally, you can add a search bar as the last item in the menu, allowing users to search your site easily.

@@ -30,7 +30,7 @@ This behavior can be adjusted in global site level by going to **Appearance -> C
 
 When you select the **Over the Content** option, the **Header Spacing** setting will become available. This option allows you to adjust the spacing for the content that now extends from the very top of the page. This ensures that the content does not overlap with the header and maintains a clean and organized layout.
 
-#### Full Width Header
+#### Full-width Header
 
 As the name suggests, this option sets the header to span the full width of the page.
 
@@ -67,26 +67,5 @@ Set a different logo to display when the header is in the sticky state.
 Visible when **Sticky Header** is set to **Enable**. These style options will override the sticky header settings configured in the Customizer.
 
 <div><figure><img src="../../.gitbook/assets/In Page Header Options - Sticky Style 1.jpg" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/In Page Header Options - Sticky Style 2.jpg" alt="" width="375"><figcaption></figcaption></figure></div>
-
-#### Logo Switch
-
-This option allows you to change the logo as the header becomes sticky while scrolling down the page. When enabled, you can add multiple logo switch sections by clicking **Add Logo Switch Section** to specify different logos for various scroll positions:
-
-<figure><img src="../../.gitbook/assets/In Page Header Options - Logo Switch On Section.jpg" alt=""><figcaption><p>Logo Switch on Section settings</p></figcaption></figure>
-
-**Switch Type**\
-Choose between using a specific section (container) or a Revolution Slider item to trigger the change of the sticky header logo. If you select the Revolution Slider option, a list of sliders will be available. The sticky header logo will update when the slider reaches the top of the viewport.
-
-**Section ID**\
-When the switch type is set to **Section**, you need to assign an ID to the parent container of the section that triggers the logo change. This allows the sticky header script to recognize the section and update the logo when it fully enters the viewport.
-
-**Logo**\
-Set the logo to be used specifically for this section.
-
-**Logo Width**\
-Specifies the width for the logo. By default, the logo will use its original dimensions unless you set a custom width.​
-
-**Transparent**\
-Enabling this option will remove the background of the header, making it transparent.
 
 [^1]: or any singular item such as: post, product, portfolio, etc.

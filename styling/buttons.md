@@ -20,11 +20,11 @@ This means that you can define how buttons look by default, how they change when
 
 <figure><img src="../.gitbook/assets/button-color.jpg" alt="" width="340"><figcaption></figcaption></figure>
 
-#### **Text Color**
+#### Text
 
 Set the color of the text on your buttons. Make sure there is enough contrast with the background color to help users with different abilities read the text easily.
 
-#### Background Color
+#### Background
 
 Choose the background color for your buttons. Ensure it contrasts well with the text color to make it easy to see.
 
@@ -46,12 +46,14 @@ Add a shadow effect to your buttons. You can adjust the shadow’s color, blur, 
 
 #### Padding
 
-Adjust the space around the button text to change its size and spacing. This setting applies to all buttons and doesn’t change with different states.
+Adjust the space around the button text to change its size and spacing. This setting applies to all buttons and doesn’t change with different states. To set a different value per side, click the link icon (🔗) to unlink the four values.
 
 #### Border Radius
 
-Set how rounded the corners of the buttons are. This lets you create buttons with either square or rounded edges.
+Set how rounded the corners of the buttons are. This lets you create buttons with either square or rounded edges. It unlinks per corner the same way.
 
 #### Border
 
-Customize the border color, style, and width of your buttons. Keep in mind that the border color on Hover and Active states won’t be visible unless a border width is set. If you want to set the border width and color manually for each of the four sides, click the link icon (🔗) to unlink the values.
+Customize the border color, style, and width of your buttons. One width, style and color applies to all four sides.
+
+**Border Hover** and **Border Active** set the border color for those two states. They appear only once **Border** has a value, so give the border a width first.

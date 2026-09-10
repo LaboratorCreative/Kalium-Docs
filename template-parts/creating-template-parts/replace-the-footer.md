@@ -29,7 +29,7 @@ Give it a name that describes where it will be used, such as **Minimal Landing F
 Build the footer in the editor using the block editor, Elementor or WPBakery. Columns of links, a newsletter form, a logo and a copyright line, anything you can lay out on a page works here.
 
 {% hint style="info" %}
-To show the current year in a copyright line without editing it every January, use the `[year]` shortcode. See [Shortcodes](../../other/shortcodes.md).
+To show the current year in a copyright line without editing it every January, use `[date format="Y"]`. See [Shortcodes](../../other/shortcodes.md).
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/footer-1.jpg" alt=""><figcaption></figcaption></figure>

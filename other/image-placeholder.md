@@ -18,9 +18,11 @@ There you can choose between three types of loading types, the default is **Plai
 
 Depending on the type of indicator you choose, relative options will be shown and here what they do:
 
-* **Background Color** - You can set any color, gradient or the dominant color of the image.
-* **Loading Animation** - a CSS loading indicator shown in the middle of image.
-* **Custom Icon** - The image you want to show as a loading indicator.
+* **Background** - You can set any color, gradient or the dominant color of the image.
+* **Loading Animation** - a CSS loading indicator shown in the middle of image: _Modern Circular_, _Ball Scale_, _Line Scale_, _Ball Pulse_ or _Semi Circle Spin_, with its own **Loader Color**.
+* **Custom Image/Icon** - The image you want to show as a loading indicator.
+
+Both the animation and the custom icon share **Alignment**, **Animation Icon Size**, and a **Padding** that appears once Alignment is anything but centered.
 
 ### Common Options
 
@@ -32,7 +34,7 @@ Apart from their type, each type of image placeholder will have a background whi
 
 ### Setting Custom Icon
 
-1. Choose the **Custom Icon** from **Type**
+1. Choose **Custom Icon** from **Image Loading Placeholder Type**
 2. Click **Custom Image/Icon** box and select your loading indicator image
-3. Set the desired **alignment** inside box
-4. Set the **maximum width** of the image/icon
+3. Set the desired **Alignment** inside box
+4. Set **Animation Icon Size** for the image/icon

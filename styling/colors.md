@@ -14,7 +14,7 @@ To manage and edit colors go to **Appearance** -> **Customize** -> **Styling** -
 
 The color palette defines the base colors of your site based on your brand guidelines.
 
-It is a set of of **8 colors** by default but you can add more colors by clicking the :heavy\_plus\_sign: icon in upper part of colors strip.
+It is a set of **8 colors** by default but you can add more colors by clicking the :heavy\_plus\_sign: icon in upper part of colors strip.
 
 Base palette colors are utilized to be used throughout all color pickers as references so when you update a color in the base palette, every other reference is updated automatically as well.
 
@@ -51,13 +51,14 @@ Theme palette colors are also recognized by both the Gutenberg and Elementor. Th
 * **Links** - Normal and hover color for every link in the theme.
 * **Text** - Default text color and muted text color.
 * **Text Selection** - Change how selected text looks when selected.
+* **Borders** - Default border color used across the theme.
 
 ***
 
 ### Headings
 
-* **Headings H1-H6**  - Default colors for all headings (as every heading size inherits from this value).
-* **Heading 1** to **Heading 6** - Custom color for every heading size.
+* **Headings (H1 - H6)** - Default color for all headings (as every heading size inherits from this value).
+* **Heading 1 (H1)** to **Heading 6 (H6)** - Custom color for every heading size.
 
 ***
 
@@ -65,7 +66,7 @@ Theme palette colors are also recognized by both the Gutenberg and Elementor. Th
 
 * **Footer** - Footer background, text, headings and link colors.
 * **Site Background** - The body background color.
-* **Overlay** - Default color of backdrop overlays for lightboxes.
+* **Overlay** - Default color of backdrop overlays behind popups, lightboxes and off-canvas panels.
 
 ### CSS Color References
 
@@ -83,22 +84,8 @@ var(--k-color-8)
 var(--k-color-9) /* custom added colors */
 ```
 
-As well as their RGB variant:
+To apply a color with custom opacity, mix it with `transparent`:
 
 ```css
-var(--k-color-1-rgb)
-var(--k-color-2-rgb)
-var(--k-color-3-rgb)
-var(--k-color-4-rgb)
-var(--k-color-5-rgb)
-var(--k-color-6-rgb)
-var(--k-color-7-rgb)
-var(--k-color-8-rgb)
-var(--k-color-9-rgb) /* custom added colors */
-```
-
-So you can use with custom opacity for example:
-
-```css
-background: rgba(var(--k-color-1-rgb), 0.5);
+background: color-mix(in srgb, var(--k-color-1), transparent 50%);
 ```

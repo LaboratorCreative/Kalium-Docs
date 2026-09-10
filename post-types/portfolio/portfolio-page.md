@@ -36,7 +36,7 @@ Grid options allow you to customize the layout of portfolio items, including the
 
 <figure><img src="../../.gitbook/assets/Portfolio Page - Grid Options.jpg" alt="" width="329"><figcaption></figcaption></figure>
 
-* **Items Per Page:** Defines the total number of items to fetch from the database and display per page.
+* **Items per Page:** Defines the total number of items to fetch from the database and display per page. It starts at 12.
 * **Columns:** Defines the number of columns per row for displaying portfolio items across different viewports.
 * **Columns Gap:** Sets the spacing between portfolio items in the grid layout.
 * **Layout Mode:** A special alignment feature that uses masonry for item placement, allowing for a dynamic, staggered grid layout.
@@ -123,19 +123,19 @@ Optionally, you can display a subtitle under the item title on portfolio items, 
   * Parent Categories&#x20;
   * Tags&#x20;
   * Subtitle
-* **Separator:** The separator for categories and tags.
+* **Separator:** The separator for categories and tags. It does not appear when Subtitle Content is set to **Subtitle**.
 
 ***
 
 ### Reveal Effect
 
-The Reveal Effect applies animations to portfolio items as they come into view within the viewport. There are three main animations:
+The Reveal Effect applies animations to portfolio items as they come into view within the viewport. **None** turns it off, and there are three animations:
 
 * Fade
-* Slide
-* Fade Zoom In
+* Slide and Fade
+* Zoom In
 
-With alternatives to stagger mode, which animates items sequentially, one after another.
+Each has a **(one by one)** variant, which staggers the items so they animate in sequence rather than together. **Slide and Fade** is the default.
 
 ***
 
@@ -311,7 +311,7 @@ Set the alignment of pagination controls for both types:
 * **Left**: Align pagination controls to the left.
 * **Center**: Center-align pagination controls.
 * **Right**: Align pagination controls to the right.
-* **Space Between**:  Distribute space between items (Available only for Numbers type)
+* **Space Between**:  Distribute space between items. Appears only for the **Numbers** type with a Display Type that includes Previous/Next.
 
 ***
 

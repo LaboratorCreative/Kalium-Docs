@@ -13,8 +13,8 @@ Kalium makes it easy to integrate a language switcher into your site's header. F
 #### Enable the Language Switcher in the Header:
 
 1. Go to **Appearance -> Customize**.
-2. Navigate to **Header -> Other Settings**.
-3. Find the "**Language Switcher**" option and toggle it on.
+2. Navigate to **Header**, on its **General** tab.
+3. Find the "**Language Switcher**" option and toggle it on. Clicking it opens its own settings screen.
 
 <figure><img src="../.gitbook/assets/lang-switcher-1.jpg" alt="" width="343"><figcaption></figcaption></figure>
 

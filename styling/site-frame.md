@@ -36,6 +36,6 @@ There are variety of options that allow you to customize the look of the frame a
 * **Animation** - The entrance animation when the page first loads.
 * **Duration** - The duration of animation (_in seconds_).
 * **Delay** - The time to wait before animation starts (_in seconds_).
-* **Visible On** - Toggle the device viewports where the site frame / border will be shown.
+* **Visible On** - Toggle the device viewports where the site frame / border will be shown. Desktop and Tablet are on by default, so the frame is hidden on mobile until you turn it on.
 
 <figure><img src="../.gitbook/assets/Site Frame.jpg" alt=""><figcaption><p>Preview of the site frame while editing it</p></figcaption></figure>

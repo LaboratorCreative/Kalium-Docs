@@ -63,6 +63,12 @@ Creates a button or icon that toggles a menu type. The available options will de
 
 <figure><img src="../../../.gitbook/assets/Header Element - Menu Trigger.jpg" alt="" width="286"><figcaption></figcaption></figure>
 
+**Menu Type**\
+Which panel the button opens: _Standard_, _Fullscreen_, _Off-Canvas Side_ or _Off-Canvas Top_. Everything below depends on this choice.
+
+**Menu**\
+The navigation menu to show inside it.
+
 {% tabs %}
 {% tab title="Standard" %}
 **Position**\
@@ -71,7 +77,7 @@ Will set the placement of navigation within the column.
 **Animation**\
 The toggle animation of root-level navigation links. It has fade, slide and scale animations available.
 
-**Animation Direction**\
+**Animate Direction**\
 The staggering animation direction of root-level menu items.
 
 **Submenu Arrow**\
@@ -98,7 +104,7 @@ Adjust the alignment of the menu container, by default opens from right side.
 {% endtab %}
 
 {% tab title="Off-Canvas Top" %}
-**Items per Row**\
+**Items Per Row**\
 Divides the navigation menu items into columns within each row.
 
 **Widgets**\
@@ -159,8 +165,11 @@ The spacing between social network icons.
 **Size**\
 The size of the social media icon.
 
-**Shape**\
-Applies around the icon only. If set to different value than **None**, it will make the icon background rounded, square or any radius you specify.
+**Shape Type**\
+Applies around the icon only. Set to anything other than **None** and the icon gains a rounded, square or custom-radius background.
+
+**Shape Radius**\
+The corner radius, shown when **Shape Type** is _Custom_.
 
 **Shape Fill**\
 If the shape option is applied, you can choose to display it with a solid background or as an outline border.​
@@ -192,7 +201,7 @@ The color to apply on hover for the label only. Inherits the color from Color op
 **Background**\
 If the shape is applied, then the background color of the shape can be set here.
 
-**Background Hover**\
+**Hover Background**\
 The hover color of shape background.
 {% endtab %}
 {% endtabs %}
@@ -215,6 +224,9 @@ The URL the button directs to.​
 
 **Open in New Tab**\
 Whether the link opens in a new window or tab.​
+
+**CSS Classes**\
+Extra classes added to the button, for targeting it from Custom CSS.
 {% endtab %}
 
 {% tab title="Color & Fill" %}
@@ -323,11 +335,13 @@ Option to display the number of items in the cart.
 **Click Action**\
 Choose whether clicking the icon shows a mini cart popup or redirects to the cart page.
 
-**Mini Cart - Show On**\
-Select the mouse event (**Click** or **Hover**) to display the mini cart popup, applicable when the click action is set to **Show Mini Cart**.
+Two more settings sit in the **Popup** section, and apply when **Click Action** is set to **Show Mini Cart**:
 
-**Mini Cart - Alignment**\
-Set the position of the popup relative to the clicked icon.
+**Show On**\
+The mouse event (**Click** or **Hover**) that opens the mini cart popup.
+
+**Alignment**\
+The position of the popup relative to the clicked icon.
 
 ***
 
@@ -342,13 +356,13 @@ Note: The **WPML** plugin is required for this element to function.
 <figure><img src="../../../.gitbook/assets/Header Builder - Language Switcher.jpg" alt="" width="285"><figcaption></figcaption></figure>
 
 **Show Flag**\
-Choose to display the flag before or after the language name.
+Whether the language flag is shown at all. On by default.
 
 **Flag Position**\
 Available when **Show Flag** is enabled, this option sets the flag’s placement relative to the language name.
 
 **Show Label**\
-The text that displays the language name in the switcher.
+Whether the language name is shown next to the flag. On by default.
 
 **Label Format**\
 Choose how language names are displayed, including their native and translated forms
@@ -368,11 +382,14 @@ Note: The **Breadcrumb NavXT** plugin is required for this element to function.
 
 <figure><img src="../../../.gitbook/assets/Header Builder - Breadcrumb.jpg" alt="" width="283"><figcaption></figcaption></figure>
 
+**Separator**\
+The character or string printed between each step of the trail.
+
 ***
 
 ### Common Options
 
-Every element in the header builder has these two, whatever else it offers.
+Every element in the header builder has these two, except the **Row**, which has only its Content Align. In the **Mobile Menu** builder no element has **Visible On**.
 
 **Visible On**\
 Manage the visibility of each header element across different viewports, including Desktop, Tablet, and Mobile. This feature ensures that you can tailor the display of elements based on the user’s device, enhancing the overall user experience.
@@ -391,7 +408,7 @@ All style options are applied from the Style tab in the Header section. The foll
 
 ### Where spacing comes from
 
-Header elements deliberately don't carry Margin, Padding, Border or Dimensions settings the way footer and product card elements do. That's intentional. It keeps headers consistent rather than letting every element drift.
+With one exception, header elements deliberately don't carry Margin, Padding, Border or Dimensions settings the way footer and product card elements do. That's intentional. It keeps headers consistent rather than letting every element drift. The exception is the **Button**, which has its own **Padding** and **Border Radius**.
 
 Spacing in the header comes from three places instead:
 
@@ -405,12 +422,15 @@ For anything those three can't do, use the element's **Custom CSS**.
 
 ### The same elements elsewhere
 
-The **Top Bar** and **Mobile Menu** builders use this same element list, with two differences:
+The **Top Bar** and **Mobile Menu** builders draw on the same element list, each with a few differences.
 
-* The **Mobile Menu** has its own simplified **Menu** element, since a mobile panel lays menu items out vertically rather than in a row
-* The **Mobile Menu** has a simplified **Search Field** with just a **Placeholder** and a **Max Width**, rather than the alignment and animation settings the header version has
+The **Top Bar** has everything the header has except **Menu Trigger** and **Cart**. Element settings are identical.
 
-Everything else behaves identically.
+The **Mobile Menu** is a shorter list: **Menu**, **Search Field**, **Social Icons**, **Text**, **Button**, **Cart Totals** and **Language Switcher**. Three things differ:
+
+* Its **Menu** element points at the **Mobile Menu** location rather than the main menu, and drops **Mobile Menu Trigger** and **Trigger Position**, which a mobile panel has no use for
+* Its **Search Field** has just a **Placeholder** and a **Max Width**, rather than the alignment and animation settings the header version has
+* **No element there has Visible On.** The mobile menu only appears below the breakpoint, so per-device visibility would have nothing to decide
 
 {% content-ref url="../mobile-menu.md" %}
 [mobile-menu.md](../mobile-menu.md)

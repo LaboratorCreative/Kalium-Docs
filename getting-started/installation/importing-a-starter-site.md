@@ -6,11 +6,11 @@ description: Start from a finished design and replace the content with your own.
 
 {% embed url="https://www.youtube.com/watch?v=fx1gx1e0u9A" %}
 
-Kalium offers a wide variety of full-paged starter sites, making it easy to kickstart your website for various types of businesses. These starter sites are crafted with Elementor and WPBakery Page Builder. With each big update, new starter sites are added, providing you with a growing selection of sites to choose from for your business.
+Kalium offers a wide variety of full-paged starter sites, making it easy to kickstart your website for various types of businesses. These starter sites are crafted with Gutenberg, Elementor or WPBakery Page Builder, and many come in more than one of them. With each big update, new starter sites are added, providing you with a growing selection of sites to choose from for your business.
 
 ### Before You Begin
 
-Before importing any of our available starter sites, please make sure to check the system status. Go to the **System Status** tab to ensure your server meets all requirements for a successful import. Settings that need attention are listed in red.
+Before importing any of our available starter sites, please make sure to check the system status. Go to the **Status** tab to ensure your server meets all requirements for a successful import. Settings that need attention are listed in red.
 
 ### Step 1: Go to Starter Sites
 
@@ -20,7 +20,7 @@ First, access the Starter Sites section by navigating to the Kalium dashboard. I
 
 ### Step 2: Choose The Page Builder
 
-Next, choose your preferred page builder. At the top right corner of the Starter Sites page, you will find a dropdown menu. Here, you can select either Elementor or WPBakery as your page builder.&#x20;
+Next, choose your preferred page builder. At the top right corner of the Starter Sites page, you will find a dropdown menu. Here, you can select Gutenberg, Elementor or WPBakery as your page builder. The list then shows only the starter sites available in that builder.&#x20;
 
 <figure><img src="../../.gitbook/assets/starter-site-import-1.jpg" alt=""><figcaption></figcaption></figure>
 

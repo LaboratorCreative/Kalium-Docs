@@ -30,20 +30,13 @@ Click **Add Footer Row**. Each row is a horizontal band across the footer. Most 
 
 #### 2. Add columns to the row
 
-Inside a row, add **Column** elements. Each column has a **Width** setting with 24 options, **set per device**, so four columns on a desktop can become two on a tablet and one on a phone.
+Inside a row, add **Column** elements. Each column has a **Width** setting with 18 options, **set per device**, so four columns on a desktop can become two on a tablet and one on a phone.
 
-#### 3. Put something in each column
+#### 3. Put a Widget Area in each column
 
-Add elements inside the columns:
+A column holds **Widget Area** elements and nothing else. There are six, **Widget Area 1** to **Widget Area 6**, one per footer widget area, and each can be used once. Each is already bound to its own widget area, so it has no sidebar chooser, just a **Widgets Per Row** setting for splitting its widgets into columns.
 
-**Widget Area**\
-Drops one of the six footer widget areas in. This is the usual choice. It's what lets you edit the content later from the Widgets screen.
-
-**Sidebar**\
-Places a chosen sidebar, with a **Widgets Per Row** setting of its own (per device) for splitting its widgets into columns.
-
-**Text**\
-Free text, straight in the builder. Supports HTML and shortcodes, which is how the copyright line is built.
+That binding is the point: once a Widget Area is placed, everything inside it is edited from the Widgets screen rather than from the Customizer.
 
 #### 4. Publish
 
@@ -72,14 +65,14 @@ To set a background behind the whole footer rather than one row, use **Appearanc
 
 ### The copyright line
 
-The bottom line of Kalium's default footer is a **Text** element containing two shortcodes:
+Kalium's default footer puts two shortcodes into widgets, one in **Widget Area 1** and one in **Widget Area 2**:
 
 ```
 [kalium_site_info]
 [kalium_social_icons]
 ```
 
-To change the wording, including **removing the theme credit**, edit that Text element:
+So you change the wording, including **removing the theme credit**, from **Appearance -> Widgets** rather than from the footer builder:
 
 ```
 [kalium_site_info display="{copyright} {year} {site_title}. All rights reserved."]

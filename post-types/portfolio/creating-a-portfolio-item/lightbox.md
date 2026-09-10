@@ -28,7 +28,7 @@ This option lets you set a single custom image for the portfolio item. In the [P
 
 ### Video Content
 
-Shows a video from any supported source (_YouTube_, _Vimeo_ or _self-hosted_) in lightbox.
+Shows a video from any supported source (_YouTube_, _Vimeo_ or _self-hosted_) in lightbox. A **Video Poster** field sets the still image shown before playback starts.
 
 <figure><img src="../../../.gitbook/assets/Lightbox - Content to Show - Video.jpg" alt=""><figcaption></figcaption></figure>
 

@@ -41,12 +41,12 @@ In the Header Builder you can add **Social Icons** element, which provides its s
 
 After you add this header element it will display its own options in a new popup dialog where you can change:
 
-* **Display Structure** - Show both icon and label or any of them.
+* **Icon** and **Label** - Show either, or both.
 * **Spacing** - Between the social icons.
 * **Size** - The size the social icons.
-* **Shape** - The surrounding shape of the icon.
-* **Responsive Visibility** - Choose the viewport where the element will be visible.
-* **Colors** - Set colors for the icon, label and shape.
+* **Shape Type** - The surrounding shape of the icon, with **Shape Radius** for a custom one and **Shape Fill** for solid or outline.
+* **Visible On** - Choose the viewports where the element will be visible.
+* **Colors** - **Color**, **Hover Color**, **Label Color**, **Label Hover Color**, **Background** and **Hover Background**.
 
 #### 2. Shortcode
 
@@ -78,7 +78,7 @@ The shortcode can be used for places where you are not able to add social icons 
   Allowed values: _brand_, _any hexadecimal color_
 * **label\_color**\
   Allowed values: _brand_, _any hexadecimal color_
-* **label\_color\_hover**\
+* **label\_hover**\
   Allowed values: _brand_, _any hexadecimal color_
 * **background**\
   Allowed values: _brand_, _any hexadecimal color_ (applied in combination with radius attribute)

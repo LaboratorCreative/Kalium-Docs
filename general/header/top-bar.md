@@ -12,13 +12,16 @@ It provides an additional navigation area where you can place extra links, text,
 List of supported header elements
 {% endembed %}
 
-The structure of this navigation row is straightforward. It offers two rows, allowing you to distribute your content between the left and right sides or use a single row to center the content.
+The structure of this navigation row is straightforward. It offers two content areas, **Left Content** and **Right Content**, so you can distribute your content between the two sides or fill only one and center it.
 
 <figure><img src="../../.gitbook/assets/Header Top Bar Content.jpg" alt="" width="315"><figcaption><p>Top Bar content area</p></figcaption></figure>
 
 To add elements simply click :heavy\_plus\_sign: Add link in one of content containers and the list of elements will show up. Clicking the _three dots_ icon on parent container will give you alignment options for the content inside that column.
 
 After adding an element, the edit dialog will automatically appear, allowing you to adjust the options and attributes of that specific header element. Use the above link to refer to the documentation of each element.
+
+**Responsive**\
+Under the General tab, **Responsive** picks the device types the Top Bar appears on. **Only Desktop is on by default**, so a Top Bar that is missing on a phone usually needs Tablet and Mobile turned on here.
 
 You can customize the Top Bar with the following style options:
 

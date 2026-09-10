@@ -23,16 +23,21 @@ There are two types of mini cart, and they are:
 * **Cart Button**: Toggle the visibility of the "Go to Cart" button within the drawer.
 * **Max Width**: Set the maximum width of the drawer, with a range from 300 to 700 pixels.
 
-### Style (for Drawer)
+### Style
 
 <figure><img src="../../../.gitbook/assets/woocommerce-general-settings-mini-cart-style.jpg" alt="" width="332"><figcaption></figcaption></figure>
 
-* **Separators**: Choose the color of the separators within the drawer.
-* **Background**: Select the background color for the drawer.
-* **Headings**: Pick the color for headings in the drawer.
-* **Text**: Choose the color for text within the drawer.
-* **Padding**: Adjust the inner padding of the drawer, with responsive options to ensure it looks good on all devices.
-* **Border**: Define the border style around the drawer, including responsive options.
+Most of these apply to both types:
+
+* **Background**: Select the background color.
+* **Titles**: Pick the color for headings.
+* **Text**: Choose the color for text.
+* **Padding**: Adjust the inner padding, with responsive options to ensure it looks good on all devices.
+* **Border**: Define the border style, including responsive options.
 * **Border Radius**: Set the border radius to create rounded corners, with responsive options available.
-* **Box Shadow**: Add a shadow effect to the drawer for a more pronounced appearance.
+* **Box Shadow**: Add a shadow effect for a more pronounced appearance.
+
+Two are for the Drawer only:
+
+* **Separators**: Choose the color of the separators within the drawer.
 * **Offset**: Adjust the drawer’s position relative to the edges of the browser window. This includes vertical and horizontal offsets, allowing you to fine-tune where the drawer appears on the screen.

@@ -39,11 +39,13 @@ They run code rather than showing content.
 | Type | Settings that appear |
 | --- | --- |
 | **Section** | Display Conditions, Placement, Container Settings |
-| **Header** | Display Conditions, Header Settings |
-| **Footer** | Display Conditions, Footer Settings |
+| **Header** | Display Conditions, Container Settings, Header Settings |
+| **Footer** | Display Conditions, Container Settings, Footer Settings |
 | **Page** | Display Conditions, Page Settings |
 | **Popup** | Display Conditions, Popup Settings, Popup Triggers |
 | **Snippet** | Snippet Type, Execution Scope, Execute Conditions, Placement, Snippet Settings |
+
+**Header Settings** and **Footer Settings** depend on **Wrap with Container** being on in Container Settings, because the wrapper is what carries them.
 
 **Placement** (the setting that says where on the page something goes) only exists for **Sections** and **Snippets**. The other types already know where they belong: a Header goes where the header goes.
 

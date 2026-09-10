@@ -77,6 +77,13 @@ Manage the visual element that appears while the featured image is loading. This
 * **Color**: Set a color for the placeholder that appears while the image is loading.
 * **Image**: Choose an image to use as a placeholder during the loading process.&#x20;
 
+#### Post Formats
+
+Two toggles, both on by default, control how a post's format shows on the card:
+
+* **Post Format Content**: Shows the format's own content in place of the image, a video or audio player, or a gallery slider.
+* **Post Format Icon**: Shows a small badge on the image marking the format. Turning it on reveals **Position** and, for anything but a centered position, an **Offset**.
+
 #### Image Size
 
 Control the dimensions of the featured image:
@@ -96,7 +103,7 @@ The Style tab includes settings that affect the overall appearance of the featur
 * **Gap**: Adjust the space between the featured image and the content below.
 * **Border Radius**: Set how rounded the corners of the featured image should be.
 * **Boundless Image**: Toggle to extend the image to the edges of the card, ignoring padding, border, or background settings.
-* **Vertical Alignment**: Set the vertical alignment of the featured image within the card to Top or Bottom. This option is available for the **List** layout only.
+* **Vertical Alignment**: Set the vertical alignment of the featured image within the card to Top or Center. This option is available for the **List** layout only.
 
 ### Excerpt
 
@@ -153,8 +160,8 @@ Customize the appearance and placement of the sidebar on your Blog Page with the
 
 Choose the alignment of the sidebar:
 
-* **Left**: Position the sidebar on the left side of the Blog Page.
-* **Right**: Position the sidebar on the right side of the Blog Page.
+* **Show on Left**: Position the sidebar on the left side of the Blog Page.
+* **Show on Right**: Position the sidebar on the right side of the Blog Page. This is the default.
 
 #### Sidebar Widgets
 
@@ -209,7 +216,7 @@ Set the alignment of pagination controls for both types:
 * **Left**: Align pagination controls to the left.
 * **Center**: Center-align pagination controls.
 * **Right**: Align pagination controls to the right.
-* **Space Between**:  Distribute space between items (Available only for Numbers type)
+* **Space Between**:  Distribute space between items. Appears only for the **Numbers** type with a Display Type that includes Previous/Next, since there has to be something to push apart.
 
 ## Style Tab
 

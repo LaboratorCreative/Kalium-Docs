@@ -18,7 +18,7 @@ An active Template Part **replaces** the built-in version on the pages its condi
 
 **Check:** open **Kalium -> Template Parts** and look for an active *Header*, *Footer* or *Page* part whose display conditions match the page you're looking at.
 
-**Two headers on one page** means two Header parts match it. Tighten one part's conditions.
+**The wrong header shows** where more than one Header part matches the page. Only the first match is used, so tighten one part's conditions.
 
 {% content-ref url="../template-parts/what-are-template-parts.md" %}
 [what-are-template-parts.md](../template-parts/what-are-template-parts.md)

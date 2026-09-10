@@ -17,11 +17,15 @@ Choose between two main layout styles for displaying your products:
 
 #### Products per Page
 
-Set the number of products to display per page for the **Grid** layout
+Set the number of products to display per page. It starts at 12 and applies to both layouts.
 
 #### Product Columns
 
 Adjust the number of columns for the grid layout. This option is responsive, allowing you to configure different column numbers for various device sizes.
+
+#### Gap
+
+The spacing between products in the grid.
 
 #### Masonry Mode
 
@@ -73,6 +77,8 @@ Toggle to enable a switcher that allows users to switch between different views.
 * Grid columns 5
 * Grid columns 6
 
+**List**, **Grid columns 3** and **Grid columns 4** are offered by default.
+
 <div><figure><img src="../../../.gitbook/assets/woocommerce-catalog-column-switcher-1.jpg" alt="" width="375"><figcaption><p>Step 1</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/woocommerce-catalog-column-switcher-2.jpg" alt="" width="375"><figcaption><p>Step 2</p></figcaption></figure></div>
 
 ### Sorting Dropdown
@@ -89,9 +95,9 @@ Configure the visibility and placement of the sidebar on your shop page. You can
 
 <figure><img src="../../../.gitbook/assets/woocommerce-sidebar-enable.jpg" alt=""><figcaption></figcaption></figure>
 
-#### Sidebar Alignment
+#### Shop Sidebar Align
 
-Choose the alignment of the sidebar:
+Choose the alignment of the sidebar. **Right** is the default:
 
 <figure><img src="../../../.gitbook/assets/woocommerce-sidebar.jpg" alt="" width="344"><figcaption></figcaption></figure>
 
@@ -203,7 +209,7 @@ Set the alignment of pagination controls for both types:
 * **Left**: Align pagination controls to the left.
 * **Center**: Center-align pagination controls.
 * **Right**: Align pagination controls to the right.
-* **Space Between**: Distribute space between items (Available only for Numbers type)
+* **Space Between**: Distribute space between items. Appears only for the **Numbers** type with a Display Type that includes Previous/Next.
 
 ## Category Box
 

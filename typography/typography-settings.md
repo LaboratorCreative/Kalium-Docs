@@ -14,7 +14,7 @@ This setting allows you to enable or disable fonts on the front end of your webs
 
 ### Font Preload
 
-The Font Preload option helps improve page loading speed and user experience by preloading the fonts. When enabled, it loads the fonts early in the page rendering process, making sure your text displays as soon as possible.
+The Font Preload option helps improve page loading speed and user experience by preloading the fonts. When enabled, it loads the fonts early in the page rendering process, making sure your text displays as soon as possible. It reaches Self-Hosted fonts only, since those are the ones with a font file to point at.
 
 ### Pull Google Fonts
 

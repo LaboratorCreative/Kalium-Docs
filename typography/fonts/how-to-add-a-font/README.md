@@ -40,4 +40,4 @@ Decide where you want the font to be applied, such as "Sitewide," "Headings," or
 
 <figure><img src="../../../.gitbook/assets/typography-font-4.jpg" alt=""><figcaption></figcaption></figure>
 
-That’s all for the basic font setup. Be sure to save your changes by clicking the **Save Changes** button. The additional options available, such as Conditional Loading and Overwriting Font Settings, are more advanced and not necessary for loading a font but can be explored if you need more control over font management.
+That’s all for the basic font setup. Be sure to save your changes by clicking the **Save Changes** button. The additional options available, Conditional Loading and Other Options, are more advanced and not necessary for loading a font but can be explored if you need more control over font management.

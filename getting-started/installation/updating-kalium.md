@@ -56,7 +56,7 @@ The manual method requires more steps, including downloading the theme and uploa
 
 Whenever you update the theme, it’s essential to ensure that you have an up-to-date backup of your website and database, in case of errors or unwanted results.
 
-Our theme automatically creates a backup of the previous theme version (files only) during the update process. This feature is enabled by default in **Kalium** -> **Settings** -> **Theme Backups**.
+Our theme automatically creates a backup of the previous theme version (files only) during the update process. This feature is enabled by default in **Kalium** -> **Settings** -> **Theme Backups**. It needs an active license: without one the backup step is skipped quietly while the update still runs, so take your own copy first if your license has lapsed.
 
 #### Clear the caches
 

@@ -65,6 +65,8 @@ Select where you want the Free Shipping Bar to appear on your site. You can choo
 * **Checkout Page**: Appears on the checkout page.
 * **Product Page**: Visible on individual product pages.
 
+**Mini Cart Drawer** and **Cart Page** are ticked by default, so the bar does not appear on the checkout or a product page until you add them here.
+
 #### Initial Message
 
 Enter a custom message to prompt customers to spend more to qualify for free shipping. For example, "Spend $50 more to enjoy free shipping."
@@ -79,3 +81,7 @@ Use shortcodes to personalize the messages:
 
 * `[amount_left]` Displays the amount remaining to reach the free shipping threshold.
 * `[min_amount]` Shows the minimum amount required to qualify for free shipping.
+
+#### Progress Bar
+
+Three colors for the bar itself: **Background**, **Progress** and **Stripes**.

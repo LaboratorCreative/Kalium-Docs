@@ -18,8 +18,8 @@ Keep in mind that if you change the font size here, it will override the default
 
 You don't need to know any CSS to use these. Each one covers a common part of a page:
 
-**Sitewide**\
-Everything. This is the base font, and every other selector overrides it where it applies.
+**:root**\
+Everything, through the document root. This is the base font, and every other selector overrides it where it applies.
 
 **Paragraphs**\
 Body text.
@@ -42,7 +42,7 @@ Text fields, dropdowns and buttons in forms.
 
 **Fonts are applied in the order they appear in your list**, so later fonts win where they overlap.
 
-A font set to **Sitewide** is the base for everything. A second font set to **Headings** overrides it there and leaves the rest alone. That's the normal setup for most sites: one font for reading, one for headings.
+A font set to **:root** is the base for everything. A second font set to **Headings** overrides it there and leaves the rest alone. That's the normal setup for most sites: one font for reading, one for headings.
 
 **To change which font wins**, reorder them in the list. The order in the list is the order they're applied.
 

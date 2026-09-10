@@ -4,7 +4,7 @@ description: Placing your own content at a chosen spot on the site.
 
 # Creating a Section
 
-Sections let you insert custom content into specific parts of your site — like above the header, below the content, or inside WooCommerce product pages. These are placed using WordPress and plugin hook locations, and you can decide exactly when and where they appear using display conditions.
+Sections let you insert custom content into specific parts of your site, like above the header, below the content, or inside WooCommerce product pages. These are placed using WordPress and plugin hook locations, and you can decide exactly when and where they appear using display conditions.
 
 {% embed url="https://youtu.be/2PBk-CBg9HI" %}
 
@@ -14,7 +14,7 @@ In this example, we’ll create a banner that displays after the header across t
 
 ### 1. Go to Template Parts
 
-In your WordPress dashboard, go to **Kalium → Template Parts**.
+In your WordPress dashboard, go to **Kalium -> Template Parts**.
 
 Switch to the **Sections** tab at the top, then click **Add New** in the top-left corner.
 
@@ -26,7 +26,7 @@ Switch to the **Sections** tab at the top, then click **Add New** in the top-lef
 
 Enter a name for your section. For example: **30% Off Summer Sale Banner**
 
-Now add your content in the editor. This can be anything — a short message, a call-to-action, a promotional banner, or even a more complex layout with images and buttons.
+Now add your content in the editor. This can be anything: a short message, a call-to-action, a promotional banner, or even a more complex layout with images and buttons.
 
 <figure><img src="../../../.gitbook/assets/title-content.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -53,7 +53,7 @@ Click the **Kalium icon** in the top-right corner to open the **Template Part Se
 ### 4. Set the Type
 
 Make sure the **Type** is set to **Section**.\
-If it's not, switch it manually — otherwise the section may not behave as expected.
+If it's not, switch it manually, otherwise the section may not behave as expected.
 
 <figure><img src="../../../.gitbook/assets/type.jpg" alt="" width="278"><figcaption></figcaption></figure>
 
@@ -73,7 +73,7 @@ Click **Add Condition** to choose where this section should appear.
 
 For this example, we want the banner to show across the entire site:
 
-* Set **General Page** → **Is** → **Entire Site**
+* Set **General Page** -> **Is** -> **Entire Site**
 
 You can always add more than one condition and combine them using **AND** or **OR** logical operators to create more advanced specific rules.
 
@@ -104,7 +104,7 @@ For this example, choose **Header After**.
 <figure><img src="../../../.gitbook/assets/placement-1.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Want to see the same hook locations as shown in the popup — but live on your site?\
+Want to see the same hook locations as shown in the popup, but live on your site?\
 Just add `?view-theme-hooks=1` to the end of any page URL. This will display all available hook positions directly on the front end, exactly like the visual overlay in the Placement popup above. It's a helpful tool for advanced placement and testing.
 {% endhint %}
 
@@ -121,7 +121,7 @@ This is especially useful when you're stacking multiple sections in the same are
 Under **Container Settings**, you can fine-tune how your section is wrapped and displayed:
 
 * **Wrap with Container** – This is enabled by default. Turn it off if you want your content to stretch full-width or appear without wrapper elements.
-* **Visibility** – Choose whether the section appears on desktop, tablet, mobile — or all.
+* **Visibility** – Choose whether the section appears on desktop, tablet, mobile, or all.
 * **Container Classes** – You can enter a class like `container` if you want the content to follow your site’s layout width. For this example, leave it blank.
 * **Tag Name** – You can optionally set a semantic HTML tag like `<aside>` or `<section>`. By default, this is set to `<div>`, so you can leave it empty.
 
@@ -168,7 +168,7 @@ To insert a section manually:
 
     <figure><img src="../../../.gitbook/assets/gutenberg-2.jpg" alt=""><figcaption></figcaption></figure>
 
-You’ll also find options to **Change Section**, **Check Conditions**, and **Edit Template**. Clicking **Edit Template** will open the template in a new tab so you can edit it directly.
+The block's **Select Section** panel holds **Display Section**, **Check Conditions**, and an **Edit Section** button. Clicking **Edit Section** opens that section in a new tab so you can edit it directly.
 
 <figure><img src="../../../.gitbook/assets/gutenberg-3.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -188,7 +188,7 @@ If you prefer, you can insert any Template Part Section using a shortcode.
 [kalium_section id="123"]
 ```
 
-You don’t need to look up the ID manually — the shortcode is already visible next to each Template Part in the **Template Parts** dashboard. Just copy and paste it wherever you need.
+You don’t need to look up the ID manually, the shortcode is already visible next to each Template Part in the **Template Parts** dashboard. Just copy and paste it wherever you need.
 
 #### Controlling Display Conditions
 

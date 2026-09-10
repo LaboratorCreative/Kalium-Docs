@@ -98,7 +98,7 @@ Do this on a staging copy if you have one.
 
 A gallery plugin is applying its own lightbox on top of Kalium's.
 
-**Either** disable the other plugin's lightbox while keeping its linking behavior, **or** turn Kalium's off at **Appearance -> Customize -> General -> Lightbox** and let the other plugin own it.
+**Either** disable the other plugin's lightbox while keeping its linking behavior, **or** turn Kalium's off at **Appearance -> Customize -> General -> Lightbox Settings** and let the other plugin own it.
 
 Either works, just don't have both.
 

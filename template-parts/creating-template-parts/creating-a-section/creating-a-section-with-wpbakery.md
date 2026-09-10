@@ -6,7 +6,7 @@ description: Building a section with WPBakery, which is bundled with the theme.
 
 {% embed url="https://www.youtube.com/watch?v=Y6zofiX8ZoI" %}
 
-Template Parts work seamlessly with **WPBakery Page Builder**, allowing you to visually build custom sections and place them anywhere on your site — without needing extra plugins or complex configuration. It’s a theme-builder-like experience built right into Kalium.
+Template Parts work seamlessly with **WPBakery Page Builder**, allowing you to visually build custom sections and place them anywhere on your site, without needing extra plugins or complex configuration. It’s a theme-builder-like experience built right into Kalium.
 
 In this example, we’ll walk through how to create a **Section** using WPBakery.&#x20;
 
@@ -16,13 +16,13 @@ In this example, we’ll walk through how to create a **Section** using WPBakery
 
 To begin:
 
-1. Go to **Kalium → Template Parts**
+1. Go to **Kalium -> Template Parts**
 2. Click **Add New**
 3. Add a title for your section (e.g. `Summer Sale - 20% Off`)
 4. Click **Publish**
 
 {% hint style="info" %}
-You can configure **Display Conditions**, **Placement**, and **Container Settings** now or later — the process is the same regardless of the builder you use.
+You can configure **Display Conditions**, **Placement**, and **Container Settings** now or later, the process is the same regardless of the builder you use.
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/wpb.jpg" alt=""><figcaption></figcaption></figure>
@@ -34,7 +34,7 @@ You can configure **Display Conditions**, **Placement**, and **Container Setting
 After publishing, click the **Edit with WPBakery Page Builder** button to open the section in the visual editor.
 
 {% hint style="warning" %}
-If the **Edit with WPBakery** button doesn’t appear, go to **WPBakery → Role Manager**, and make sure Template Parts are enabled under **Post Types**.
+If the **Edit with WPBakery** button doesn’t appear, go to **WPBakery -> Role Manager**, and make sure Template Parts are enabled under **Post Types**.
 {% endhint %}
 
 ***
@@ -43,7 +43,7 @@ If the **Edit with WPBakery** button doesn’t appear, go to **WPBakery → Role
 
 Now you're inside the WPBakery editor.
 
-1. Add your content — for this example, we’ve used a banner with a call-to-action
+1. Add your content, for this example we’ve used a banner with a call-to-action
 2. Design the layout and styling as needed
 3. When you're done, click **Update**
 
@@ -55,7 +55,7 @@ That’s it, you’ve successfully created a reusable Template Part section usin
 
 ### Optional: Add the Section Manually
 
-The **Content Section** element in WPBakery lets you insert any Template Part section directly into your layout — without needing to set up display conditions or placement rules.
+The **Content Section** element in WPBakery lets you insert any Template Part section directly into your layout, without needing to set up display conditions or placement rules.
 
 #### Why use this?
 
@@ -77,7 +77,9 @@ The **Content Section** element in WPBakery lets you insert any Template Part se
     <figure><img src="../../../.gitbook/assets/wpb-1.jpg" alt=""><figcaption></figcaption></figure>
 4.  Enable **Check Display Conditions** if you want the section to respect its defined visibility rules.
 
-    > _Check if this section should be visible based on its Display Conditions. This has no effect unless conditions are defined in the section settings._
+    > _Check if this section should be visible based on its Display Conditions._
+
+    Left off, the section always appears where you placed it. Turned on, the section’s own conditions decide, so a section with no conditions set is hidden.
 
 
 5. Save the changes and click **Update**

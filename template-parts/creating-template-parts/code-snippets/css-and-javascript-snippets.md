@@ -71,7 +71,7 @@ Limits the styles to a particular context, using the same values as a stylesheet
 ### Settings for JavaScript snippets
 
 **Enqueue as File**\
-As above, loads the script from its own file instead of printing it inline. The two settings below only exist once this is on.
+As above, loads the script from its own file instead of printing it inline. **Loading** and **Dependencies** appear only once this is on; **ES Module** is always available.
 
 **ES Module**\
 Lets your code use modern `import` and `export` syntax. Turn this on only if the code you're adding needs it; most snippets don't.

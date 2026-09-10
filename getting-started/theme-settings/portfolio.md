@@ -30,7 +30,7 @@ Turning it off removes all of that. If you're building a shop or a blog and have
 
 This is the setting worth knowing about, and it's easy to miss.
 
-**The portfolio module is not tied to the Portfolio post type.** Tick any public post type in this list and it gains the entire module, the same layouts, galleries and options that Portfolio has.
+**The portfolio module is not tied to the Portfolio post type.** Tick any post type in this list and it gains the entire module, the same layouts, galleries and options that Portfolio has. The list holds public custom post types, leaving out WordPress's built-in ones and the plugin-owned types the theme ignores.
 
 That's how a **Case Studies**, **Services** or **Projects** post type gets Kalium's project layouts without being called Portfolio.
 

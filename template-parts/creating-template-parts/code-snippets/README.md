@@ -115,7 +115,7 @@ Add conditions when a snippet should only run in some places, a script that belo
 
 ### Placeholders
 
-Snippets can include placeholders written as `{{NAME}}`, which are swapped for real values when you save. This keeps site addresses and paths out of your code:
+Snippets can include placeholders written as `{{NAME}}`, which are swapped for real values every time the code is written out. This keeps site addresses and paths out of your code:
 
 ```css
 .logo {
@@ -128,7 +128,7 @@ Click **Placeholders** in the snippet's footer to see all 21 with their value on
 <figure><img src="../../../.gitbook/assets/snippet-4.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Because values are filled in when you save, **moving your site to a new address means saving your snippets again** so they pick up the new one. Kalium regenerates them on its own when it notices the mismatch, but a manual save is the quick fix if a path looks wrong.
+Your code keeps the `{{NAME}}` tokens; only the output has them filled in. **Moving your site to a new address updates them on its own**, because Kalium rebuilds the snippet whenever what it would write no longer matches what is on disk.
 {% endhint %}
 
 ***
@@ -151,7 +151,7 @@ The Template Parts list is where you work day to day:
 
 * **Enable / Disable**: switch a snippet off without deleting it. The first thing to try when something goes wrong.
 * **Duplicate**: copy a snippet before experimenting. The copy is created as Disabled with "(Copy)" in the title, keeping all its settings.
-* **Status**: shows Published, Disabled, or **Error**. Hover an Error for the message and line number.
+* **State**: a switched-off snippet is labeled **Disabled** next to its title, and one whose code failed is labeled **Error**. Hover an Error for the message and line number.
 
 ***
 

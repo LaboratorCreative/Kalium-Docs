@@ -16,7 +16,7 @@ If you don’t yet have a WPML account, [buy](https://wpml.org/purchase/) either
 
 #### **Configuring WPML**
 
-Once WPML is installed on your website, go to **WPML** → **Setup Wizard** to configure the plugin on your site. This includes choosing the languages you want to translate into, selecting a URL format for translated content, and providing context about your site.
+Once WPML is installed on your website, go to **WPML** -> **Setup Wizard** to configure the plugin on your site. This includes choosing the languages you want to translate into, selecting a URL format for translated content, and providing context about your site.
 
 <figure><img src="../.gitbook/assets/image1.png" alt=""><figcaption></figcaption></figure>
 
@@ -28,7 +28,7 @@ Once you complete the setup wizard, you’re ready to start translating your web
 
 #### **Translating your website content**
 
-To translate any content on your website with PTC, start by going to **WPML** → **Translation Dashboard**. This will open a dashboard with all your website content organized into sections, including:
+To translate any content on your website with PTC, start by going to **WPML** -> **Translation Dashboard**. This will open a dashboard with all your website content organized into sections, including:
 
 * Pages and posts
 * Custom posts
@@ -60,7 +60,7 @@ While WPML’s automatic translations are highly accurate, you can always edit t
 
 <figure><img src="../.gitbook/assets/image2.png" alt=""><figcaption></figcaption></figure>
 
-Simply go to the **Translation Dashboard**, select the content you want to edit, and choose **Translate myself** in **Step 2**. Your translations will wait for you in **WPML** → **Translations**.
+Simply go to the **Translation Dashboard**, select the content you want to edit, and choose **Translate myself** in **Step 2**. Your translations will wait for you in **WPML** -> **Translations**.
 
 #### **Translating texts from Kalium theme, plugins and other places**
 
@@ -72,7 +72,11 @@ Besides content from pages and posts, your website usually includes additional t
 
 Here you will find WPML documentation and information that can help you to translate your site.
 
-* [WPML](https://wpml.org/?aid=150643\&affiliate_key=VWCj6GPGWxBE) — Official site of WPML plugin.
-* [WPML Support](https://wpml.org/forums/forum/english-support/?aid=150643\&affiliate_key=VWCj6GPGWxBE) — If you have purchased WPML, here is their support center.
-* [Translating Themes and Plugins](https://wpml.org/documentation/getting-started-guide/theme-localization/?aid=150643\&affiliate_key=VWCj6GPGWxBE) — See how to translate themes and plugins with WPML.
-* [Video Tutorials](https://www.youtube.com/channel/UC0-st_ubApkPzzgxuBh2T0A/videos) — Find out about new tutorials and compatibility news with themes and plugins.
+* [WPML](https://wpml.org/?aid=150643\&affiliate_key=VWCj6GPGWxBE)\
+  Official site of WPML plugin.
+* [WPML Support](https://wpml.org/forums/forum/english-support/?aid=150643\&affiliate_key=VWCj6GPGWxBE)\
+  If you have purchased WPML, here is their support center.
+* [Translating Themes and Plugins](https://wpml.org/documentation/getting-started-guide/theme-localization/?aid=150643\&affiliate_key=VWCj6GPGWxBE)\
+  See how to translate themes and plugins with WPML.
+* [Video Tutorials](https://www.youtube.com/channel/UC0-st_ubApkPzzgxuBh2T0A/videos)\
+  Find out about new tutorials and compatibility news with themes and plugins.

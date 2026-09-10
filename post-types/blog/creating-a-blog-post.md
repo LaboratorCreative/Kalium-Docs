@@ -110,7 +110,7 @@ In the **Parameters and Options** area under **Audio Post Settings**, you can se
 
 ## Post Settings
 
-When creating or editing a blog post in Kalium, you can use Post Settings to customize options specific to that post. These settings allow you to override the global options set in the [Post Page](post-page.md) section of the Customizer, giving you more control over how each post appears. Access the post settings by scrolling down to **Parameters and Options** **→** **Post Settings**.
+When creating or editing a blog post in Kalium, you can use Post Settings to customize options specific to that post. These settings allow you to override the global options set in the [Post Page](post-page.md) section of the Customizer, giving you more control over how each post appears. Access the post settings by scrolling down to **Parameters and Options** **->** **Post Settings**.
 
 <figure><img src="../../.gitbook/assets/post-settings.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -121,16 +121,18 @@ For other options under **Parameters and Options**, please check the [In Page Op
 #### Post Settings
 
 * **Featured Image Placing:** Choose how the featured image is displayed in your post.&#x20;
-  * Inherit ([Use from theme options](post-page.md#featured-image))&#x20;
+  * [Use from Theme Options](post-page.md#featured-image)&#x20;
   * Boxed
   * Wide
-  * Full-Width
-  * Hide
-* **Image Size:** Adjust the size of the featured image
-  * Inherit ([Use from theme options](post-page.md#image-size))&#x20;
-  * Default
-  * Original
-* **Related Posts:** Configure whether related posts are displayed or not, or inherit the options.
-  * Inherit ([Use from theme options](post-page.md#related-posts))&#x20;
-  * Show
-  * Hide
+  * Full Width
+  * Hide Featured Image
+* **Image Size:** Adjust the size of the featured image. Hidden while the image is set to be hidden.
+  * [Use from Theme Options](post-page.md#image-size)&#x20;
+  * Default Thumbnail Size
+  * Original Image Size
+* **Show Related Posts:** Configure whether related posts are displayed or not, or inherit the options.
+  * [Inherit from Theme Options](post-page.md#related-posts)&#x20;
+  * Show Related Products
+  * Hide Related Products
+
+The last two read "Products" on screen. On a blog post they control related **posts**, a wording slip in the theme rather than a sign you are in the wrong place.

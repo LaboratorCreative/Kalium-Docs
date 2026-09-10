@@ -16,7 +16,7 @@ Go to the [Kalium Account](https://kaliumtheme.com/account) page and log in with
 
 ### Step 2: Copy Your License Key
 
-Click on the "**Licenses**" tab on the left side of the page to see the licenses you have purchased, next to your Kalium license you have the key, when hovering you’ll see a copy icon — click this icon to automatically copy the license key to your clipboard.
+Click on the "**Licenses**" tab on the left side of the page to see the licenses you have purchased, next to your Kalium license you have the key, when hovering you’ll see a copy icon, click it to copy the license key to your clipboard.
 
 <figure><img src="../../.gitbook/assets/license-1.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -26,6 +26,6 @@ Navigate to your WordPress admin dashboard and on the left side click **Kalium**
 
 <figure><img src="../../.gitbook/assets/license-2.jpg" alt=""><figcaption></figcaption></figure>
 
-Once you complete the activation you should see the Kalium Dashboard page with a welcome message, you're all set — the license has been successfully activated and you have access to all theme features, updates and premium plugins.&#x20;
+Once you complete the activation you should see the Kalium Dashboard page with a welcome message, you're all set. The license has been successfully activated and you have access to all theme features, updates and premium plugins.&#x20;
 
 <figure><img src="../../.gitbook/assets/license-3.jpg" alt=""><figcaption></figcaption></figure>

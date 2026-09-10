@@ -42,7 +42,7 @@ Here are the available options you can configure for your post pages. Each of th
 * **Title**: Enable or disable the post title within the post.&#x20;
 * [**Post Meta**](post-page.md#post-meta): Show or hide metadata such as date, categories, and tags.&#x20;
 * [**Social Sharing**:](post-page.md#social-sharing) Toggle to enable or disable social sharing buttons.&#x20;
-* [**Author Info**](post-page.md#author-info): Enable or disable the author information at the bottom of the post.&#x20;
+* [**Author Box**](post-page.md#author-info): Enable or disable the author information at the bottom of the post.&#x20;
 * [**Navigation**](post-page.md#navigation): Toggle to enable or disable navigation links for previous and next posts.&#x20;
 * **Comments**: Show or hide the comments section at the bottom of the post.&#x20;
 
@@ -55,9 +55,10 @@ Control the display and style of the featured image on your posts. You can choos
 <figure><img src="../../.gitbook/assets/blog-post-page-12.jpg" alt="" width="341"><figcaption></figcaption></figure>
 
 * **Boxed**: Contains the image within a boxed frame.
-  * **Sidebar below**: A toggle that, when enabled, places the sidebar below the featured image instead of beside it.
 * **Wide**: Contains the image within a boxed frame but wider than the content, available only in **Normal** and **Narrow** types.
 * **Full Width**: Displays the image across the full width of the post page.
+
+**Sidebar Below** appears alongside these when the post **Layout** is Sidebar Left or Sidebar Right and the placement is anything but Full Width. Turn it on and the sidebar drops below the featured image instead of sitting beside it.
 
 #### Image Size
 
@@ -102,11 +103,13 @@ Allow visitors to share your post on various social networks directly from the p
 Add or remove sharing networks from the following options:
 
 * Facebook
-* X (Twitter)
-* Pinterest
-* Email
+* Twitter X
+* Bluesky
+* Threads
 * LinkedIn
 * Tumblr
+* Pinterest
+* Email
 * VKontakte
 * WhatsApp
 * Telegram
@@ -136,9 +139,17 @@ Show or hide the author box at the end of your posts. This section can include t
 
 ### Navigation
 
-Manage the navigation links that appear at the bottom of your posts.
+Manage the navigation links that appear at the bottom of your posts. This is the largest screen in the Blog group, and most of it is styling. The settings that change behavior are:
 
-* **Reverse Order**: Enable this option to swap the 'Previous' and 'Next' links, allowing you to customize the order of blog navigation.
+* **Blog Post Navigation Layout**: _Type 1_, _Type 2_ or _Type 3_.
+* **Alignment**: Left, Center or Right.
+* **Loop**: On by default, so the last post links back to the first.
+* **Reverse Order**: Swaps the 'Previous' and 'Next' links.
+* **Same Taxonomy Navigation**: Keeps navigation within one category or tag rather than the whole blog. Off by default, and it reveals **Navigation Taxonomy** for choosing which one.
+* **Show Info on Hover**: Holds the title and image back until the visitor hovers.
+* **Back to Archive**: Adds a link to the archive between the two arrows, with **Archive URL** and **Taxonomy as Archive Link** to say where it points.
+
+The rest set what each link shows, **Title**, **Arrows**, **Image**, **Subtitle**, and the labels, image size and aspect ratio that go with them.
 
 ### Related Posts
 
@@ -150,7 +161,7 @@ Display related posts at the end of the current post. You can configure which po
 
 <figure><img src="../../.gitbook/assets/blog-post-page-5.jpg" alt="" width="331"><figcaption></figcaption></figure>
 
-* **Relate Group**: Choose the criteria for related posts—Any, Tag, or Category.
+* **Relate Group**: Choose the criteria for related posts: Any, Category or Tag. Category is the default.
 * **Posts to Show**: Select the number of related posts to display, from 1 to 12.
 * **Columns**: Set the number of columns for related posts, ranging from 1 to 4, with responsive options.
 * **Post Meta**: Toggle to show or hide metadata on related posts.

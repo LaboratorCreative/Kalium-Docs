@@ -56,7 +56,7 @@ Publishes automatically at a date and time you choose, handy for a seasonal look
 
 Kalium hides settings that don't apply yet, which keeps the panels manageable but can be confusing when you're looking for one.
 
-**A setting appears when the setting above it is switched on.** **Sticky Effect** only exists once **Sticky Header** is enabled. **Custom Logo** only once **Sticky Logo** is on. If you can't find something, check the setting directly above where you expect it.
+**A setting appears when the setting above it is switched on.** **Sticky Effect** only exists once **Sticky Header** is enabled, and the sticky header's **Logo Image** only once its **Custom Logo** is on. If you can't find something, check the setting directly above where you expect it.
 
 **A whole section can be switched off.** The Portfolio and WooCommerce groups disappear entirely when their feature is inactive, Portfolio under **Kalium -> Settings**, WooCommerce when the plugin isn't active.
 

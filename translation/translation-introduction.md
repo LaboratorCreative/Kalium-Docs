@@ -30,7 +30,7 @@ To switch to one of the available languages:
 
 1. Go to **Settings -> General** in your WordPress dashboard.
 2. Change the **Site Language** to the desired language (e.g., Deutsch for German).
-3. After a few minutes, check for updates under **Dashboard -> Updates**. Install the updates to apply the translations.
+3. After a few minutes, go to **Dashboard -> Updates** and click **Update Translations**. Kalium downloads them from its own translation server, so the theme folder ships only the `kalium.pot` template.
 
 <figure><img src="../.gitbook/assets/update-translations.jpg" alt=""><figcaption></figcaption></figure>
 
